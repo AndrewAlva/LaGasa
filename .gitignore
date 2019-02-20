@@ -1,3 +1,18 @@
+# Brunch output files
+/public
+
+# Brunch folder for temporary files.
+tmp/
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -59,3 +74,15 @@ typings/
 
 # next.js build output
 .next
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
