@@ -1,8 +1,87 @@
 #main-menu{
 	z-index: 1000;
 	position: absolute;
-	width: 105px;
+	width: 140px;
 	height: 100%;
 	right: 0;
 	border-left: 1px solid rgba(0,0,0,.1);
+	overflow: hidden;
+	color: #202020;
+
+	a{
+		display: block;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.logo-wrap{
+		position: absolute;
+		top: 60px;
+		left: 0;
+		height: 140px;
+		white-space: nowrap;
+		@include translate-rotate(0, -100%, 90deg);
+		@include transform-origin(bottom, left);
+
+		a{
+			height: 100%;
+			line-height: 140px;
+		}
+	}
+
+	.toggle-wrap{
+		position: absolute;
+		margin: auto;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+
+		&:before, &:after{
+			content: '';
+			position: absolute;
+			margin: auto;
+			width: 1px;
+			height: 100%;
+			background-color: #202020;
+		}
+
+		&:before{
+			left: 0;
+			right: 10px;
+		}
+
+		&:after{
+			left: 10px;
+			right: 0;
+		}
+	}
+
+	.sections-wrap{
+		position: absolute;
+		bottom: 30px;
+		right: 0;
+		height: 140px;
+		white-space: nowrap;
+		@include translate-rotate(0, 100%, 90deg);
+		@include transform-origin(top, right);
+
+		li{
+			position: relative;
+			display: inline-block;
+			height: 100%;
+			margin: 0 15px;
+			
+			a{
+				height: 100%;
+				line-height: 140px;
+				padding: 0 15px;
+			}
+		}
+	}
 }
+
+
+
+

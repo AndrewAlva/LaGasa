@@ -10,3 +10,43 @@
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
 }
+
+@mixin transform-origin($X, $Y){
+	-webkit-transform-origin: $X $Y;
+	-ms-transform-origin: $X $Y;
+	transform-origin: $X $Y;
+}
+
+@mixin translate($Xmove, $Ymove){
+	-webkit-transform: translate($Xmove, $Ymove);
+	-moz-transform: translate($Xmove, $Ymove);
+	-ms-transform: translate($Xmove, $Ymove);
+	-o-transform: translate($Xmove, $Ymove);
+	transform: translate($Xmove, $Ymove);
+}
+
+@mixin rotate($degs){
+	-webkit-transform: -webkit-rotate($degs);
+	-webkit-transform: rotate($degs);
+	-moz-transform: rotate($degs);
+	-ms-transform: rotate($degs);
+	-o-transform: rotate($degs);
+	transform: rotate($degs);
+}
+
+@mixin translate-rotate($Xmove, $Ymove, $degs){
+	-webkit-transform: -webkit-translate($Xmove, $Ymove) -webkit-rotate($degs);
+	-webkit-transform: translate($Xmove, $Ymove) rotate($degs);
+	-moz-transform: translate($Xmove, $Ymove) rotate($degs);
+	-ms-transform: translate($Xmove, $Ymove) rotate($degs);
+	-o-transform: translate($Xmove, $Ymove) rotate($degs);
+	transform: translate($Xmove, $Ymove) rotate($degs);
+}
+
+@mixin scale($X, $Y){
+	-webkit-transform: scale($X, $Y);
+	-moz-transform: scale($X, $Y);
+	-ms-transform: scale($X, $Y);
+	-o-transform: scale($X, $Y);
+	transform: scale($X, $Y);
+}
