@@ -5,3 +5,21 @@
 // 		url('../fonts/Nunito-Regular.woff') format('woff'),
 // 		url('../fonts/Nunito-Regular.ttf') format('truetype');
 // }
+
+
+@font-face {
+	font-family: 'Saol-Light';
+	font-display: auto;
+	src:// url('../fonts/SaolDisplay-Light.woff2') format('woff2'),
+		// url('../fonts/SaolDisplay-Light.woff') format('woff'),
+		url('../fonts/SaolDisplay-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Saol';
+	font-display: auto;
+	src:// url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
+		// url('../fonts/SaolDisplay-Regular.woff') format('woff'),
+		url('../fonts/SaolDisplay-Regular.ttf') format('truetype');
+}

@@ -34,6 +34,7 @@
 		}
 
 		.descriptor{
+			font-family: 'Saol';
 			font-size: 3em;
 			font-weight: lighter;
 			@include smoothFont;
@@ -45,6 +46,7 @@
 		}
 
 		.title{
+			font-family: 'Saol-Light';
 			font-size: 10em;
 			line-height: 1em;
 			font-weight: lighter;
@@ -55,6 +57,7 @@
 			position: absolute;
 			bottom: 0;
 			right: 0;
+			font-family: 'Saol';
 			font-weight: lighter;
 		}
 	}
