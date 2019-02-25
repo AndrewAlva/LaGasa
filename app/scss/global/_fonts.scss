@@ -1,17 +1,8 @@
-// @font-face {
-// 	font-family: 'Nunito';
-// 	font-display: auto;
-// 	src: url('../fonts/Nunito-Regular.woff2') format('woff2'),
-// 		url('../fonts/Nunito-Regular.woff') format('woff'),
-// 		url('../fonts/Nunito-Regular.ttf') format('truetype');
-// }
-
-
 @font-face {
-	font-family: 'Saol-Light';
+	font-family: 'Saol-L';
 	font-display: auto;
-	src:// url('../fonts/SaolDisplay-Light.woff2') format('woff2'),
-		// url('../fonts/SaolDisplay-Light.woff') format('woff'),
+	src:url('../fonts/SaolDisplay-Light.woff2') format('woff2'),
+		url('../fonts/SaolDisplay-Light.woff') format('woff'),
 		url('../fonts/SaolDisplay-Light.ttf') format('truetype');
 }
 
@@ -19,7 +10,25 @@
 @font-face {
 	font-family: 'Saol';
 	font-display: auto;
-	src:// url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
-		// url('../fonts/SaolDisplay-Regular.woff') format('woff'),
+	src:url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
+		url('../fonts/SaolDisplay-Regular.woff') format('woff'),
 		url('../fonts/SaolDisplay-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Saol-It';
+	font-display: auto;
+	src:url('../fonts/SaolDisplay-RegularItalic.woff2') format('woff2'),
+		url('../fonts/SaolDisplay-RegularItalic.woff') format('woff'),
+		url('../fonts/SaolDisplay-RegularItalic.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Founders-L';
+	font-display: auto;
+	src:url('../fonts/Founders-Grotesk-Light.woff2') format('woff2'),
+		url('../fonts/Founders-Grotesk-Light.woff') format('woff'),
+		url('../fonts/Founders-Grotesk-Light.otf') format('opentype');
 }

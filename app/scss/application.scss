@@ -14,3 +14,15 @@
 @import 'views/intro';
 
 @import 'modules/nav-menu';
+
+.test{
+	z-index: 1000000000;
+	position: absolute;
+	background-color: rgba(255,0,0,.3);
+	pointer-events: none;
+
+	width: 57px;
+	height: 12px;
+	bottom: 80px;
+	right: 40px;
+}
