@@ -6,8 +6,7 @@
 	right: 0;
 	border-left: 1px solid rgba(0,0,0,.1);
 	overflow: hidden;
-	color: #202020;
-		background-color: wheat;
+	color: $black-gray;
 
 	a{
 		display: block;
@@ -31,6 +30,8 @@
 
 			h1{
 				font-size: 2em;
+				font-weight: 100;
+				@include smoothFont;
 			}
 		}
 	}
@@ -50,7 +51,7 @@
 			margin: auto;
 			width: 1px;
 			height: 100%;
-			background-color: #202020;
+			background-color: $black-gray;
 		}
 
 		&:before{
@@ -72,6 +73,7 @@
 		white-space: nowrap;
 		font-family: 'Founders-L';
 		font-size: .9em;
+		@include smoothFont;
 		@include translate-rotate(0, 100%, 90deg);
 		@include transform-origin(top, right);
 
@@ -88,6 +90,31 @@
 			}
 		}
 	}
+
+	&.opened{
+		color: #fff;
+		border-left: 1px solid rgba(255,255,255,.1);
+
+		.toggle-wrap{
+			&:before, &:after{
+				background-color: #fff;
+			}
+
+			&:before{
+				right: 0;
+				@include rotate(45deg);
+			}
+			&:after{
+				left: 0;
+				@include rotate(-45deg);
+			}
+		}
+
+		& + #menu-window{
+			opacity: 1;
+			pointer-events: auto;
+		}
+	}
 }
 
 #menu-window{
@@ -98,7 +125,10 @@
 	height: 100%;
 	padding-right: 140px;
 	color: $menu-text-gray;
-	background-color: $active-menu-bg;
+	background-color: $black-gray;
+	opacity: 0;
+	pointer-events: none;
+
 
 	.inner-wrapper{
 		position: relative;
@@ -135,7 +165,7 @@
 		height: 100%;
 		font-family: 'Founders-L';
 		@include smoothFont;
-		border: 1px solid #fff;
+		// border: 1px solid #fff;
 
 		&.left{
 			left: 0;
@@ -242,13 +272,9 @@
 		position: relative;
 		width: 170px;
 		height: 100%;
-		border: 1px solid orange;
 		@include flexIt;
-		// display: flex;
 		@include flex-direction(vertical);
-		// flex-direction: column;
 		@include flex-spacebetween;
-		// justify-content: space-between;
 
 		.bloc-projects{
 			&:not(:last-child){
@@ -311,7 +337,6 @@
 		top: 0; right: 0;
 		width: 260px;
 		height: 100%;
-		border: 1px solid aqua;
 
 		.current{
 			position: absolute;
@@ -319,7 +344,6 @@
 			height: 367px;
 			top: 0;
 			right: 0;
-			border: 1px solid #f60;
 		}
 	}
 }
