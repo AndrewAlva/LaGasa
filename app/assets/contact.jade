@@ -1,6 +1,7 @@
 extends templates/layout.jade
 
 include _modules/socialmedia-list.jade
+include _modules/_mixins-inputs.jade
 
 block content
 	include _modules/nav-menu.jade
@@ -32,4 +33,9 @@ block content
 
 								h2 I’d like to hear from you.
 
-							.form-container
+							form(action="#").form-container
+								+regular-input('name-input', 'text', 'Your name')
+								+regular-input('email-input', 'email', 'Your email')
+								+regular-textarea('message-textarea', 'Starting a new project, looking for a quote, or just saying hi?')
+
+								button(type="submit").sz-submit-btn Send

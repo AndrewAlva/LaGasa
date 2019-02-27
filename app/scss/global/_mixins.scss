@@ -11,6 +11,14 @@
     -webkit-font-smoothing: antialiased;
 }
 
+@mixin transitions-ease($timing){
+	-webkit-transition: all $timing cubic-bezier(.3,0,.2,1);
+	   -moz-transition: all $timing cubic-bezier(.3,0,.2,1);
+	    -ms-transition: all $timing cubic-bezier(.3,0,.2,1);
+	     -o-transition: all $timing cubic-bezier(.3,0,.2,1);
+	        transition: all $timing cubic-bezier(.3,0,.2,1);
+}
+
 @mixin transform-origin($X, $Y){
 	-webkit-transform-origin: $X $Y;
 	-ms-transform-origin: $X $Y;
@@ -87,6 +95,13 @@
 	-moz-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+@mixin unselectable{
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;
 }
 
 

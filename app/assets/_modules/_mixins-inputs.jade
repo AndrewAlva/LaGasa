@@ -1,0 +1,9 @@
+mixin regular-input(id, type, label)
+	.sz-input-container
+		input(id="#{id}" name="#{id}" type="#{type}" required).sz-input
+		figure.sz-input-fx
+		label.sz-input-label(for="#{id}") #{label}
+
+mixin regular-textarea(id, placeholder)
+	.sz-textarea-container
+		textarea(id="#{id}" name="#{id}" placeholder="#{placeholder}" required).sz-textarea
