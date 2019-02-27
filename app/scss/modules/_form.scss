@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-.sz-input-container{margin-bottom: 28px;}
+.sz-input-container{margin-bottom: 25px;}
 
 .sz-input{
 	position: relative;
@@ -16,7 +16,6 @@
 	font-family: 'Founders-L';
 	font-size: .9em;
 	font-weight: 100;
-	@include smoothFont;
 
 	&:focus{
 		outline: 0;
@@ -53,7 +52,6 @@
 	font-family: 'Founders-L';
 	font-size: .9em;
 	font-weight: 100;
-	@include smoothFont;
 	@include transitions-ease(.4s);
 }
 
@@ -61,12 +59,13 @@
 	position: relative;
 	width: 100%;
 	height: 150px;
+	padding: 5px 0 7px;
 	border: none;
 	border-bottom: 1px solid rgba(26,26,26,.3);
 	font-family: 'Founders-L';
 	font-size: .9em;
 	font-weight: 100;
-	@include smoothFont;
+	vertical-align: top;
 	background: none;
 	resize: none;
 
@@ -74,17 +73,15 @@
 		outline: 0;
 	}
 
-	&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-		color: rgba(26,26,26,.7);
+	&:focus ~ .sz-input-fx{
+		@include scale(1,1);
 	}
-	&::-moz-placeholder { /* Firefox 19+ */
-		color: rgba(26,26,26,.7);
-	}
-	&:-ms-input-placeholder { /* IE 10+ */
-		color: rgba(26,26,26,.7);
-	}
-	&:-moz-placeholder { /* Firefox 18- */
-		color: rgba(26,26,26,.7);
+
+	&:focus, &.filled{
+		& ~ .sz-input-label{
+			font-size: .71em;
+			@include translate(0,-18px);
+		}
 	}
 }
 
@@ -94,7 +91,6 @@
 	font-family: 'Founders-L';
 	font-size: 1em;
 	font-weight: 100;
-	@include smoothFont;
 	color: $black-gray;
 	cursor: pointer;
 }

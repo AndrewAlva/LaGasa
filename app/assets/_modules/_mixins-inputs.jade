@@ -4,6 +4,8 @@ mixin regular-input(id, type, label)
 		figure.sz-input-fx
 		label.sz-input-label(for="#{id}") #{label}
 
-mixin regular-textarea(id, placeholder)
+mixin regular-textarea(id, label)
 	.sz-textarea-container
-		textarea(id="#{id}" name="#{id}" placeholder="#{placeholder}" required).sz-textarea
+		textarea(id="#{id}" name="#{id}").sz-textarea
+		figure.sz-input-fx
+		label.sz-input-label(for="#{id}") #{label}
