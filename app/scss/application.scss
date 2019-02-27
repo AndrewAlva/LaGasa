@@ -10,10 +10,12 @@
 @import 'global/fonts';
 @import 'global/default';
 
+@import 'modules/nav-menu';
+
 @import 'views/home';
 @import 'views/intro';
+@import 'views/contact';
 
-@import 'modules/nav-menu';
 
 .test{
 	z-index: 1000000000;

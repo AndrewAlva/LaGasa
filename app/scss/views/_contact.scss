@@ -1,0 +1,36 @@
+#contact-wrapper{
+	background-color: #f5efea;
+
+	.responsive-container{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		padding-top: 100px;
+		padding-right: 6%;
+
+		@media (min-width: 1441px){
+			padding-top: 160px;
+		}
+	}
+
+	.img-wrapper{
+		position: absolute;
+		top: 0;
+		width: 30.12%;
+		height: 100%;
+		background-image: url('../img/contact.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.content-wrapper{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 63.25%;
+		height: 100%;
+		border: 1px solid purple;
+		// background-color: purple;
+	}
+}

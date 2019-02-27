@@ -5,6 +5,7 @@
 
 body{
 	font-size: 16px;
+	color: $black-gray;
 	background-color: #202020;
 
 	@media (min-width: 768px) {
@@ -35,4 +36,22 @@ ul, li{
 	&.has-menu{
 		padding-right: 140px;
 	}
+}
+
+.page-name{
+	font-family: 'Saol';
+	font-size: .7em;
+	font-weight: 100;
+
+	&.top{
+		position: absolute;
+		top: 50px;
+		right: 6%;
+	}
+}
+
+.inner-wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
