@@ -59,7 +59,7 @@
 	transform: scale($X, $Y);
 }
 
-@mixin flexIt(){
+@mixin flexIt{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
@@ -95,6 +95,14 @@
 	-moz-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+@mixin flex-grow($ratio){
+	-webkit-box-flex: $ratio;
+	-webkit-flex-grow: $ratio;
+	-moz-box-flex: $ratio;
+	-ms-flex-positive: $ratio;
+	flex-grow: $ratio;
 }
 
 @mixin unselectable{
