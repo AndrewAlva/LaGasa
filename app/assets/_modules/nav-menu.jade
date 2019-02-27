@@ -1,3 +1,5 @@
+include socialmedia-list.jade
+
 nav#main-menu
 	.logo-wrap 
 		a(href="#")
@@ -26,19 +28,7 @@ section#menu-window
 						br
 						|United States
 
-					ul.rrss-wrap
-						li
-							a(href="#")
-								span.icon
-								span.label Linkedin
-						li
-							a(href="#")
-								span.icon
-								span.label Instagram
-						li
-							a(href="#")
-								span.icon
-								span.label Behance
+					+socialmedia-list
 
 					.copyright-wrap
 						h6.section-label Copyright

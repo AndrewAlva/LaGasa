@@ -1,5 +1,7 @@
 extends templates/layout.jade
 
+include _modules/socialmedia-list.jade
+
 block content
 	include _modules/nav-menu.jade
 
@@ -13,5 +15,6 @@ block content
 
 					.content-wrapper
 						.contact-info
+							+socialmedia-list('on-white')
 
 						.form
