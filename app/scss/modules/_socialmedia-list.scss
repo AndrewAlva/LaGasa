@@ -18,6 +18,8 @@
 			width: 8px;
 			height: 8px;
 			opacity: 0;
+			@include translate(0, 5px);
+			@include transitions-ease(.3s);
 
 			&:before{
 				content: '';
@@ -51,9 +53,16 @@
 
 		&:hover{
 			color: #fff;
+		}
 
+		&:focus{
+			outline: 0;
+		}
+
+		&:hover, &:focus{
 			.icon{
 				opacity: 1;
+				@include translate(0, 0);
 			}
 		}
 	}

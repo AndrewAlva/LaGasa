@@ -21,8 +21,10 @@
 		outline: 0;
 	}
 
-	&:focus ~ .sz-input-fx{
-		@include scale(1,1);
+	&:focus, &.filled{
+		& ~ .sz-input-fx{
+			@include scale(1,1);
+		}
 	}
 
 	&:focus, &.filled{
@@ -73,8 +75,10 @@
 		outline: 0;
 	}
 
-	&:focus ~ .sz-input-fx{
-		@include scale(1,1);
+	&:focus, &.filled{
+		& ~ .sz-input-fx{
+			@include scale(1,1);
+		}
 	}
 
 	&:focus, &.filled{
@@ -93,4 +97,23 @@
 	font-weight: 100;
 	color: $black-gray;
 	cursor: pointer;
+
+	&:after{
+		content: '';
+		display: block;
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		background-color: $black-gray;
+		opacity: 0;
+		@include transitions-bounce(.4s);
+	}
+
+	&:hover, &:focus{
+		&:after{
+			opacity: 1;
+			@include translate(0, 8px);
+		}
+	}
 }
