@@ -27,6 +27,14 @@
 	        transition: all $timing cubic-bezier(.3,0,.2,3);
 }
 
+@mixin ease-target($target, $timing){
+	-webkit-transition: $target $timing cubic-bezier(.3,0,.2,1);
+	   -moz-transition: $target $timing cubic-bezier(.3,0,.2,1);
+	    -ms-transition: $target $timing cubic-bezier(.3,0,.2,1);
+	     -o-transition: $target $timing cubic-bezier(.3,0,.2,1);
+	        transition: $target $timing cubic-bezier(.3,0,.2,1);
+}
+
 @mixin transform-origin($X, $Y){
 	-webkit-transform-origin: $X $Y;
 	-ms-transform-origin: $X $Y;

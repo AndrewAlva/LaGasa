@@ -129,6 +129,8 @@
 	opacity: 0;
 	pointer-events: none;
 
+	.page-name{z-index: 1;}
+
 	.responsive-container{
 		position: absolute;
 		margin: auto;
@@ -137,10 +139,10 @@
 		width: 85%;
 		max-width: 1400px;
 		height: 100%;
-		padding: 80px 0;
+		// padding: 80px 0;
 
 		@media (min-width: 1441px){
-			padding: 140px 0;
+			// padding: 140px 0;
 		}
 	}
 
@@ -156,36 +158,52 @@
 			left: 0;
 			width: 40%;
 			max-width: 500px;
+			padding: 80px 0;
 		}
 
 		&.right{
 			right: 0;
 			width: 50%;
 			max-width: 550px;
+			padding: 120px 0;
+
+			@media (min-width: 1441px){
+				padding: 160px 0;
+			}
 		}
 	}
 
+	.address{
+		display: inline-block;
+		font-size: .9em;
+	}
+
 	.socialmedia-list{
-		position: absolute;
-		top: 0;
-		right: 0;
+		// position: absolute;
+		// top: 0;
+		// right: 0;
+		position: relative;
+		display: inline-block;
+		float: right;
 	}
 
 	.copyright-wrap{
 		position: absolute;
 		width: 100%;
-		bottom: 0;
-		font-size: .8em;
+		bottom: 80px;
+		// font-size: .8em;
 
 		.section-label{
-			font-family: 'Saol';
-			font-size: .9em;
+			font-size: .7em;
 			letter-spacing: .5px;
 			margin-bottom: 35px;
 		}
 
-		p:not(:last-child){
-			margin-bottom: 20px;
+		p{
+			font-size: .8em;
+			&:not(:last-child){
+				margin-bottom: 20px;
+			}
 		}
 
 		a{
@@ -216,9 +234,10 @@
 			}
 
 			.typeof{
-				font-family: 'Saol';
+				// font-family: 'Saol';
 				font-size: .7em;
-				margin-bottom: 5px;
+				font-weight: 700;
+				margin-bottom: 7px;
 
 				@media (min-width: 1441px){
 					margin-bottom: 15px;
@@ -232,7 +251,7 @@
 				a{
 					position: relative;
 					display: block;
-					padding: 8px 0;
+					padding: 10px 0;
 					color: #fff;
 					text-decoration: none;
 
@@ -244,17 +263,23 @@
 							content: '';
 							display: block;
 							position: absolute;
-							left: 0; bottom: 0;
+							left: 0;
+							bottom: -2px;
 							width: 100%;
 							height: 1px;
-							background-color: #fff;
-							opacity: 0;
+							background-color: rgba(255,255,255,.5);
+							@include transform-origin(top, right);
+							@include scale(0,1);
+							@include ease-target(transform, .4s);
 						}
 					}
 
 					&:hover{
-						.underline:before{
-							opacity: .5;
+						.underline{
+							&:before{
+								@include scale(1,1);
+								@include transform-origin(top, left);
+							}
 						}
 					}
 				}
