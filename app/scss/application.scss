@@ -16,6 +16,7 @@
 
 @import 'views/home';
 @import 'views/intro';
+@import 'views/bio';
 @import 'views/contact';
 
 
@@ -26,7 +27,7 @@
 	pointer-events: none;
 
 	width: 100%;
-	height: 185px;
+	height: 80px;
 	top: 0;
 	left: 0;
 }

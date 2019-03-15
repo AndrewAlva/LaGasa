@@ -1,0 +1,40 @@
+#bio-wrapper{
+	background-color: $bio-bg;
+
+	.content-grid{
+		position: relative;
+		padding-top: 140px;
+		// padding-left: 14.6%;
+		// padding-right: 6.7%;
+		padding-left: 7.3%;
+		padding-right: 3.3%;
+		width: 100%;
+
+		@media (min-width: 1441px){
+			padding-top: 220px;
+		}
+	}
+
+	.page-title{
+		position: relative;
+		width: 934px;
+		height: 262px;
+		// background-color: rgba(255,0,0,.3);
+
+		.title{
+			line-height: .92em;
+			font-size: 7em;
+			font-weight: 100;
+			@include smoothFont;
+		}
+
+		h1{
+			font-family: 'Saol', serif;
+		}
+		h2{
+			font-family: 'Saol-L-It', serif;
+			font-style: italic;
+			margin-left: -5px;
+		}
+	}
+}
