@@ -7,6 +7,7 @@ block content
 	include _modules/nav-menu.jade
 
 	#contact-wrapper.page-wrapper.has-menu
+		//- .test
 		.inner-wrapper
 			h6.page-name.top Contact
 
@@ -27,7 +28,7 @@ block content
 
 						.postcard
 							.salute-container
-								h1 
+								h1.salute
 									|Say 
 									span.cursive Hi!
 								
@@ -35,7 +36,9 @@ block content
 									.line-box
 										.line
 
-									h2.copy-box I’d like to hear from you.
+									h2.copy-box 
+										span.cursive I’d like to 
+										|hear from you.
 
 							form(action="#").form-container
 								+regular-input('name-input', 'text', 'Your name')

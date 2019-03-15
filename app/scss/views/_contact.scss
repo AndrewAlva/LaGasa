@@ -61,19 +61,22 @@
 			height: 100%;
 
 			.salute-container{
+				position: relative;
+				padding-top: 10px;
+				font-family: 'Saol';
 				text-align: right;
 				@include smoothFont;
 
-				h1{
-					font-family: 'Saol';
+				.salute{
 					font-weight: 100;
 					font-size: 6em;
-					margin-bottom: 7px;
+					line-height: 1.15em;
 					padding-right: 8px;
+					@include smoothFont;
+				}
 
-					.cursive{
-						font-family: 'Saol-It';
-					}
+				.cursive{
+					font-family: 'Saol-L-It';
 				}
 
 				.intro-wrap{
@@ -98,13 +101,9 @@
 					.copy-box{
 						// width: 80%;
 						@include flex-grow(1);
+						font-size: 2.5em;
+						font-weight: 100;
 					}
-				}
-
-				h2{
-					font-family: 'Saol-It';
-					font-size: 2.5em;
-					font-weight: 100;
 				}
 			}
 
@@ -114,7 +113,7 @@
 				width: 100%;
 
 				.sz-submit-btn{
-					margin-top: 30px;
+					margin-top: 34px;
 				}
 			}
 		}

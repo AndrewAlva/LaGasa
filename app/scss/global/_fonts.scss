@@ -26,6 +26,15 @@
 
 
 @font-face {
+	font-family: 'Saol-L-It';
+	font-display: auto;
+	src:url('../fonts/SaolDisplay-LightItalic.woff2') format('woff2'),
+		url('../fonts/SaolDisplay-LightItalic.woff') format('woff'),
+		url('../fonts/SaolDisplay-LightItalic.ttf') format('truetype');
+}
+
+
+@font-face {
 	font-family: 'Founders-L';
 	font-display: auto;
 	src:url('../fonts/Founders-Grotesk-Light.woff2') format('woff2'),

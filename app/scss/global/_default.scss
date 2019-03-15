@@ -46,13 +46,17 @@ button{
 
 .page-name{
 	font-family: 'Saol';
-	font-size: .7em;
+	font-size: .8em;
 	font-weight: 100;
 
 	&.top{
 		position: absolute;
 		top: 50px;
 		right: 6%;
+
+		@media (min-width: 1441px){
+			top: 80px;
+		}
 	}
 }
 
