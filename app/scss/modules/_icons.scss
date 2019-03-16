@@ -1,0 +1,40 @@
+.link-arrow{
+	width: 10px;
+	height: 10px;
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		width: 9px;
+		height: 9px;
+		// border-top: 1px solid #fff;
+		border-top-width: 1px;
+		border-top-style: solid;
+		// border-right: 1px solid #fff;
+		border-right-width: 1px;
+		border-right-style: solid;
+	}
+
+	&:after{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 1px;
+		right: 0;
+		width: 1px;
+		height: 13px;
+		@include rotate(45deg);
+		@include transform-origin(top, right);
+	}
+
+	&.black{
+		&:before{
+			border-top-color: $black-gray;
+			border-right-color: $black-gray;
+		}
+		&:after{
+			background-color: $black-gray;
+		}
+	}
+}
