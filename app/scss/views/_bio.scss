@@ -189,6 +189,120 @@
 			}
 		}
 	}
+
+	.dedication-container{
+		position: relative;
+		width: 100%;
+		margin-bottom: 200px;
+
+		.section-name{
+			margin-bottom: 70px;
+		}
+
+		.dedicated-to{
+			margin-bottom: 80px;
+
+			h4{
+				font-size: 3.5em;
+				font-family: 'Saol';
+				font-weight: 100;
+				@include smoothFont;
+				line-height: .95em;
+
+				&.cursive{
+					font-family: 'Saol-L-It';
+				}
+			}
+		}
+
+		p{
+			font-size: 1.2em;
+			font-family: 'Founders-L';
+			// @include smoothFont;
+			font-weight: 100;
+		}
+
+		.photo{
+			img{
+				position: relative;
+				width: 82.19%;
+			}
+		}
+	}
+
+	.afterword-container{
+		margin-bottom: 220px;
+
+		.section-name{
+			margin-bottom: 70px;
+		}
+
+		.afterword-wrap{
+			p{
+				font-size: 1.2em;
+				font-family: 'Founders-L';
+				// @include smoothFont;
+				font-weight: 100;
+
+				&:not(:last-child){
+					margin-bottom: 25px;
+				}
+			}
+		}
+
+		.photo{
+			img{
+				position: relative;
+				width: 82.19%;
+			}
+		}
+
+		.quote{
+			margin-bottom: 15px;
+
+			h4{
+				font-size: 3.5em;
+				font-family: 'Saol';
+				font-weight: 100;
+				@include smoothFont;
+				line-height: .95em;
+
+				.cursive{
+					font-family: 'Saol-L-It';
+				}
+
+				&.right{
+					text-align: right;
+				}
+
+				&:not(:first-child){
+					margin-top: 10px;
+				}
+			}
+		}
+
+		.author{
+			text-align: right;
+
+			.line{
+				display: inline-block;
+				position: relative;
+				top: -15px;
+				width: 60px;
+				height: 1px;
+				margin-right: 20px;
+				background-color: $black-gray;
+			}
+
+			h5{
+				display: inline-block;
+				font-size: 2.5em;
+				font-family: 'Saol', serif;
+				font-weight: 100;
+				@include smoothFont;
+			}
+		}
+	}
 }
 
 
