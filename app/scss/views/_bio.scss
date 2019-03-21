@@ -1,6 +1,21 @@
 #bio-wrapper{
 	background-color: $bio-bg;
 
+	.bio-p{
+		font-family: 'Founders-L', sans-serif;
+		font-size: 1.2em;
+		font-weight: 100;
+		@include smoothFont;
+
+		&:not(:last-child){
+			margin-bottom: 25px;
+		}
+
+		.italic{
+			font-style: italic;
+		}
+	}
+
 	.content-grid{
 		position: relative;
 		padding-top: 140px;
@@ -52,10 +67,10 @@
 		// background-color: rgba(255,0,0,.3);
 
 		.title{
-			line-height: .92em;
 			font-size: 7em;
 			font-weight: 100;
 			@include smoothFont;
+			line-height: .92em;
 		}
 
 		h1{
@@ -72,6 +87,7 @@
 		font-size: .9em;
 		font-family: 'Saol', serif;
 		font-weight: 100;
+		margin-bottom: 70px;
 	}
 	
 	.overview-container{
@@ -92,19 +108,8 @@
 		.overview{
 			// width: 50%;
 
-			.section-name{
-				margin-bottom: 70px;
-			}
-
 			.bio-wrap{
-				font-family: 'Founders-L', sans-serif;
-				font-size: 1.2em;
-				@include smoothFont;
 				margin-bottom: 165px;
-
-				p:not(:last-child){
-					margin-bottom: 25px;
-				}
 			}
 
 			.hi-wrap{
@@ -128,10 +133,6 @@
 		position: relative;
 		width: 100%;
 		margin-bottom: 290px;
-
-		.section-name{
-			margin-bottom: 70px;
-		}
 
 		.cols-wrapper{
 			position: relative;
@@ -174,13 +175,9 @@
 					// background-color: $black-gray;
 				}
 				
-				.name{
+				h5{
 					padding-left: 40px;
 					padding-right: 35%;
-					font-family: 'Founders-L', sans-serif;
-					font-size: 1.2em;
-					font-weight: 100;
-					@include smoothFont;
 
 					@media (min-width: 1441px){
 						padding-right: 29%;
@@ -194,10 +191,6 @@
 		position: relative;
 		width: 100%;
 		margin-bottom: 200px;
-
-		.section-name{
-			margin-bottom: 70px;
-		}
 
 		.dedicated-to{
 			margin-bottom: 80px;
@@ -215,13 +208,6 @@
 			}
 		}
 
-		p{
-			font-size: 1.2em;
-			font-family: 'Founders-L';
-			// @include smoothFont;
-			font-weight: 100;
-		}
-
 		.photo{
 			img{
 				position: relative;
@@ -232,23 +218,6 @@
 
 	.afterword-container{
 		margin-bottom: 220px;
-
-		.section-name{
-			margin-bottom: 70px;
-		}
-
-		.afterword-wrap{
-			p{
-				font-size: 1.2em;
-				font-family: 'Founders-L';
-				// @include smoothFont;
-				font-weight: 100;
-
-				&:not(:last-child){
-					margin-bottom: 25px;
-				}
-			}
-		}
 
 		.photo{
 			img{
@@ -302,6 +271,12 @@
 				@include smoothFont;
 			}
 		}
+	}
+
+	.acknowledgements-container{
+		position: relative;
+		width: 100%;
+		margin-bottom: 120px;
 	}
 }
 
