@@ -83,6 +83,7 @@
 	&:focus, &.filled{
 		& ~ .sz-input-fx{
 			@include scale(1,1);
+			@include transform-origin(left, center);
 		}
 	}
 
