@@ -1,0 +1,51 @@
+.filters-wrap{
+	display: inline-block;
+
+	.descriptor{
+		position: relative;
+		display: inline-block;
+		margin-right: 60px;
+		font-size: .9em;
+		cursor: pointer;
+	}
+
+	.categories{
+		position: relative;
+		display: inline-block;
+	}
+
+	.filter{
+		opacity: .7;
+		text-decoration: none;
+		color: inherit;
+		&.active{opacity: 1;}
+
+		&:not(:last-child){
+			margin-right: 45px;
+		}
+
+		.name{
+			margin-right: 5px;
+			font-size: .9em;
+		}
+		.qty{
+			position: relative;
+			display: inline-block;
+			top: -8px;
+			vertical-align: text-top;
+			font-size: .6em;
+			@include translate(0, 8px);
+			opacity: 0;
+			@include transitions-ease(.4s);
+		}
+
+		&:hover{
+			opacity: 1;
+
+			.qty{
+				@include translate(0,0);
+				opacity: 1;
+			}
+		}
+	}
+}

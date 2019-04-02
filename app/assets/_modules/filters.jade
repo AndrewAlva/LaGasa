@@ -1,0 +1,12 @@
+mixin filter(link, name, quantity, active)
+	a(href="#{link}" class="filter #{active}")
+		span.name #{name}
+		span.qty #{quantity}
+
+header.filters-wrap
+	.descriptor Filter by.
+
+	nav.categories
+		+filter("#", "All", 12, "active")
+		+filter("#", "Books", 9)
+		+filter("#", "Branding", 3)
