@@ -1,5 +1,7 @@
 .filters-wrap{
 	display: inline-block;
+	font-family: 'Founders-L', sans-serif;
+	font-weight: 100;
 
 	.descriptor{
 		position: relative;
@@ -18,7 +20,6 @@
 		opacity: .7;
 		text-decoration: none;
 		color: inherit;
-		&.active{opacity: 1;}
 
 		&:not(:last-child){
 			margin-right: 45px;
@@ -39,7 +40,7 @@
 			@include transitions-ease(.4s);
 		}
 
-		&:hover{
+		&:hover, &.active{
 			opacity: 1;
 
 			.qty{
