@@ -2,6 +2,7 @@ extends templates/layout.jade
 
 block content
 	include _modules/nav-menu.jade
+	include _modules/project-cover.jade
 
 	#home-wrapper.page-wrapper.has-menu
 		.inner-wrapper
@@ -9,3 +10,20 @@ block content
 				h6.page-name.top Work
 
 				include _modules/filters.jade
+				.projects-wrapper
+					+project-cover("col-6", "push-1", "http://placehold.it/700x540", "Live in Light", "Chronicle Books", "#")
+
+					+project-cover("col-5", " ", "http://placehold.it/580x760", "The Rooftop Beekeper", "Chronicle Books", "#")
+
+					.grid-title
+						h1.written Selected
+						h1.typed Work
+						span.year-range ( 15 - 18 )
+
+					+project-cover("col-6", "push-1", "http://placehold.it/700x540", "Live in Light", "Chronicle Books", "#")
+
+					+project-cover("col-5", " ", "http://placehold.it/580x760", "The Rooftop Beekeper", "Chronicle Books", "#")
+
+
+
+				include _modules/footer.jade

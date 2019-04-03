@@ -1,0 +1,26 @@
+.project-cover{
+	position: relative;
+	font-family: 'Founders-L', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	@include smoothFont;
+	color: $black-gray;
+
+	a{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.photo-wrap{
+		position: relative;
+		width: 100%;
+		margin-bottom: 35px;
+
+		img{width: 100%;}
+	}
+
+	.title{
+	}
+	.client{
+	}
+}

@@ -1,3 +1,43 @@
 #home-wrapper{
 	background-color: #fff;
+
+	.projects-wrapper{
+		margin-bottom: 190px;
+	}
+
+	.grid-title{
+		position: relative;
+		padding-top: 125px;
+		color: $black-gray;
+		
+		h1{
+			display: block;
+			font-size: 7em;
+			font-weight: 100;
+			@include smoothFont;
+			line-height: .95em;
+			color: inherit;
+
+			&.written{
+				font-family: 'Saol-L-It', serif;
+			}
+
+			&.typed{
+				display: inline-block;
+				font-family: 'Saol-L', serif;
+			}
+		}
+
+		.year-range{
+			opacity: .6;
+			position: relative;
+			display: inline-block;
+			margin-left: 25px;
+			font-size: 1em;
+			font-family: 'Founders-L', sans-serif;
+			font-weight: 100;
+			letter-spacing: 1.5px;
+			color: inherit;
+		}
+	}
 }
