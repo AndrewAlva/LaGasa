@@ -1,5 +1,5 @@
-mixin project-cover(size, position, img, title, client, link)
-	.project-cover(class="#{size} #{position}")
+mixin project-cover(size_position, img, title, client, link, extra_classes)
+	.project-cover(class="#{size_position} #{extra_classes}")
 		a(href="#{link}")
 			.photo-wrap
 				img(src="#{img}", alt="#{title}")

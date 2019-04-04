@@ -1,10 +1,15 @@
 .project-cover{
+	z-index: 1;
 	position: relative;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
 	font-size: 1.2em;
 	@include smoothFont;
 	color: $black-gray;
+	&.second{
+		vertical-align: top;
+		@include translate(0, 41.5%);
+	}
 
 	a{
 		text-decoration: none;
@@ -19,8 +24,6 @@
 		img{width: 100%;}
 	}
 
-	.title{
-	}
-	.client{
-	}
+	.title{}
+	.client{}
 }

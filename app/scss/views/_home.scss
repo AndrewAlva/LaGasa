@@ -1,13 +1,19 @@
 #home-wrapper{
 	background-color: #fff;
 
+	.content-grid{
+		padding-top: 75px;
+	}
+
 	.projects-wrapper{
 		margin-bottom: 190px;
 	}
 
 	.grid-title{
 		position: relative;
-		padding-top: 125px;
+		// padding-top: 125px;
+		padding-top: 20px;
+		padding-bottom: 190px;
 		color: $black-gray;
 		
 		h1{
