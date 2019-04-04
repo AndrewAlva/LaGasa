@@ -6,9 +6,56 @@
 	font-size: 1.2em;
 	@include smoothFont;
 	color: $black-gray;
-	&.second{
+	&.align-top{
 		vertical-align: top;
-		@include translate(0, 41.5%);
+	}
+	&.down{
+		&--third{
+			@include translate(0, 31.21%);
+		}
+
+		&--half{
+			@include translate(0, 41.5%);
+		}
+
+		&--threequarters{
+			@include translate(0, 73%);
+		}
+	}
+
+	&.pushdown{
+		&--sm{
+			margin-bottom: 120px;
+		}
+
+		&--md{
+			margin-bottom: 185px;
+		}
+	}
+
+	&.up{
+		&--sixteenth{
+			@include translate(0, -9%);
+		}
+		&--half{
+			@include translate(0, -50%);
+		}
+
+		&--twothird{
+			@include translate(0, -63%);
+		}
+	}
+
+	&.pushup{
+		&--third{
+			margin-top: 33%;
+		}
+	}
+
+	&.allup{
+		&--fifth{
+			margin-top: -19%;
+		}
 	}
 
 	a{
@@ -21,7 +68,10 @@
 		width: 100%;
 		margin-bottom: 35px;
 
-		img{width: 100%;}
+		img{
+			display: block;
+			width: 100%;
+		}
 	}
 
 	.title{}
