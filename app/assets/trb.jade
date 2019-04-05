@@ -1,0 +1,35 @@
+extends templates/layout.jade
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+				include _modules/filters.jade
+
+				.case-wrap
+					h1._title The Rooftop Beekeper
+					._cover
+						img(src="img/proj/01_trb/01_cover.jpg", alt="The Rooftop Beekeper cover")
+
+					._info
+						.details.col-4.offset-1
+							.spec
+								.label Role
+								h2.role Art / Direction
+
+							.spec
+								.label Client
+								a(href="#")
+									h3.client Chronicle Books
+
+							.spec
+								h4.date Feb 2014
+
+						.intro.col-6
+							p This urban beekeeping book needed to be both a practical how to guide and an attractive, gifteable object. The photography in interwoven with beautiful ilustrations by Japanese ilustrator, Masako Kubo. I used a hand drawn serif display font warmth, paired with sans serif body font for practically. It’s also soft cover book, but with flaps.
+
+							a(href="#")
+								|Get the book
+								span.arrow –>
