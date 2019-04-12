@@ -29,22 +29,25 @@
 			position: relative;
 			width: 100%;
 			min-height: 210px;
+			margin-bottom: 215px;
 			font-family: 'Founders-L', sans-serif;
 			font-weight: 100;
 			color: $black-gray;
+			@include flexIt;
 
 			.details, .intro{
 				position: relative;
-				height: 100%;
 				vertical-align: top;
+				@include flexself-stretch;
+				@include flexIt;
+				@include flex-direction(vertical);
+				@include flex-spacebetween;
 			}
 
 			.spec{
-				position: relative;
-
 				.label{
 					opacity: .7;
-					margin-bottom: 7px;
+					margin-bottom: 8px;
 				}
 
 				h2,h3,h4{
@@ -61,13 +64,26 @@
 			.intro{
 				p{
 					font-size: 1em;
-					margin-bottom: 80px;
+					// margin-bottom: 80px;
+					margin-bottom: 40px;
 				}
 
 				a{
-					position: absolute;
-					bottom: 0;
+					opacity: .7;
+					position: relative;
+					display: inline-block;
 					font-size: .9em;
+					color: inherit;
+					text-decoration: none;
+					@include transitions-ease(.4s);
+
+					.link-arrow{
+						margin-left: 15px;
+					}
+
+					&:hover{
+						opacity: 1;
+					}
 				}
 			}
 		}
