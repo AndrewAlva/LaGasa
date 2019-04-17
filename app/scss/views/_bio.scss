@@ -170,6 +170,16 @@
 				position: relative;
 				width: 82.19%;
 			}
+
+			._caption{
+				position: absolute;
+				bottom: -35px;
+				font-family: 'Founders-L', sans-serif;
+				font-size: .7em;
+				font-weight: 100;
+
+				.cursive{font-style: italic;}
+			}
 		}
 	}
 
@@ -181,10 +191,24 @@
 				position: relative;
 				width: 82.19%;
 			}
+
+			._caption{
+				position: absolute;
+				bottom: -35px;
+				font-family: 'Founders-L', sans-serif;
+				font-size: .7em;
+				font-weight: 100;
+
+				a{
+					color: inherit;
+					text-decoration: none;
+				}
+			}
 		}
 
 		.quote{
 			margin-bottom: 15px;
+			padding-top: 80px;
 
 			h4{
 				font-size: 3.5em;
