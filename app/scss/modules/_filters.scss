@@ -3,6 +3,7 @@
 	margin-bottom: 120px;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
+	@include unselectable;
 
 	.descriptor{
 		position: relative;
@@ -18,9 +19,19 @@
 	}
 
 	.filter{
-		opacity: .7;
+		display: inline-block;
+		pointer-events: none;
+		opacity: 0;
 		text-decoration: none;
 		color: inherit;
+		@include translate(0,10px);
+		@include transitions-ease(.4s);
+
+		&.show{
+			opacity: .7;
+			@include translate(0,0);
+			pointer-events: all;
+		}
 
 		&:not(:last-child){
 			margin-right: 45px;
@@ -41,7 +52,7 @@
 			@include transitions-ease(.4s);
 		}
 
-		&:hover, &.active{
+		&:hover, &.active.show{
 			opacity: 1;
 
 			.qty{

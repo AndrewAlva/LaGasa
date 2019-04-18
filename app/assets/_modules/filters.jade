@@ -1,10 +1,10 @@
 mixin filter(link, name, quantity, active)
-	a(href="#{link}" class="filter #{active}")
+	a(href="#{link}" class="filter show #{active}")
 		span.name #{name}
 		span.qty #{quantity}
 
-header.filters-wrap
-	.descriptor Filter by.
+header#proj-filters.filters-wrap
+	#filters-trigger.descriptor Filter by.
 
 	nav.categories
 		+filter("#", "All", 12, "active")
