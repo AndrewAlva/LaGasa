@@ -76,7 +76,7 @@ button{
 	height: 100%;
 }
 
-.p-link, .p-link-invert{
+.p-link, .p-link-invert, .p-mask-link{
 	position: relative;
 	color: inherit;
 	text-decoration: none;
@@ -125,6 +125,38 @@ button{
 		&:after{
 			@include scale(1,1);
 			@include transform-origin(center, left);
+		}
+	}
+}
+
+.p-mask-link{
+	&:before{
+		content: attr(data-label);
+		position: absolute;
+		right: 0;
+		width: 0;
+		text-align: right;
+		direction: rtl;
+		overflow: hidden;
+		@include transitions-ease(.4s);
+	}
+
+	.link{
+		opacity: .5;
+		@include transitions-ease(.3s);
+	}
+
+	&:hover{
+		&:before{
+			width: 100%;
+			left: 0;
+			direction: ltr;
+			text-align: left;
+		}
+
+		.link{
+			// opacity: 0.1;
+			opacity: .3;
 		}
 	}
 }
