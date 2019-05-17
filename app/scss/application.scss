@@ -29,11 +29,11 @@
 .test{
 	z-index: 1000000000;
 	position: absolute;
-	background-color: rgba(255,0,0,.3);
+	background-color: rgba(255,0,0,.1);
 	pointer-events: none;
 
 	width: 100%;
-	height: 540px;
-	top: 6188px;
+	height: 62px;
+	bottom: 0;
 	left: 0;
 }
