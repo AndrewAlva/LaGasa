@@ -28,6 +28,12 @@ button{
 	outline: none;
 }
 
+canvas{
+	position: absolute;
+	// pointer-events: none;
+	cursor: none;
+}
+
 #main-wrapper{
 	position: absolute;
 	width: 100%;
