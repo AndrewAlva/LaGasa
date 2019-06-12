@@ -181,11 +181,9 @@
 			width: 50%;
 			// max-width: 550px;
 			max-width: 585px;
-			padding: 120px 0;
-
-			@media (min-width: 1441px){
-				padding: 160px 0;
-			}
+			@include flexIt;
+			@include flex-spacebetween;
+			@include flex-alignCenter;
 		}
 	}
 
@@ -233,12 +231,9 @@
 	}
 
 	.projects-titles{
+		z-index: 1;
 		position: relative;
 		width: 170px;
-		height: 100%;
-		@include flexIt;
-		@include flex-direction(vertical);
-		@include flex-spacebetween;
 
 		.bloc-projects{
 			&:not(:last-child){
@@ -307,16 +302,29 @@
 		position: absolute;
 		top: 0; right: 0;
 		// width: 260px;
-		width: 60%;
+		width: 61.5%;
 		height: 100%;
+		overflow: hidden;
 
-		.current{
+		.imgs-wrap{
 			position: absolute;
-			// width: 260px;
-			max-width: 100%;
-			// height: 367px;
-			top: 0;
-			right: 0;
+			width: 100%;
+
+			img{
+				opacity: 0;
+				vertical-align: top;
+				position: absolute;
+				top: 50%;
+				right: 50%;
+				max-width: 360px;
+				max-height: 300px;
+				@include translate(50%, -50%);
+				@include transitions-ease(.2s);
+				
+				&.active{
+					opacity: .9;
+				}
+			}
 		}
 	}
 }

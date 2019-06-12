@@ -17,23 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
 		}
 
-	// Menu open/close functionality
-		var menu = document.getElementById('main-menu');
-		if (menu) {
-			var menu_trigger = document.getElementById('menu-trigger');
-			var menu_opened = false;
-
-			menu_trigger.addEventListener('click', function(){
-				if (!menu_opened) {
-					menu.classList.add('opened');
-					menu_opened = true;
-				} else {
-					menu.classList.remove('opened');
-					menu_opened = false;
-				}
-			});
-		}
-
 	// Filters show/hide functionality
 		var Filters = {};
 		var pFilters = document.getElementById('proj-filters');
@@ -85,6 +68,19 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 
 			Filters.init();
+		}
+
+
+	// Opened menu
+	// Projects cover shifter init
+		var pShifter = document.getElementById('projects-shifter');
+		if (pShifter){
+			var mb_ImgShifter = new FollowObject({
+				"obj": document.getElementById('projects-shifter')
+			});
+			mb_ImgShifter.init();
+			menuAnimate();
+
 		}
 });
 
