@@ -75,12 +75,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	// Projects cover shifter init
 		var pShifter = document.getElementById('projects-shifter');
 		if (pShifter){
-			var mb_ImgShifter = new FollowObject({
+			mb_ImgShifter = new FollowObject({
 				"obj": document.getElementById('projects-shifter')
 			});
 			mb_ImgShifter.init();
 			menuAnimate();
-
 		}
 });
 
@@ -91,3 +90,5 @@ window.onload = function() {
     console.log("Page fully loaded.");
     console.log("Initialize.js");
 }
+
+

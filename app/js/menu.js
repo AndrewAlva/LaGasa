@@ -34,6 +34,9 @@
 			y: window.innerHeight/2
 		};
 		this.cof = 0.04; 
+		this.activeX = args.activeX || false;
+		this.activeY = args.activeY || true;
+		this.scrollCancel = args.scrollCancel || false;
 		
 		this.updatePosition = function(_x,_y){
 			this.pos.x += (_x - this.pos.x) * this.cof;
@@ -41,7 +44,13 @@
 		};
 
 		this.displaceImgs = function(){
-			var _displacement = "translate(0px, " + this.pos.y + "px)";
+			var _displacement;
+			if (!this.activeX) {
+				_displacement = "translate(0px, " + this.pos.y + "px)";
+			} else {
+				_displacement = "translate(" + this.pos.x + "px, " + this.pos.y + "px)";
+			}
+
 			this.applyTransform(_displacement);
 		};
 
@@ -56,6 +65,10 @@
 		this.setupListeners = function(){
 			this.mouseoverListener();
 			this.mouseoutListener();
+
+			if(this.scrollCancel){
+				this.mouseScroll();
+			}
 		};
 
 		this.mouseoverListener = function(){
@@ -76,6 +89,13 @@
 					_this.hideImgs()
 				});
 			}
+		};
+		this.mouseScroll = function(){
+			var _this = this;
+
+			window.addEventListener('scroll', function(){
+				_this.hideImgs()
+			});
 		};
 		
 		this.getImgId = function(target){
@@ -115,15 +135,3 @@
 		mousePosition.x = e.clientX;
 		mousePosition.y = e.clientY;
 	});
-
-
-	var MenuShifter = {}
-	var pShifter = document.getElementById('projects-shifter');
-	if (pShifter){
-		var mb_ImgShifter = new FollowObject({
-			"obj": document.getElementById('projects-shifter')
-		});
-		mb_ImgShifter.init();
-		menuAnimate();
-
-	}

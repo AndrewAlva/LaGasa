@@ -3,7 +3,10 @@ module.exports = {
 		javascripts: {
 			joinTo: 'js/app.js',
 			order: {
-				before: 'app/js/initialize.js'
+				before: [
+					'app/js/initialize.js',
+					'app/js/menu.js'
+				]
 			}
 		},
 		stylesheets: {joinTo: 'css/app.css'}

@@ -100,6 +100,7 @@
 			}
 
 			.proj-row{
+				z-index: 1;
 				position: relative;
 				width: 100%;
 
@@ -138,6 +139,28 @@
 
 					@media (min-width: 1441px){
 						padding-right: 29%;
+					}
+				}
+			}
+
+			.projects-canvas{
+				position: fixed;
+				top: 0;
+				left: 0;
+
+				img{
+					opacity: 0;
+					vertical-align: top;
+					position: absolute;
+					top: 50%;
+					right: 50%;
+					max-width: 360px;
+					max-height: 300px;
+					@include translate(50%, -50%);
+					@include transitions-ease(.2s);
+					
+					&.active{
+						opacity: 1;
 					}
 				}
 			}
