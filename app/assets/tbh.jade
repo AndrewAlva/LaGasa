@@ -1,0 +1,41 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title TBH | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("TBH")
+					+case_cover("tbh/TBH01.jpg", "TBH cover")
+
+
+					._info
+						+case_info("Design & Art Direction", "Scholastic Inc.", "http://la.scholastic.com/en", "April 2017")
+						
+
+						+case_description("This book is a collaboration by teen-centric, YouTube personalities, galvanized by Hunter March. They write about various teenage experiences in order to help other teens “figure it out.” I wanted to create a youthful and energetic design, so I commissioned Annica Lydenberg to hand-letter the contributors names on the cover. For the interior, I utilized a hand-lettering style for essay titles and I painted over personal photos submitted by the writers to create a warm and playful aesthetic. Hand-drawn elements are paired with large, bold, sans-serif type on the captions for a vigorous appearance, keeping the overall design from looking childish.", "https://www.amazon.com/dp/133805399X/")
+
+					._project-details
+						+case_detailview("tbh/TBH03.jpg", "TBH book details", "middle")
+						+case_detailview("tbh/TBH04.jpg", "TBH book details", "middle")
+						+case_detailview("tbh/TBH05.jpg", "TBH book details", "")
+						
+						+case_credits(
+							{role: 'Author', url: 'https://twitter.com/huntermarch', name: 'Hunter March'},
+							{role: 'Photography', url: 'https://jensiska.com/', name: 'Jen Siska'},
+							{role: 'Hand lettering', url: 'https://dirtybandits.com/', name: 'Annica Lydenberg'}
+						)
+
+						+case_detailview("tbh/TBH06.jpg", "TBH book details", "")
+
+
+				+case_nextproject('One Day Tales', 'one-day-tales.html')
+

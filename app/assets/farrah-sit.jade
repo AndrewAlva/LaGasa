@@ -1,0 +1,41 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Farrah Sit | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("Farrah Sit")
+					+case_cover("fs/FS01.jpg", "Farrah Sit cover")
+
+
+					._info
+						+case_info("Art Director", "Founder Farrah Sit", "https://farrahsit.com", "2016")
+						
+
+						+case_description("Farrah Sit is an independent designer who creates sculptural lighting, furniture, and home objects. My hope was to create a logo reflective of her attention of detail and deceptively minimal designs. There’s a delicate grace in all her work that begets a gentle and contemplative mark.", "https://farrahsit.com", "Visit the site")
+
+					._inspiration
+						h5.subtitle.col-10.offset-1 Inspiration / Font Selection
+						.images-container.col-12
+							.single-img
+								+case_detailview("fs/FS02.jpg", "Farrah Sit book details", "middle")
+
+					._project-details
+						+case_detailview("fs/FS03.jpg", "Farrah Sit book details", "middle")
+						+case_detailview("fs/FS04.jpg", "Farrah Sit book details", "middle")
+						+case_detailview("fs/FS05.jpg", "Farrah Sit book details", "middle")
+
+						+case_detailview("fs/FS06.jpg", "Farrah Sit book details", "")
+
+
+				+case_nextproject('Movetes', 'movetes.html')
+

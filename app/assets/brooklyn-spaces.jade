@@ -1,0 +1,73 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Brooklyn Spaces | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+				//- include _modules/filters.jade
+
+				.case-wrap
+					+case_title("Brooklyn Spaces")
+					+case_cover("bks/BKS01.jpg", "Brooklyn Spaces cover")
+
+
+					._info
+						+case_info("Design", "The Monacelli Press", "https://www.monacellipress.com/", "May 2015")
+						
+
+						+case_description("As a guidebook for alternative and counter-culture creative spaces in Brooklyn, I took inspiration from industrial hand-lettering found on old warehouses. I set the many photographs in organic, loose compositions to convey the unstructured, free-wheeling nature of so many of the venues.", "https://www.amazon.com/dp/1580934285/")
+
+
+					//- ._inspiration
+						h5.subtitle.col-10.offset-1 Inspiration
+						.images-container.col-5.offset-1
+							.single-img.four60.push-bottom
+								img(src="img/proj/01_trb/02_insp_1.jpg", alt="")
+
+							.single-img.third.top-align
+								img(src="img/proj/01_trb/02_insp_2.jpg", alt="")
+
+							.single-img.forty
+								img(src="img/proj/01_trb/02_insp_3.jpg", alt="")
+
+
+						.images-container.col-5
+							.single-img.forty4.push-bottom
+								img(src="img/proj/01_trb/02_insp_4.jpg", alt="")
+
+							.single-img.forty8
+								img(src="img/proj/01_trb/02_insp_5.jpg", alt="")
+
+							.single-img.four60
+								img(src="img/proj/01_trb/02_insp_6.jpg", alt="")
+
+
+
+					._project-details
+						+case_detailview("bks/BKS02.jpg", "Brooklyn Spaces book details", "middle")
+
+						+case_detailview("bks/BKS03.jpg", "Brooklyn Spaces book details", "middle")
+						+case_detailview("bks/BKS04.jpg", "Brooklyn Spaces book details", "")
+
+						+case_credits(
+							{role: 'Author', url: 'http://www.oriana-leckert.com/', name: 'Oriana Leckert'},
+							{role: 'Photography', url: 'https://www.walterwlodarczyk.com/', name: 'Walter Wlodarczyk'},
+							{role: '', url: 'http://www.blase.photography/', name: 'Michael Blase'},
+							{role: '', url: 'https://www.flickr.com/photos/provide/', name: 'Kit Crenshaw'},
+							{role: '', url: 'https://www.alixpiorun.com/', name: 'Alix Piorun'},
+							{role: '', url: 'http://brooklyn-spaces.com/about/', name: 'and more...'}
+						)
+									
+
+						+case_detailview("bks/BKS05.jpg", "Brooklyn Spaces book details", "")
+
+
+				+case_nextproject('Getting to Good', 'getting-to-good.html')
+

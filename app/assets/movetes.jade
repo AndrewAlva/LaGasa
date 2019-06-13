@@ -1,0 +1,38 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Movetes | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("Movetes")
+					+case_cover("m/M01.jpg", "Movetes cover")
+
+
+					._info
+						+case_info("Art Director", "Founder Maureen Carruthers", "https://movetes.com/about-us/", "2016")
+						
+
+						+case_description("As a newcomer in the golf apparel industry, Movetes needed a distinctive identity to establish their positioning in luxury leisure fashion. Their logo was inspired by Swiss design, using minimal, bold typography for a modern spirit and color blocking to communicate athleticism in a timeless language.", "https://movetes.com/", "Visit the site")
+
+					._inspiration
+						h5.subtitle.col-10.ofmet-1 Sketches
+						.images-container.col-12
+							.single-img
+								+case_detailview("m/M02.jpg", "Movetes book details", "middle")
+
+					._project-details
+						+case_detailview("m/M03.jpg", "Movetes book details", "middle")
+						+case_detailview("m/M04.jpg", "Movetes book details", "")
+
+
+				+case_nextproject('Speech Tank', 'speech-tank.html')
+

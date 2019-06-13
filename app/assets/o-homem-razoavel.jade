@@ -1,0 +1,42 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title O Homem Razoável | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("O Homem Razoável")
+					+case_cover("ohr/OHR01.jpg", "O Homem Razoável cover")
+
+
+					._info
+						+case_info("Design", "CreateSpace", "https://www.createspace.com/", "June 2017")
+						
+
+						+case_description("For this collection of philosophical essays and cultural criticism, I explored various illustrations approaches with an editorial and psychological bent, to evoke the sense of intellectual curiosity. O homem Razoável, takes it’s title from the legal term: a reasonable person / man a hypothetical person of legal fiction created by the courts. Therefore an universal, hypothetical “everyday” man is this the primary visual metaphor.", "https://www.amazon.com/dp/0995634521")
+
+
+					._project-details
+						+case_detailview("ohr/OHR02.jpg", "O Homem Razoável book details", "middle")
+						+case_detailview("ohr/OHR03.jpg", "O Homem Razoável book details", "middle")
+						+case_detailview("ohr/OHR04.jpg", "O Homem Razoável book details", "middle")
+						+case_detailview("ohr/OHR05.jpg", "O Homem Razoável book details", "")
+
+						+case_credits(
+							{role: 'Author', url: 'https://www.linkedin.com/in/jo-pires-o-brien-26799931/', name: 'Joaquina Pires-O’Brien'}
+						)
+									
+
+						+case_detailview("ohr/OHR06.jpg", "O Homem Razoável book details", "")
+
+
+				+case_nextproject('Farrah Sit', 'farrah-sit.html')
+

@@ -1,0 +1,46 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Getting to Good | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("Getting to Good")
+					+case_cover("gtg/GTG01.jpg", "Getting to Good cover")
+
+
+					._info
+						+case_info("Design & Art Direction", "Althea Press", "http://www.althea-publishers.com/", "Feb 2019")
+						
+
+						+case_description("This journal needed to communicate positivity and hope without skewing too feminine or saccharine. I worked with Booklyn-based illustrated Kath Nash to create a giftable and useful journal to help people suffering from depression.", "https://www.amazon.com/Getting-Good-Elena-Welsh-PhD/dp/1641523662/")
+
+
+					._project-details
+						+case_detailview("gtg/GTG02.jpg", "Getting to Good book details", "middle")
+
+						+case_detailview("gtg/GTG03.jpg", "Getting to Good book details", "middle")
+						+case_detailview("gtg/GTG04.jpg", "Getting to Good book details", "middle")
+						+case_detailview("gtg/GTG05.jpg", "Getting to Good book details", "middle")
+						+case_detailview("gtg/GTG06.jpg", "Getting to Good book details", "middle")
+						+case_detailview("gtg/GTG07.jpg", "Getting to Good book details", "")
+
+						+case_credits(
+							{role: 'Author', url: 'https://www.drelenawelsh.com/', name: 'Elena Welsh'},
+							{role: 'Illustration', url: 'https://kath-nash.com/', name: 'Kath Nash'}
+						)
+									
+
+						+case_detailview("gtg/GTG08.jpg", "Getting to Good book details", "")
+
+
+				+case_nextproject('Mean Girls', 'mean-girls.html')
+

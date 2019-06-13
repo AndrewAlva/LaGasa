@@ -1,0 +1,45 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Speech Tank | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("Speech Tank")
+					+case_cover("st/ST01.jpg", "Speech Tank cover")
+
+
+					._info
+						+case_info("Art Director", "Founders Marisa Polansky & Kristine Keller", "http://speechtank.com/#founders", "2016")
+						
+
+						+case_description("Speech Tank is an energetic and clever company assisting people with speech writing for weddings and other celebratory occasions. Their logo needed to communicate the unique nature of their business and their positive and jubilant spirit.", "http://speechtank.com/", "Visit the site")
+
+					._inspiration
+						h5.subtitle.col-10.ofmet-1 Logo Sketches
+						.images-container.col-12
+							.single-img
+								+case_detailview("st/ST02.jpg", "Speech Tank book details", "middle")
+
+					._project-details
+						+case_detailview("st/ST03.jpg", "Speech Tank book details", "middle")
+						+case_detailview("st/ST04.jpg", "Speech Tank book details", "middle")
+						+case_detailview("st/ST05.jpg", "Speech Tank book details", "")
+						
+						+case_credits(
+							{role: 'Web Design & Photography', url: 'https://www.kelseyfairhurst.com/shop/info', name: 'Kelsey Fairhurst'}
+						)
+
+						+case_detailview("st/ST06.jpg", "Speech Tank book details", "")
+
+
+				+case_nextproject('Live in Light', 'live-in-light.html')
+

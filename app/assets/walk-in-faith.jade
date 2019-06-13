@@ -1,0 +1,46 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Walk in Faith | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+				//- include _modules/filters.jade
+
+				.case-wrap
+					+case_title("Walk in Faith")
+					+case_cover("wif/WIF01.jpg", "Walk in Faith cover")
+
+
+					._info
+						+case_info("Design & Art Direction", "Callisto Media", "https://www.callistomedia.com", "March 2019")
+						
+
+						+case_description("The design of Walk in Faith was inspired by sneaker fashion and trends in sports culture and advertising. It’s a graphic mix of bold typography and abstract patterns. The result is a vibrant and energetic cover embracing the complexity of religious philosophy without resorting to religious or teenage cliches.", "https://www.amazon.com/Walk-Faith-5-Minute-Devotions-Teen/dp/1641522828/")
+
+
+
+
+					._project-details
+						+case_detailview("wif/WIF03.jpg", "Walk in Faith book details", "middle")
+
+						+case_detailview("wif/WIF04.jpg", "Walk in Faith book details", "middle")
+						+case_detailview("wif/WIF05.jpg", "Walk in Faith book details", "")
+
+						+case_credits(
+							{role: 'Author', url: 'https://twitter.com/AndyLDooley', name: 'Andy Dooley'},
+							{role: 'Illustration', url: 'https://wieteszka.myportfolio.com/', name: 'Andrzej Wieteszka'}
+						)
+									
+
+						+case_detailview("wif/WIF06.jpg", "Walk in Faith book details", "")
+
+
+				+case_nextproject('TBH', 'tbh.html')
+

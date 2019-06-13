@@ -1,0 +1,40 @@
+extends templates/layout.jade
+
+include _modules/_mixins-cases.jade
+
+block title
+	title Mean Girls | Suze LaGasa
+
+block content
+	include _modules/nav-menu.jade
+
+	#trb-wrapper.cases-page.page-wrapper.has-menu
+		.inner-wrapper
+			.content-grid
+
+				.case-wrap
+					+case_title("Mean Girls")
+					+case_cover("mg/MG01.jpg", "Mean Girls cover")
+
+
+					._info
+						+case_info("Design", "Scholastic Inc", "http://la.scholastic.com/en", "Sept 2017")
+						
+
+						+case_description("This type-driven cover needed a strong nod to the original film, but also a distinctive approach to indicate that it’s a new release -the first novelization of the 2004 film written by Tina Fey and Rosalind Wiseman. I choose to play with the logotype of the movie, but using color as the driving factor. The characters are silhouetted to position them at an iconic level.", "https://www.amazon.com/dp/1338087568")
+
+
+					._project-details
+						+case_detailview("mg/MG02.jpg", "Mean Girls book details", "middle")
+						+case_detailview("mg/MG03.jpg", "Mean Girls book details", "")
+
+						+case_credits(
+							{role: 'Author', url: 'http://www.micolostow.com/', name: 'Micol Ostow'}
+						)
+									
+
+						+case_detailview("mg/MG04.jpg", "Mean Girls book details", "")
+
+
+				+case_nextproject('O Homem Razoável', 'o-homem-razoavel.html')
+

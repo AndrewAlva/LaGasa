@@ -17,21 +17,10 @@ block content
 					+case_title("The Rooftop Beekeper")
 					+case_cover("01_trb/01_cover.jpg", "The Rooftop Beekeper cover")
 
-					//- +case_info("Art / Direction", "Chronicle Books", "https://www.chroniclebooks.com/", "Feb 2014", '|This urban beekeeping book needed to be both a practical how to guide and an attractive, gifteable object. The photography is interwoven with beautiful ilustrations by Japanese ilustrator, a(href="http://www.masakokubo.com/" target="_blank" data-label="Masako Kubo").p-mask-link.p-link-invert span.link Masako Kubo |. I used a hand drawn serif display font warmth, paired with sans serif body font for practically. It’s also soft cover book, but with flaps.", "https://www.amazon.com/Rooftop-Beekeeper-Scrappy-Keeping-Honeybees/dp/1452107580')
 
 					._info
-						.details.col-4.offset-1
-							.spec
-								.label Role
-								h2.role Art / Direction
-
-							.spec
-								.label Client
-								a(href="#" target="_blank").p-link-invert
-									h3.client Chronicle Books
-
-							.spec
-								h4.date Feb 2014
+						+case_info("Design & Art Direction", "Chronicle Books", "https://www.chroniclebooks.com/", "Feb 2014")
+						
 
 						.intro.col-6
 							p 
@@ -70,6 +59,8 @@ block content
 							.single-img.four60
 								img(src="img/proj/01_trb/02_insp_6.jpg", alt="")
 
+
+
 					._project-details
 						+case_detailview("01_trb/03_trb.jpg", "The Rooftop Beekeper book details", "middle")
 
@@ -77,26 +68,17 @@ block content
 						+case_detailview("01_trb/05_trb.jpg", "The Rooftop Beekeper book details", "middle")
 						+case_detailview("01_trb/06_trb.jpg", "The Rooftop Beekeper book details", "")
 
-						.credits-container.col-5.offset-7
-							h5.subtitle Credits
-							ul.people-list
-								li
-									span.role Author
-									a(href="#" target="_blank").who.p-link-invert Megan Paska
-
-								li
-									span.role Photography
-									a(href="#" target="_blank").who.p-link-invert Alex Brown
-									
-								li
-									span.role Illustration
-									a(href="#" target="_blank").who.p-link-invert Masako Kubo
+						+case_credits(
+							{role: 'Author', url: 'https://megpaska.com/', name: 'Megan Paska'},
+							{role: 'Photography', url: 'http://www.alexbrownphotography.com/', name: 'Alex Brown'},
+							{role: 'Illustration', url: 'http://www.masakokubo.com/', name: 'Masako Kubo'}
+						)
 									
 
 						+case_detailview("01_trb/07_trb.jpg", "The Rooftop Beekeper book details", "")
 
 
-				+case_nextproject('Walk in Faith', '#')
+				+case_nextproject('Walk in Faith', 'walk-in-faith.html')
 
 
 

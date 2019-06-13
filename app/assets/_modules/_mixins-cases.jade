@@ -1,36 +1,53 @@
 mixin case_title(title)
 	h1._title #{title}
 
+
+
 mixin case_cover(halfsrc, alt)
 	._cover
 		img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
-mixin case_info(role, client, clientURL, date, description, bookURL)
-	._info
-		.details.col-4.offset-1
-			.spec
-				.label Role
-				h2.role #{role}
 
-			.spec
-				.label Client
-				a(href="#{clientURL}" target="_blank").p-link-invert
-					h3.client #{client}
 
-			.spec
-				h4.date #{date}
+mixin case_info(role, client, clientURL, date)
+	.details.col-4.offset-1
+		.spec
+			.label Role
+			h2.role #{role}
 
+		.spec
+			.label Client
+			a(href="#{clientURL}" target="_blank").p-link-invert
+				h3.client #{client}
+
+		.spec
+			h4.date #{date}
+
+mixin case_description(description, bookURL, cta='Book details')
 		.intro.col-6
 			p #{description}
 
 			a(href="#{bookURL}" target="_blank")._cta
 				//- |Get the book
-				|Book details
+				|#{cta}
 				span.link-arrow.black
+
+
 
 mixin case_detailview(halfsrc, alt, position)
 	.full-image(class="#{position}")
 		img(src="img/proj/#{halfsrc}", alt="#{alt}")
+
+
+mixin case_credits(...args)
+	.credits-container.col-5.offset-7
+		h5.subtitle Credits
+		ul.people-list
+			each arg in args
+				li
+					span.role #{arg.role}
+					a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
+
 
 
 mixin case_nextproject(title, url)
