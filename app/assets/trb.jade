@@ -1,5 +1,7 @@
 extends templates/layout.jade
 
+include _modules/_mixins-cases.jade
+
 block title
 	title The Rooftop Beekeper | Suze LaGasa
 
@@ -12,9 +14,10 @@ block content
 				//- include _modules/filters.jade
 
 				.case-wrap
-					h1._title The Rooftop Beekeper
-					._cover
-						img(src="img/proj/01_trb/01_cover.jpg", alt="The Rooftop Beekeper cover")
+					+case_title("The Rooftop Beekeper")
+					+case_cover("01_trb/01_cover.jpg", "The Rooftop Beekeper cover")
+
+					//- +case_info("Art / Direction", "Chronicle Books", "https://www.chroniclebooks.com/", "Feb 2014", '|This urban beekeeping book needed to be both a practical how to guide and an attractive, gifteable object. The photography is interwoven with beautiful ilustrations by Japanese ilustrator, a(href="http://www.masakokubo.com/" target="_blank" data-label="Masako Kubo").p-mask-link.p-link-invert span.link Masako Kubo |. I used a hand drawn serif display font warmth, paired with sans serif body font for practically. It’s also soft cover book, but with flaps.", "https://www.amazon.com/Rooftop-Beekeeper-Scrappy-Keeping-Honeybees/dp/1452107580')
 
 					._info
 						.details.col-4.offset-1
@@ -68,17 +71,11 @@ block content
 								img(src="img/proj/01_trb/02_insp_6.jpg", alt="")
 
 					._project-details
-						.full-image.middle
-							img(src="img/proj/01_trb/03_trb.jpg", alt="")
+						+case_detailview("01_trb/03_trb.jpg", "The Rooftop Beekeper book details", "middle")
 
-						.full-image.middle
-							img(src="img/proj/01_trb/04_trb.jpg", alt="")
-
-						.full-image.middle
-							img(src="img/proj/01_trb/05_trb.jpg", alt="")
-
-						.full-image
-							img(src="img/proj/01_trb/06_trb.jpg", alt="")
+						+case_detailview("01_trb/04_trb.jpg", "The Rooftop Beekeper book details", "middle")
+						+case_detailview("01_trb/05_trb.jpg", "The Rooftop Beekeper book details", "middle")
+						+case_detailview("01_trb/06_trb.jpg", "The Rooftop Beekeper book details", "")
 
 						.credits-container.col-5.offset-7
 							h5.subtitle Credits
@@ -96,16 +93,10 @@ block content
 									a(href="#" target="_blank").who.p-link-invert Masako Kubo
 									
 
-						.full-image
-							img(src="img/proj/01_trb/07_trb.jpg", alt="")
+						+case_detailview("01_trb/07_trb.jpg", "The Rooftop Beekeper book details", "")
 
-				footer.next-project
-					h5.subtitle Next Project
-					h2.title
-						a(href="#") Walk in Faith
 
-					.back-top Back to top
-
+				+case_nextproject('Walk in Faith', '#')
 
 
 
