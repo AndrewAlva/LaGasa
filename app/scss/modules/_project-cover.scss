@@ -67,10 +67,20 @@
 		position: relative;
 		width: 100%;
 		margin-bottom: 35px;
+		overflow: hidden;
 
 		img{
 			display: block;
 			width: 100%;
+			@include ease-long-transform(2s);
+		}
+	}
+
+	&:hover{
+		.photo-wrap{
+			img{
+				@include scale(1.07, 1.07);
+			}
 		}
 	}
 

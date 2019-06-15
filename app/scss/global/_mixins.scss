@@ -18,6 +18,13 @@
 	     -o-transition: all $timing cubic-bezier(.3,0,.2,1);
 	        transition: all $timing cubic-bezier(.3,0,.2,1);
 }
+@mixin ease-long-transform($timing){
+	-webkit-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	   -moz-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	    -ms-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	     -o-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	        transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+}
 
 @mixin transitions-bounce($timing){
 	-webkit-transition: all $timing cubic-bezier(.3,0,.2,3);
