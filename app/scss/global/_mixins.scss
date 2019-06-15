@@ -3,6 +3,11 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+@mixin content-box{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
 
 @mixin smoothFont{
 	text-rendering: optimizeLegibility;
@@ -63,6 +68,14 @@
 	-ms-transform: rotate($degs);
 	-o-transform: rotate($degs);
 	transform: rotate($degs);
+}
+
+@mixin skew($degs){
+	-webkit-transform: skew($degs);
+       -moz-transform: skew($degs);
+        -ms-transform: skew($degs);
+         -o-transform: skew($degs);
+            transform: skew($degs)
 }
 
 @mixin translate-rotate($Xmove, $Ymove, $degs){

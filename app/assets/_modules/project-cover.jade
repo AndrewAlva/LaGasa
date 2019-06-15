@@ -4,5 +4,9 @@ mixin project-cover(size_position, img, title, client, link, extra_classes)
 			.photo-wrap
 				img(src="#{img}", alt="#{title}")
 
-			.title #{title}
-			.client for #{client}
+			.title 
+				span.mask-container
+					span.up-in #{title}
+			.client 
+				span.mask-container
+					span.up-in for #{client}

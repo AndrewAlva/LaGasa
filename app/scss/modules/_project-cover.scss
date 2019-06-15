@@ -82,8 +82,17 @@
 				@include scale(1.07, 1.07);
 			}
 		}
+
+		.title{
+			@include skew(-10deg);
+		}
 	}
 
 	.title{}
 	.client{}
+
+	.title{
+		@include transform-origin(bottom, left);
+		@include transitions-ease(.5s);
+	}
 }
