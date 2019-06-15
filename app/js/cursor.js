@@ -218,7 +218,7 @@ var halfWidth = maxWidth /2,
 		canvas.height = maxHeight;
 	}
 
-if(window.location.pathname == '/intro.html'){
+if(window.location.href.indexOf('intro.html') > 0){
 	init();
 	animate();
 }
