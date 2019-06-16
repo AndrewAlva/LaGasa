@@ -3,6 +3,11 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+@mixin content-box{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
 
 @mixin smoothFont{
 	text-rendering: optimizeLegibility;
@@ -17,6 +22,13 @@
 	    -ms-transition: all $timing cubic-bezier(.3,0,.2,1);
 	     -o-transition: all $timing cubic-bezier(.3,0,.2,1);
 	        transition: all $timing cubic-bezier(.3,0,.2,1);
+}
+@mixin ease-long-transform($timing){
+	-webkit-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	   -moz-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	    -ms-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	     -o-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	        transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
 }
 
 @mixin transitions-bounce($timing){
@@ -56,6 +68,14 @@
 	-ms-transform: rotate($degs);
 	-o-transform: rotate($degs);
 	transform: rotate($degs);
+}
+
+@mixin skew($degs){
+	-webkit-transform: skew($degs);
+       -moz-transform: skew($degs);
+        -ms-transform: skew($degs);
+         -o-transform: skew($degs);
+            transform: skew($degs)
 }
 
 @mixin translate-rotate($Xmove, $Ymove, $degs){

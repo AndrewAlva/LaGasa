@@ -8,7 +8,9 @@ block content
 		.inner-wrapper
 			.content-grid
 				//- .test
-				h6.page-name.top Work
+				h6.page-name.top
+					span.mask-container
+						span.up-in Work
 
 				include _modules/filters.jade
 				.projects-wrapper
@@ -17,9 +19,15 @@ block content
 					+project-cover("col-5 offset-1", "img/covers/02_trb.jpg", "The Rooftop Beekeper", "Chronicle Books", "trb.html", "down--half align-top")
 
 					.grid-title
-						h1.written Selected
-						h1.typed Works
-						span.year-range ( 15 - 18 )
+						h1.written 
+							span.mask-container.padded-r
+								span.up-in Selected
+						h1.typed 
+							span.mask-container
+								span.up-in Works
+						span.year-range 
+							span.mask-container
+								span.up-in ( 15 - 19 )
 					
 					+project-cover("col-8", "img/covers/03_wif.jpg", "Walk in Faith", "The Monacelli Press", "walk-in-faith.html", "pushdown--sm")
 

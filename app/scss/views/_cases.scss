@@ -207,28 +207,7 @@
 		}
 
 		.back-top{
-			position: relative;
-			display: inline-block;
-			width: 16.66%;
-			padding-right: 9px;
-			cursor: pointer;
-			text-align: right;
 			font-size: .85em;
-			font-family: 'Founders-L', sans-serif;
-			font-weight: 100;
-			@include smoothFont;
-
-			&:after{
-				content: '';
-				display: inline-block;
-				width: 4px;
-				height: 4px;
-				border-radius: 50%;
-				position: relative;
-				margin-left: 24px;
-				top: -3px;
-				background-color: $black-gray;
-			}
 		}
 	}
 }

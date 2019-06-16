@@ -24,12 +24,20 @@
 			text-decoration: none;
 		}
 	}
-	.back-top{
-		display: inline-block;
-		position: relative;
-		width: 16.66%;
-		cursor: pointer;
-		text-align: right;
+}
+
+.back-top{
+	display: inline-block;
+	position: relative;
+	width: 16.66%;
+	text-align: right;
+	font-family: 'Founders-L', sans-serif;
+	font-weight: 100;
+	@include smoothFont;
+	
+	a{
+		text-decoration: none;
+		color: inherit;
 
 		&:after{
 			content: '';
@@ -41,6 +49,16 @@
 			margin-left: 24px;
 			top: -3px;
 			background-color: $black-gray;
+			@include transitions-ease(.4s);
+			opacity: 0;
+			@include translate(-10px, 0);
+		}
+
+		&:hover{
+			&:after{
+				opacity: 1;
+				@include translate(0, 0);
+			}
 		}
 	}
 }

@@ -86,8 +86,30 @@
 			
 			a{
 				height: 100%;
-				line-height: 140px;
+				line-height: 144px;
 				padding: 0 15px;
+
+				&:after{
+					content: '';
+					position: absolute;
+					margin: auto;
+					bottom: 45px;
+					left: 0; right: 0;
+					width: 5px;
+					height: 5px;
+					border-radius: 50%;
+					background-color: $black-gray;
+					@include transitions-ease(.4s);
+					opacity: 0;
+					@include translate(0,-10px);
+				}
+
+				&:hover, &.active{
+					&:after{
+						opacity: 1;
+						@include translate(0,0);
+					}
+				}
 			}
 		}
 	}
@@ -114,6 +136,16 @@
 		& + #menu-window{
 			opacity: 1;
 			pointer-events: auto;
+		}
+
+		.sections-wrap{
+			li {
+				a{
+					&:after{
+						background-color: #fff;
+					}
+				}
+			}
 		}
 	}
 }

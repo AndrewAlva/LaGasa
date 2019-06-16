@@ -1,0 +1,26 @@
+.mask-container{
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	overflow: hidden;
+	height: 100%;
+	
+	&.padded-r{
+		padding-right: 15px;
+		// padding-bottom: 15px;
+		@include content-box;
+	}
+
+	.up-in{
+		position: relative;
+		display: block;
+		@include translate(0, 105%);
+		@include transitions-ease(1s);
+		opacity: .5;
+
+		&.active{
+			@include translate(0, 0);
+			opacity: 1;
+		}
+	}
+}

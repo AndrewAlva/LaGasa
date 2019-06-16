@@ -1,8 +1,12 @@
 mixin project-cover(size_position, img, title, client, link, extra_classes)
 	.project-cover(class="#{size_position} #{extra_classes}")
 		a(href="#{link}")
-			.photo-wrap
+			figure.photo-wrap
 				img(src="#{img}", alt="#{title}")
 
-			.title #{title}
-			.client for #{client}
+			.title 
+				span.mask-container
+					span.up-in #{title}
+			.client 
+				span.mask-container
+					span.up-in for #{client}

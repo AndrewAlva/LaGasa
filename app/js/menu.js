@@ -128,6 +128,7 @@
 	function menuRender() {
 		mb_ImgShifter.updatePosition(mousePosition.x, mousePosition.y);
 		mb_ImgShifter.displaceImgs();
+		TWEEN.update();
 	}
 
 

@@ -22,10 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var pFilters = document.getElementById('proj-filters');
     if (pFilters) {
         Filters = {
-            areVisible: true,
+            areVisible: false,
             categories: document.getElementsByClassName('filter'),
             showTrigger: document.getElementById('filters-trigger'),
-
             showListener: function() {
                 var _this = this;
                 this.showTrigger.addEventListener('click', function() {
@@ -89,8 +88,8 @@ window.onload = function() {
     console.log("Page fully loaded.");
     console.log("Initialize.js");
     var cursor = new Cursor();
-	RAF.add(cursor);
-	// scroll
-	var scroll = new Scroll();
+    RAF.add(cursor);
+    // scroll
+    var scroll = new Scroll();
     RAF.add(scroll);
 }

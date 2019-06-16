@@ -1,13 +1,14 @@
-mixin filter(link, name, quantity, active)
-	a(href="#{link}" class="filter show #{active}")
+mixin filter(link, name, quantity, active="")
+	a(href="#{link}" class="filter #{active}")
 		span.name #{name}
 		span.qty #{quantity}
 
 header#proj-filters.filters-wrap
-	#filters-trigger.descriptor Filter by.
+	#filters-trigger.descriptor
+		span.mask-container
+			span.up-in Filter by.
 
 	nav.categories
-		+filter("#", "All", 12)
-		//- +filter("#", "All", 12, "active")
-		//- +filter("#", "Books", 9)
-		//- +filter("#", "Branding", 3)
+		+filter("#", "All", 12, "active")
+		+filter("#", "Books", 9)
+		+filter("#", "Branding", 3)

@@ -185,7 +185,7 @@ var Cursor = function() {
         this.update();
     }
 
-    this.onResize = function(w, h) {
+    this.onResize = function() {
         canvas.width = MaxWidth;
         canvas.height = MaxHeight;
     }
