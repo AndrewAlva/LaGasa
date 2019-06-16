@@ -4,7 +4,7 @@ mixin case_title(title)
 
 
 mixin case_cover(halfsrc, alt)
-	._cover
+	figure._cover.scrollTransform
 		img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
@@ -35,7 +35,7 @@ mixin case_description(description, bookURL, cta='Book details')
 
 
 mixin case_detailview(halfsrc, alt, position)
-	.full-image(class="#{position}")
+	figure.full-image.scrollTransform(class="#{position}")
 		img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
@@ -54,7 +54,7 @@ mixin case_nextproject(title, url)
 	footer.next-project
 		h5.subtitle Next Project
 		h2.title
-			a(href="#{url}") #{title}
+			a(href="#{url}").change-page #{title}
 
 		.back-top 
 			a(href="#" onclick="toTop()") Back to top

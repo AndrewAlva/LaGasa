@@ -27,6 +27,7 @@
 			position: relative;
 			width: 100%;
 			margin-bottom: 120px;
+			overflow: hidden;
 
 			img{
 				display: block;
@@ -138,6 +139,7 @@
 			.full-image{
 				position: relative;
 				width: 100%;
+				overflow: hidden;
 
 				&.middle{
 					margin-bottom: 180px;
@@ -209,5 +211,115 @@
 		.back-top{
 			font-size: .85em;
 		}
+	}
+}
+
+// Cases images bg color
+#lil-wrapper{
+	._cover{
+		background-color: #f2e5dc;
+	}
+
+	.full-image{
+		background-color: #fdf4e8;
+	}
+}
+#trb-wrapper{
+	._cover{
+		background-color: #fcf2f4;
+	}
+
+	.full-image{
+		background-color: #faf4f8;
+	}
+}
+#wif-wrapper{
+	._cover{
+		background-color: #f3f5f2;
+	}
+
+	.full-image{
+		background-color: #f3f3f1;
+	}
+}
+#tbh-wrapper{
+	._cover{
+		background-color: #f2e5dc;
+	}
+
+	.full-image{
+		background-color: #fdf4e8;
+	}
+}
+#odt-wrapper{
+	._cover{
+		background-color: #d8eff5;
+	}
+
+	.full-image{
+		background-color: #e9f7f8;
+	}
+}
+#bs-wrapper{
+	._cover{
+		background-color: #f6f6ea;
+	}
+
+	.full-image{
+		background-color: #f7f7ed;
+	}
+}
+#gtg-wrapper{
+	._cover{
+		background-color: #faf4f8;
+	}
+
+	.full-image{
+		background-color: #faf4f8;
+	}
+}
+#mg-wrapper{
+	._cover{
+		background-color: #fdf3e7;
+	}
+
+	.full-image{
+		background-color: #fdf4e8;
+	}
+}
+#ohr-wrapper{
+	._cover{
+		background-color: #f3f5f2;
+	}
+
+	.full-image{
+		background-color: #f3f3f1;
+	}
+}
+#fs-wrapper{
+	._cover{
+		background-color: #faf4f8;
+	}
+
+	.full-image{
+		background-color: #faf4f8;
+	}
+}
+#mov-wrapper{
+	._cover{
+		background-color: #fefaf6;
+	}
+
+	.full-image{
+		background-color: #fefaf6;
+	}
+}
+#st-wrapper{
+	._cover{
+		background-color: #f3f3f1;
+	}
+
+	.full-image{
+		background-color: #f3f3f1;
 	}
 }

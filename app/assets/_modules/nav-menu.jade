@@ -2,18 +2,18 @@ include socialmedia-list.jade
 
 nav#main-menu
 	.logo-wrap 
-		a(href="index.html")
+		a(href="index.html" title="Work Page")
 			h1 Suze LaGasa
 
 	#menu-trigger.toggle-wrap
 
 	ul.sections-wrap
 		li 
-			a(href="index.html").active Work
+			a(href="index.html" title="Work Page").change-page.active Work
 		li 
-			a(href="bio.html") Bio
+			a(href="bio.html" title="Bio Page").change-page Bio
 		li 
-			a(href="contact.html") Contact
+			a(href="contact.html" title="Contact Page").change-page Contact
 
 section#menu-window
 	.inner-wrapper
@@ -45,13 +45,13 @@ section#menu-window
 						p 
 							|Mandelbrot
 							br
-							a(href="https://dribbble.com/mandelbrotstudio" target="_blank") https://dribbble.com/mandelbrotstudio
+							a(href="https://dribbble.com/mandelbrotstudio" target="_blank" title="Dribbble of Mandelbrot Studio") https://dribbble.com/mandelbrotstudio
 
 						p 
 							|This website was set in Founders Grotesk, designed by 
-							a(href="https://klim.co.nz" target="_blank") Klim Type Foundry 
+							a(href="https://klim.co.nz" target="_blank" title="Klim Type Foundry Website") Klim Type Foundry 
 							|based in Wellington, New Zealand; & Saol Display, designed by 
-							a(href="https://www.schick-toikka.com" target="_blank") Schick Toikka 
+							a(href="https://www.schick-toikka.com" target="_blank" title="Schick Toikka Website") Schick Toikka 
 							|located in Berlin and Helsinki.
 
 				#projects-shifter.menu-col.right
@@ -60,31 +60,31 @@ section#menu-window
 							li.typeof Books
 
 							li.title(data-id="0")
-								a(href="live-in-light.html")
+								a(href="live-in-light.html" title="Live in Light project").change-page
 									span.underline Live in Light
 							li.title(data-id="1")
-								a(href="trb.html")
+								a(href="trb.html" title="Rooftop Beekeper project").change-page
 									span.underline Rooftop Beekeper
 							li.title(data-id="2")
-								a(href="walk-in-faith.html")
+								a(href="walk-in-faith.html" title="Walk in Faith project").change-page
 									span.underline Walk in Faith
 							li.title(data-id="3")
-								a(href="tbh.html")
+								a(href="tbh.html" title="TBH project").change-page
 									span.underline TBH
 							li.title(data-id="4")
-								a(href="one-days-tale.html")
+								a(href="one-days-tale.html" title="One Day's Tale project").change-page
 									span.underline One Day's Tale
 							li.title(data-id="5")
-								a(href="brooklyn-spaces.html")
+								a(href="brooklyn-spaces.html" title="Brooklyn Spaces project").change-page
 									span.underline Brooklyn Spaces
 							li.title(data-id="6")
-								a(href="getting-to-good.html")
+								a(href="getting-to-good.html" title="Getting to Good project").change-page
 									span.underline Getting to Good
 							li.title(data-id="7")
-								a(href="mean-girls.html")
+								a(href="mean-girls.html" title="Mean Girls project").change-page
 									span.underline Mean Girls
 							li.title(data-id="8")
-								a(href="o-homem-razoavel.html")
+								a(href="o-homem-razoavel.html" title="O Homem Razoável project").change-page
 									span.underline O Homem Razoável
 
 
@@ -92,13 +92,13 @@ section#menu-window
 							li.typeof Branding
 
 							li.title(data-id="9")
-								a(href="farrah-sit.html")
+								a(href="farrah-sit.html" title="Farrah Sit project").change-page
 									span.underline Farrah Sit
 							li.title(data-id="10")
-								a(href="movetes.html")
+								a(href="movetes.html" title="Movetes project").change-page
 									span.underline Movetes
 							li.title(data-id="11")
-								a(href="speech-tank.html")
+								a(href="speech-tank.html" title="Speech Tank project").change-page
 									span.underline Speech Tank
 
 					.projects-canvas

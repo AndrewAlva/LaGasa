@@ -1,6 +1,12 @@
 // Default style
-*{
+html{
 	@include border-box;
+	@include unselectable;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+	user-select: inherit;
 }
 
 body{
@@ -32,6 +38,16 @@ canvas{
 	position: absolute;
 	// pointer-events: none;
 	cursor: none;
+}
+
+#preloader{
+	z-index: 999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
 }
 
 #main-wrapper{

@@ -214,6 +214,8 @@
 			// max-width: 550px;
 			max-width: 585px;
 			@include flexIt;
+			@include flex-spacebetween;
+			@include flex-alignCenter;
 		}
 	}
 
@@ -299,6 +301,7 @@
 					.underline{
 						position: relative;
 						display: inline-block;
+						pointer-events: none;
 
 						&:before{
 							content: '';

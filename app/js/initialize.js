@@ -80,6 +80,8 @@ document.addEventListener('DOMContentLoaded', function() {
         mb_ImgShifter.init();
         menuAnimate();
     }
+
+    App.init();
 });
 
 var App = {
@@ -89,6 +91,11 @@ var App = {
         RAF.add(App.scroll);
         RAF.init();
         App.addEvents();
+
+        if(window.location.href.indexOf('intro.html') > 0){
+            var cursor = new Cursor();
+            RAF.add(cursor);
+        }
     },
     addEvents: function() {
         var elements = document.getElementsByClassName("change-page");
@@ -106,19 +113,12 @@ var App = {
     }
 }
 
-App.init();
 // Trigger functions after page is completely loaded
 window.onload = function() {
-    // Do something, remove preloader perhaps
-    console.log("Page fully loaded.");
-    console.log("Initialize.js");
-    if(window.location.href.indexOf('intro.html') > 0){
-        var cursor = new Cursor();
-        RAF.add(cursor);
-    }
+    
     // scroll
-    var scroll = new Scroll();
-    RAF.add(scroll);
+    // var scroll = new Scroll();
+    // RAF.add(scroll);
     Preloader.loaded();
-    RAF.init();
+    
 }

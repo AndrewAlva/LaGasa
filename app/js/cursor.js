@@ -45,8 +45,10 @@ var Cursor = function() {
         this.string = "";
 
         setTimeout(function() {
-            _this.color = '#f60';
-            window.location = window.location.origin + "/index.html";
+            // window.location = window.location.origin + "/index.html";
+            Preloader.show(function(){
+                window.location = window.location.origin + "/index.html"
+            });
         }, 300);
     }
 

@@ -59,6 +59,7 @@
 	}
 
 	a{
+		display: block;
 		text-decoration: none;
 		color: inherit;
 	}
@@ -69,13 +70,13 @@
 		width: 100%;
 		margin-bottom: 35px;
 		overflow: hidden;
-		// z-index: -1;
+		pointer-events: none;
 		// background-color: rgba(0,0,0,0.05);
 		img {
 			// opacity: 0.5;
 			display: block;
 			width: 100%;
-			@include ease-long-transform(1s);
+			@include ease-long-transform(2s);
 		}
 	}
 
@@ -84,7 +85,8 @@
 			img{
 				// opacity: 1;
 				// @include scale(1.07, 1.07);
-				transform: scale(1) !important;
+				transform: scale(1.05);
+				@include ease-long-transform(3s);
 			}
 		}
 
