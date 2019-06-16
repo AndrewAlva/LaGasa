@@ -1,11 +1,7 @@
 @mixin border-box{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 @mixin content-box{
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
@@ -17,165 +13,85 @@
 }
 
 @mixin transitions-ease($timing){
-	-webkit-transition: all $timing cubic-bezier(.3,0,.2,1);
-	   -moz-transition: all $timing cubic-bezier(.3,0,.2,1);
-	    -ms-transition: all $timing cubic-bezier(.3,0,.2,1);
-	     -o-transition: all $timing cubic-bezier(.3,0,.2,1);
 	        transition: all $timing cubic-bezier(.3,0,.2,1);
 }
 @mixin ease-long-transform($timing){
-	-webkit-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
-	   -moz-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
-	    -ms-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
-	     -o-transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
-	        transition: transform $timing cubic-bezier(.165,.84,.44,1), -webkit-transform $timing cubic-bezier(.165,.84,.44,1);
+	
+	        transition: all $timing cubic-bezier(.165,.84,.44,1);
 }
 
 @mixin transitions-bounce($timing){
-	-webkit-transition: all $timing cubic-bezier(.3,0,.2,3);
-	   -moz-transition: all $timing cubic-bezier(.3,0,.2,3);
-	    -ms-transition: all $timing cubic-bezier(.3,0,.2,3);
-	     -o-transition: all $timing cubic-bezier(.3,0,.2,3);
+	
 	        transition: all $timing cubic-bezier(.3,0,.2,3);
 }
 
 @mixin ease-target($target, $timing){
-	-webkit-transition: $target $timing cubic-bezier(.3,0,.2,1);
-	   -moz-transition: $target $timing cubic-bezier(.3,0,.2,1);
-	    -ms-transition: $target $timing cubic-bezier(.3,0,.2,1);
-	     -o-transition: $target $timing cubic-bezier(.3,0,.2,1);
+	
 	        transition: $target $timing cubic-bezier(.3,0,.2,1);
 }
 
 @mixin transform-origin($X, $Y){
-	-webkit-transform-origin: $X $Y;
-	-ms-transform-origin: $X $Y;
 	transform-origin: $X $Y;
 }
 
 @mixin translate($Xmove, $Ymove){
-	-webkit-transform: translate($Xmove, $Ymove);
-	-moz-transform: translate($Xmove, $Ymove);
-	-ms-transform: translate($Xmove, $Ymove);
-	-o-transform: translate($Xmove, $Ymove);
 	transform: translate($Xmove, $Ymove);
 }
 
 @mixin rotate($degs){
-	-webkit-transform: -webkit-rotate($degs);
-	-webkit-transform: rotate($degs);
-	-moz-transform: rotate($degs);
-	-ms-transform: rotate($degs);
-	-o-transform: rotate($degs);
 	transform: rotate($degs);
 }
 
 @mixin skew($degs){
-	-webkit-transform: skew($degs);
-       -moz-transform: skew($degs);
-        -ms-transform: skew($degs);
-         -o-transform: skew($degs);
             transform: skew($degs)
 }
 
 @mixin translate-rotate($Xmove, $Ymove, $degs){
-	-webkit-transform: -webkit-translate($Xmove, $Ymove) -webkit-rotate($degs);
-	-webkit-transform: translate($Xmove, $Ymove) rotate($degs);
-	-moz-transform: translate($Xmove, $Ymove) rotate($degs);
-	-ms-transform: translate($Xmove, $Ymove) rotate($degs);
-	-o-transform: translate($Xmove, $Ymove) rotate($degs);
 	transform: translate($Xmove, $Ymove) rotate($degs);
 }
 
 @mixin translate-scale($Xmove, $Ymove, $Xscale, $Yscale){
-	-webkit-transform: -webkit-translate($Xmove, $Ymove) -webkit-scale($Xscale, $Yscale);
-	-webkit-transform: translate($Xmove, $Ymove) scale($Xscale, $Yscale);
-	-moz-transform: translate($Xmove, $Ymove) scale($Xscale, $Yscale);
-	-ms-transform: translate($Xmove, $Ymove) scale($Xscale, $Yscale);
-	-o-transform: translate($Xmove, $Ymove) scale($Xscale, $Yscale);
 	transform: translate($Xmove, $Ymove) scale($Xscale, $Yscale);
 }
 
 @mixin scale($X, $Y){
-	-webkit-transform: scale($X, $Y);
-	-moz-transform: scale($X, $Y);
-	-ms-transform: scale($X, $Y);
-	-o-transform: scale($X, $Y);
 	transform: scale($X, $Y);
 }
 
 @mixin flexIt{
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
 	display: flex;
 }
 
 @mixin flex-direction($direction){
 	@if $direction == vertical {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		-moz-box-orient: vertical;
-		-moz-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
 	@else {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		-moz-box-orient: horizontal;
-		-moz-box-direction: normal;
-		-ms-flex-direction: row;
 		flex-direction: row;
 	}
 }
 
 @mixin flex-spacebetween{
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-moz-box-pack: justify;
-	-ms-flex-pack: justify;
 	justify-content: space-between;
 }
 
 @mixin flex-alignCenter{
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-moz-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 }
 
 @mixin flex-grow($ratio){
-	-webkit-box-flex: $ratio;
-	-webkit-flex-grow: $ratio;
-	-moz-box-flex: $ratio;
-	-ms-flex-positive: $ratio;
 	flex-grow: $ratio;
 }
 
 @mixin flex-stretch{
-	-webkit-box-align: stretch;
-	-webkit-align-items: stretch;
-	-moz-box-align: stretch;
-	-ms-flex-align: stretch;
 	align-items: stretch;
 }
 @mixin flexself-stretch{
-	-webkit-align-self: stretch;
-	-ms-flex-item-align: stretch;
-	-ms-grid-row-align: stretch;
 	align-self: stretch;
 }
 
 @mixin unselectable{
-	-webkit-user-select: none;  /* Chrome all / Safari all */
-	-moz-user-select: none;     /* Firefox all */
-	-ms-user-select: none;      /* IE 10+ */
 	user-select: none;
 }
 
