@@ -82,6 +82,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+var App = {
+    scroll: null,
+    init: function() {
+        App.scroll = new Scroll();
+        RAF.add(App.scroll);
+        RAF.init();
+        App.addEvents();
+    },
+    addEvents: function() {
+        var elements = document.getElementsByClassName("change-page");
+        for (var i = 0; i < elements.length; i++) {
+            var el = elements[i];
+            el.addEventListener("click", App.changePage, false);
+        }
+    },
+    changePage: function(e) {
+        e.preventDefault();
+        var href = e.target.getAttribute("href");
+        Preloader.show(function() {
+            window.location.href = href;
+        });
+    }
+}
+
+App.init();
 // Trigger functions after page is completely loaded
 window.onload = function() {
     // Do something, remove preloader perhaps
@@ -92,4 +117,5 @@ window.onload = function() {
     // scroll
     var scroll = new Scroll();
     RAF.add(scroll);
+    Preloader.loaded();
 }
