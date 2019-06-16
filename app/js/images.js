@@ -1,6 +1,6 @@
 var Scroll = function() {
     var scroll_y = window.scrollY;
-    var figures = document.getElementsByTagName("figure");
+    var figures = document.getElementsByClassName("scrollTransform");
     this.els = [];
     this.init = function() {
         for (var i = 0; i < figures.length; i++) {
@@ -24,20 +24,42 @@ var Figure = function(el) {
     this.scale = 1;
     this.height = el.getBoundingClientRect().height;
     this.img = this.el.children[0];
-    this.center = this.el.offsetTop + (this.height / 2);
+    // this.center = this.el.offsetTop + (this.height / 2);
+    this.center = getY(this.el) + (this.height / 2);
     this.max_scroll = this.center + (this.height);
     this.dist = 0;
     this.scrollY = 0;
+    // addMarker(this.center, "red");
+    // addMarker(this.max_scroll, "green");
     this.render = function(_y) {
-        this.scrollY += (_y - this.scrollY) * 0.1;
+        this.scrollY += (_y - this.scrollY) * 0.5;
         this.dist = this.scrollY - this.center;
         this.near = (1 - this.dist / this.max_scroll);
-        this.scale = Math.max(0.5, this.near);
-        var translateY = 100 - (this.scale * 100);
-        this.img.style = "opacity: " + this.near + "; transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
+        this.scale = Math.max(0.7, this.near)*0.9;
+        var translateY = 200 - (this.scale * 200);
+        this.img.style = "transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
+        // this.img.style = "opacity: " + this.near + "; transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
         if (window.scrollY > this.max_scroll) {
             this.scrollY = this.max_scroll;
         }
     }
     return this;
+}
+
+function addMarker(n, color) {
+    var span = document.createElement("b");
+    span.innerText = n;
+    span.style = "top: " + n + "px; background-color: " + color;
+    document.body.appendChild(span);
+
+}
+
+
+function getY( el ) {
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _y += el.offsetTop - el.scrollTop;
+        el = el.offsetParent;
+    }
+    return _y;
 }

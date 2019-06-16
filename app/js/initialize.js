@@ -87,9 +87,13 @@ window.onload = function() {
     // Do something, remove preloader perhaps
     console.log("Page fully loaded.");
     console.log("Initialize.js");
-    var cursor = new Cursor();
-    RAF.add(cursor);
+    if(window.location.href.indexOf('intro.html') > 0){
+        var cursor = new Cursor();
+        RAF.add(cursor);
+    }
     // scroll
     var scroll = new Scroll();
     RAF.add(scroll);
+
+    RAF.init();
 }

@@ -65,21 +65,26 @@
 
 	.photo-wrap{
 		position: relative;
+		display: inline-block;
 		width: 100%;
 		margin-bottom: 35px;
 		overflow: hidden;
-
-		img{
+		// z-index: -1;
+		// background-color: rgba(0,0,0,0.05);
+		img {
+			// opacity: 0.5;
 			display: block;
 			width: 100%;
-			@include ease-long-transform(2s);
+			@include ease-long-transform(1s);
 		}
 	}
 
 	&:hover{
 		.photo-wrap{
 			img{
-				@include scale(1.07, 1.07);
+				// opacity: 1;
+				// @include scale(1.07, 1.07);
+				transform: scale(1) !important;
 			}
 		}
 
