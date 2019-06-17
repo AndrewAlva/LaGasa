@@ -12,13 +12,15 @@ var Menu = {
         this.addEvents();
     },
     addEvents: function() {
-        this.menuBtn.addEventListener('click', function() {
-            if (Menu.opened) {
-                Menu.opened = Menu.close();
-            } else {
-                Menu.opened = Menu.open();
-            }
-        });
+        if (this.menuBtn) {
+            this.menuBtn.addEventListener('click', function() {
+                if (Menu.opened) {
+                    Menu.opened = Menu.close();
+                } else {
+                    Menu.opened = Menu.open();
+                }
+            });
+        }
     },
     open: function() {
         Menu.wrapper.classList.add('opened');

@@ -36,13 +36,15 @@ var ProjectPreloader = function() {
 
     this.currentTitle = document.getElementById('currentTitle');
     this.currentX = getY(this.currentTitle);
+    this.currentString = this.currentTitle.innerText;
+    this.currentChars = [];
 
     this.nextTitle = document.getElementById('nextTitle');
     this.nextX = this.nextTitle.getBoundingClientRect().top;
     this.nextString = this.nextTitle.innerText;
     // this.nextString = this.nextTitle.innerText.split(" ").join("_");
-    this.chars = [];
-    this.charsDelay = 20;
+    this.nextChars = [];
+    this.charsDelay = 12;
 
     this.splitString = function(string, charsArray){
         for (var i = 0; i < string.length; i++) {
@@ -50,27 +52,27 @@ var ProjectPreloader = function() {
         }
     }
 
-    this.createSpans = function(){
+    this.createSpans = function(target, charsArray){
         var string = "";
-        this.nextTitle.innerHTML = "";
-        for (var i = 0; i < this.chars.length; i++) {
-            var _space_class = this.chars[i] == " " ? "title-space" : "";
-            string += "<span class='"+_space_class+"'>" + _self.chars[i] + "</span>";
+        target.innerHTML = "";
+        for (var i = 0; i < charsArray.length; i++) {
+            var _space_class = charsArray[i] == " " ? "title-space" : "";
+            string += "<span class='"+_space_class+"'>" + charsArray[i] + "</span>";
         }
-        this.nextTitle.innerHTML = string;
+        target.innerHTML = string;
     }
 
-    this.applyTransform = function(){
+    this.applyTransform = function(target){
         var titlesDistance = this.nextX - this.currentX;
         // this.nextTitle.style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
         setTimeout(function(){
-            for (var i = 0; i < this.nextTitle.children.length; i++) {
+            for (var i = 0; i < target.children.length; i++) {
                 (function(i){
                     setTimeout(function(){
-                        _self.nextTitle.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
+                        target.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
                     }, (i * _self.charsDelay));
 
-                    if (i == _self.nextTitle.children.length - 1) {
+                    if (i == target.children.length - 1) {
                         setTimeout(function(){
                             _self.hide();
                         }, 1000 + (i * _self.charsDelay))
@@ -104,8 +106,11 @@ var ProjectPreloader = function() {
     };
 
     this.init = function(){
-        this.splitString(this.nextString, this.chars);
-        this.createSpans();
-        this.applyTransform();
+        this.splitString(this.currentString, this.currentChars);
+        this.createSpans(this.currentTitle, this.currentChars);
+
+        this.splitString(this.nextString, this.nextChars);
+        this.createSpans(this.nextTitle, this.nextChars);
+        this.applyTransform(this.nextTitle);
     }
 }
