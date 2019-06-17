@@ -1,6 +1,5 @@
 #main-menu {
 	z-index: 10000;
-	// position: absolute;
 	position: fixed;
 	width: 140px;
 	height: 100%;
@@ -12,6 +11,7 @@
 	z-index: 11;
 	transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 	transition-delay: 450ms;
+
 	a {
 		display: block;
 		text-decoration: none;
@@ -140,15 +140,18 @@
 		transition: transform 800ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 		transition-delay: 400ms;
 	}
+
 	&.opened {
 		color: #fff;
 		border-left: 1px solid rgba(255, 255, 255, .1);
 		transition-delay: 0ms;
+
 		&:before {
 			transition: transform 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 			transform: translate(0%, 0%);
 			transition-delay: 0ms;
 		}
+
 		.toggle-wrap {
 			&:before, &:after {
 				background-color: #fff;
@@ -169,6 +172,7 @@
 		& + #menu-window {
 			pointer-events: auto;
 			transform: translate(0%, 0%);
+
 			.responsive-container {
 				transition-delay: 450ms;
 				opacity: 1;
@@ -225,20 +229,16 @@
 		margin: auto;
 		top: 0;
 		bottom: 0;
-		// left: auto;
 		right: 6%;
 		left: 0;
 		right: 0;
-		// width: 85%;
 		width: 100%;
 		max-width: 1400px;
 		height: 100%;
-		// padding: 80px 0;
 		padding-left: 7.3%;
 		padding-right: 3.3%;
 
 		@media (min-width:1441px) {
-			// padding: 140px 0;
 		}
 
 		@media (min-width:1700px) {
@@ -253,12 +253,10 @@
 		height: 100%;
 		font-family: 'Founders-L';
 		@include smoothFont;
-		// border: 1px solid #fff;
 
 		&.left {
 			left: 0;
 			width: 40%;
-			// max-width: 500px;
 			max-width: 467px;
 			padding: 80px 0;
 		}
@@ -266,7 +264,6 @@
 		&.right {
 			right: 0;
 			width: 50%;
-			// max-width: 550px;
 			max-width: 585px;
 			@include flexIt;
 			@include flex-spacebetween;
@@ -282,9 +279,6 @@
 	}
 
 	.socialmedia-list {
-		// position: absolute;
-		// top: 0;
-		// right: 0;
 		position: relative;
 		display: inline-block;
 		float: right;
@@ -294,7 +288,6 @@
 		position: absolute;
 		width: 100%;
 		bottom: 80px;
-		// font-size: .8em;
 
 		.section-label {
 			font-size: .7em;
@@ -339,7 +332,6 @@
 			}
 
 			.typeof {
-				// font-family: 'Saol';
 				font-size: .7em;
 				font-weight: 700;
 				margin-bottom: 7px;
@@ -352,7 +344,6 @@
 
 			.title {
 				line-height: 1em;
-				// margin-bottom: 10px;
 
 				a {
 					position: relative;
@@ -405,7 +396,6 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		// width: 260px;
 		width: 61.5%;
 		height: 100%;
 		overflow: hidden;
@@ -438,8 +428,8 @@
 }
 
 .menu-link {
-	transform: translate(0px, 30px);
 	opacity: 0;
+	transform: translate(0px, 30px);
 	transition: all 100ms linear;
 	&.active {
 		transition: all 600ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
