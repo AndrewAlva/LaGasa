@@ -39,9 +39,9 @@ var Figure = function(el) {
         var translateY = 200 - (this.scale * 200);
         this.img.style = "transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
         // this.img.style = "opacity: " + this.near + "; transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
-        if (window.scrollY > this.max_scroll) {
-            this.scrollY = this.max_scroll;
-        }
+        // if (window.scrollY > this.max_scroll) {
+        //     this.scrollY = this.max_scroll;
+        // }
     }
     return this;
 }

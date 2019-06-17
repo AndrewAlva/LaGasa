@@ -27,3 +27,26 @@ var Preloader = {
         }).start();
     }
 }
+
+
+var PreloaderProjects = function() {
+    this.el = null;
+    this.alpha = 1;
+
+    this.currentTitle = document.getElementById('currentTitle');
+    this.currentX = this.currentTitle.getBoundingClientRect().top;
+
+    this.nextTitle = document.getElementById('nextTitle');
+    this.nextX = this.nextTitle.getBoundingClientRect().top;
+
+    this.loaded = function(){}
+    this.hide = function(){}
+    this.show = function(callback){};
+
+    this.applyTransform = function(){
+        var titlesDistance = this.nextX - this.currentX;
+        this.nextTitle.style = "transform: translate3d(0px, " + titlesDistance + "px, 0px);";
+    }
+
+    this.init = function(){}
+}

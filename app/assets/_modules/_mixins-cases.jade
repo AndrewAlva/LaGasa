@@ -1,5 +1,5 @@
 mixin case_title(title)
-	h1._title #{title}
+	h1._title#currentTitle #{title}
 
 
 
@@ -58,3 +58,15 @@ mixin case_nextproject(title, url)
 
 		.back-top 
 			a(href="#" onclick="toTop()") Back to top
+
+
+mixin case_preloader(title)
+	.case-preloader
+		.content-grid
+			.inner-wrap
+				h2.goTo#nextTitle #{title}
+	
+
+
+
+

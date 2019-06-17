@@ -87,8 +87,6 @@ document.addEventListener('DOMContentLoaded', function() {
 var App = {
     scroll: null,
     init: function() {
-        App.scroll = new Scroll();
-        RAF.add(App.scroll);
         RAF.init();
         App.addEvents();
 
@@ -115,10 +113,11 @@ var App = {
 
 // Trigger functions after page is completely loaded
 window.onload = function() {
-    
     // scroll
-    // var scroll = new Scroll();
-    // RAF.add(scroll);
+    // DEBE ejecutarse aquí:
+    // después de terminar de cargar todas las imágenes
+    var scroll = new Scroll();
+    RAF.add(scroll);
     Preloader.loaded();
     
 }
