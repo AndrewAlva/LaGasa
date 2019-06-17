@@ -50,7 +50,7 @@ var Menu = {
         }, delay);
     }
 }
-Menu.init();
+
 // Opened menu
 // Projects cover shifter
 var mousePosition = {

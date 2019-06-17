@@ -71,10 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Opened menu
+    Menu.init();
     // Projects cover shifter init
     var pShifter = document.getElementById('projects-shifter');
     if (pShifter) {
-        mb_ImgShifter = new FollowObject({
+        var mb_ImgShifter = new FollowObject({
             "obj": document.getElementById('projects-shifter')
         });
         RAF.add(mb_ImgShifter);
@@ -88,7 +89,7 @@ var App = {
     init: function() {
         RAF.init();
         App.addEvents();
-
+        Bio();
         if(window.location.href.indexOf('intro.html') > 0){
             var cursor = new Cursor();
             RAF.add(cursor);
@@ -119,4 +120,6 @@ window.onload = function() {
     RAF.add(scroll);
     Preloader.loaded();
     
+    var pPreload = new ProjectPreloader();
+    pPreload.init();
 }

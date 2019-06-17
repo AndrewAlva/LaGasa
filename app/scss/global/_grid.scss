@@ -3,12 +3,13 @@
 	padding-top: 140px;
 	// padding-left: 14.6%;
 	// padding-right: 6.7%;
-	padding-left: 7.3%;
-	padding-right: 3.3%;
 	width: 100%;
 	max-width: 1400px;
 	margin: 0 auto;
-
+	@include desktop {
+		padding-left: 7.3%;
+		padding-right: 3.3%;
+	}
 	@media (min-width: 1441px){
 		padding-top: 220px;
 	}

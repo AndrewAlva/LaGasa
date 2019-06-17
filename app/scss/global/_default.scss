@@ -64,9 +64,12 @@ canvas{
 
 	&.has-menu{
 		padding-right: 140px;
-
 		@media (min-width: 1700px){
 			padding-right: 0;
+		}
+		// Estilo MOBILE
+		@media (max-width: 768px) {
+			padding: 15px 0px;
 		}
 	}
 }
@@ -181,4 +184,9 @@ canvas{
 			opacity: .3;
 		}
 	}
+}
+
+
+img {
+	max-width: 100%;
 }
