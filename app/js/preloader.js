@@ -31,7 +31,7 @@ var Preloader = {
 
 var ProjectPreloader = function() {
     var _self = this;
-    this.el = null;
+    this.el = document.getElementById('case-preloader');
     this.alpha = 1;
 
     this.currentTitle = document.getElementById('currentTitle');
@@ -42,14 +42,11 @@ var ProjectPreloader = function() {
     this.nextString = this.nextTitle.innerText;
     // this.nextString = this.nextTitle.innerText.split(" ").join("_");
     this.chars = [];
+    this.charsDelay = 20;
 
-    this.loaded = function(){}
-    this.hide = function(){}
-    this.show = function(callback){};
-
-    this.splitString = function(){
-        for (var i = 0; i < this.nextString.length; i++) {
-            _self.chars.push(_self.nextString.charAt(i))
+    this.splitString = function(string, charsArray){
+        for (var i = 0; i < string.length; i++) {
+            charsArray.push(string.charAt(i))
         }
     }
 
@@ -66,19 +63,48 @@ var ProjectPreloader = function() {
     this.applyTransform = function(){
         var titlesDistance = this.nextX - this.currentX;
         // this.nextTitle.style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
-        for (var i = 0; i < this.nextTitle.children.length; i++) {
-            (function(i){
-                setTimeout(function(){
-                    _self.nextTitle.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
-                }, (i * 50));
-            })(i);
-        }
+        setTimeout(function(){
+            for (var i = 0; i < this.nextTitle.children.length; i++) {
+                (function(i){
+                    setTimeout(function(){
+                        _self.nextTitle.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
+                    }, (i * _self.charsDelay));
+
+                    if (i == _self.nextTitle.children.length - 1) {
+                        setTimeout(function(){
+                            _self.hide();
+                        }, 1000 + (i * _self.charsDelay))
+                    }
+                })(i);
+            }
+        }, 500);
     }
 
+
+    this.loaded = function(){
+        this.hide();
+    }
+    this.hide = function(){
+        new TWEEN.Tween(_self).to({
+            alpha: 0
+        }, 600).onUpdate(function() {
+            _self.el.style = "opacity: " + _self.alpha
+        }).onComplete(function() {
+            _self.el.style = "display: none";
+        }).start();
+    }
+    this.show = function(callback){
+        new TWEEN.Tween(_self).to({
+            alpha: 1
+        }, 300).onUpdate(function() {
+            _self.el.style = "opacity: " + _self.alpha
+        }).onComplete(function() {
+            if (callback) callback();
+        }).start();
+    };
+
     this.init = function(){
-        console.log('currentX: ' + this.currentX);
-        console.log('nextX: ' + this.nextX);
-        this.splitString();
+        this.splitString(this.nextString, this.chars);
         this.createSpans();
         this.applyTransform();
     }
