@@ -30,6 +30,10 @@ var Menu = {
         for (var i = 0, l = els.length; i < l; ++i) {
             Menu.setActive(els[i], i * 35 + 450);
         }
+        var els = document.getElementsByClassName("section-link");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            Menu.setActive(els[i], i * 35 + 450);
+        }
         return true;
     },
     close: function() {
@@ -39,6 +43,10 @@ var Menu = {
             els[i].classList.remove('active');
         }
         var els = document.getElementsByClassName("menu-link");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            els[i].classList.remove('active');
+        }
+        var els = document.getElementsByClassName("section-link");
         for (var i = 0, l = els.length; i < l; ++i) {
             els[i].classList.remove('active');
         }
