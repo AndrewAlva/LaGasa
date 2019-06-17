@@ -23,7 +23,7 @@
 		}
 	}
 	&.mask-menu {
-		width: 100%;
+		display: block;
 		span {
 			@include transitions-ease(600ms);
 		}
