@@ -1,24 +1,35 @@
-.mask-container{
+.mask-container {
 	position: relative;
 	vertical-align: top;
 	display: inline-block;
 	overflow: hidden;
-	height: 100%;
-	
-	&.padded-r{
+	// height: 100%;
+
+	&.padded-r {
 		padding-right: 15px;
 		// padding-bottom: 15px;
 		@include content-box;
 	}
-
-	.up-in{
+	span,
+	.up-in {
 		position: relative;
 		display: block;
 		@include translate(0, 105%);
 		@include transitions-ease(1s);
 		opacity: .5;
-
-		&.active{
+		&.active {
+			@include translate(0, 0);
+			opacity: 1;
+		}
+	}
+	&.mask-menu {
+		width: 100%;
+		span {
+			@include transitions-ease(600ms);
+		}
+	}
+	&.active {
+		span {
 			@include translate(0, 0);
 			opacity: 1;
 		}
