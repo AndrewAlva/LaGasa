@@ -5,6 +5,21 @@
 	box-sizing: content-box;
 }
 
+
+$desktop-width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
 @mixin smoothFont{
 	text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;

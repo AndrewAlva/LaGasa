@@ -24,11 +24,11 @@ var Menu = {
         Menu.wrapper.classList.add('opened');
         var els = document.getElementsByClassName("mask-menu");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.showEl(els[i], i * 60 + 150);
+            Menu.setActive(els[i], i * 60 + 150);
         }
         var els = document.getElementsByClassName("menu-link");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.showEl(els[i], i * 35 + 450);
+            Menu.setActive(els[i], i * 35 + 450);
         }
         return true;
     },
@@ -44,13 +44,13 @@ var Menu = {
         }
         return false;
     },
-    showEl: function(el, delay) {
+    setActive: function(el, delay) {
         setTimeout(function() {
             el.classList.add('active');
         }, delay);
     }
 }
-Menu.init();
+
 // Opened menu
 // Projects cover shifter
 var mousePosition = {
