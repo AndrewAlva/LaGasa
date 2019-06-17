@@ -106,6 +106,7 @@
 		bottom: 50vh;
 		z-index: 99;
 		@include smoothFont;
+		pointer-events: none;
 
 		@include desktop {
 			@include translate-rotate(0, 100%, 90deg);
@@ -130,7 +131,6 @@
 				transform: translateY(60px);
 				opacity: 0;
 				transition: all 100ms linear;
-				pointer-events: none;
 
 				&.active {
 					pointer-events: auto;
@@ -228,7 +228,7 @@
 		}
 
 		.sections-wrap {
-			display: block;
+			pointer-events: none;
 		}
 
 		.toggle-wrap {

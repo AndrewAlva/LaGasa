@@ -2,25 +2,54 @@
 	background-color: #fff;
 
 	.content-grid{
-		padding-top: 75px;
+		padding: 0px 15px;
+		@include desktop {
+			padding-top: 75px;
+		}
+		.project-cover {
+			@include mobile {
+				width: 100%;
+				margin: 0;
+				margin-bottom: 20px;
+				transform: none;
+				font-size: 16px;
+				figure {
+					margin-bottom: 5px;
+				}
+				&:first-child {
+					margin-top: 170px;
+				}
+			}
+		}
 	}
 
 	.projects-wrapper{
-		margin-bottom: 190px;
+		margin-bottom: 40px;
+		position: relative;
+		@include desktop {
+			margin-bottom: 190px;
+		}
+
 	}
 
 	.grid-title{
-		position: relative;
-		// padding-top: 125px;
-		padding-top: 20px;
-		padding-bottom: 190px;
 		color: $black-gray;
-		
+		position: absolute;
+		left: 0;
+		top: 30px;
+		@include desktop {
+			position: relative;
+			padding-top: 20px;
+			padding-bottom: 190px;
+		}
 		h1{
 			display: block;
-			font-size: 7em;
+			font-size: 3em;
 			font-weight: 100;
 			@include smoothFont;
+			@include desktop {
+				font-size: 7em;
+			}
 			line-height: .95em;
 			color: inherit;
 

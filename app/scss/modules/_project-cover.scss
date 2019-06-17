@@ -1,4 +1,4 @@
-.project-cover{
+.project-cover {
 	z-index: 1;
 	position: relative;
 	font-family: 'Founders-L', sans-serif;
@@ -9,7 +9,7 @@
 	&.align-top{
 		vertical-align: top;
 	}
-	&.down{
+	&.down {
 		&--third{
 			@include translate(0, 31.21%);
 		}
@@ -64,14 +64,16 @@
 		color: inherit;
 	}
 
-	.photo-wrap{
+	.photo-wrap {
 		position: relative;
 		display: inline-block;
 		width: 100%;
-		margin-bottom: 35px;
 		overflow: hidden;
 		pointer-events: none;
 		// background-color: rgba(0,0,0,0.05);
+		@include desktop {
+			margin-bottom: 35px;
+		}
 		img {
 			// opacity: 0.5;
 			display: block;

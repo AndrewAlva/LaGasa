@@ -1,8 +1,10 @@
 .filters-wrap{
 	display: inline-block;
-	margin-bottom: 120px;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
+	@include desktop {
+		margin-bottom: 120px;
+	}
 	@include unselectable;
 
 	.descriptor{
