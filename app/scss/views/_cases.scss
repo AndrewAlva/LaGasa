@@ -33,6 +33,8 @@
 				padding: 0;
 			}
 
+			span{display: inline-block;}
+
 		}
 
 		._cover {
@@ -312,17 +314,12 @@
 
 }
 
-<<<<<<< HEAD
-.case-preloader{
+
+.case-preloader {
 	// display: none;
 	// opacity: .1;
-=======
-.case-preloader {
-	display: none;
-	opacity: .1;
->>>>>>> e4c4f138a37e24e61d7c9ec440cd4f0d6f769ce5
 	pointer-events: none;
-	z-index: 999;
+	z-index: 10;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -359,13 +356,8 @@
 
 }
 
-<<<<<<< HEAD
 span.title-space{
 	width: 14px;
-=======
-span.title-space {
-	width: 30px;
->>>>>>> e4c4f138a37e24e61d7c9ec440cd4f0d6f769ce5
 }
 
 // Cases images bg color
