@@ -120,4 +120,6 @@ window.onload = function() {
     RAF.add(scroll);
     Preloader.loaded();
     
+    var pPreload = new ProjectPreloader();
+    pPreload.init();
 }

@@ -238,14 +238,23 @@
 	}
 
 	.goTo{
+			width: 100vw;
 		position: absolute;
 		bottom: 42px;
 		font-family: 'Saol-L', serif;
 		font-size: 4em;
 		font-weight: 100;
 		line-height: 1em;
-		@include transitions-ease(.4s);
+
+		span{
+			display: inline-block;
+			@include transitions-ease(1s);
+		}
 	}
+}
+
+span.title-space{
+	width: 30px;
 }
 
 // Cases images bg color
