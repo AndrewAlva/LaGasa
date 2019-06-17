@@ -1,137 +1,167 @@
 // Menu open/close functionality
-	var menu = document.getElementById('main-menu');
-	if (menu) {
-		var menu_trigger = document.getElementById('menu-trigger');
-		var menu_opened = false;
-
-		menu_trigger.addEventListener('click', function(){
-			if (!menu_opened) {
-				menu.classList.add('opened');
-				menu_opened = true;
-			} else {
-				menu.classList.remove('opened');
-				menu_opened = false;
-			}
-		});
-	}
-
+var Menu = {
+    opened: false,
+    menuBtn: null,
+    container: null,
+    wrapper: null,
+    alphaContainer: 0,
+    init: function() {
+        this.wrapper = document.getElementById('main-menu');
+        this.container = document.getElementById('menu-container');
+        this.menuBtn = document.getElementById('menu-trigger');
+        this.addEvents();
+    },
+    addEvents: function() {
+        this.menuBtn.addEventListener('click', function() {
+            if (Menu.opened) {
+                Menu.opened = Menu.close();
+            } else {
+                Menu.opened = Menu.open();
+            }
+        });
+    },
+    open: function() {
+        Menu.wrapper.classList.add('opened');
+        var els = document.getElementsByClassName("mask-menu");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            Menu.showEl(els[i], i * 60 + 150);
+        }
+        var els = document.getElementsByClassName("menu-link");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            Menu.showEl(els[i], i * 35 + 450);
+        }
+        return true;
+    },
+    close: function() {
+        Menu.wrapper.classList.remove('opened');
+        var els = document.getElementsByClassName("mask-menu");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            els[i].classList.remove('active');
+        }
+        var els = document.getElementsByClassName("menu-link");
+        for (var i = 0, l = els.length; i < l; ++i) {
+            els[i].classList.remove('active');
+        }
+        return false;
+    },
+    showEl: function(el, delay) {
+        setTimeout(function() {
+            el.classList.add('active');
+        }, delay);
+    }
+}
+Menu.init();
 // Opened menu
 // Projects cover shifter
-	var mousePosition = {
-		x: window.innerWidth/2,
-		y: window.innerHeight/2
-	}
+var mousePosition = {
+    x: window.innerWidth / 2,
+    y: window.innerHeight / 2
+}
 
-	var FollowObject = function(args){
-		if (!args) args = {};
+var FollowObject = function(args) {
+    if (!args) args = {};
 
-		this.obj = args.obj;
-		this.imgCanvas = this.obj.querySelector('.imgs-wrap');
-		this.imgTriggers = this.obj.querySelectorAll('.title');
-		this.imgs = this.imgCanvas.querySelectorAll('img');
-		this.pos = {
-			x: window.innerWidth/2,
-			y: window.innerHeight/2
-		};
-		this.cof = 0.04; 
-		this.activeX = args.activeX || false;
-		this.activeY = args.activeY || true;
-		this.scrollCancel = args.scrollCancel || false;
-		
-		this.updatePosition = function(_x,_y){
-			this.pos.x += (_x - this.pos.x) * this.cof;
-			this.pos.y += (_y - this.pos.y) * this.cof;
-		};
+    this.obj = args.obj;
+    this.imgCanvas = this.obj.querySelector('.imgs-wrap');
+    this.imgTriggers = this.obj.querySelectorAll('.title');
+    this.imgs = this.imgCanvas.querySelectorAll('img');
+    this.pos = {
+        x: window.innerWidth / 2,
+        y: window.innerHeight / 2
+    };
+    this.cof = 0.04;
+    this.activeX = args.activeX || false;
+    this.activeY = args.activeY || true;
+    this.scrollCancel = args.scrollCancel || false;
 
-		this.displaceImgs = function(){
-			var _displacement;
-			if (!this.activeX) {
-				_displacement = "translate(0px, " + this.pos.y + "px)";
-			} else {
-				_displacement = "translate(" + this.pos.x + "px, " + this.pos.y + "px)";
-			}
+    this.updatePosition = function(_x, _y) {
+        this.pos.x += (_x - this.pos.x) * this.cof;
+        this.pos.y += (_y - this.pos.y) * this.cof;
+    };
 
-			this.applyTransform(_displacement);
-		};
+    this.displaceImgs = function() {
+        var _displacement;
+        if (!this.activeX) {
+            _displacement = "translate(0px, " + this.pos.y + "px)";
+        } else {
+            _displacement = "translate(" + this.pos.x + "px, " + this.pos.y + "px)";
+        }
 
-		this.applyTransform = function(style){
-			this.imgCanvas.style.webkitTransform = style;
-			this.imgCanvas.style.MozTransform = style;
-			this.imgCanvas.style.msTransform = style;
-			this.imgCanvas.style.OTransform = style;
-			this.imgCanvas.style.transform = style;
-		};
+        this.applyTransform(_displacement);
+    };
 
-		this.setupListeners = function(){
-			this.mouseoverListener();
-			this.mouseoutListener();
+    this.applyTransform = function(style) {
+        this.imgCanvas.style.webkitTransform = style;
+        this.imgCanvas.style.MozTransform = style;
+        this.imgCanvas.style.msTransform = style;
+        this.imgCanvas.style.OTransform = style;
+        this.imgCanvas.style.transform = style;
+    };
 
-			if(this.scrollCancel){
-				this.mouseScroll();
-			}
-		};
+    this.setupListeners = function() {
+        this.mouseoverListener();
+        this.mouseoutListener();
 
-		this.mouseoverListener = function(){
-			var _this = this;
-			
-			for(var i = 0; i < this.imgTriggers.length; i++){
-				_this.imgTriggers[i].addEventListener('mouseover', function(){
-					_this.hideImgs() /* Not necessary, codepen display hack */
-					_this.showImg( _this.getImgId(this) )
-				});
-			}
-		};
-		this.mouseoutListener = function(){
-			var _this = this;
-			
-			for(var i = 0; i < this.imgTriggers.length; i++){
-				_this.imgTriggers[i].addEventListener('mouseout', function(){
-					_this.hideImgs()
-				});
-			}
-		};
-		this.mouseScroll = function(){
-			var _this = this;
+        if (this.scrollCancel) {
+            this.mouseScroll();
+        }
+    };
 
-			window.addEventListener('scroll', function(){
-				_this.hideImgs()
-			});
-		};
-		
-		this.getImgId = function(target){
-			return target.getAttribute("data-id");
-		}
-		
-		this.hideImgs = function(){
-			var _this = this;
-			for(var i = 0; i < this.imgs.length; i++){
-				_this.imgs[i].classList.remove('active');
-			}
-		}
-		this.showImg = function(imgIndex){
-			this.imgs[imgIndex].classList.add('active');
-		}
-		
-		
-		this.init = function(){
-			this.setupListeners();
-			this.displaceImgs();
-		};
-	}
+    this.mouseoverListener = function() {
+        var _this = this;
+
+        for (var i = 0; i < this.imgTriggers.length; i++) {
+            _this.imgTriggers[i].addEventListener('mouseover', function() {
+                _this.hideImgs() /* Not necessary, codepen display hack */
+                _this.showImg(_this.getImgId(this))
+            });
+        }
+    };
+    this.mouseoutListener = function() {
+        var _this = this;
+
+        for (var i = 0; i < this.imgTriggers.length; i++) {
+            _this.imgTriggers[i].addEventListener('mouseout', function() {
+                _this.hideImgs()
+            });
+        }
+    };
+    this.mouseScroll = function() {
+        var _this = this;
+
+        window.addEventListener('scroll', function() {
+            _this.hideImgs()
+        });
+    };
+
+    this.getImgId = function(target) {
+        return target.getAttribute("data-id");
+    }
+
+    this.hideImgs = function() {
+        var _this = this;
+        for (var i = 0; i < this.imgs.length; i++) {
+            _this.imgs[i].classList.remove('active');
+        }
+    }
+    this.showImg = function(imgIndex) {
+        this.imgs[imgIndex].classList.add('active');
+    }
 
 
-	function menuAnimate() {
-		requestAnimationFrame(menuAnimate);
-		menuRender();
-	}
+    this.init = function() {
+        this.setupListeners();
+        this.displaceImgs();
+    };
+    this.render = function() {
+        this.updatePosition(mousePosition.x, mousePosition.y);
+        this.displaceImgs();
+    }
+    this.init();
+    return this;
+}
 
-	function menuRender() {
-		mb_ImgShifter.updatePosition(mousePosition.x, mousePosition.y);
-		mb_ImgShifter.displaceImgs();
-	}
-
-
-	window.addEventListener('mousemove', function(e){
-		mousePosition.x = e.clientX;
-		mousePosition.y = e.clientY;
-	});
+window.addEventListener('mousemove', function(e) {
+    mousePosition.x = e.clientX;
+    mousePosition.y = e.clientY;
+});

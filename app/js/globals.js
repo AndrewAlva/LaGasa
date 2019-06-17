@@ -1,7 +1,6 @@
 var PI2 = Math.PI*2;
 var HALF_PI = Math.PI/2;
 
-
 var MaxWidth = window.innerWidth;
 var MaxHeight = window.innerHeight;
 var HalfWidth = MaxWidth / 2;

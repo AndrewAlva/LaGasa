@@ -77,8 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mb_ImgShifter = new FollowObject({
             "obj": document.getElementById('projects-shifter')
         });
-        mb_ImgShifter.init();
-        menuAnimate();
+        RAF.add(mb_ImgShifter);
     }
 
     App.init();
