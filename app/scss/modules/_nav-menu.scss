@@ -11,13 +11,11 @@
 	z-index: 11;
 	transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 	transition-delay: 450ms;
-
 	a {
 		display: block;
 		text-decoration: none;
 		color: inherit;
 	}
-
 	.logo-wrap {
 		position: absolute;
 		top: 60px;
@@ -237,9 +235,6 @@
 		height: 100%;
 		padding-left: 7.3%;
 		padding-right: 3.3%;
-
-		@media (min-width:1441px) {
-		}
 
 		@media (min-width:1700px) {
 			padding: 0;
