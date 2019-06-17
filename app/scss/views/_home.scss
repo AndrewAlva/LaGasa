@@ -46,7 +46,6 @@
 			display: block;
 			font-size: 3em;
 			font-weight: 100;
-			@include smoothFont;
 			@include desktop {
 				font-size: 7em;
 			}

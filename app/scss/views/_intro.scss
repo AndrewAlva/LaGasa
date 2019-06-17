@@ -34,7 +34,6 @@
 			font-size: 3em;
 			line-height: 1em;
 			font-weight: lighter;
-			@include smoothFont;
 
 			.cursive{
 				font-family: 'Saol-It';
@@ -46,7 +45,6 @@
 			bottom: 0;
 			font-family: 'Founders-L';
 			font-size: 1.2em;
-			@include smoothFont;
 			text-align: left;
 		}
 

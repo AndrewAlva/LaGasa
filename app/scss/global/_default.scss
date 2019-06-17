@@ -2,11 +2,16 @@
 html{
 	@include border-box;
 	@include unselectable;
+	@include smoothFont;
 }
 
 *, *:before, *:after{
 	box-sizing: inherit;
 	user-select: inherit;
+	text-rendering: inherit;
+    -moz-osx-font-smoothing: inherit;
+    font-smoothing: inherit;
+    -webkit-font-smoothing: inherit;
 }
 
 body{

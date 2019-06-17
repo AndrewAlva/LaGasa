@@ -56,7 +56,6 @@
 				bottom: 0;
 				font-family: 'Founders-L';
 				font-size: .9em;
-				@include smoothFont;
 				color: #0c0407;
 			}
 		}
@@ -75,14 +74,12 @@
 				padding-top: 10px;
 				font-family: 'Saol';
 				text-align: right;
-				@include smoothFont;
 
 				.salute{
 					font-weight: 100;
 					font-size: 6em;
 					line-height: 1.15em;
 					padding-right: 8px;
-					@include smoothFont;
 				}
 
 				.cursive{

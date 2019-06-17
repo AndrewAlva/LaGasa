@@ -6,22 +6,34 @@
 	font-size: .85em;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
-	@include smoothFont;
 	color: $black-gray;
 
-	.copyright{
+	.copyright {
 		display: inline-block;
-		opacity: .7;
-		width: 25%;
+		width: 100%;
+		@include desktop {
+			width: 25%;
+		}
 	}
-	.credits{
+	.credits {
 		display: inline-block;
-		opacity: .7;
-		width: 58.33%;
-
+		width: auto;
+		margin-bottom: 3px;
+		@include desktop {
+			margin-bottom: 0;
+			width: 58.33%;
+		}
 		a{
 			color: inherit;
 			text-decoration: none;
+		}
+	}
+	.copyright,
+	.credits {
+		font-size: 13px;
+		@include desktop {
+			opacity: .7;
+			font-size: 1em;
 		}
 	}
 }
@@ -29,31 +41,35 @@
 .back-top{
 	display: inline-block;
 	position: relative;
-	width: 16.66%;
 	text-align: right;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
-	@include smoothFont;
-	
+	width: auto;
+    float: right;
+    text-align: right;
+    @include desktop {
+    	width: 16.66%;
+    	float: none;
+    }
 	a{
 		text-decoration: none;
 		color: inherit;
-
-		&:after{
-			content: '';
-			display: inline-block;
-			width: 4px;
-			height: 4px;
-			border-radius: 50%;
-			position: relative;
-			margin-left: 24px;
-			top: -3px;
-			background-color: $black-gray;
-			@include transitions-ease(.4s);
-			opacity: 0;
-			@include translate(-10px, 0);
+		@include desktop {
+			&:after{
+				content: '';
+				display: inline-block;
+				width: 4px;
+				height: 4px;
+				border-radius: 50%;
+				position: relative;
+				margin-left: 24px;
+				top: -3px;
+				background-color: $black-gray;
+				@include transitions-ease(.4s);
+				opacity: 0;
+				@include translate(-10px, 0);
+			}
 		}
-
 		&:hover{
 			&:after{
 				opacity: 1;

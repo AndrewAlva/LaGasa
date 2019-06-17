@@ -3,7 +3,7 @@
 	position: fixed;
 	right: 0;
 	width: 100%;
-	height: 10vh;
+	height: 50px;
 	bottom: 0;
 	background-color: #fff;
 	// overflow: hidden;
@@ -50,9 +50,11 @@
 
 		a {
 			h1 {
-				font-size: 2em;
+				font-size: 24px;
 				font-weight: 100;
-				@include smoothFont;
+				@include desktop {
+					font-size: 2em;
+				}
 			}
 
 		}
@@ -105,7 +107,6 @@
 		// display: none;
 		bottom: 50vh;
 		z-index: 99;
-		@include smoothFont;
 		pointer-events: none;
 
 		@include desktop {
@@ -331,7 +332,6 @@
 		}
 
 		font-family: 'Founders-L';
-		@include smoothFont;
 
 		&#projects-shifter {
 			@include mobile {

@@ -16,7 +16,6 @@
 	font-family: 'Founders-L';
 	font-size: .85em;
 	font-weight: 100;
-	@include smoothFont;
 
 	&:focus{
 		outline: 0;
@@ -57,7 +56,6 @@
 	font-family: 'Founders-L';
 	font-size: .85em;
 	font-weight: 100;
-	@include smoothFont;
 	@include transitions-ease(.4s);
 }
 
@@ -71,7 +69,6 @@
 	font-family: 'Founders-L';
 	font-size: .85em;
 	font-weight: 100;
-	@include smoothFont;
 	vertical-align: top;
 	background: none;
 	resize: none;
