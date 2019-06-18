@@ -4,6 +4,7 @@
 // subframes to finish loading
 var App = {
     scroll: null,
+    preloader: null,
     init: function() {
         RAF.init();
         Contact();
@@ -41,9 +42,16 @@ var App = {
     changePage: function(e) {
         e.preventDefault();
         var href = e.target.getAttribute("href");
-        Preloader.show(function() {
-            window.location.href = href;
-        });
+        // Si es proyecto abre el otro  preloader
+        if(href.indexOf("?project") > 0) {
+            App.preloader.show(e.target.getAttribute("data-text"), function() {
+                window.location.href = href;
+            });
+        }else{
+            Preloader.show(function() {
+                window.location.href = href;
+            });
+        }
     }
 }
 
@@ -56,8 +64,11 @@ window.onload = function() {
     // después de terminar de cargar todas las imágenes
     var scroll = new Scroll();
     RAF.add(scroll);
-    Preloader.loaded();
+    if(window.location.search.indexOf("project") > 0) {
+        App.preloader = new ProjectPreloader();
+        App.preloader.init();
+    } else {
+        Preloader.loaded();
+    }
 
-    var pPreload = new ProjectPreloader();
-    pPreload.init();
 }

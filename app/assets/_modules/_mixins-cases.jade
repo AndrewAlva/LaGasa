@@ -54,7 +54,7 @@ mixin case_nextproject(title, url)
 	footer.next-project
 		h5.subtitle Next Project
 		h2.title
-			a(href="#{url}").change-page #{title}
+			a(href="#{url}?project=true" title="#{title}" data-text="#{title}").change-page #{title}
 
 		.back-top 
 			a(href="#" onclick="toTop()") Back to top
@@ -65,8 +65,3 @@ mixin case_preloader(title)
 		.content-grid
 			.inner-wrap
 				h2.goTo#nextTitle #{title}
-	
-
-
-
-

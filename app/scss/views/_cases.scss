@@ -21,8 +21,10 @@
 		._title {
 			font-family: 'Saol-L', serif;
 			padding: 15px;
+			line-height: 1em;
 			font-size: 2em;
 			margin-bottom: 40px;
+			font-weight: 100;
 
 			@include desktop {
 				font-size: 4em;
@@ -281,7 +283,7 @@
 			position: relative;
 			display: inline-block;
 			font-family: 'Saol-L', serif;
-			font-size: 2.5em;
+			font-size: 2em;
 			padding: 0px 15px;
 			font-weight: 100;
 			line-height: 1em;
@@ -317,7 +319,7 @@
 	// display: none;
 	// opacity: .1;
 	pointer-events: none;
-	z-index: 10;
+	z-index: 99;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -341,13 +343,23 @@
 		position: absolute;
 		bottom: 42px;
 		font-family: 'Saol-L', serif;
-		font-size: 4em;
-		font-weight: 100;
 		line-height: 1em;
+		font-size: 2em;
+		font-weight: 100;
+		padding: 15px;
+		@include desktop {
+			font-size: 4em;
+			font-weight: 100;
+			line-height: 1em;
+			margin-bottom: 110px;
+			padding: 0;
+		}
 
 		span {
 			display: inline-block;
-			@include transitions-ease(1s);
+			&.transition {
+				@include transitions-ease(1s);
+			}
 		}
 
 	}
