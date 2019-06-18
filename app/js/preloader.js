@@ -2,12 +2,14 @@ var Preloader = {
     el: document.getElementById("preloader"),
     alpha: 1,
     loaded: function() {
+        if(window["case-preloader"]) window["case-preloader"].style = "display: none";
         Preloader.hide();
     },
     off: function() {
         Preloader.el.style = "display: none";
     },
     hide: function() {
+        if(window["case-preloader"]) window["case-preloader"].style = "display: none";
         toTop(300);
         new TWEEN.Tween(Preloader).to({
             alpha: 0
@@ -22,7 +24,7 @@ var Preloader = {
         // Preloader.el.style = "display: none; opacity: 0;";
         new TWEEN.Tween(Preloader).to({
             alpha: 1
-        }, 300).onUpdate(function() {
+        }, 600).onUpdate(function() {
             Preloader.el.style = "opacity: " + Preloader.alpha
         }).onComplete(function() {
             if (callback) callback();
@@ -36,6 +38,7 @@ var ProjectPreloader = function() {
     this.alpha = 1;
 
     this.currentTitle = document.getElementById('currentTitle');
+    if(!this.currentTitle) return false;
     this.currentX = getY(this.currentTitle);
     this.currentString = this.currentTitle.innerText;
     this.currentChars = [];

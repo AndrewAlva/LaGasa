@@ -110,6 +110,7 @@
 		pointer-events: none;
 
 		@include desktop {
+			pointer-events: auto;
 			@include translate-rotate(0, 100%, 90deg);
 			@include transform-origin(top, right);
 			font-size: .9em;
@@ -171,7 +172,7 @@
 						width: 5px;
 						height: 5px;
 						border-radius: 50%;
-						background-color: $black-gray;
+						background-color: currentColor;
 						@include transitions-ease(.4s);
 						opacity: 0;
 						@include translate(0, -10px);
@@ -228,9 +229,9 @@
 			transition-delay: 0ms;
 		}
 
-		.sections-wrap {
-			pointer-events: none;
-		}
+		// .sections-wrap {
+		// 	pointer-events: none;
+		// }
 
 		.toggle-wrap {
 			&:before, &:after {

@@ -64,8 +64,8 @@ window.onload = function() {
     // después de terminar de cargar todas las imágenes
     var scroll = new Scroll();
     RAF.add(scroll);
+    App.preloader = new ProjectPreloader();
     if(window.location.search.indexOf("project") > 0) {
-        App.preloader = new ProjectPreloader();
         App.preloader.init();
     } else {
         Preloader.loaded();
