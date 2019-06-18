@@ -14,8 +14,12 @@
 	border: none;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	font-family: 'Founders-L';
-	font-size: .85em;
+	font-size: .75em;
 	font-weight: 100;
+
+	@include desktop {
+		font-size: .85em;
+	}
 
 	&:focus{
 		outline: 0;
@@ -30,8 +34,12 @@
 
 	&:focus, &.filled{
 		& ~ .sz-input-label{
-			font-size: .71em;
+			font-size: .7em;
 			@include translate(0,-18px);
+
+			@include desktop {
+				font-size: .71em;
+			}
 		}
 	}
 }
@@ -54,9 +62,13 @@
 	top: 5px;
 	left: 0;
 	font-family: 'Founders-L';
-	font-size: .85em;
+	font-size: .75em;
 	font-weight: 100;
 	@include transitions-ease(.4s);
+
+	@include desktop {
+		font-size: .85em;
+	}
 }
 
 .sz-textarea{

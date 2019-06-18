@@ -73,7 +73,7 @@ canvas{
 			padding-right: 0;
 		}
 		// Estilo MOBILE
-		@media (max-width: 768px) {
+		@media (max-width: 767px) {
 			padding: 15px 0px;
 		}
 	}
@@ -86,9 +86,13 @@ canvas{
 
 	&.top{
 		position: absolute;
-		top: 50px;
+		top: 5px;
 		// right: 6%;
 		right: 3.3%;
+
+		@include desktop {
+			top: 50px;
+		}
 
 		@media (min-width: 1441px){
 			top: 80px;
