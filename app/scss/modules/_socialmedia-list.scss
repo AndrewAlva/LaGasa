@@ -35,9 +35,9 @@
 				display: block;
 				position: absolute;
 				top: 1px;
-				right: 0;
+				right: 1px;
 				width: 1px;
-				height: 10px;
+				height: 9px;
 				background-color: #fff;
 				@include rotate(45deg);
 				@include transform-origin(top, right);
