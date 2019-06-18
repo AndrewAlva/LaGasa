@@ -2,14 +2,14 @@ var Preloader = {
     el: document.getElementById("preloader"),
     alpha: 1,
     loaded: function() {
-        if(window["case-preloader"]) window["case-preloader"].style = "display: none";
+        if (window["case-preloader"]) window["case-preloader"].style = "display: none";
         Preloader.hide();
     },
     off: function() {
         Preloader.el.style = "display: none";
     },
     hide: function() {
-        if(window["case-preloader"]) window["case-preloader"].style = "display: none";
+        if (window["case-preloader"]) window["case-preloader"].style = "display: none";
         toTop(300);
         new TWEEN.Tween(Preloader).to({
             alpha: 0
@@ -38,7 +38,7 @@ var ProjectPreloader = function() {
     this.alpha = 1;
 
     this.currentTitle = document.getElementById('currentTitle');
-    if(!this.currentTitle) return false;
+    if (!this.currentTitle) return false; //Prevenir seteo en pantallas donde no existe el elemento currentitle
     this.currentX = getY(this.currentTitle);
     this.currentString = this.currentTitle.innerText;
     this.currentChars = [];
@@ -100,9 +100,11 @@ var ProjectPreloader = function() {
         }).start();
     }
     this.show = function(text, callback) {
+        // Setea el nuevo texto para la siguiente pantalla
         this.currentChars = [];
         this.splitString(text, this.currentChars);
         this.createSpans(this.nextTitle, this.currentChars);
+        window["nextTitle"].classList.remove("hide"); //Hace visible el texto una vez seteado los span
         new TWEEN.Tween(_self).to({
             alpha: 1
         }, 300).onUpdate(function() {

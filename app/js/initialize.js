@@ -43,16 +43,19 @@ var App = {
         e.preventDefault();
         var href = e.target.getAttribute("href");
         // Si es proyecto abre el otro  preloader
-        if(href.indexOf("?project") > 0) {
+        if (href.indexOf("?project") > 0) {
             App.preloader.show(e.target.getAttribute("data-text"), function() {
                 window.location.href = href;
             });
-        }else{
+        } else {
             Preloader.show(function() {
                 window.location.href = href;
             });
         }
     }
+}
+if (window.location.search.indexOf("project") > 0) {
+    window["nextTitle"].classList.remove("hide");
 }
 
 document.addEventListener('DOMContentLoaded', App.init);
@@ -65,7 +68,7 @@ window.onload = function() {
     var scroll = new Scroll();
     RAF.add(scroll);
     App.preloader = new ProjectPreloader();
-    if(window.location.search.indexOf("project") > 0) {
+    if (window.location.search.indexOf("project") > 0) {
         App.preloader.init();
     } else {
         Preloader.loaded();
