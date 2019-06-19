@@ -1,10 +1,27 @@
 #bio-wrapper{
 	background-color: $bio-bg;
 
+	.content-grid{
+		padding-top: 70px;
+
+		@include mobile {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		@include desktop {
+			padding-top: 140px;
+		}
+	}
+
 	.bio-p{
 		font-family: 'Founders-L', sans-serif;
-		font-size: 1.2em;
+		font-size: 0.75em;
 		font-weight: 100;
+		line-height: 1.4em;
+
+		@include desktop {
+			font-size: 1.2em;
+		}
 
 		&:not(:last-child){
 			margin-bottom: 25px;
@@ -17,15 +34,22 @@
 
 	.page-title{
 		position: relative;
-		width: 934px;
-		height: 262px;
-		margin-bottom: 75px;
+		margin-bottom: 55px;
 		// background-color: rgba(255,0,0,.3);
+		@include desktop {
+			width: 934px;
+			height: 262px;
+			margin-bottom: 75px;
+		}
 
 		.title{
-			font-size: 7em;
+			font-size: 2.5em;
 			font-weight: 100;
 			line-height: .92em;
+
+			@include desktop {
+				font-size: 7em;
+			}
 		}
 
 		h1{
@@ -39,45 +63,77 @@
 	}
 
 	.section-name{
-		font-size: .9em;
+		font-size: .625em;
 		font-family: 'Saol', serif;
 		font-weight: 100;
-		margin-bottom: 70px;
+		margin-bottom: 20px;
+
+		@include desktop {
+			font-size: .9em;
+			margin-bottom: 70px;
+		}
 	}
 	
 	.overview-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 170px;
+		margin-bottom: 50px;
 
-		.photo{
-			// width: 38.5%;
-
-			img{
-				position: absolute;
-				bottom: 0;
-				width: 92.5%;
-			}
+		@include desktop{
+			margin-bottom: 170px;
 		}
 
 		.overview{
-			// width: 50%;
-
-			.bio-wrap{
-				margin-bottom: 165px;
+			width: 100%;
+			@include desktop {
+				width: 41.66%;
+				margin-left: 50%;
 			}
 
-			.hi-wrap{
-				.hi{
-					font-family: 'Saol', serif;
-					font-size: 7em;
-					font-weight: 100;
-					line-height: .92em;
+			
+				margin-bottom: 32px;
 
-					&.cursive{
-						font-family: 'Saol-L-It', serif;
-						font-style: italic;
-					}
+				@include desktop {
+					margin-bottom: 125px;
+				}
+			
+		}
+
+		.photo{
+			position: relative;
+			width: 50%;
+			display: inline-block;
+
+			@include mobile {
+				margin-right: 8.33%;
+			}
+
+			img{
+				position: relative;
+				width: 100%;
+
+				@include desktop {
+					position: absolute;
+					bottom: 0;
+					width: 77.14%;
+				}
+			}
+		}
+
+		.hi-wrap{
+			.hi{
+				font-family: 'Saol', serif;
+				font-size: 2.5em;
+				font-weight: 100;
+				line-height: .92em;
+
+				@include desktop {
+					font-size: 7em;
+				}
+
+				&.cursive{
+					font-family: 'Saol-L-It', serif;
+					font-style: italic;
 				}
 			}
 		}
@@ -86,7 +142,11 @@
 	.other-projects-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 290px;
+		margin-bottom: 40px;
+
+		@include desktop {
+			margin-bottom: 290px;
+		}
 
 		.cols-wrapper{
 			position: relative;
@@ -163,6 +223,11 @@
 				}
 			}
 		}
+
+		#op-shifter-2{
+			height: 0;
+			overflow: hidden;
+		}
 	}
 
 	.dedication-container{
@@ -171,13 +236,21 @@
 		margin-bottom: 200px;
 
 		.dedicated-to{
-			margin-bottom: 80px;
+			margin-bottom: 26px;
+
+			@include desktop {
+				margin-bottom: 80px;
+			}
 
 			h4{
-				font-size: 3.5em;
+				font-size: 1.375em;
 				font-family: 'Saol';
 				font-weight: 100;
 				line-height: .95em;
+
+				@include desktop {
+					font-size: 3.5em;
+				}
 
 				&.cursive{
 					font-family: 'Saol-L-It';
@@ -185,10 +258,22 @@
 			}
 		}
 
+		.bio-p{
+			margin-bottom: 35px;
+
+			@include desktop {
+				margin-bottom: 0;
+			}
+		}
+
 		.photo{
 			img{
 				position: relative;
-				width: 82.19%;
+				width: 100%;
+
+				@include desktop {
+					width: 82.19%;
+				}
 			}
 
 			._caption{
