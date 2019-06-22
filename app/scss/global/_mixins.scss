@@ -78,6 +78,14 @@ $mobile-max-width: 767px;
 	display: flex;
 }
 
+@mixin flexOrder($index){
+	order: $index;
+}
+
+@mixin flexWrap($wraptype){
+	flex-wrap: $wraptype;
+}
+
 @mixin flex-direction($direction){
 	@if $direction == vertical {
 		flex-direction: column;

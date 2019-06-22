@@ -11,21 +11,43 @@
 		max-width: 1400px;
 		height: 100%;
 		margin: 0 auto;
+
+		@include mobile {
+			@include flexIt;
+			@include flexWrap(wrap);
+		}
 	}
 
 	.col{
 		position: relative;
 		display: inline-block;
-		height: 100%;
 		padding: 70px 50px 80px;
 		text-align: right;
 		vertical-align: top;
 
+		@include desktop {
+			height: 100%;
+		}
+
 		&.left{
-			width: 40%;
+			width: 100%;
+			@include mobile {
+				@include flexOrder(2);
+			}
+
+			@include desktop {
+				width: 40%;
+			}
 		}
 		&.right{
-			width: 60%;
+			width: 100%;
+			@include mobile {
+				@include flexOrder(1);
+			}
+
+			@include desktop {
+				width: 60%;
+			}
 		}
 
 		.descriptor{
@@ -50,15 +72,24 @@
 
 		.title{
 			font-family: 'Saol-L';
-			font-size: 12em;
+			font-size: 3.75em;
 			line-height: 1em;
 			font-weight: 100;
+
+			@include desktop {
+				font-size: 12em;
+			}
 		}
 
 		.page-name{
 			position: absolute;
-			bottom: 0;
-			right: 0;
+			top: 0;
+
+			@include desktop {
+				top: auto;
+				bottom: 0;
+				right: 0;
+			}
 		}
 	}
 }
