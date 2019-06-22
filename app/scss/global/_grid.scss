@@ -42,6 +42,11 @@
 			width: 100%;
 		}
 	}
+	.col-mob-7{
+		@include mobile {
+			width: 58.33%;
+		}
+	}
 	.col-mob-6{
 		@include mobile {
 			width: 50%;
@@ -53,6 +58,13 @@
 	.push-2{margin-right: 16.66%;}
 	.push-3{margin-right: 25%;}
 
+	.push-mob-0{
+		@include mobile {
+			margin-right: 0;
+		}
+	}
+
+	.offset-0{margin-left: 0%;}
 	.offset-1{margin-left: 8.33%;}
 	.offset-2{margin-left: 16.66%;}
 	.offset-4{margin-left: 33.33%;}
@@ -63,6 +75,16 @@
 	.offset-mob-0{
 		@include mobile {
 			margin-left: 0;
+		}
+	}
+	.offset-mob-5{
+		@include mobile {
+			margin-left: 41.66%;
+		}
+	}
+	.offset-mob-6{
+		@include mobile {
+			margin-left: 50%;
 		}
 	}
 }
