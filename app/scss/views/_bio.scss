@@ -147,7 +147,7 @@
 	.other-projects-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 75px;
+		margin-bottom: 85px;
 
 		@include desktop {
 			margin-bottom: 290px;
@@ -238,28 +238,39 @@
 			}
 		}
 
-		#op-shifter-2{
-			height: 0;
-			overflow: hidden;
-
-			@include desktop {
-				height: auto;
-				overflow: auto;
-			}
-		}
-
 		.expand-projects{
-			display: inline-block;
-			float: right;
+			position: absolute;
+			bottom: -8px;
+			right: 0;
 			font-family: 'Founders-L';
 			font-size: .875em;
 			color: inherit;
 			text-decoration: none;
+			@include transitions-ease(1.3s);
 
 			@include desktop {
 				display: none;
 			}
 		}
+
+		.hidden-projects-mob{
+			@include mobile {
+				max-height: 0;
+				overflow: hidden;
+				@include transitions-ease(1.3s);
+			}
+		}
+
+		#toggle-extra-projects{
+			&.show{
+				bottom: -28px;
+
+				& + .hidden-projects-mob{
+					max-height: 380px;
+				}
+			}
+		}
+
 	}
 
 	.dedication-container{
