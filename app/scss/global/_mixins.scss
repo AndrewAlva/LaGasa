@@ -103,6 +103,9 @@ $mobile-max-width: 767px;
 @mixin flex-alignCenter{
 	align-items: center;
 }
+@mixin flex-alignBottom{
+	align-content: flex-end;
+}
 
 @mixin flex-grow($ratio){
 	flex-grow: $ratio;

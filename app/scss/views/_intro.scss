@@ -21,18 +21,26 @@
 	.col{
 		position: relative;
 		display: inline-block;
-		padding: 70px 50px 80px;
 		text-align: right;
 		vertical-align: top;
 
 		@include desktop {
 			height: 100%;
+			padding: 70px 50px 80px;
 		}
 
 		&.left{
 			width: 100%;
 			@include mobile {
 				@include flexOrder(2);
+				text-align: left;
+				padding: 0 15px 28px;
+
+				.inner-wrapper{
+					@include flexIt;
+					@include flex-alignBottom;
+					@include flexWrap(wrap);
+				}
 			}
 
 			@include desktop {
@@ -43,6 +51,7 @@
 			width: 100%;
 			@include mobile {
 				@include flexOrder(1);
+				padding: 25px 15px 40px;
 			}
 
 			@include desktop {
@@ -51,23 +60,34 @@
 		}
 
 		.descriptor{
-			margin-top: 6px;
 			font-family: 'Saol';
-			font-size: 3em;
+			font-size: 1.375em;
 			line-height: 1em;
 			font-weight: lighter;
+			margin-bottom: 20px;
 
 			.cursive{
+				display: block;
 				font-family: 'Saol-It';
+			}
+
+			@include desktop {
+				font-size: 3em;
+				margin-top: 6px;
+				margin-bottom: 0;
 			}
 		}
 
 		.intro-bio{
-			position: absolute;
-			bottom: 0;
 			font-family: 'Founders-L';
-			font-size: 1.2em;
+			font-size: .75em;
 			text-align: left;
+
+			@include desktop {
+				position: absolute;
+				bottom: 0;
+				font-size: 1.2em;
+			}
 		}
 
 		.title{
@@ -89,6 +109,40 @@
 				top: auto;
 				bottom: 0;
 				right: 0;
+			}
+		}
+
+		.mob-enter-btn{
+			position: relative;
+			margin: 0 auto;
+			margin-top: 35px;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			border: 1px solid rgba(26,26,26,.2);
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Founders-L';
+			font-size: .75em;
+			cursor: pointer;
+			@include transitions-ease(.4s);
+
+			a{
+				position: absolute;
+				margin: auto;
+				top: 0; bottom: 0;
+				left: 0; right: 0;
+				height: 2em;
+				text-decoration: none;
+				color: inherit;
+
+				span{
+					pointer-events: none;
+				}
+			}
+
+			@include desktop {
+				display: none;
 			}
 		}
 	}
