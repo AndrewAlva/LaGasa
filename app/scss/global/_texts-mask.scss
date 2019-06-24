@@ -14,7 +14,7 @@
 	.up-in {
 		position: relative;
 		display: block;
-		@include translate(0, 105%);
+		@include translate(0, 112%);
 		@include transitions-ease(1s);
 		opacity: .5;
 		&.active {
