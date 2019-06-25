@@ -1,7 +1,14 @@
 .filters-wrap{
+	z-index: 9;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	padding: 18px 15px;
 	display: inline-block;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
+	background-color: #fff;
+
 	@include desktop {
 		margin-bottom: 120px;
 	}
@@ -10,9 +17,13 @@
 	.descriptor{
 		position: relative;
 		display: inline-block;
-		margin-right: 60px;
+		margin-right: 27px;
 		font-size: .9em;
 		cursor: pointer;
+
+		@include desktop {
+			margin-right: 60px;
+		}
 	}
 
 	.categories{
@@ -36,12 +47,21 @@
 		}
 
 		&:not(:last-child){
-			margin-right: 45px;
+			margin-right: 20px;
+
+			@include desktop {
+				margin-right: 45px;
+			}
 		}
 
 		.name{
-			margin-right: 5px;
-			font-size: .9em;
+			margin-right: 2px;
+			font-size: .75em;
+
+			@include desktop {
+				margin-right: 5px;
+				font-size: .9em;
+			}
 		}
 		.qty{
 			position: relative;

@@ -81,8 +81,12 @@ canvas{
 
 .page-name{
 	font-family: 'Saol';
-	font-size: .8em;
+	font-size: .625em;
 	font-weight: 100;
+
+	@include desktop {
+		font-size: .8em;
+	}
 
 	&.top{
 		position: absolute;

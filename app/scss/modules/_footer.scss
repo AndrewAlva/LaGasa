@@ -18,9 +18,7 @@
 	.credits {
 		display: inline-block;
 		width: auto;
-		margin-bottom: 3px;
 		@include desktop {
-			margin-bottom: 0;
 			width: 58.33%;
 		}
 		a{
@@ -31,9 +29,11 @@
 	.copyright,
 	.credits {
 		font-size: 13px;
+		margin-bottom: 3px;
 		@include desktop {
 			opacity: .7;
 			font-size: 1em;
+			margin-bottom: 0;
 		}
 	}
 }
