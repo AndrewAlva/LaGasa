@@ -3,8 +3,11 @@
 	position: relative;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
-	font-size: 1.2em;
+	font-size: 0.75em;
 	color: $black-gray;
+	@include desktop {
+		font-size: 1.2em;
+	}
 	&.align-top{
 		vertical-align: top;
 	}
@@ -96,11 +99,11 @@
 		}
 	}
 
-	.title{}
-	.client{}
 
 	.title{
+		margin-bottom: 3px;
 		@include transform-origin(bottom, left);
 		@include transitions-ease(.5s);
 	}
+	.client{}
 }

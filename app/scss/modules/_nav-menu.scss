@@ -50,7 +50,7 @@
 
 		a {
 			h1 {
-				font-size: 24px;
+				font-size: 1.125em;
 				font-weight: 100;
 				@include desktop {
 					font-size: 2em;
@@ -67,16 +67,18 @@
 		top: 0;
 		bottom: 0;
 		left: auto;
-		right: 5vw;
+		right: 20px;
 		transform: rotate(90deg);
-		width: 40px;
-		height: 40px;
+		width: 24px;
+		height: 24px;
 		cursor: pointer;
 
 		@include desktop {
 			transform: none;
 			left: 0;
 			right: 0;
+			width: 40px;
+			height: 40px;
 		}
 
 		&:before, &:after {
@@ -90,12 +92,20 @@
 
 		&:before {
 			left: 0;
-			right: 10px;
+			right: 8px;
+
+			@include desktop {
+				right: 10px;
+			}
 		}
 
 		&:after {
-			left: 10px;
+			left: 8px;
 			right: 0;
+
+			@include desktop {
+				left: 10px;
+			}
 		}
 
 	}

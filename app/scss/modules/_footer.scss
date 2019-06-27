@@ -1,7 +1,7 @@
 #grid-footer{
 	position: relative;
 	width: 100%;
-	padding-bottom: 50px;
+	margin-bottom: 60px;
 
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
@@ -29,30 +29,29 @@
 	.credits {
 		opacity: .7;
 		font-size: .625em;
-		margin-bottom: 3px;
+		vertical-align: bottom;
 		@include desktop {
 			font-size: 1em;
-			margin-bottom: 0;
 		}
 	}
 
 	.back-top{
 		font-size: .625em;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		@include desktop {
+	    	width: 16.66%;
+	    }
 	}
 }
 
 .back-top{
-	display: inline-block;
-	position: relative;
+	width: auto;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
-	width: auto;
-    float: right;
     text-align: right;
-    @include desktop {
-    	width: 16.66%;
-    	float: none;
-    }
 	a{
 		text-decoration: none;
 		color: inherit;

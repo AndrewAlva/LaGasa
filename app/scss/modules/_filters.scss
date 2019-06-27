@@ -3,7 +3,7 @@
 	position: fixed;
 	top: 0; left: 0;
 	width: 100%;
-	padding: 18px 15px;
+	padding: 18px 15px 11px;
 	display: inline-block;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
@@ -18,10 +18,11 @@
 		position: relative;
 		display: inline-block;
 		margin-right: 27px;
-		font-size: .9em;
+		font-size: .75em;
 		cursor: pointer;
 
 		@include desktop {
+			font-size: .9em;
 			margin-right: 60px;
 		}
 	}
@@ -66,12 +67,16 @@
 		.qty{
 			position: relative;
 			display: inline-block;
-			top: -8px;
+			top: -6px;
 			vertical-align: text-top;
 			font-size: .6em;
 			@include translate(0, 8px);
 			opacity: 0;
 			@include transitions-ease(.4s);
+
+			@include desktop{
+				top: -8px;
+			}
 		}
 
 		&:hover, &.active.show{
