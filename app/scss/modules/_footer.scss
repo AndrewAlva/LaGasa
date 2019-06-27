@@ -3,7 +3,6 @@
 	width: 100%;
 	padding-bottom: 50px;
 
-	font-size: .85em;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
 	color: $black-gray;
@@ -28,20 +27,23 @@
 	}
 	.copyright,
 	.credits {
-		font-size: 13px;
+		opacity: .7;
+		font-size: .625em;
 		margin-bottom: 3px;
 		@include desktop {
-			opacity: .7;
 			font-size: 1em;
 			margin-bottom: 0;
 		}
+	}
+
+	.back-top{
+		font-size: .625em;
 	}
 }
 
 .back-top{
 	display: inline-block;
 	position: relative;
-	text-align: right;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
 	width: auto;
