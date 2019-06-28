@@ -8,10 +8,9 @@ block title
 block content
 	include _modules/nav-menu.jade
 
-	//- .test
 	#bio-wrapper.page-wrapper.has-menu
 		.inner-wrapper
-
+			.test
 			.content-grid
 				h6.page-name.top Biography
 
@@ -102,7 +101,9 @@ block content
 									span.link-arrow.black
 									h5.bio-p Rainy Day Toddler Activity Book
 
-						a(href="#")#toggle-extra-projects.expand-projects Expand List
+						a(href="#")#toggle-extra-projects.expand-projects 
+							span.expand Expand List
+							//- span.compress Compress List
 
 						ul#op-shifter-2.col-mob-12.col-5.hidden-projects-mob
 							.projects-canvas

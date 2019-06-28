@@ -10,6 +10,7 @@
 	.copyright {
 		display: inline-block;
 		width: 100%;
+		height: 8px;
 		@include desktop {
 			width: 25%;
 		}

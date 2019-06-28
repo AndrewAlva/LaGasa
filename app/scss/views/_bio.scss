@@ -18,14 +18,14 @@
 		font-family: 'Founders-L', sans-serif;
 		font-size: 0.75em;
 		font-weight: 100;
-		line-height: 1.4em;
+		line-height: 1.5em;
 
 		@include desktop {
 			font-size: 1.2em;
 		}
 
 		&:not(:last-child){
-			margin-bottom: 20px;
+			margin-bottom: 18px;
 
 			@include desktop {
 				margin-bottom: 25px;
@@ -71,7 +71,7 @@
 		font-size: .625em;
 		font-family: 'Saol', serif;
 		font-weight: 100;
-		margin-bottom: 20px;
+		margin-bottom: 17px;
 
 		@include desktop {
 			font-size: .9em;
@@ -82,25 +82,20 @@
 	.overview-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 50px;
+		margin-bottom: 52px;
 
-		@include desktop{
+		@include desktop {
 			margin-bottom: 170px;
 		}
 
 		.overview{
 			width: 100%;
+			margin-bottom: 36px;
 			@include desktop {
 				width: 41.66%;
 				margin-left: 50%;
+				margin-bottom: 125px;
 			}
-
-			
-				margin-bottom: 32px;
-
-				@include desktop {
-					margin-bottom: 125px;
-				}
 			
 		}
 
@@ -140,6 +135,10 @@
 					font-family: 'Saol-L-It', serif;
 					font-style: italic;
 				}
+
+				&:not(:last-child){
+					margin-bottom: 3px;
+				}
 			}
 		}
 	}
@@ -147,10 +146,14 @@
 	.other-projects-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 85px;
+		margin-bottom: 63px;
 
 		@include desktop {
 			margin-bottom: 290px;
+		}
+
+		.section-name{
+			margin-bottom: 22px;
 		}
 
 		.cols-wrapper{
@@ -240,7 +243,7 @@
 
 		.expand-projects{
 			position: absolute;
-			bottom: -8px;
+			bottom: -9px;
 			right: 0;
 			font-family: 'Founders-L';
 			font-size: .875em;
@@ -263,10 +266,11 @@
 
 		#toggle-extra-projects{
 			&.show{
-				bottom: -28px;
+				bottom: -7px;
 
 				& + .hidden-projects-mob{
 					max-height: 380px;
+					margin-bottom: 20px;
 				}
 			}
 		}
@@ -282,8 +286,12 @@
 			margin-bottom: 200px;
 		}
 
+		.section-name{
+			margin-bottom: 20px;
+		}
+
 		.dedicated-to{
-			margin-bottom: 24px;
+			margin-bottom: 23px;
 
 			@include desktop {
 				margin-bottom: 80px;
@@ -325,9 +333,10 @@
 			}
 
 			._caption{
-				margin-top: 5px;
+				margin-top: 3px;
 				font-family: 'Founders-L', sans-serif;
 				font-size: .7em;
+				// font-size: .5em;
 				font-weight: 100;
 
 				.cursive{font-style: italic;}
@@ -336,6 +345,7 @@
 					position: absolute;
 					bottom: -35px;
 					margin-top: 0;
+					// font-size: .7em;
 				}
 			}
 		}
@@ -350,7 +360,7 @@
 
 		.photo{
 			display: block;
-			margin-top: 35px;
+			margin-top: 34px;
 
 			@include desktop {
 				display: inline-block;
@@ -367,9 +377,10 @@
 			}
 
 			._caption{
-				margin-top: 5px;
+				margin-top: 3px;
 				font-family: 'Founders-L', sans-serif;
 				font-size: .7em;
+				// font-size: .5em;
 				font-weight: 100;
 
 				a{
@@ -381,13 +392,14 @@
 					position: absolute;
 					bottom: -35px;
 					margin-top: 0;
+					// font-size: .7em;
 				}
 			}
 		}
 
 		.quote{
-			margin-bottom: 15px;
-			padding-top: 40px;
+			margin-bottom: 5px;
+			padding-top: 42px;
 
 			@include desktop {
 				padding-top: 80px;
@@ -397,11 +409,10 @@
 				font-size: 1.25em;
 				font-family: 'Saol';
 				font-weight: 100;
-				line-height: 1em;
+				line-height: .95em;
 
 				@include desktop {
 					font-size: 3.5em;
-					line-height: .95em;
 				}
 
 				.cursive{
@@ -458,10 +469,14 @@
 	.acknowledgements-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 75px;
+		margin-bottom: 67px;
 
 		@include desktop {
 			margin-bottom: 170px;
+		}
+
+		.section-name{
+			margin-bottom: 19px;
 		}
 	}
 }
