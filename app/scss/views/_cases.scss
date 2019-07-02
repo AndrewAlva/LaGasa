@@ -371,7 +371,7 @@
 	.goTo {
 		width: 100vw;
 		position: absolute;
-		bottom: 42px;
+		bottom: 58px;
 		font-family: 'Saol-L', serif;
 		line-height: 1em;
 		font-size: 1.375em;
@@ -379,6 +379,7 @@
 		padding: 15px;
 
 		@include desktop {
+			bottom: 42px;
 			font-size: 4em;
 			font-weight: 100;
 			line-height: 1em;
@@ -394,7 +395,148 @@
 		}
 
 	}
+}
 
+#case-info-trigger{
+	z-index: 20;
+	position: fixed;
+	bottom: 60px;
+	right: 15px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: $black-gray;
+	overflow: hidden;
+
+	font-family: 'Saol-L';
+	font-size: 0.875em;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	@include transitions-ease(.4s);
+
+	.active-bg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		@include translate(0, 100%);
+		@include transitions-ease(.4s);
+	}
+
+	&:before, &:after{
+		z-index: 1;
+		content: '';
+		position: absolute;
+		margin: auto;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		width: 1px;
+		height: 24px;
+		background-color: $black-gray;
+		opacity: 0;
+		@include transitions-ease(.4s);
+	}
+
+	&:before{
+		@include rotate(45deg);
+	}
+	&:after{
+		@include rotate(-45deg);
+	}
+
+	&.opened{
+		bottom: 18px;
+
+		&:before, &:after{opacity: 1;}
+		.active-bg{@include translate(0,0);}
+	}
+}
+
+#case-info-wrap{
+	z-index: 19;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 15px;
+	background-color: $black-gray;
+	@include translate(0, 100%);
+	@include transitions-ease(1.1s);
+
+	font-family: 'Founders-L';
+	color: #fff;
+
+	&.opened{
+		@include translate(0,0);
+	}
+
+	a{
+		color:inherit;
+		text-decoration: none;
+	}
+
+	.details{
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.spec{
+		font-size: .625em;
+		&:first-child{margin-bottom: 16px;}
+
+		.label, .role{font-size: 1em;}
+
+		.label{
+			opacity: .3;
+			margin-bottom: 3px;
+		}
+		
+		&--date{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+
+	._cta{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		font-size: .75em;
+		opacity: .3;
+	}
+	.link-arrow{
+		margin-left: 12px;
+	}
+
+	.description{
+		margin-bottom: 30px;
+		font-size: .75em;
+		line-height: 1.5em;
+	}
+
+	.credits-container{
+		.subtitle{
+			margin-bottom: 23px;
+		}
+
+		.role, .who{font-size: .625em;}
+
+		.role{
+			display: inline-block;
+			width: 98px;
+			opacity: .3;
+		}
+		
+		li{
+			margin-bottom: 8px;
+		}
+	}
 }
 
 span.title-space{

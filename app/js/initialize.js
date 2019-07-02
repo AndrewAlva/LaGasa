@@ -11,6 +11,7 @@ var App = {
         Bio();
         Filters.init();
         Menu.init();
+
         // Projects cover shifter init
         var pShifter = document.getElementById('projects-shifter');
         if (pShifter) {
@@ -23,6 +24,8 @@ var App = {
             var cursor = new Cursor();
             RAF.add(cursor);
         }
+
+        Info.init();
         App.addEvents();
     },
     addEvents: function() {

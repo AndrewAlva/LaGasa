@@ -9,10 +9,13 @@
 		height: 10px;
 	}
 
-	&:before{
+	&:before, &:after{
 		content: '';
 		display: block;
 		position: absolute;
+	}
+
+	&:before{
 		width: 8px;
 		height: 8px;
 		// border-top: 1px solid #fff;
@@ -29,9 +32,6 @@
 	}
 
 	&:after{
-		content: '';
-		display: block;
-		position: absolute;
 		top: 1px;
 		right: 0;
 		width: 1px;
@@ -45,6 +45,22 @@
 		}
 	}
 
+	&.small{
+		width: 6px;
+		height: 6px;
+
+		&:before{
+			width: 6px;
+			height: 6px;
+		}
+
+		&:after{
+			height: 7px;
+		}
+	}
+
+
+
 	&.black{
 		&:before{
 			border-top-color: $black-gray;
@@ -52,6 +68,16 @@
 		}
 		&:after{
 			background-color: $black-gray;
+		}
+	}
+
+	&.white{
+		&:before{
+			border-top-color: #fff;
+			border-right-color: #fff;
+		}
+		&:after{
+			background-color: #fff;
 		}
 	}
 }

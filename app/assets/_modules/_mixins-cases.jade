@@ -65,3 +65,42 @@ mixin case_preloader(title)
 		.content-grid
 			.inner-wrap
 				h2.goTo#nextTitle.hide #{title}
+
+
+mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args)
+	#case-info-trigger
+		span.mask-container
+			span.up-in Info
+
+		.active-bg
+
+	#case-info-wrap
+		.details
+			.spec
+				.label Role
+				h2.role #{role}
+
+			.spec
+				.label Client
+				a(href="#{clientURL}" target="_blank").p-link-invert
+					h3.client #{client}
+
+			.spec.spec--date
+				h4.date #{date}
+
+			a(href="#{bookURL}" target="_blank")._cta
+				|Book details
+				span.link-arrow.white.small
+
+		p.description #{description}
+
+		.credits-container
+			h5.subtitle Credits
+			ul.people-list
+				each arg in args
+					li
+						span.role #{arg.role}
+						a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
+
+
+
