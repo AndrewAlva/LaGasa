@@ -199,7 +199,7 @@
 					// background-color: $black-gray;
 
 					@include desktop {
-						top: 30px;
+						top: 34px;
 						left: 6px;
 						margin-left: 6px;
 						margin-right: 23px;
@@ -210,8 +210,12 @@
 					padding-left: 17px;
 					padding-right: 35%;
 
+					@include desktop {
+						padding-left: 36px;
+					}
+
 					@media (min-width: 1441px){
-						padding-left: 40px;
+						// padding-left: 40px;
 						padding-right: 29%;
 					}
 				}
