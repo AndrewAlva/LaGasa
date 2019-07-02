@@ -2,17 +2,32 @@
 	background-color: #fff;
 
 	.content-grid {
-		padding-top: 195px;
+		padding-top: 52px;
+
+		@include desktop {
+			padding-top: 195px;
+		}
+	}
+
+	.page-name.back{
+		a{
+			text-decoration: none;
+			color: inherit;
+		}
 	}
 
 	.subtitle {
 		font-family: 'Saol-R', serif;
-		font-size: 0.9em;
+		font-size: 0.625em;
 		font-weight: 100;
+
+		@include desktop {
+			font-size: 0.9em;
+		}
 	}
 
 	.case-wrap {
-		padding-bottom: 60px;
+		padding-bottom: 157px;
 
 		@include desktop {
 			padding-bottom: 420px;
@@ -22,8 +37,8 @@
 			font-family: 'Saol-L', serif;
 			padding: 15px;
 			line-height: 1em;
-			font-size: 2em;
-			margin-bottom: 40px;
+			font-size: 1.375em;
+			margin-bottom: 10px;
 			font-weight: 100;
 
 			@include desktop {
@@ -41,8 +56,12 @@
 		._cover {
 			position: relative;
 			width: 100%;
-			margin-bottom: 120px;
+			margin-bottom: 35px;
 			overflow: hidden;
+
+			@include desktop {
+				margin-bottom: 120px;
+			}
 
 			img {
 				display: block;
@@ -128,14 +147,18 @@
 		._inspiration {
 			position: relative;
 			width: 100%;
-			margin-bottom: 60px;
+			margin-bottom: 40px;
 
 			@include desktop {
 				margin-bottom: 200px;
 			}
 
 			.subtitle {
-				margin-bottom: 80px;
+				margin-bottom: 18px;
+
+				@include desktop {
+					margin-bottom: 80px;
+				}
 			}
 
 			.images-container {
@@ -205,7 +228,7 @@
 				position: relative;
 				width: 100%;
 				overflow: hidden;
-				margin-bottom: 40px;
+				&:not(:last-child){margin-bottom: 40px;}
 
 				&.middle {
 					@include desktop {
@@ -266,11 +289,15 @@
 	.next-project {
 		position: relative;
 		width: 100%;
-		margin-bottom: 42px;
+		margin-bottom: 38px;
+
+		@include desktop {
+			margin-bottom: 42px;
+		}
 
 		.subtitle {
 			padding: 0px 15px;
-			margin-bottom: 10px;
+			margin-bottom: 12px;
 
 			@include desktop {
 				padding: 0;
@@ -283,7 +310,7 @@
 			position: relative;
 			display: inline-block;
 			font-family: 'Saol-L', serif;
-			font-size: 2em;
+			font-size: 1.375em;
 			padding: 0px 15px;
 			font-weight: 100;
 			line-height: 1em;
@@ -347,9 +374,10 @@
 		bottom: 42px;
 		font-family: 'Saol-L', serif;
 		line-height: 1em;
-		font-size: 2em;
+		font-size: 1.375em;
 		font-weight: 100;
 		padding: 15px;
+
 		@include desktop {
 			font-size: 4em;
 			font-weight: 100;
@@ -370,7 +398,11 @@
 }
 
 span.title-space{
-	width: 14px;
+	width: 6px;
+
+	@include desktop {
+		width: 14px;
+	}
 }
 
 // Cases images bg color
