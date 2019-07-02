@@ -2,10 +2,12 @@ extends templates/layout.jade
 
 block content
 	include _modules/nav-menu.jade
+	+nav-menu("work")
 	include _modules/project-cover.jade
 
 	#home-wrapper.page-wrapper.has-menu
 		.inner-wrapper
+			//- .test
 			.content-grid
 				h6.page-name.top
 					span.mask-container
