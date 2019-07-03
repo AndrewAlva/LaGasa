@@ -413,7 +413,7 @@
 	text-align: center;
 	line-height: 50px;
 	color: #fff;
-	@include transitions-ease(.4s);
+	@include transitions-ease(1s);
 
 	.active-bg{
 		position: absolute;
@@ -437,7 +437,7 @@
 		height: 24px;
 		background-color: $black-gray;
 		opacity: 0;
-		@include transitions-ease(.4s);
+		@include transitions-ease(1s);
 	}
 
 	&:before{
@@ -464,7 +464,7 @@
 	height: 100%;
 	padding: 0 15px;
 	background-color: $black-gray;
-	@include translate(0, 100%);
+	@include translate(100%, 0);
 	@include transitions-ease(1.1s);
 
 	font-family: 'Founders-L';
