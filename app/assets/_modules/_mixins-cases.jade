@@ -103,4 +103,36 @@ mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args
 						a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
 
 
+mixin case_moreinfo_branding(role, client, clientURL, date, description, projectURL)
+	#case-info-trigger
+		span.mask-container
+			span.up-in Info
+
+		.active-bg
+
+	#case-info-wrap
+		.details
+			.spec
+				.label Role
+				h2.role #{role}
+
+			.spec
+				.label Client
+				a(href="#{clientURL}" target="_blank").p-link-invert
+					h3.client #{client}
+
+			.spec.spec--date
+				h4.date #{date}
+
+			a(href="#{projectURL}" target="_blank")._cta
+				|Visit the site
+				span.link-arrow.white.small
+
+		p.description #{description}
+
+
+
+
+
+
 

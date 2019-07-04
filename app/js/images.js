@@ -36,8 +36,10 @@ var Figure = function(el) {
         this.dist = this.scrollY - this.center;
         this.near = (1 - this.dist / this.max_scroll);
         this.scale = Math.max(0.7, this.near)*0.9;
-        var translateY = 200 - (this.scale * 200);
-        this.img.style = "transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
+        // var translateY = 200 - (this.scale * 200);
+        var translateY = 100 - (this.scale * 100);
+        this.img.style = "transform: translate3d(0px, " + translateY + "px, 0px);";
+        // this.img.style = "transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
         // this.img.style = "opacity: " + this.near + "; transform: translate3d(0px, " + translateY + "px, 0px) scale(" + this.scale + ");";
         // if (window.scrollY > this.max_scroll) {
         //     this.scrollY = this.max_scroll;
