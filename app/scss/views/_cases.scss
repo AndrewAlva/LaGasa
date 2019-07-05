@@ -240,6 +240,12 @@
 							margin-bottom: 80px;
 						}
 					}
+					&.mb-71{
+						margin-bottom: 12px;
+						@include desktop {
+							margin-bottom: 71px;
+						}
+					}
 
 					&.p-r-0{
 						position: absolute;
@@ -262,6 +268,15 @@
 					}
 					&.fortyseven-6{
 						width: 47.6%;
+					}
+					&.sixty-1{
+						width: 60.14%;
+					}
+					&.thirtyeight-7{
+						width: 38.71%;
+					}
+					&.offset-five-7{
+						margin-left: 5.72%;
 					}
 
 					img {
