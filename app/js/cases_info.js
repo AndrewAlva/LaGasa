@@ -4,7 +4,9 @@ var Info = {
 	wrap: document.getElementById('case-info-wrap'),
 
 	init: function(){
-		this.triggerListener();
+		if (this.trigger) {
+			this.triggerListener();
+		}
 	},
 
 	toggleActive: function(){

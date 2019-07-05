@@ -148,9 +148,11 @@
 			position: relative;
 			width: 100%;
 			margin-bottom: 40px;
+			padding: 0 15px;
 
 			@include desktop {
 				margin-bottom: 200px;
+				padding: 0;
 			}
 
 			.subtitle {
@@ -164,18 +166,15 @@
 			.images-container {
 				vertical-align: top;
 
-				@include mobile {
-					margin: 0;
-					width: 50%;
-					text-align: center;
-				}
-
 				.single-img {
 					position: relative;
 					display: inline-block;
 
 					&.push-bottom {
-						margin-bottom: 15px;
+						margin-bottom: 18px;
+						@include desktop {
+							margin-bottom: 15px;
+						}
 					}
 
 					@include desktop {
@@ -186,29 +185,83 @@
 					}
 
 					&.four60 {
-						width: 82.2%;
+						width: 100%;
+						@include desktop {
+							width: 82.2%;
+						}
 					}
 
 					&.third {
-						width: 33%;
-						margin-right: 10%;
+						width: 83.33%;
+						margin-bottom: 18px;
+						@include desktop {
+							width: 33%;
+							margin-right: 10%;
+							margin-bottom: 0;
+						}
 					}
 
 					&.forty {
-						width: 39.72%;
+						width: 83.33%;
+						@include desktop {
+							width: 39.72%;
+						}
 					}
 
 					&.forty4 {
-						width: 44.5%;
-						margin-right: 6.5%;
+						width: 83.33%;
+						@include desktop {
+							width: 44.5%;
+							margin-right: 6.5%;
+						}
 					}
 
 					&.forty8 {
-						width: 48.45%;
+						width: 83.33%;
+						margin-bottom: 18px;
+						@include desktop {
+							width: 48.45%;
+							margin-bottom: 0;
+						}
 					}
 
 					&.top-align {
 						vertical-align: top;
+					}
+
+					&.p-a-b{
+						position: absolute;
+						bottom: 0;
+					}
+
+					&.mb-80{
+						margin-bottom: 15px;
+						@include desktop {
+							margin-bottom: 80px;
+						}
+					}
+
+					&.p-r-0{
+						position: absolute;
+						right: 0;
+					}
+					&.fortyfour-8{
+						width: 44.8%;
+					}
+					&.fortysix-4{
+						width: 46.4%;
+					}
+					&.fortythree-6{
+						width: 43.66%;
+					}
+					&.fortyseven-9{
+						width: 47.94%;
+					}
+					&.fortysix{
+						width: 46.06%;
+					}
+					&.fortyseven-6{
+						width: 47.6%;
 					}
 
 					img {
@@ -216,9 +269,13 @@
 						width: 100%;
 						vertical-align: top;
 					}
-
 				}
-
+				
+				&.bks{
+					&:first-child{
+						margin-bottom: 80px;
+					}
+				}
 			}
 
 		}

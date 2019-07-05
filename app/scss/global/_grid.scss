@@ -77,6 +77,16 @@
 			margin-left: 0;
 		}
 	}
+	.offset-mob-1{
+		@include mobile {
+			margin-left: 8.33%;
+		}
+	}
+	.offset-mob-2{
+		@include mobile {
+			margin-left: 16.66%;
+		}
+	}
 	.offset-mob-5{
 		@include mobile {
 			margin-left: 41.66%;
