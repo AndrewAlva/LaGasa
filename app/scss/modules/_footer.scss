@@ -13,6 +13,7 @@
 		height: 8px;
 		@include desktop {
 			width: 25%;
+			height: auto;
 		}
 	}
 	.credits {
@@ -33,6 +34,7 @@
 		vertical-align: bottom;
 		@include desktop {
 			font-size: 1em;
+			vertical-align: top;
 		}
 	}
 

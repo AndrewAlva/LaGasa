@@ -150,7 +150,7 @@
 			margin-bottom: 40px;
 			padding: 0 15px;
 
-			@include desktop {
+			@include bigdesktop {
 				margin-bottom: 200px;
 				padding: 0;
 			}
@@ -237,19 +237,56 @@
 					&.mb-80{
 						margin-bottom: 15px;
 						@include desktop {
+							margin-bottom: 40px;
+						}
+						@include bigdesktop {
 							margin-bottom: 80px;
 						}
 					}
 					&.mb-71{
 						margin-bottom: 12px;
 						@include desktop {
+							margin-bottom: 35px;
+						}
+						@include bigdesktop {
 							margin-bottom: 71px;
 						}
 					}
+					&.mb-15-mob{
+						@include mobile {
+							margin-bottom: 15px;
+						}
+					}
+					&.mb-80-desk{
+						@include desktop {
+							margin-bottom: 35px;
+						}
 
-					&.p-r-0{
+						@include bigdesktop {
+							margin-bottom: 80px;
+						}
+					}
+
+					&.p-r-0-desk{
+						@include desktop {
+							position: absolute;
+							right: 0;
+						}
+					}&.p-r-0{
 						position: absolute;
 						right: 0;
+					}
+					&.fortythree-6{
+						width: 83.33%;
+						@include desktop {
+							width: 43.66%;
+						}
+					}
+					&.fortyseven-9{
+						width: 83.33%;
+						@include desktop {
+							width: 47.94%;
+						}
 					}
 					&.fortyfour-8{
 						width: 44.8%;
@@ -257,23 +294,33 @@
 					&.fortysix-4{
 						width: 46.4%;
 					}
-					&.fortythree-6{
-						width: 43.66%;
-					}
-					&.fortyseven-9{
-						width: 47.94%;
-					}
 					&.fortysix{
-						width: 46.06%;
+						width: 83.33%;
+						@include desktop {
+							width: 46.06%;
+						}
 					}
 					&.fortyseven-6{
-						width: 47.6%;
+						width: 83.33%;
+						@include desktop {
+							width: 47.6%;
+						}
 					}
 					&.sixty-1{
-						width: 60.14%;
+						width: 52.6%;
+						@include mobile {
+							margin-left: 5.5%;
+						}
+
+						@include desktop {
+							width: 60.14%;
+						}
 					}
 					&.thirtyeight-7{
-						width: 38.71%;
+						width: 47%;
+						@include desktop {
+							width: 38.71%;
+						}
 					}
 					&.offset-five-7{
 						margin-left: 5.72%;
@@ -288,7 +335,14 @@
 				
 				&.bks{
 					&:first-child{
-						margin-bottom: 80px;
+						margin-bottom: 15px;
+
+						@include desktop {
+							margin-bottom: 40px;
+						}
+						@include bigdesktop {
+							margin-bottom: 80px;
+						}
 					}
 				}
 			}
@@ -304,6 +358,9 @@
 
 				&.middle {
 					@include desktop {
+						margin-bottom: 80px;
+					}
+					@include bigdesktop {
 						margin-bottom: 180px;
 					}
 
@@ -318,15 +375,29 @@
 			}
 
 			.credits-container {
-				@include mobile {
-					display: none;
+				display: none;
+				
+				@include desktop {
+					display: block;
+					margin-top: 65px;
+					margin-bottom: 60px;
+					width: 58.33%;
+					margin-left: 41.66%;
 				}
 
-				margin-top: 135px;
-				margin-bottom: 130px;
+				@include bigdesktop {
+					margin-top: 135px;
+					margin-bottom: 130px;
+					width: 41.66%;
+					margin-left: 58.33%;
+				}
 
 				.subtitle {
-					margin-bottom: 75px;
+					margin-bottom: 35px;
+
+					@include bigdesktop {
+						margin-bottom: 75px;
+					}
 				}
 
 				.people-list {
@@ -335,7 +406,10 @@
 					font-weight: 100;
 
 					li:not(:last-child) {
-						margin-bottom: 20px;
+						margin-bottom: 10px;
+						@include bigdesktop {
+							margin-bottom: 20px;
+						}
 					}
 
 					.role {
@@ -470,6 +544,7 @@
 }
 
 #case-info-trigger{
+	cursor: pointer;
 	z-index: 20;
 	position: fixed;
 	bottom: 60px;
@@ -486,6 +561,10 @@
 	line-height: 50px;
 	color: #fff;
 	@include transitions-ease(1s);
+
+	@include desktop {
+		display: none;
+	}
 
 	.active-bg{
 		position: absolute;

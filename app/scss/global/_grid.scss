@@ -42,14 +42,29 @@
 			width: 100%;
 		}
 	}
+	.col-mob-10{
+		@include mobile {
+			width: 83.33%;
+		}
+	}
 	.col-mob-7{
 		@include mobile {
 			width: 58.33%;
 		}
 	}
+	.col-mob-8{
+		@include mobile {
+			width: 66.66%;
+		}
+	}
 	.col-mob-6{
 		@include mobile {
 			width: 50%;
+		}
+	}
+	.col-mob-5{
+		@include mobile {
+			width: 41.66%;
 		}
 	}
 
@@ -85,6 +100,11 @@
 	.offset-mob-2{
 		@include mobile {
 			margin-left: 16.66%;
+		}
+	}
+	.offset-mob-4{
+		@include mobile {
+			margin-left: 33.33%;
 		}
 	}
 	.offset-mob-5{

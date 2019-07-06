@@ -78,6 +78,14 @@
 			}
 		}
 
+		.introduction{
+			@include desktop {
+				position: absolute;
+				bottom: 0;
+				font-size: 1.2em;
+			}
+		}
+
 		.intro-bio{
 			font-family: 'Founders-L';
 			font-size: .75em;
@@ -86,12 +94,6 @@
 
 			&:not(:last-child){
 				margin-bottom: 18px;
-			}
-
-			@include desktop {
-				position: absolute;
-				bottom: 0;
-				font-size: 1.2em;
 			}
 		}
 
