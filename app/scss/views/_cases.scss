@@ -230,8 +230,10 @@
 					}
 
 					&.p-a-b{
-						position: absolute;
-						bottom: 0;
+						@include desktop {
+							position: absolute;
+							bottom: 0;
+						}
 					}
 
 					&.mb-80{
