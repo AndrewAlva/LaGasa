@@ -75,32 +75,33 @@ mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args
 		.active-bg
 
 	#case-info-wrap
-		.details
-			.spec
-				.label Role
-				h2.role #{role}
+		.width-restriction
+			.details
+				.spec
+					.label Role
+					h4.role #{role}
 
-			.spec
-				.label Client
-				a(href="#{clientURL}" target="_blank").p-link-invert
-					h3.client #{client}
+				.spec
+					.label Client
+					a(href="#{clientURL}" target="_blank").p-link-invert
+						h4.client #{client}
 
-			.spec.spec--date
-				h4.date #{date}
+				.spec.spec--date
+					.date #{date}
 
-			a(href="#{bookURL}" target="_blank")._cta
-				|Book details
-				span.link-arrow.white.small
+				a(href="#{bookURL}" target="_blank")._cta
+					|Book details
+					span.link-arrow.white.small
 
-		p.description #{description}
+			p.description #{description}
 
-		.credits-container
-			h5.subtitle Credits
-			ul.people-list
-				each arg in args
-					li
-						span.role #{arg.role}
-						a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
+			.credits-container
+				h4.subtitle Credits
+				ul.people-list
+					each arg in args
+						li
+							.role #{arg.role}
+							a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
 
 
 mixin case_moreinfo_branding(role, client, clientURL, date, description, projectURL)
@@ -111,24 +112,25 @@ mixin case_moreinfo_branding(role, client, clientURL, date, description, project
 		.active-bg
 
 	#case-info-wrap
-		.details
-			.spec
-				.label Role
-				h2.role #{role}
+		.width-restriction
+			.details
+				.spec
+					.label Role
+					h4.role #{role}
 
-			.spec
-				.label Client
-				a(href="#{clientURL}" target="_blank").p-link-invert
-					h3.client #{client}
+				.spec
+					.label Client
+					a(href="#{clientURL}" target="_blank").p-link-invert
+						h4.client #{client}
 
-			.spec.spec--date
-				h4.date #{date}
+				.spec.spec--date
+					.date #{date}
 
-			a(href="#{projectURL}" target="_blank")._cta
-				|Visit the site
-				span.link-arrow.white.small
+				a(href="#{projectURL}" target="_blank")._cta
+					|Visit the site
+					span.link-arrow.white.small
 
-		p.description #{description}
+			p.description #{description}
 
 
 
