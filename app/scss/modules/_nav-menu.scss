@@ -241,6 +241,7 @@
 	&.opened {
 		color: #fff;
 		transition-delay: 0ms;
+		z-index: 100;
 
 		@include desktop {
 			border-left: 1px solid rgba(255, 255, 255, .1);
@@ -276,6 +277,7 @@
 		& + #menu-window {
 			pointer-events: auto;
 			transform: translate(0%, 0%);
+			z-index: 99;
 
 			.responsive-container {
 				transition-delay: 450ms;
