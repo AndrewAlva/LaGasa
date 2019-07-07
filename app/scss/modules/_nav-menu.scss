@@ -79,7 +79,7 @@
 		top: 0;
 		bottom: 0;
 		left: auto;
-		right: 20px;
+		right: 15px;
 		transform: rotate(90deg);
 		width: 24px;
 		height: 24px;
@@ -123,15 +123,17 @@
 	}
 
 	.sections-wrap {
-		position: absolute;
+		position: relative;
+		margin-left: 16.66%;
 		white-space: nowrap;
 		font-family: 'Founders-L';
 		// display: none;
-		bottom: 50vh;
+		margin-top: -80vh;
 		z-index: 99;
 		pointer-events: none;
 
 		@include desktop {
+			position: absolute;
 			pointer-events: auto;
 			@include translate-rotate(0, 100%, 90deg);
 			@include transform-origin(top, right);
@@ -149,9 +151,8 @@
 
 			@include mobile {
 				width: 100%;
-				padding: 15px;
-				left: 15vw;
-				font-size: 2em;
+				padding: 15px 15px 17px;
+				font-size: 1.5em;
 				transform: translateY(60px);
 				opacity: 0;
 				transition: all 100ms linear;
@@ -211,7 +212,6 @@
 				}
 
 			}
-
 		}
 
 	}
@@ -347,10 +347,9 @@
 	}
 
 	.menu-col {
-		position: absolute;
-		bottom: 0;
-
 		@include desktop {
+			position: absolute;
+			bottom: 0;
 			top: 0;
 			height: 100%;
 		}
@@ -365,13 +364,13 @@
 		}
 
 		&.left {
-			right: 0;
-			width: 80vw;
-			bottom: 15vh;
+			position: absolute;
+			width: 83.33%;
+			left: 16.66%;
+			bottom: 7vh;
 
 			@include desktop {
-				left: 0;
-				right: auto;
+				margin-left: 0;
 				max-width: 467px;
 				padding: 80px 0;
 				width: 40%;
@@ -393,14 +392,20 @@
 	.address {
 		font-style: normal;
 		display: inline-block;
-		font-size: .9em;
+		font-size: .75em;
+		line-height: 1.5em;
+		padding-left: 8px;
+
+		@include desktop {
+			font-size: .9em;
+		}
 	}
 
 	.socialmedia-list {
 		position: relative;
 		display: inline-block;
 		float: right;
-		transform: translateY(-25vh);
+		@include translate(0, -20vh);
 
 		@include desktop {
 			transform: none;

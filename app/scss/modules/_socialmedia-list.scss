@@ -3,7 +3,11 @@
 	text-align: right;
 	list-style-type: none;
 	font-family: 'Founders-L';
-	font-size: .9em;
+	font-size: .75em;
+
+	@include desktop {
+		font-size: .9em;
+	}
 
 	li{
 		position: relative;
