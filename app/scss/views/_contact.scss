@@ -94,17 +94,24 @@
 				@include mobile {
 					margin: 0 0 0 auto;
 				}
+
+				li {
+					margin-bottom: 22px;
+				}
 			}
 
 			.address{
 				position: absolute;
 				bottom: 18px;
 				font-family: 'Founders-L';
-				font-size: .9em;
+				font-size: .75em;
+				line-height: 1.45em;
 				color: #0c0407;
 
 				@include desktop {
 					bottom: 0;
+					font-size: .9em;
+					line-height: 1.2em;
 				}
 			}
 		}

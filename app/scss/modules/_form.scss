@@ -9,16 +9,17 @@
 	position: relative;
 	width: 100%;
 	padding-right: 10px;
-	padding-bottom: 7px;
+	padding-bottom: 3px;
 	background: none;
 	border: none;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	font-family: 'Founders-L';
-	font-size: .75em;
+	font-size: .875em;
 	font-weight: 100;
 
 	@include desktop {
 		font-size: .85em;
+		padding-bottom: 7px;
 	}
 
 	&:focus{
@@ -62,7 +63,7 @@
 	top: 5px;
 	left: 0;
 	font-family: 'Founders-L';
-	font-size: .75em;
+	font-size: .875em;
 	font-weight: 100;
 	@include transitions-ease(.4s);
 
@@ -108,10 +109,14 @@
 	position: relative;
 	padding: 5px 0 0;
 	font-family: 'Founders-L';
-	font-size: 1em;
+	font-size: .875em;
 	font-weight: 100;
 	color: $black-gray;
 	cursor: pointer;
+
+	@include desktop {
+		font-size: 1em;
+	}
 
 	&:after{
 		content: '';
