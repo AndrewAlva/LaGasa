@@ -20,7 +20,7 @@ var App = {
             });
             RAF.add(mb_ImgShifter);
         }
-        if (window.location.href.indexOf('intro.html') > 0 && window.innerWidth >= 768) {
+        if (window.location.href.indexOf('intro.html') > 0 && window.innerWidth >= 992) {
             var cursor = new Cursor();
             RAF.add(cursor);
         }

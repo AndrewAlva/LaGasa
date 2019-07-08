@@ -69,11 +69,12 @@ canvas{
 
 	&.has-menu{
 		padding-right: 140px;
+
 		@media (min-width: 1700px){
 			padding-right: 0;
 		}
-		// Estilo MOBILE
-		@media (max-width: 767px) {
+		
+		@include mobile {
 			padding: 0 0 15px;
 		}
 	}
