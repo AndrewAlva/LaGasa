@@ -19,6 +19,11 @@
 		padding-top: 50px;
 		// padding-right: 6%;
 
+		@include mobile {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+
 		@include desktop {
 			padding-top: 100px;
 			padding-right: 3.3%;
@@ -38,7 +43,8 @@
 		position: absolute;
 		bottom: 35px;
 		width: 50%;
-		height: 74.06vw;
+		// height: 74.06vw;
+		height: 237px;
 		background-image: url('../img/contact.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -79,7 +85,8 @@
 			width: 50%;
 			@include mobile {
 				order: 2;
-				height: 74.06vw;
+				// height: 74.06vw;
+				height: 237px;
 				margin: 0 0 0 auto;
 				padding-right: 15px;
 				padding-left: 30px;

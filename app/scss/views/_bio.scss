@@ -5,6 +5,7 @@
 		padding-top: 70px;
 
 		@include mobile {
+			max-width: 400px;
 			padding-left: 15px;
 			padding-right: 15px;
 			padding-bottom: 5px;

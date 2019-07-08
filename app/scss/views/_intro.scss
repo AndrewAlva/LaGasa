@@ -13,6 +13,7 @@
 		margin: 0 auto;
 
 		@include mobile {
+			max-width: 400px;
 			@include flexIt;
 			@include flexWrap(wrap);
 		}
