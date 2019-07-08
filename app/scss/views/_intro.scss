@@ -73,6 +73,14 @@
 			}
 
 			@include desktop {
+				font-size: 2em;
+			}
+
+			@include bigdesktop {
+				font-size: 2.5em;
+			}
+
+			@include fulldesktop {
 				font-size: 3em;
 				margin-top: 6px;
 				margin-bottom: 0;
@@ -96,6 +104,10 @@
 			&:not(:last-child){
 				margin-bottom: 18px;
 			}
+
+			@include desktop {
+				font-size: 1em;
+			}
 		}
 
 		.title{
@@ -109,6 +121,15 @@
 			}
 
 			@include desktop {
+				font-size: 6em;
+				line-height: .9em;
+			}
+
+			@include bigdesktop {
+				font-size: 9em;
+			}
+
+			@include fulldesktop {
 				font-size: 12em;
 				line-height: 1em;
 
