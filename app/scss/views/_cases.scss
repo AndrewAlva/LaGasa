@@ -478,7 +478,9 @@
 		}
 
 		.back-top {
-			font-size: .85em;
+			font-size: .9em;
+			width: 16.66%;
+			display: inline-block;
 
 			@include mobile {
 				display: none;

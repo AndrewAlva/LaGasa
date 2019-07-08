@@ -8,11 +8,20 @@
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
 	background-color: #fff;
+	@include unselectable;
 
 	@include desktop {
 		margin-bottom: 120px;
+		max-width: 1400px;
+		margin: 0 auto;
+		right: 140px;
+		padding-top: 40px;
+		padding-bottom: 30px;
 	}
-	@include unselectable;
+
+	@include bigdesktop {
+		padding-top: 80px;
+	}
 
 	.descriptor{
 		position: relative;

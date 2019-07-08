@@ -309,7 +309,6 @@
 	@include desktop {
 		transform: translate(100%, 0%);
 		width: calc(100% - 140px);
-		padding-right: 140px;
 	}
 
 	@media (min-width:1700px) {
@@ -372,7 +371,7 @@
 			bottom: 7vh;
 
 			@include desktop {
-				margin-left: 0;
+				left: 0;
 				max-width: 467px;
 				padding: 80px 0;
 				width: 40%;
@@ -400,6 +399,7 @@
 
 		@include desktop {
 			font-size: .9em;
+			padding-left: 0;
 		}
 	}
 
@@ -425,11 +425,14 @@
 	.copyright-wrap {
 		position: absolute;
 		width: 100%;
-		bottom: 80px;
+		bottom: 40px;
 		display: none;
 
 		@include desktop {
 			display: block;
+		}
+		@include bigdesktop {
+			bottom: 80px;
 		}
 
 		.section-label {

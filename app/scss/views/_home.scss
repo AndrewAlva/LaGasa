@@ -9,7 +9,8 @@
 	.content-grid{
 		padding: 0px 15px;
 		@include desktop {
-			padding-top: 75px;
+			// padding-top: 75px;
+			padding-top: 220px;
 		}
 		.project-cover {
 			@include mobile {
