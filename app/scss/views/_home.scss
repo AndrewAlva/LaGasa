@@ -12,6 +12,12 @@
 			// padding-top: 75px;
 			padding-top: 220px;
 		}
+
+		@include fulldesktop {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
 		.project-cover {
 			@include mobile {
 				width: 100%;

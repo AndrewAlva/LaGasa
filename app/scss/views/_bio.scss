@@ -15,6 +15,15 @@
 		}
 	}
 
+	.page-name{
+		@include desktop {
+			right: 3.3%;
+		}
+		@include fulldesktop {
+			right: 0;
+		}
+	}
+
 	.bio-p{
 		font-family: 'Founders-L', sans-serif;
 		font-size: 0.75em;
@@ -54,6 +63,10 @@
 			line-height: .92em;
 
 			@include desktop {
+				font-size: 5em;
+			}
+
+			@include bigdesktop {
 				font-size: 7em;
 			}
 		}
@@ -129,6 +142,10 @@
 				line-height: .92em;
 
 				@include desktop {
+					font-size: 5em;
+				}
+
+				@include bigdesktop {
 					font-size: 7em;
 				}
 

@@ -26,15 +26,15 @@ var Menu = {
         Menu.wrapper.classList.add('opened');
         var els = document.getElementsByClassName("mask-menu");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.setActive(els[i], i * 60 + 150);
+            Menu.setActive(els[i], i * 60 + 950);
         }
         var els = document.getElementsByClassName("menu-link");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.setActive(els[i], i * 35 + 450);
+            Menu.setActive(els[i], i * 35 + 1250);
         }
         var els = document.getElementsByClassName("section-link");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.setActive(els[i], i * 80 + 300);
+            Menu.setActive(els[i], i * 80 + 1100);
         }
         return true;
     },

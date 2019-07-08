@@ -9,6 +9,7 @@
 $mobile-max-width: 991px;
 $desktop-width: 992px;
 $big-desktop-width: 1200px;
+$full-desktop-width: 1750px;
 
 @mixin mobile {
   @media (max-width: #{$mobile-max-width}) {
@@ -24,6 +25,12 @@ $big-desktop-width: 1200px;
 
 @mixin bigdesktop {
   @media (min-width: #{$big-desktop-width}) {
+    @content;
+  }
+}
+
+@mixin fulldesktop {
+  @media (min-width: #{$full-desktop-width}) {
     @content;
   }
 }

@@ -39,6 +39,15 @@
 		}
 	}
 
+	.page-name{
+		@include desktop {
+			right: 3.3%;
+		}
+		@include bigdesktop {
+			right: 0%;
+		}
+	}
+
 	.img-wrapper{
 		position: absolute;
 		bottom: 35px;
@@ -160,9 +169,10 @@
 					@include desktop {
 						padding-right: 8px;
 						margin-bottom: 0;
+						font-size: 2.875em;
 					}
 
-					@media (min-width: 1200px){
+					@include bigdesktop {
 						font-size: 6em;
 					}
 				}
@@ -211,8 +221,12 @@
 						font-weight: 100;
 
 						@include desktop {
-							font-size: 2.5em;
+							font-size: 1.5em;
 							@include flex-grow(1);
+						}
+
+						@include bigdesktop {
+							font-size: 2.5em;
 						}
 					}
 				}

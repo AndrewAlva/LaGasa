@@ -23,6 +23,12 @@
 		padding-top: 80px;
 	}
 
+	@include fulldesktop {
+		right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.descriptor{
 		position: relative;
 		display: inline-block;
