@@ -76,7 +76,7 @@
 		}
 		h2{
 			font-family: 'Saol-L-It', serif;
-			font-style: italic;
+			// font-style: italic;
 			margin-left: -5px;
 		}
 	}
@@ -151,7 +151,7 @@
 
 				&.cursive{
 					font-family: 'Saol-L-It', serif;
-					font-style: italic;
+					// font-style: italic;
 				}
 
 				&:not(:last-child){
@@ -478,7 +478,7 @@
 				display: inline-block;
 				font-size: 1.125em;
 				font-family: 'Saol-L-It', serif;
-				font-style: italic;
+				// font-style: italic;
 				font-weight: 100;
 
 				@include desktop {
