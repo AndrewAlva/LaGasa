@@ -101,7 +101,7 @@
 
 
 	.title{
-		margin-bottom: 3px;
+		margin-bottom: 5px;
 		@include transform-origin(bottom, left);
 		@include transitions-ease(.5s);
 	}

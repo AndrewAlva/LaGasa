@@ -1,6 +1,6 @@
 #home-wrapper{
 	background-color: #fff;
-	padding-top: 50px;
+	padding-top: 48px;
 
 	@include desktop {
 		padding-top: 0;
@@ -8,6 +8,7 @@
 
 	.content-grid{
 		padding: 0px 15px;
+
 		@include desktop {
 			// padding-top: 75px;
 			padding-top: 220px;
@@ -31,18 +32,18 @@
 				}
 
 				&:not(:last-child){
-					margin-bottom: 38px;
+					margin-bottom: 35px;
 				}
 			}
 		}
 
 		#grid-footer{
-			margin-bottom: 58px;
+			margin-bottom: 60px;
 		}
 	}
 
 	.projects-wrapper{
-		margin-bottom: 67px;
+		margin-bottom: 63px;
 		position: relative;
 		@include desktop {
 			margin-bottom: 190px;
