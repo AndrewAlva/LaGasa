@@ -5,7 +5,7 @@ var Cursor = function() {
     var holdDuration = 0.8; // in seconds
     var mouse = {
         x: HalfWidth,
-        y: MaxHeight - 100
+        y: MaxHeight - 130
     };
     this.x = mouse.x;
     this.y = mouse.y;
