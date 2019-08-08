@@ -38,7 +38,7 @@
 		}
 
 		#grid-footer{
-			margin-bottom: 60px;
+			margin-bottom: 50px;
 		}
 	}
 
@@ -46,7 +46,7 @@
 		margin-bottom: 63px;
 		position: relative;
 		@include desktop {
-			margin-bottom: 190px;
+			margin-bottom: 180px;
 		}
 
 	}
@@ -60,7 +60,8 @@
 		@include desktop {
 			position: relative;
 			padding-top: 20px;
-			padding-bottom: 190px;
+			padding-bottom: 125px;
+			@include translate(0, -105px);
 		}
 
 		h1{
