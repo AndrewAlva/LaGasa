@@ -1,9 +1,11 @@
 .filters-wrap{
 	z-index: 9;
 	position: fixed;
-	top: 0; left: 0;
+	top: 0;
+	left: 0;
 	width: 100%;
-	padding: 18px 15px 11px;
+	padding: 18px 0 11px;
+	margin: 0 auto;
 	display: inline-block;
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
@@ -11,22 +13,29 @@
 	@include unselectable;
 
 	@include desktop {
-		margin-bottom: 120px;
-		max-width: 1400px;
-		margin: 0 auto;
 		right: 140px;
-		padding-top: 40px;
+		padding-top: 50px;
 		padding-bottom: 30px;
+		padding-right: 140px;
+		margin-bottom: 120px;
 	}
 
 	@include bigdesktop {
 		padding-top: 78px;
 	}
 
+	@media (min-width: 1700px){
+		
+	}
+
 	@include fulldesktop {
 		right: 0;
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	&#proj-filters .content-grid{
+		padding-top: 0;
 	}
 
 	.descriptor{
