@@ -10,6 +10,14 @@
 	}
 
 	.page-name.back{
+		@media (min-width: 420px) {
+			right: 0;
+		}
+
+		@include desktop {
+			display: none;
+		}
+
 		a{
 			text-decoration: none;
 			color: inherit;
@@ -41,6 +49,11 @@
 			margin-bottom: 10px;
 			font-weight: 100;
 
+			@media (min-width: 420px) {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
 			@include desktop {
 				font-size: 4em;
 				font-weight: 100;
@@ -56,7 +69,7 @@
 		._cover {
 			position: relative;
 			width: 100%;
-			margin-bottom: 35px;
+			margin-bottom: 32px;
 			overflow: hidden;
 
 			@include desktop {
@@ -156,7 +169,7 @@
 			}
 
 			.subtitle {
-				margin-bottom: 18px;
+				margin-bottom: 19px;
 
 				@include desktop {
 					margin-bottom: 80px;
@@ -170,6 +183,7 @@
 					position: relative;
 					display: inline-block;
 					overflow: hidden;
+					vertical-align: top;
 
 					&.push-bottom {
 						margin-bottom: 18px;
