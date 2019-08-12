@@ -7,6 +7,10 @@
 		@include desktop {
 			padding-top: 195px;
 		}
+
+		@include bigdesktop {
+			padding-top: 310px;
+		}
 	}
 
 	.page-name.back{
@@ -30,7 +34,8 @@
 		font-weight: 100;
 
 		@include desktop {
-			font-size: 0.9em;
+			// font-size: 0.9em;
+			font-size: 1.04em;
 		}
 	}
 
@@ -107,6 +112,10 @@
 			}
 
 			.spec {
+				&:nth-child(2){
+					margin-top: -20px;
+				}
+
 				.label {
 					opacity: .7;
 					margin-bottom: 6px;
@@ -129,6 +138,7 @@
 			.intro {
 				p {
 					font-size: 1em;
+					line-height: 1.35em;
 					// margin-bottom: 80px;
 					margin-bottom: 40px;
 				}
@@ -197,8 +207,9 @@
 
 					&.four60 {
 						width: 100%;
+
 						@include desktop {
-							width: 82.2%;
+							width: 78.85%;
 						}
 					}
 
@@ -207,7 +218,7 @@
 						margin-bottom: 18px;
 						@include desktop {
 							width: 33%;
-							margin-right: 10%;
+							margin-right: 7%;
 							margin-bottom: 0;
 						}
 					}
@@ -222,7 +233,7 @@
 					&.forty4 {
 						width: 83.33%;
 						@include desktop {
-							width: 44.5%;
+							width: 44.9%;
 							margin-right: 6.5%;
 						}
 					}
