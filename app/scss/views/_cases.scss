@@ -234,7 +234,7 @@
 						width: 83.33%;
 						@include desktop {
 							width: 44.9%;
-							margin-right: 6.5%;
+							margin-right: 6.3%;
 						}
 					}
 
@@ -312,11 +312,11 @@
 							width: 47.94%;
 						}
 					}
-					&.fortyfour-8{
-						width: 44.8%;
+					&.fortyfour-4{
+						width: 44.4%;
 					}
-					&.fortysix-4{
-						width: 46.4%;
+					&.fortyfive-8{
+						width: 45.8%;
 					}
 					&.fortysix{
 						width: 83.33%;
@@ -367,6 +367,13 @@
 						}
 						@include bigdesktop {
 							margin-bottom: 80px;
+						}
+					}
+
+					.insp1{
+						img{
+							max-width: 460px;
+							float: right;
 						}
 					}
 				}
