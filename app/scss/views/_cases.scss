@@ -420,6 +420,10 @@
 				.subtitle {
 					margin-bottom: 35px;
 
+					@include desktop {
+						font-size: 0.9em;
+					}
+
 					@include bigdesktop {
 						margin-bottom: 75px;
 					}
@@ -473,6 +477,7 @@
 			@include desktop {
 				padding: 0;
 				margin-bottom: 38px;
+				font-size: .9em;
 			}
 
 		}
@@ -506,6 +511,7 @@
 			font-size: .9em;
 			width: 16.66%;
 			display: inline-block;
+			padding-right: 9px;
 
 			@include mobile {
 				display: none;
