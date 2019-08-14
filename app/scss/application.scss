@@ -33,11 +33,11 @@
 	background-color: rgba(255,0,0,.1);
 	pointer-events: none;
 
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	height: 139px;
+	height: 60px;
 
-	top: 7605px;
+	bottom: 0;
 	right: 0;
 }
 

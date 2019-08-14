@@ -723,7 +723,7 @@
 
 	.spec{
 		font-size: .625em;
-		&:first-child{margin-bottom: 16px;}
+		&:first-child{margin-bottom: 15px;}
 
 		.label, .role, .client, .date{
 			font-size: 1em;
@@ -774,7 +774,7 @@
 		}
 		
 		li{
-			margin-bottom: 8px;
+			margin-bottom: 7px;
 		}
 	}
 }
