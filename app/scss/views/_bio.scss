@@ -13,6 +13,9 @@
 		@include desktop {
 			padding-top: 140px;
 		}
+		@include bigdesktop {
+			padding-top: 215px;
+		}
 	}
 
 	.page-name{
@@ -28,7 +31,7 @@
 		font-family: 'Founders-L', sans-serif;
 		font-size: 0.75em;
 		font-weight: 100;
-		line-height: 1.5em;
+		line-height: 1.46em;
 
 		@include desktop {
 			font-size: 1.2em;
@@ -38,7 +41,7 @@
 			margin-bottom: 18px;
 
 			@include desktop {
-				margin-bottom: 25px;
+				margin-bottom: 32px;
 			}
 		}
 
@@ -60,14 +63,14 @@
 		.title{
 			font-size: 2.5em;
 			font-weight: 100;
-			line-height: .92em;
+			line-height: .925em;
 
 			@include desktop {
 				font-size: 5em;
 			}
 
 			@include bigdesktop {
-				font-size: 7em;
+				font-size: 7.05em;
 			}
 		}
 
@@ -88,8 +91,8 @@
 		margin-bottom: 16px;
 
 		@include desktop {
-			font-size: .9em;
-			margin-bottom: 70px;
+			font-size: 1em;
+			margin-bottom: 66px;
 		}
 	}
 	
@@ -99,7 +102,7 @@
 		margin-bottom: 52px;
 
 		@include desktop {
-			margin-bottom: 170px;
+			margin-bottom: 167px;
 		}
 
 		.overview{
@@ -108,7 +111,7 @@
 			@include desktop {
 				width: 41.66%;
 				margin-left: 50%;
-				margin-bottom: 125px;
+				margin-bottom: 123px;
 			}
 			
 		}
@@ -167,11 +170,15 @@
 		margin-bottom: 63px;
 
 		@include desktop {
-			margin-bottom: 290px;
+			margin-bottom: 300px;
 		}
 
 		.section-name{
 			margin-bottom: 21px;
+
+			@include desktop {
+				margin-bottom: 78px;
+			}
 		}
 
 		.cols-wrapper{
@@ -207,7 +214,7 @@
 					color: $black-gray;
 
 					@include desktop {
-						padding: 28px 0 21px;
+						padding: 25px 0 18px;
 					}
 				}
 
@@ -217,7 +224,7 @@
 					// background-color: $black-gray;
 
 					@include desktop {
-						top: 34px;
+						top: 30px;
 						left: 6px;
 						margin-left: 6px;
 						margin-right: 23px;
@@ -335,18 +342,22 @@
 		margin-bottom: 55px;
 
 		@include desktop {
-			margin-bottom: 200px;
+			margin-bottom: 233px;
 		}
 
 		.section-name{
 			margin-bottom: 20px;
+
+			@include desktop {
+				margin-bottom: 65px;
+			}
 		}
 
 		.dedicated-to{
 			margin-bottom: 23px;
 
 			@include desktop {
-				margin-bottom: 80px;
+				margin-bottom: 75px;
 			}
 
 			h4{
@@ -356,8 +367,8 @@
 				line-height: 1em;
 
 				@include desktop {
-					font-size: 3.5em;
-					line-height: .95em;
+					font-size: 4em;
+					line-height: .88em;
 				}
 
 				&.cursive{
@@ -404,10 +415,11 @@
 	}
 
 	.afterword-container{
-		margin-bottom: 52px;
+		margin-bottom: 45px;
 
 		@include desktop {
-			margin-bottom: 220px;
+			// margin-bottom: 220px;
+			margin-bottom: 147px;
 		}
 
 		.photo{
@@ -416,7 +428,7 @@
 
 			@include desktop {
 				display: inline-block;
-				margin-top: 0;
+				margin-top: -65px;
 			}
 
 			img{
@@ -464,7 +476,8 @@
 				line-height: .9em;
 
 				@include desktop {
-					font-size: 3.5em;
+					font-size: 3em;
+					line-height: .85em;
 				}
 
 				.cursive{
@@ -476,10 +489,10 @@
 				}
 
 				&:not(:first-child){
-					margin-top: 7px;
+					margin-top: 9px;
 
 					@include desktop {
-						margin-top: 10px;
+						margin-top: 18px;
 					}
 				}
 			}
@@ -487,6 +500,11 @@
 
 		.author{
 			text-align: right;
+			margin-top: 6px;
+
+			@include desktop {
+				margin-top: 18px;
+			}
 
 			.line{
 				display: inline-block;
@@ -498,7 +516,7 @@
 				background-color: $black-gray;
 
 				@include desktop {
-					top: -15px;
+					top: -17px;
 					width: 60px;
 					margin-right: 20px;
 				}
@@ -507,7 +525,7 @@
 			h5{
 				display: inline-block;
 				font-size: 1.125em;
-				font-family: 'Saol-L-It', serif;
+				font-family: 'Saol-It', serif;
 				// font-style: italic;
 				font-weight: 100;
 
@@ -524,11 +542,16 @@
 		margin-bottom: 62px;
 
 		@include desktop {
-			margin-bottom: 170px;
+			// margin-bottom: 170px;
+			margin-bottom: 268px;
 		}
 
 		.section-name{
 			margin-bottom: 20px;
+
+			@include desktop {
+				margin-bottom: 70px;
+			}
 		}
 	}
 }
