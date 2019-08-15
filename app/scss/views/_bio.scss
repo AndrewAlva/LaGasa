@@ -85,7 +85,7 @@
 		font-size: .625em;
 		font-family: 'Saol', serif;
 		font-weight: 100;
-		margin-bottom: 17px;
+		margin-bottom: 16px;
 
 		@include desktop {
 			font-size: .9em;
@@ -171,7 +171,7 @@
 		}
 
 		.section-name{
-			margin-bottom: 22px;
+			margin-bottom: 21px;
 		}
 
 		.cols-wrapper{
@@ -202,7 +202,7 @@
 					position: relative;
 					width: 100%;
 					height: 100%;
-					padding: 15px 0 10px;
+					padding: 13px 0 9px;
 					text-decoration: none;
 					color: $black-gray;
 
@@ -213,7 +213,7 @@
 
 				span{
 					position: absolute;
-					top: 17px;
+					top: 16px;
 					// background-color: $black-gray;
 
 					@include desktop {
@@ -265,16 +265,37 @@
 
 		.expand-projects{
 			position: absolute;
-			bottom: -9px;
+			width: 165px;
+			height: 15px;
+			bottom: -6px;
 			right: 0;
+			padding-left: 20px;
 			font-family: 'Founders-L';
 			font-size: .875em;
+			text-align: right;
 			color: inherit;
 			text-decoration: none;
 			@include transitions-ease(1.3s);
+			overflow: hidden;
 
 			@include desktop {
 				display: none;
+			}
+
+			.copy{
+				position: absolute;
+				top: 0; right: 0;
+				white-space: nowrap;
+				text-align: right;
+			}
+
+			.compress{
+				@include translate(0, 105%);
+				@include trans-delayed(.4s, 0s);
+			}
+
+			.expand{
+				@include trans-delayed(.4s, 1s);
 			}
 		}
 
@@ -288,11 +309,20 @@
 
 		#toggle-extra-projects{
 			&.show{
-				bottom: -7px;
+				bottom: -11px;
 
 				& + .hidden-projects-mob{
 					max-height: 385px;
 					margin-bottom: 20px;
+				}
+
+				.compress{
+					@include translate(0,0);
+					@include trans-delayed(.4s,1s);
+				}
+				.expand{
+					@include translate(0, 105%);
+					@include trans-delayed(.4s, 0s);
 				}
 			}
 		}
@@ -357,8 +387,8 @@
 			._caption{
 				margin-top: 3px;
 				font-family: 'Founders-L', sans-serif;
-				font-size: .7em;
-				// font-size: .5em;
+				// font-size: .7em;
+				font-size: 10px;
 				font-weight: 100;
 
 				.cursive{font-style: italic;}
@@ -367,7 +397,7 @@
 					position: absolute;
 					bottom: -35px;
 					margin-top: 0;
-					// font-size: .7em;
+					font-size: .7em;
 				}
 			}
 		}
@@ -382,7 +412,7 @@
 
 		.photo{
 			display: block;
-			margin-top: 34px;
+			margin-top: 35px;
 
 			@include desktop {
 				display: inline-block;
@@ -401,8 +431,8 @@
 			._caption{
 				margin-top: 3px;
 				font-family: 'Founders-L', sans-serif;
-				font-size: .7em;
-				// font-size: .5em;
+				// font-size: .7em;
+				font-size: 10px;
 				font-weight: 100;
 
 				a{
@@ -414,13 +444,13 @@
 					position: absolute;
 					bottom: -35px;
 					margin-top: 0;
-					// font-size: .7em;
+					font-size: .7em;
 				}
 			}
 		}
 
 		.quote{
-			margin-bottom: 5px;
+			margin-bottom: 7px;
 			padding-top: 42px;
 
 			@include desktop {
@@ -431,7 +461,7 @@
 				font-size: 1.25em;
 				font-family: 'Saol';
 				font-weight: 100;
-				line-height: .95em;
+				line-height: .9em;
 
 				@include desktop {
 					font-size: 3.5em;
@@ -446,7 +476,7 @@
 				}
 
 				&:not(:first-child){
-					margin-top: 5px;
+					margin-top: 7px;
 
 					@include desktop {
 						margin-top: 10px;
@@ -491,14 +521,14 @@
 	.acknowledgements-container{
 		position: relative;
 		width: 100%;
-		margin-bottom: 67px;
+		margin-bottom: 62px;
 
 		@include desktop {
 			margin-bottom: 170px;
 		}
 
 		.section-name{
-			margin-bottom: 19px;
+			margin-bottom: 20px;
 		}
 	}
 }
