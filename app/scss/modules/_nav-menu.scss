@@ -119,12 +119,14 @@
 	}
 
 	.sections-wrap {
-		position: relative;
+		position: absolute;
+		top: 0;
 		margin-left: 16.66%;
 		white-space: nowrap;
 		font-family: 'Founders-L';
 		// display: none;
-		margin-top: -80vh;
+		// margin-top: -80vh;
+		margin-top: -70vh;
 		z-index: 99;
 		pointer-events: none;
 
@@ -147,7 +149,7 @@
 
 			@include mobile {
 				width: 100%;
-				padding: 15px 15px 17px;
+				padding: 15px 11px 17px;
 				font-size: 1.5em;
 				transform: translateY(60px);
 				opacity: 0;
@@ -293,7 +295,8 @@
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	// height: 100vh;
+	height: 100%;
 	padding: 0;
 	color: $menu-text-gray;
 	background-color: $menu-bg;
@@ -327,7 +330,8 @@
 		left: 0;
 		right: 0;
 		width: 100%;
-		max-width: 1400px;
+		// max-width: 1400px;
+		max-width: 400px;
 		height: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -364,7 +368,8 @@
 			position: absolute;
 			width: 83.33%;
 			left: 16.66%;
-			bottom: 7vh;
+			// bottom: 7vh;
+			bottom: 6%;
 
 			@include desktop {
 				left: 0;
@@ -391,11 +396,9 @@
 		display: inline-block;
 		font-size: .75em;
 		line-height: 1.5em;
-		padding-left: 8px;
 
 		@include desktop {
 			font-size: .9em;
-			padding-left: 0;
 		}
 	}
 
@@ -403,7 +406,8 @@
 		position: relative;
 		display: inline-block;
 		float: right;
-		@include translate(0, -20vh);
+		// @include translate(0, -20vh);
+		@include translate(0, -118px);
 
 		@include desktop {
 			transform: none;
