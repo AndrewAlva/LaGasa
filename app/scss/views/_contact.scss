@@ -51,7 +51,7 @@
 		@include desktop {
 			right: 3.3%;
 		}
-		@include bigdesktop {
+		@media (min-width: 1700px){
 			right: 0%;
 		}
 	}
