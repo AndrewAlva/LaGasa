@@ -119,16 +119,18 @@
 	}
 
 	.sections-wrap {
-		position: absolute;
-		top: 0;
-		margin-left: 16.66%;
-		white-space: nowrap;
-		font-family: 'Founders-L';
-		// display: none;
-		// margin-top: -80vh;
-		margin-top: -70vh;
 		z-index: 99;
 		pointer-events: none;
+		position: absolute;
+		top: 0;
+		left: 0; right: 0;
+		margin: auto;
+		margin-top: -70vh;
+		padding: 0 15px;
+		width: 100%;
+		max-width: 400px;
+		white-space: nowrap;
+		font-family: 'Founders-L';
 
 		@include desktop {
 			position: absolute;
@@ -137,10 +139,13 @@
 			@include transform-origin(top, right);
 			font-size: .9em;
 			display: block;
-			bottom: 30px;
-			right: 0;
 			top: auto;
+			bottom: 30px;
+			left: auto;
 			height: 140px;
+			max-width: unset;
+			width: auto;
+			padding: 0;
 		}
 
 		li {
@@ -148,8 +153,8 @@
 			display: block;
 
 			@include mobile {
-				width: 100%;
-				padding: 15px 11px 17px;
+				width: 50%;
+				padding: 15px 0 14px 16.66%;
 				font-size: 1.5em;
 				transform: translateY(60px);
 				opacity: 0;
@@ -314,8 +319,20 @@
 		padding-right: 0;
 	}
 
+	@include fulldesktop {
+		width: 100%;
+	}
+
 	.page-name {
 		z-index: 1;
+
+		@include desktop {
+			right: 3.3%;
+		}
+
+		@media (min-width:1700px) {
+			right: 0;
+		}
 	}
 
 	.responsive-container {
@@ -339,6 +356,11 @@
 		@include desktop {
 			padding-left: 7.3%;
 			padding-right: 3.3%;
+			max-width: 1100px;
+		}
+
+		@media (min-width:1700px) {
+			max-width: 1400px;
 		}
 
 		@media (min-width:1700px) {
@@ -366,16 +388,21 @@
 
 		&.left {
 			position: absolute;
-			width: 83.33%;
-			left: 16.66%;
+			// width: 83.33%;
+			width: 100%;
+			margin: auto;
+			left: 0; right: 0;
+			// left: 16.66%;
 			// bottom: 7vh;
 			bottom: 6%;
 
 			@include desktop {
 				left: 0;
+				right: auto;
 				max-width: 467px;
 				padding: 80px 0;
-				width: 40%;
+				// width: 40%;
+				width: 41.66%;
 			}
 
 		}
@@ -396,9 +423,11 @@
 		display: inline-block;
 		font-size: .75em;
 		line-height: 1.5em;
+		left: 16.66%;
 
 		@include desktop {
 			font-size: .9em;
+			left: 0;
 		}
 	}
 
@@ -414,6 +443,7 @@
 		}
 
 		@include mobile {
+			width: 33.33%;
 			li {
 				margin-bottom: 20px;
 			}
