@@ -5,6 +5,14 @@
 		height: 100%;
 	}
 
+	@include bigdesktop {
+		min-height: 785px;
+	}
+
+	@include fulldesktop {
+		min-height: 785px;
+	}
+
 	& > .inner-wrapper{
 		@include mobile {
 			height: auto;
@@ -16,7 +24,7 @@
 		width: 100%;
 		max-width: 1660px;
 		height: 100%;
-		padding-top: 50px;
+		padding-top: 48px;
 		// padding-right: 6%;
 
 		@include mobile {
@@ -29,7 +37,7 @@
 			padding-right: 3.3%;
 		}
 
-		@media (min-width: 1441px){
+		@include fulldesktop {
 			padding-top: 160px;
 		}
 
@@ -50,7 +58,7 @@
 
 	.img-wrapper{
 		position: absolute;
-		bottom: 35px;
+		bottom: 33px;
 		width: 50%;
 		// height: 74.06vw;
 		height: 237px;
@@ -98,7 +106,8 @@
 				height: 237px;
 				margin: 0 0 0 auto;
 				padding-right: 15px;
-				padding-left: 30px;
+				// padding-left: 30px;
+				padding-left: 7.5%;
 			}
 
 			@include desktop {
@@ -118,14 +127,14 @@
 
 			.address{
 				position: absolute;
-				bottom: 18px;
+				bottom: 15px;
 				font-family: 'Founders-L';
 				font-size: .75em;
-				line-height: 1.45em;
+				line-height: 1.5em;
 				color: #0c0407;
 
 				@include desktop {
-					bottom: 0;
+					bottom: -8px;
 					font-size: .9em;
 					line-height: 1.2em;
 				}
@@ -164,7 +173,7 @@
 					font-weight: 100;
 					font-size: 1.875em;
 					line-height: 1.15em;
-					margin-bottom: 5px;
+					margin-bottom: 4px;
 
 					@include desktop {
 						padding-right: 8px;
