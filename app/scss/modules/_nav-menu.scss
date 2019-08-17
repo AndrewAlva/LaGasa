@@ -191,10 +191,8 @@
 					&:after {
 						content: '';
 						position: absolute;
-						margin: auto;
 						bottom: 45px;
-						left: 0;
-						right: 0;
+						left: 18px;
 						width: 5px;
 						height: 5px;
 						border-radius: 50%;
@@ -388,21 +386,22 @@
 
 		&.left {
 			position: absolute;
-			// width: 83.33%;
 			width: 100%;
 			margin: auto;
 			left: 0; right: 0;
-			// left: 16.66%;
-			// bottom: 7vh;
 			bottom: 6%;
 
 			@include desktop {
 				left: 0;
 				right: auto;
+				bottom: 0;
 				max-width: 467px;
-				padding: 80px 0;
-				// width: 40%;
+				padding: 50px 0;
 				width: 41.66%;
+			}
+
+			@include bigdesktop {
+				padding: 80px 0;
 			}
 
 		}
@@ -428,6 +427,7 @@
 		@include desktop {
 			font-size: .9em;
 			left: 0;
+			line-height: 1.22em;
 		}
 	}
 
@@ -462,7 +462,7 @@
 			display: block;
 		}
 		@include bigdesktop {
-			bottom: 80px;
+			bottom: 74px;
 		}
 
 		.section-label {
