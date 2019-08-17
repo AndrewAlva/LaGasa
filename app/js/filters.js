@@ -2,15 +2,30 @@ var Filters = {
     areVisible: false,
     categories: document.getElementsByClassName('filter'),
     showTrigger: document.getElementById('filters-trigger'),
+    wrap: document.getElementById('proj-filters'),
+    scrollPos: 0,
+
     init: function() {
         var pFilters = document.getElementById('proj-filters');
         if(!pFilters) return false;
         this.addEvents();
     },
+
     addEvents: function() {
         var _this = this;
         this.showTrigger.addEventListener('click', _this.toggleFilters.bind(this));
+
+        window.addEventListener('scroll', throttle( function(){
+            if(_this.detectScrollDirection(window.pageYOffset) === "down") {
+                _this.hideBar();
+            } else {
+                _this.showBar();
+            }
+
+            _this.scrollPos = window.pageYOffset;
+        }, 200 ));
     },
+
     toggleFilters: function() {
         if (this.areVisible) {
             return this.hideFilters();
@@ -35,5 +50,21 @@ var Filters = {
             })(i);
         }
         this.areVisible = true;
+    },
+
+    showBar: function() {
+        this.wrap.classList.remove('hide')
+    },
+    hideBar: function() {
+        this.wrap.classList.add('hide')
+    },
+
+    detectScrollDirection: function(newScrollPosition) {
+        var _this = this;
+        if (newScrollPosition > _this.scrollPos){
+            return "down"
+        } else {
+            return "up"
+        }
     }
 }
