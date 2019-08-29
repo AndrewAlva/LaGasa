@@ -38,18 +38,36 @@
 		}
 
 		#grid-footer{
-			margin-bottom: 50px;
+			// margin-bottom: 50px;
+			margin-bottom: 58px;
 		}
 	}
 
 	.projects-wrapper{
-		margin-bottom: 63px;
 		position: relative;
+		// margin-bottom: 63px;
+		margin-bottom: 68px;
+
 		@include desktop {
 			margin-bottom: 180px;
 		}
 
 		// Rearrange for filters functionality
+		&.books-only{
+			@include flexIt;
+			@include flexWrap(wrap);
+
+			.project-cover.branding{
+				height: 0;
+				margin-bottom: 0;
+				overflow: hidden;
+			}
+
+			.project-cover.book.last{
+				margin-bottom: 0;
+			}
+		}
+
 		&.branding-only{
 			@include flexIt;
 			@include flexWrap(wrap);
