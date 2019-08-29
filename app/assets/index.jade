@@ -1,25 +1,25 @@
 extends templates/layout.jade
+include _modules/project-cover.jade
 
 block content
 	include _modules/nav-menu.jade
 	+nav-menu("work")
-	include _modules/project-cover.jade
 
 	#home-wrapper.page-wrapper.has-menu
 		.inner-wrapper
-			//- .test
+			.test
 			.content-grid
 				h6.page-name.top
 					span.mask-container
 						span.up-in Work
 
 				include _modules/filters.jade
-				.projects-wrapper
-					+project-cover("col-6", "img/covers/01_lil.jpg", "Live in Light", "Chronicle Books", "live-in-light.html")
+				.projects-wrapper.branding-only
+					+project-cover("col-6", "img/covers/01_lil.jpg", "Live in Light", "Chronicle Books", "live-in-light.html", "book")
 
-					+project-cover("col-5 offset-1", "img/covers/02_trb.jpg", "The Rooftop Beekeper", "Chronicle Books", "trb.html", "down--half align-top")
+					+project-cover("col-5 offset-1", "img/covers/02_trb.jpg", "The Rooftop Beekeper", "Chronicle Books", "trb.html", "down--half align-top book")
 
-					.grid-title
+					.grid-title.order-3
 						h1.written 
 							span.mask-container.padded-r
 								span.up-in Selected
@@ -30,25 +30,25 @@ block content
 							span.mask-container
 								span.up-in (15 - 19)
 					
-					+project-cover("col-8", "img/covers/03_wif.jpg", "Walk in Faith", "The Monacelli Press", "walk-in-faith.html", "pushdown--sm")
+					+project-cover("col-8", "img/covers/03_wif.jpg", "Walk in Faith", "The Monacelli Press", "walk-in-faith.html", "pushdown--sm book")
 
-					+project-cover("col-6 offset-6", "img/covers/04_tbh.jpg", "TBH", "Scholastic Inc", "tbh.html", "pushdown--md")
+					+project-cover("col-6 offset-6", "img/covers/04_tbh.jpg", "TBH", "Scholastic Inc", "tbh.html", "pushdown--md book")
 
-					+project-cover("col-5", "img/covers/05_odt.jpg", "One Day's Tale", "Austin Lamp Press", "one-days-tale.html", "up--twothird align-top")
+					+project-cover("col-5", "img/covers/05_odt.jpg", "One Day's Tale", "Austin Lamp Press", "one-days-tale.html", "up--twothird align-top book")
 
-					+project-cover("col-5 offset-2", "img/covers/06_bs.jpg", "Brooklyn Spaces", "Scholastic Inc", "brooklyn-spaces.html")
+					+project-cover("col-5 offset-2", "img/covers/06_bs.jpg", "Brooklyn Spaces", "Scholastic Inc", "brooklyn-spaces.html", "book")
 
-					+project-cover("col-5", "img/covers/07_fs.jpg", "Farrah Sit", "Founder Farrah Sit", "farrah-sit.html", "up--half align-top smaller-col")
+					+project-cover("col-5", "img/covers/07_fs.jpg", "Farrah Sit", "Founder Farrah Sit", "farrah-sit.html", "up--half align-top smaller-col branding order-1")
 
-					+project-cover("col-8 offset-4", "img/covers/08_gtg.jpg", "Getting to Good", "The Monacelli Press", "getting-to-good.html", "allup--fifth pushdown--sm")
+					+project-cover("col-8 offset-4", "img/covers/08_gtg.jpg", "Getting to Good", "The Monacelli Press", "getting-to-good.html", "allup--fifth pushdown--sm book")
 
-					+project-cover("col-6", "img/covers/09_mg.jpg", "Mean Girls", "Scholastic Inc", "mean-girls.html", "align-top")
+					+project-cover("col-6", "img/covers/09_mg.jpg", "Mean Girls", "Scholastic Inc", "mean-girls.html", "align-top book")
 
-					+project-cover("col-5 offset-1", "img/covers/10_hr.jpg", "O Homem Razoável", "Create Space", "o-homem-razoavel.html", "down--third")
+					+project-cover("col-5 offset-1", "img/covers/10_hr.jpg", "O Homem Razoável", "Create Space", "o-homem-razoavel.html", "down--third book")
 
-					+project-cover("col-5", "img/covers/11_st.jpg", "Speech Tank", "Founders Marisa Polansky and Christine Keller", "speech-tank.html", "up--sixteenth align-top smaller-col")
+					+project-cover("col-5", "img/covers/11_st.jpg", "Speech Tank", "Founders Marisa Polansky and Christine Keller", "speech-tank.html", "up--sixteenth align-top smaller-col branding order-3")
 
-					+project-cover("col-6 offset-1", "img/covers/12_mny.jpg", "Movetes", "Founder Maureen Caruthers", "movetes.html", "pushup--third align-top")
+					+project-cover("col-6 offset-1", "img/covers/12_mny.jpg", "Movetes", "Founder Maureen Caruthers", "movetes.html", "pushup--third align-top branding order-2")
 
 
 

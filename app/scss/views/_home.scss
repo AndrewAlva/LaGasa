@@ -14,7 +14,7 @@
 			padding-top: 220px;
 		}
 
-		@include fulldesktop {
+		@media (min-width: 1700px) {
 			padding-left: 0;
 			padding-right: 0;
 		}
@@ -49,6 +49,49 @@
 			margin-bottom: 180px;
 		}
 
+		// Rearrange for filters functionality
+		&.branding-only{
+			@include flexIt;
+			@include flexWrap(wrap);
+
+			.project-cover.book{
+				height: 0;
+				margin-bottom: 0;
+				overflow: hidden;
+			}
+
+			@include desktop {
+				margin-top: -20px;
+
+				.order-1{
+					@include flexOrder(1);
+					transform: none;
+				}
+
+				.order-2{
+					@include flexOrder(2);
+					margin-top: 26.5%;
+				}
+
+				.order-3{
+					@include flexOrder(3);
+					transform: none;
+				}
+
+				.order-4{
+					@include flexOrder(4);
+					transform: none;
+				}
+
+				.grid-title{
+					width: 100%;
+					margin-top: -11.4%;
+					margin-bottom: 8%;
+				}
+
+			}
+		}
+
 	}
 
 	.grid-title{
@@ -72,6 +115,10 @@
 			color: inherit;
 
 			@include desktop {
+				font-size: 5em;
+			}
+
+			@include bigdesktop {
 				font-size: 7em;
 			}
 
