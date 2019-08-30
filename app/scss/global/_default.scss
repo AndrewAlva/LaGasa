@@ -40,9 +40,11 @@ button{
 }
 
 canvas{
-	position: absolute;
-	// pointer-events: none;
+	// position: absolute;
+	position: fixed;
+	pointer-events: none;
 	cursor: none;
+	mix-blend-mode: difference;
 }
 
 #preloader{

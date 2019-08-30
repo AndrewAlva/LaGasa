@@ -1,5 +1,5 @@
 mixin filter(link, filter, name, quantity, active="")
-	a(href="#{link}" projects-filter="#{filter}" class="filter #{active}")
+	a(href="#{link}" projects-filter="#{filter}" class="filter #{active}" title="Show #{name} Projects")
 		span.name #{name}
 		span.qty #{quantity}
 

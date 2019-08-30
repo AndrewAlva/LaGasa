@@ -1,37 +1,44 @@
-var Cursor = function() {
+var Cursor = function(args) {
+    if (!args) args = {};
+
     var _self = this;
     var canvas, context;
     var fps = 60;
     var holdDuration = 0.8; // in seconds
     var mouse = {
-        x: HalfWidth,
-        y: MaxHeight - 130
+        x: args.mouse_x || HalfWidth,
+        y: args.mouse_y || MaxHeight - 130
     };
+
     this.x = mouse.x;
     this.y = mouse.y;
     this.mouseDown = false;
     this.cof = 0.1; //coefficient of friction
     this.coff = 0.2; //coefficient of friction for fonts
     this.coa = 1; //coefficient of acceleration
-    this.maxRadius = 50;
+    this.maxRadius = args.maxRadius || 50;
     this.minRadius = 35;
     this.maxDiameter = 0;
 
     this.width = 1;
-    this.color = "#1a1a1a";
+    this.color = "#e5e5e5";
+    // this.color = "#1a1a1a";
     this.alpha = 0.2;
     this.arcStart = -HALF_PI;
     this.arcEnd = -HALF_PI;
     this.arcMax = HALF_PI * 3;
 
+    // Regular links to interact
+    this.links = (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a');
+
     // Text
-    this.string = "Hold to enter";
+    this.string = args.string || "Hold to enter";
     this.stringAlign = "center";
     this.stringBaseline = "middle";
     this.fontStyle = "normal";
     this.fontWeight = "lighter";
-    this.fontSize = 12;
-    this.fontFamily = "Helvetica";
+    this.fontSize = args.fontSize || 12;
+    this.fontFamily = args.fontFamily || "Helvetica";
     this.fontDisplacement = 14;
     this.fontMaxDisplacement = 14;
     this.fontIsActive = false;
@@ -118,6 +125,10 @@ var Cursor = function() {
     this.activeFont = function() {
         this.fontIsActive = true;
     }
+    this.setFontDisplacement = function() {
+        this.fontDisplacement = this.fontSize + 2;
+        this.fontMaxDisplacement = this.fontDisplacement;
+    }
 
     this.update = function() {
         this.followMouse();
@@ -173,12 +184,28 @@ var Cursor = function() {
             _self.mouseDown = false;
         });
 
+        for (var i = 0; i < this.links.length; i++) {
+            this.links[i].addEventListener("mouseenter", function(){
+                _self.mouseDown = true;
+                _self.minRadius = 15;
+            })
+
+            this.links[i].addEventListener("mouseleave", function(){
+                _self.mouseDown = false;
+                debounce(function(){
+                    _self.minRadius = 35;
+                },200)
+                
+            })
+        }
+
         setTimeout(function() {
             _self.activeFont();
         }, 500);
         this.onResize();
         this.setAcceleration();
         this.setRadius();
+        this.setFontDisplacement();
         //this.radius = 0;
     }
 

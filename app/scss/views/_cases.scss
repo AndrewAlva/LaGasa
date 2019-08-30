@@ -1,6 +1,14 @@
 .cases-page {
 	background-color: #fff;
 
+	@include desktop {
+		cursor: none;
+
+		a{
+			cursor: none;
+		}
+	}
+
 	.content-grid {
 		padding-top: 52px;
 
