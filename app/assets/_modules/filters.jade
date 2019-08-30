@@ -1,5 +1,5 @@
-mixin filter(link, name, quantity, active="")
-	a(href="#{link}" class="filter #{active}")
+mixin filter(link, filter, name, quantity, active="")
+	a(href="#{link}" projects-filter="#{filter}" class="filter #{active}")
 		span.name #{name}
 		span.qty #{quantity}
 
@@ -10,6 +10,6 @@ header#proj-filters.filters-wrap
 				span.up-in Filter by.
 
 		nav.categories
-			+filter("#", "All", 12, "active")
-			+filter("#", "Books", 9)
-			+filter("#", "Branding", 3)
+			+filter("#", "all", "All", 12, "active")
+			+filter("#", "books-only", "Books", 9)
+			+filter("#", "branding-only", "Branding", 3)

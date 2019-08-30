@@ -3,6 +3,8 @@ var Filters = {
     categories: document.getElementsByClassName('filter'),
     showTrigger: document.getElementById('filters-trigger'),
     wrap: document.getElementById('proj-filters'),
+    projects: document.getElementById('filtered-projects'),
+
     scrollPos: 0,
 
     init: function() {
@@ -24,6 +26,8 @@ var Filters = {
 
             _this.scrollPos = window.pageYOffset;
         }, 200 ));
+
+        this.filterListener();
     },
 
     toggleFilters: function() {
@@ -66,5 +70,35 @@ var Filters = {
         } else {
             return "up"
         }
+    },
+
+    setFilter: function(filterName) {
+        this.projects.classList.remove('books-only');
+        this.projects.classList.remove('branding-only');
+
+        this.projects.classList.add(filterName);
+    },
+
+    filterListener: function() {
+        var _this = this;
+
+        for (var i = 0; i < this.categories.length; i++) {
+            this.categories[i].addEventListener("click", function(e){
+                var _filterName = this.getAttribute("projects-filter");
+                _this.setFilter(_filterName);
+
+                _this.updateActiveFilter(this);
+            })
+        }
+    },
+
+    updateActiveFilter: function(target) {
+        for (var i = 0; i < this.categories.length; i++) {
+            this.categories[i].classList.remove('active');
+        }
+
+        target.classList.add('active');
     }
 }
+
+
