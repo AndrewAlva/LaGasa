@@ -60,11 +60,37 @@
 			.project-cover.branding{
 				height: 0;
 				margin-bottom: 0;
+				margin-top: 0;
 				overflow: hidden;
 			}
 
-			.project-cover.book.last{
-				margin-bottom: 0;
+			.project-cover.book{
+				&.last{
+					margin-bottom: 0;
+				}
+
+				@include desktop {
+					&.gtg{
+						margin-top: 12%;
+						margin-left: 0;
+					}
+
+					&.mg{
+						margin-left: 50%;
+					}
+
+					&.ohr{
+						margin-top: -25%;
+						margin-left: 0;
+						@include translate(0, 0);
+					}
+				}
+			}
+
+			.grid-title{
+				@include desktop {
+					width: 100%;
+				}
 			}
 		}
 
