@@ -21,7 +21,7 @@ var App = {
             RAF.add(mb_ImgShifter);
         }
         if (window.innerWidth >= 992) {
-            if (window.location.href.indexOf('intro.html') < 0 && window.location.href.indexOf('index.html') < 0 && window.location.href.indexOf('bio.html') < 0 && window.location.href.indexOf('contact.html') < 0) {
+            if (window.location.href.indexOf('intro.html') < 0 && window.location.href.indexOf('index.html') < 0 && window.location.href.indexOf('bio.html') < 0 && window.location.href.indexOf('contact.html') < 0 && window.location.pathname != "/") {
                 var _grid = document.getElementsByClassName('content-grid')[0];
                 var _gridData = _grid.getBoundingClientRect();
                 var _cursorX = _gridData.left + _gridData.width - parseFloat(window.getComputedStyle(_grid, null).getPropertyValue('padding-right'));
