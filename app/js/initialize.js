@@ -38,7 +38,8 @@ var App = {
                     fontSize: 18,
                     mouse_y: _cursorY + 18,
                     mouse_x: _cursorX,
-                    maxRadius: _cursorRadius
+                    maxRadius: _cursorRadius,
+                    links: (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a')
                 });
 
                 RAF.add(cursor);

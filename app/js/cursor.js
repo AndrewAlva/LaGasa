@@ -29,7 +29,7 @@ var Cursor = function(args) {
     this.arcMax = HALF_PI * 3;
 
     // Regular links to interact
-    this.links = (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a');
+    this.links = args.links || {};
 
     // Text
     this.string = args.string || "Hold to enter";
