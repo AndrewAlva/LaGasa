@@ -497,10 +497,10 @@
 	.next-project {
 		position: relative;
 		width: 100%;
-		margin-bottom: 38px;
+		// margin-bottom: 38px;
 
 		@include desktop {
-			margin-bottom: 42px;
+			// margin-bottom: 42px;
 		}
 
 		.subtitle {
@@ -527,7 +527,8 @@
 			font-size: 1.375em;
 			padding: 0px 15px;
 			font-weight: 100;
-			line-height: 1em;
+			// line-height: 1em;
+			line-height: .85em;
 			width: 100%;
 			margin-bottom: 20px;
 
