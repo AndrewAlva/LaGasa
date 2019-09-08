@@ -5,6 +5,7 @@
 	font-weight: 100;
 	font-size: 0.75em;
 	color: $black-gray;
+
 	@include desktop {
 		font-size: 1.2em;
 	}

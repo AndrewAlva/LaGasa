@@ -4,6 +4,8 @@ var Filters = {
     showTrigger: document.getElementById('filters-trigger'),
     wrap: document.getElementById('proj-filters'),
     projects: document.getElementById('filtered-projects'),
+    preloader: document.getElementById('proj-preloader'),
+    enabled: true,
 
     scrollPos: 0,
 
@@ -84,10 +86,25 @@ var Filters = {
 
         for (var i = 0; i < this.categories.length; i++) {
             this.categories[i].addEventListener("click", function(e){
-                var _filterName = this.getAttribute("projects-filter");
-                _this.setFilter(_filterName);
+                e.preventDefault();
 
-                _this.updateActiveFilter(this);
+                if (_this.enabled) {
+                    _this.fadeOutCovers();
+                    _this.enabled = false;
+
+                    var _filterName = this.getAttribute("projects-filter");
+                    _this.updateActiveFilter(this);
+
+                    setTimeout(function(){
+                        _this.setFilter(_filterName);
+                        toTop();
+                        
+                        setTimeout(function(){
+                            _this.fadeInCovers();
+                            _this.enabled = true;
+                        }, 600)
+                    }, 600);
+                }
             })
         }
     },
@@ -98,6 +115,14 @@ var Filters = {
         }
 
         target.classList.add('active');
+    },
+
+    fadeOutCovers: function() {
+        this.preloader.classList.add('show');
+    },
+
+    fadeInCovers: function() {
+        this.preloader.classList.remove('show');
     }
 }
 
