@@ -103,15 +103,24 @@
 
 		@include desktop {
 			margin-bottom: 167px;
+			@include flexIt;
+			@include flexWrap(wrap);
 		}
 
 		.overview{
 			width: 100%;
 			margin-bottom: 36px;
+
 			@include desktop {
 				width: 41.66%;
-				margin-left: 50%;
+				// margin-left: 50%;
 				margin-bottom: 123px;
+
+				@include flexOrder(2);
+			}
+
+			@media (min-width: 1700px) {
+				margin-bottom: 0;
 			}
 			
 		}
@@ -125,19 +134,34 @@
 				margin-right: 8.33%;
 			}
 
+			@include desktop {
+				@include flexOrder(1);
+			}
+
 			img{
 				position: relative;
 				width: 100%;
 
 				@include desktop {
-					position: absolute;
-					bottom: 0;
+					// position: absolute;
+					// bottom: 0;
+					margin-top: 95px;
 					width: 77.14%;
 				}
 			}
 		}
 
 		.hi-wrap{
+			@include desktop {
+				@include flexOrder(3);
+				margin-left: 50%;
+			}
+
+			@media (min-width: 1700px) {
+				// margin-top: -10vw;
+				margin-top: -137px;
+			}
+
 			.hi{
 				font-family: 'Saol', serif;
 				font-size: 2.5em;
