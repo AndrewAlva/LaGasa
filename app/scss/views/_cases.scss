@@ -1,5 +1,13 @@
 .cases-page {
 	background-color: #fff;
+	
+	&.has-menu{
+		padding-bottom: 73px;
+
+		@include desktop {
+			padding-bottom: 48px;
+		}
+	}
 
 	@include desktop {
 		cursor: none;
@@ -530,7 +538,7 @@
 			// line-height: 1em;
 			line-height: .85em;
 			width: 100%;
-			margin-bottom: 20px;
+			// margin-bottom: 20px;
 
 			@media (min-width: 420px) {
 				padding-left: 0;
@@ -538,7 +546,7 @@
 			}
 
 			@include desktop {
-				margin-bottom: 0;
+				// margin-bottom: 0;
 				width: 83.33%;
 				padding: 0;
 				font-size: 4em;

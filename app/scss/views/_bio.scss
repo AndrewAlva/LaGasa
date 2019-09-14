@@ -1,5 +1,10 @@
 #bio-wrapper{
 	background-color: $bio-bg;
+	padding-bottom: 73px;
+
+	@include desktop {
+		padding-bottom: 48px;
+	}
 
 	.content-grid{
 		padding-top: 70px;
@@ -8,7 +13,7 @@
 			max-width: 400px;
 			padding-left: 15px;
 			padding-right: 15px;
-			padding-bottom: 5px;
+			// padding-bottom: 5px;
 		}
 		@include desktop {
 			padding-top: 140px;

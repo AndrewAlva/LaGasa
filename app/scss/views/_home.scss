@@ -1,9 +1,11 @@
 #home-wrapper{
 	background-color: #fff;
 	padding-top: 48px;
+	padding-bottom: 73px;
 
 	@include desktop {
 		padding-top: 0;
+		padding-bottom: 48px;
 	}
 
 	.content-grid{
