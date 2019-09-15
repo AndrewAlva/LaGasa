@@ -123,6 +123,10 @@
 		@include transform-origin(bottom, left);
 		@include transitions-ease(.5s);
 	}
+
+	.title, .client{
+		pointer-events: none;
+	}
 	
 }
 
