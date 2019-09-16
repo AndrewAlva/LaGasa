@@ -20,6 +20,8 @@ var App = {
             });
             RAF.add(mb_ImgShifter);
         }
+
+        // Custom Cursor for intro.html and "close" projects
         if (window.innerWidth >= 992) {
             if(window.location.href.indexOf('intro.html') > 0) {
                 var cursor = new Cursor();
