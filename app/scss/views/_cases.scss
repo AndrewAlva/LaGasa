@@ -9,13 +9,13 @@
 		}
 	}
 
-	@include desktop {
-		cursor: none;
+	// @include desktop {
+	// 	cursor: none;
 
-		a{
-			cursor: none;
-		}
-	}
+	// 	a{
+	// 		cursor: none;
+	// 	}
+	// }
 
 	.content-grid {
 		padding-top: 52px;
@@ -577,6 +577,8 @@
 	display: none;
 }
 .case-preloader {
+		// opacity: .5;
+		// color: red;
 	// display: none;
 	// opacity: .1;
 	pointer-events: none;
@@ -611,7 +613,8 @@
 		width: 100vw;
 		position: absolute;
 		// bottom: 58px;
-		bottom: 56px;
+			bottom: 56px;
+			// top: 90px;
 		font-family: 'Saol-L', serif;
 		line-height: 1em;
 		font-size: 1.375em;
@@ -667,6 +670,80 @@
 				&:nth-child(28){@include trans-delayed(1s, 0.324s);}
 				&:nth-child(29){@include trans-delayed(1s, 0.336s);}
 				&:nth-child(30){@include trans-delayed(1s, 0.348s);}
+			}
+
+			// All
+			&.left-1{
+				margin-left: -1px;
+			}
+			&.left1{
+				margin-left: 1px;
+			}
+
+			
+			// 768
+			&.left-1-768{
+				@media (min-width: 768px){
+					margin-left: -1px;
+				}
+			}
+			&.left1-768{
+				@media (min-width: 768px){
+					margin-left: 1px;
+				}
+			}
+
+			&.leftreset-768{
+				@media (min-width: 768px){
+					margin-left: 0;
+				}
+			}
+
+
+			// 992
+			&.left-1-desk{
+				@include desktop {
+					margin-left: -1px;
+				}
+			}
+			&.left-2-desk{
+				@include desktop {
+					margin-left: -2px;
+				}
+			}
+			&.left-3-desk{
+				@include desktop {
+					margin-left: -3px;
+				}
+			}
+			&.left-4-desk{
+				@include desktop {
+					margin-left: -4px;
+				}
+			}
+
+			&.left1-desk{
+				@include desktop {
+					margin-left: 1px;
+				}
+			}
+			&.left2-desk{
+				@include desktop {
+					margin-left: 2px;
+				}
+			}
+
+			&.leftreset-desk{
+				@include desktop {
+					margin-left: 0;
+				}
+			}
+
+
+			&.right-1-desk{
+				@include desktop {
+					margin-right: -1px;
+				}
 			}
 		}
 
@@ -842,7 +919,8 @@
 }
 
 span.title-space{
-	width: 6px;
+	// width: 6px;
+	width: 4px;
 
 	@include desktop {
 		width: 14px;

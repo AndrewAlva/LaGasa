@@ -101,7 +101,8 @@ var ProjectPreloader = function() {
         this.hide();
     }
     this.hide = function() {
-        toTop(50);
+        // toTop(50);
+        window.scroll(0,0);
         new TWEEN.Tween(_self).to({
             alpha: 0
         }, 600).onUpdate(function() {
@@ -127,11 +128,11 @@ var ProjectPreloader = function() {
 
     this.init = function() {
         Preloader.off(); // Oculta el preloader default
-        this.splitString(this.currentString, this.currentChars);
-        this.createSpans(this.currentTitle, this.currentChars);
+        // this.splitString(this.currentString, this.currentChars);
+        // this.createSpans(this.currentTitle, this.currentChars);
 
-        this.splitString(this.nextString, this.nextChars);
-        this.createSpans(this.nextTitle, this.nextChars);
+        // this.splitString(this.nextString, this.nextChars);
+        // this.createSpans(this.nextTitle, this.nextChars);
         this.applyTransform(this.nextTitle);
     }
 }
