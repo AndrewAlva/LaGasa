@@ -635,7 +635,38 @@
 		span {
 			display: inline-block;
 			&.transition {
-				@include transitions-ease(1s);
+				// @include transitions-ease(1s);
+
+				&:first-child{@include trans-delayed(1s, 0s);}
+				&:nth-child(2){@include trans-delayed(1s, 0.012s);}
+				&:nth-child(3){@include trans-delayed(1s, 0.024s);}
+				&:nth-child(4){@include trans-delayed(1s, 0.036s);}
+				&:nth-child(5){@include trans-delayed(1s, 0.048s);}
+				&:nth-child(6){@include trans-delayed(1s, 0.060s);}
+				&:nth-child(7){@include trans-delayed(1s, 0.072s);}
+				&:nth-child(8){@include trans-delayed(1s, 0.084s);}
+				&:nth-child(9){@include trans-delayed(1s, 0.096s);}
+				&:nth-child(10){@include trans-delayed(1s, 0.108s);}
+				&:nth-child(11){@include trans-delayed(1s, 0.120s);}
+				&:nth-child(12){@include trans-delayed(1s, 0.132s);}
+				&:nth-child(13){@include trans-delayed(1s, 0.144s);}
+				&:nth-child(14){@include trans-delayed(1s, 0.156s);}
+				&:nth-child(15){@include trans-delayed(1s, 0.168s);}
+				&:nth-child(16){@include trans-delayed(1s, 0.18s);}
+				&:nth-child(17){@include trans-delayed(1s, 0.192s);}
+				&:nth-child(18){@include trans-delayed(1s, 0.204s);}
+				&:nth-child(19){@include trans-delayed(1s, 0.216s);}
+				&:nth-child(20){@include trans-delayed(1s, 0.228s);}
+				&:nth-child(21){@include trans-delayed(1s, 0.240s);}
+				&:nth-child(22){@include trans-delayed(1s, 0.252s);}
+				&:nth-child(23){@include trans-delayed(1s, 0.264s);}
+				&:nth-child(24){@include trans-delayed(1s, 0.276s);}
+				&:nth-child(25){@include trans-delayed(1s, 0.288s);}
+				&:nth-child(26){@include trans-delayed(1s, 0.3s);}
+				&:nth-child(27){@include trans-delayed(1s, 0.312s);}
+				&:nth-child(28){@include trans-delayed(1s, 0.324s);}
+				&:nth-child(29){@include trans-delayed(1s, 0.336s);}
+				&:nth-child(30){@include trans-delayed(1s, 0.348s);}
 			}
 		}
 

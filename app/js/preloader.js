@@ -39,12 +39,12 @@ var ProjectPreloader = function() {
 
     this.currentTitle = document.getElementById('currentTitle');
     if (!this.currentTitle) return false; //Prevenir seteo en pantallas donde no existe el elemento currentitle
-    this.currentX = getY(this.currentTitle);
+    this.currentY = getY(this.currentTitle);
     this.currentString = this.currentTitle.innerText;
     this.currentChars = [];
 
     this.nextTitle = document.getElementById('nextTitle');
-    this.nextX = this.nextTitle.getBoundingClientRect().top;
+    this.nextY = this.nextTitle.getBoundingClientRect().top;
     this.nextString = this.nextTitle.innerText;
     // this.nextString = this.nextTitle.innerText.split(" ").join("_");
     this.nextChars = [];
@@ -67,22 +67,33 @@ var ProjectPreloader = function() {
     }
 
     this.applyTransform = function(target) {
-        var titlesDistance = this.nextX - this.currentX;
+        var titlesDistance = this.nextY - this.currentY;
         // this.nextTitle.style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
         setTimeout(function() {
-            for (var i = 0; i < target.children.length; i++) {
-                (function(i) {
-                    setTimeout(function() {
-                        target.children[i].classList.add("transition");
-                        target.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
-                    }, (i * _self.charsDelay));
+            // for (var i = 0; i < target.children.length; i++) {
+            //     (function(i) {
+            //         setTimeout(function() {
+            //             target.children[i].classList.add("transition");
+            //             target.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
+            //         }, (i * _self.charsDelay));
 
-                    if (i == target.children.length - 1) {
-                        setTimeout(function() {
-                            _self.hide();
-                        }, 1000 + (i * _self.charsDelay))
-                    }
-                })(i);
+            //         if (i == target.children.length - 1) {
+            //             setTimeout(function() {
+            //                 _self.hide();
+            //             }, 1000 + (i * _self.charsDelay))
+            //         }
+            //     })(i);
+            // }
+
+            for (var i = 0; i < target.children.length; i++) {
+                target.children[i].classList.add("transition");
+                target.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
+
+                if (i == target.children.length - 1) {
+                    setTimeout(function() {
+                        _self.hide();
+                    }, 1000 + (i * _self.charsDelay))
+                }
             }
         }, 500);
     }
