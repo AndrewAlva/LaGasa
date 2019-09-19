@@ -74,7 +74,8 @@
 
 		.descriptor{
 			font-family: 'Saol';
-			font-size: 1.375em;
+			// font-size: 1.375em;
+			font-size: 28px;
 			line-height: 1em;
 			font-weight: lighter;
 			margin-bottom: 20px;
@@ -109,7 +110,7 @@
 
 		.intro-bio{
 			font-family: 'Founders-L';
-			font-size: .75em;
+			font-size: 18px;
 			line-height: 1.5em;
 			text-align: left;
 
@@ -118,13 +119,23 @@
 			}
 
 			@include desktop {
-				font-size: 1em;
+				// font-size: 1em;
+				font-size: 20px;
+			}
+
+			@media (min-width: 1400px) {
+				font-size: 22px;
+			}
+
+			@include fulldesktop {
+				font-size: 24px;
 			}
 		}
 
 		.title{
 			font-family: 'Saol-L';
-			font-size: 3.75em;
+			// font-size: 3.75em;
+			font-size: 60px;
 			line-height: .75em;
 			font-weight: 100;
 
@@ -133,12 +144,17 @@
 			}
 
 			@include desktop {
-				font-size: 6em;
+				// font-size: 6em;
+				font-size: 140px;
 				line-height: .9em;
 			}
 
 			@include bigdesktop {
 				font-size: 9em;
+			}
+
+			@media (min-width: 1400px) {
+				font-size: 200px;
 			}
 
 			@include fulldesktop {
