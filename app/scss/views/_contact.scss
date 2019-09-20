@@ -30,7 +30,7 @@
 		width: 100%;
 		max-width: 1660px;
 		height: 100%;
-		padding-top: 48px;
+		padding-top: 43px;
 		// padding-right: 6%;
 
 		@include mobile {
@@ -58,11 +58,12 @@
 			right: 3.3%;
 		}
 		@media (min-width: 1700px){
-			right: 0%;
+			// right: 0%;
 		}
 	}
 
 	.img-wrapper{
+		display: none;
 		position: absolute;
 		bottom: 33px;
 		width: 50%;
@@ -74,6 +75,7 @@
 		background-position: center;
 
 		@include desktop {
+			display: block;
 			top: 0;
 			bottom: initial;
 			width: 30.12%;
@@ -86,7 +88,9 @@
 		top: 0;
 		right: 0;
 		width: 100%;
-		padding-bottom: 35px;
+		// padding-bottom: 35px;
+		padding-bottom: 60px;
+
 		@include mobile {
 			@include flexIt;
 			flex-wrap: wrap;
@@ -104,19 +108,24 @@
 
 		.contact-info{
 			position: relative;
-			display: inline-block;
-			width: 50%;
+			// display: inline-block;
+			// width: 50%;
+			@include flexIt;
+			width: 100%;
+
 			@include mobile {
 				order: 2;
 				// height: 74.06vw;
-				height: 237px;
+				// height: 237px;
 				margin: 0 0 0 auto;
 				padding-right: 15px;
 				// padding-left: 30px;
-				padding-left: 7.5%;
+				// padding-left: 7.5%;
+				padding-left: 15px;
 			}
 
 			@include desktop {
+				display: inline-block;
 				width: 33%;
 				height: 100%;
 			}
@@ -126,16 +135,17 @@
 					margin: 0 0 0 auto;
 				}
 
-				li {
+				li:not(:last-child) {
 					margin-bottom: 22px;
 				}
 			}
 
 			.address{
 				position: absolute;
-				bottom: 15px;
+				// bottom: 15px;
 				font-family: 'Founders-L';
-				font-size: .75em;
+				// font-size: .75em;
+				font-size: 18px;
 				line-height: 1.5em;
 				color: #0c0407;
 
@@ -177,19 +187,24 @@
 
 				.salute{
 					font-weight: 100;
-					font-size: 1.875em;
+					// font-size: 1.875em;
+					font-size: 44px;
 					line-height: 1.15em;
-					margin-bottom: 4px;
+					// margin-bottom: 4px;
 
 					@include desktop {
 						padding-right: 8px;
 						margin-bottom: 0;
-						font-size: 2.875em;
+						// font-size: 2.875em;
 					}
 
 					@include bigdesktop {
-						font-size: 6em;
-						margin-bottom: 10px;
+						font-size: 6.25vw;
+						// font-size: 100px;
+					}
+
+					@include fulldesktop {
+						// font-size: 120px;
 					}
 				}
 
@@ -237,7 +252,8 @@
 
 					.copy-box{
 						// width: 80%;
-						font-size: 1em;
+						// font-size: 1em;
+						font-size: 24px;
 						font-weight: 100;
 
 						@include desktop {
@@ -267,7 +283,7 @@
 				}
 
 				.sz-submit-btn{
-					margin-top: 21px;
+					margin-top: 19px;
 					margin-bottom: 52px;
 
 					@include desktop {

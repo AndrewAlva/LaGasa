@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-.sz-input-container{margin-bottom: 25px;}
+.sz-input-container{margin-bottom: 30px;}
 
 .sz-input{
 	position: relative;
@@ -14,11 +14,12 @@
 	border: none;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	font-family: 'Founders-L';
-	font-size: .875em;
+	// font-size: .875em;
+	font-size: 18px;
 	font-weight: 100;
 
 	@include desktop {
-		font-size: .85em;
+		// font-size: .85em;
 		padding-bottom: 7px;
 	}
 
@@ -35,11 +36,12 @@
 
 	&:focus, &.filled{
 		& ~ .sz-input-label{
-			font-size: .7em;
-			@include translate(0,-18px);
+			// font-size: .7em;
+			font-size: 14px;
+			@include translate(0,-24px);
 
 			@include desktop {
-				font-size: .71em;
+				// font-size: .71em;
 			}
 		}
 	}
@@ -63,12 +65,13 @@
 	top: 5px;
 	left: 0;
 	font-family: 'Founders-L';
-	font-size: .75em;
+	// font-size: .75em;
+	font-size: 18px;
 	font-weight: 100;
 	@include transitions-ease(.4s);
 
 	@include desktop {
-		font-size: .85em;
+		// font-size: .85em;
 	}
 }
 
@@ -80,7 +83,8 @@
 	border: none;
 	border-bottom: 1px solid rgba(26,26,26,.3);
 	font-family: 'Founders-L';
-	font-size: .85em;
+	// font-size: .85em;
+	font-size: 18px;
 	font-weight: 100;
 	vertical-align: top;
 	background: none;
@@ -99,7 +103,8 @@
 
 	&:focus, &.filled{
 		& ~ .sz-input-label{
-			font-size: .71em;
+			// font-size: .71em;
+			font-size: 14px;
 			@include translate(0,-18px);
 		}
 	}
@@ -109,25 +114,28 @@
 	position: relative;
 	padding: 5px 0 0;
 	font-family: 'Founders-L';
-	font-size: .875em;
+	// font-size: .875em;
+	font-size: 20px;
 	font-weight: 100;
 	color: $black-gray;
 	cursor: pointer;
 
 	@include desktop {
-		font-size: 1em;
+		// font-size: 1em;
 	}
 
 	&:after{
-		content: '';
-		display: block;
-		position: absolute;
-		width: 5px;
-		height: 5px;
-		border-radius: 50%;
-		background-color: $black-gray;
-		opacity: 0;
-		@include transitions-bounce(.4s);
+		@include desktop {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background-color: $black-gray;
+			opacity: 0;
+			@include transitions-bounce(.4s);
+		}
 	}
 
 	&:hover, &:focus{
