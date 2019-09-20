@@ -34,12 +34,13 @@
 
 	.bio-p{
 		font-family: 'Founders-L', sans-serif;
-		font-size: 0.75em;
+		// font-size: 0.75em;
+		font-size: 18px;
 		font-weight: 100;
 		line-height: 1.46em;
 
 		@include desktop {
-			font-size: 1.2em;
+			// font-size: 1.2em;
 		}
 
 		&:not(:last-child){
@@ -61,17 +62,19 @@
 		// background-color: rgba(255,0,0,.3);
 		@include desktop {
 			width: 934px;
-			height: 262px;
+			// height: 262px;
 			margin-bottom: 75px;
 		}
 
 		.title{
-			font-size: 2.5em;
+			// font-size: 2.5em;
+			font-size: 44px;
 			font-weight: 100;
 			line-height: .925em;
 
 			@include desktop {
-				font-size: 5em;
+				// font-size: 5em;
+				font-size: 80px;
 			}
 
 			@include bigdesktop {
@@ -90,14 +93,16 @@
 	}
 
 	.section-name{
-		font-size: .625em;
+		// font-size: .625em;
+		font-size: 16px;
 		font-family: 'Saol', serif;
 		font-weight: 100;
 		margin-bottom: 16px;
 
 		@include desktop {
-			font-size: 1em;
-			margin-bottom: 66px;
+			// font-size: 1em;
+			// margin-bottom: 66px;
+			margin-bottom: 28px;
 		}
 	}
 	
@@ -107,7 +112,7 @@
 		margin-bottom: 52px;
 
 		@include desktop {
-			margin-bottom: 167px;
+			margin-bottom: 80px;
 			@include flexIt;
 			@include flexWrap(wrap);
 		}
@@ -119,7 +124,7 @@
 			@include desktop {
 				width: 41.66%;
 				// margin-left: 50%;
-				margin-bottom: 123px;
+				margin-bottom: 60px;
 
 				@include flexOrder(2);
 			}
@@ -132,14 +137,17 @@
 
 		.photo{
 			position: relative;
-			width: 50%;
+			// width: 50%;
+			width: 100%;
 			display: inline-block;
 
 			@include mobile {
-				margin-right: 8.33%;
+				// margin-right: 8.33%;
+				margin-bottom: 30px;
 			}
 
 			@include desktop {
+				width: 50%;
 				@include flexOrder(1);
 			}
 
@@ -150,14 +158,18 @@
 				@include desktop {
 					// position: absolute;
 					// bottom: 0;
-					margin-top: 95px;
+					// margin-top: 95px;
+					margin-top: 55px;
 					width: 77.14%;
 				}
 			}
 		}
 
 		.hi-wrap{
+			text-align: right;
+
 			@include desktop {
+				text-align: left;
 				@include flexOrder(3);
 				margin-left: 50%;
 			}
@@ -169,12 +181,14 @@
 
 			.hi{
 				font-family: 'Saol', serif;
-				font-size: 2.5em;
+				// font-size: 2.5em;
+				font-size: 44px;
 				font-weight: 100;
 				line-height: .92em;
 
 				@include desktop {
-					font-size: 5em;
+					// font-size: 5em;
+					font-size: 60px;
 				}
 
 				@include bigdesktop {
@@ -199,6 +213,10 @@
 		margin-bottom: 63px;
 
 		@include desktop {
+			margin-bottom: 80px;
+		}
+
+		@include bigdesktop {
 			margin-bottom: 300px;
 		}
 
@@ -206,7 +224,7 @@
 			margin-bottom: 21px;
 
 			@include desktop {
-				margin-bottom: 78px;
+				margin-bottom: 28px;
 			}
 		}
 
@@ -267,6 +285,7 @@
 
 					@include desktop {
 						padding-left: 36px;
+						padding-right: 10px;
 					}
 
 					@media (min-width: 1441px){
@@ -283,7 +302,7 @@
 				pointer-events: none;
 				display: none;
 
-				@include desktop {
+				@include bigdesktop {
 					display: block;
 				}
 
@@ -377,14 +396,14 @@
 		margin-bottom: 55px;
 
 		@include desktop {
-			margin-bottom: 233px;
+			margin-bottom: 120px;
 		}
 
 		.section-name{
 			margin-bottom: 20px;
 
 			@include desktop {
-				margin-bottom: 65px;
+				margin-bottom: 28px;
 			}
 		}
 
@@ -392,18 +411,20 @@
 			margin-bottom: 23px;
 
 			@include desktop {
-				margin-bottom: 75px;
+				margin-bottom: 28px;
 			}
 
 			h4{
-				font-size: 1.375em;
+				// font-size: 1.375em;
+				font-size: 28px;
 				font-family: 'Saol';
 				font-weight: 100;
 				line-height: 1em;
 
 				@include desktop {
-					font-size: 4em;
-					line-height: .88em;
+					// font-size: 4em;
+					font-size: 44px;
+					line-height: 1em;
 				}
 
 				&.cursive{
@@ -434,7 +455,7 @@
 				margin-top: 3px;
 				font-family: 'Founders-L', sans-serif;
 				// font-size: .7em;
-				font-size: 10px;
+				font-size: 14px;
 				font-weight: 100;
 
 				.cursive{font-style: italic;}
@@ -443,7 +464,7 @@
 					position: absolute;
 					bottom: -35px;
 					margin-top: 0;
-					font-size: .7em;
+					// font-size: .7em;
 				}
 			}
 		}
@@ -505,13 +526,15 @@
 			}
 
 			h4{
-				font-size: 1.25em;
+				// font-size: 1.25em;
+				font-size: 28px;
 				font-family: 'Saol';
 				font-weight: 100;
 				line-height: .9em;
 
 				@include desktop {
-					font-size: 3em;
+					// font-size: 3em;
+					font-size: 40px;
 					line-height: .85em;
 				}
 
@@ -559,13 +582,15 @@
 
 			h5{
 				display: inline-block;
-				font-size: 1.125em;
+				// font-size: 1.125em;
+				font-size: 28px;
 				font-family: 'Saol-It', serif;
 				// font-style: italic;
 				font-weight: 100;
 
 				@include desktop {
-					font-size: 2.5em;
+					// font-size: 2.5em;
+					font-size: 40px;
 				}
 			}
 		}
