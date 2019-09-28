@@ -1,6 +1,7 @@
 #bio-wrapper{
 	background-color: $bio-bg;
 	padding-bottom: 73px;
+	overflow: hidden;
 
 	@include desktop {
 		padding-bottom: 48px;
@@ -147,7 +148,8 @@
 			}
 
 			@include desktop {
-				width: 50%;
+				width: 41.66%;
+				margin-right: 8.33%;
 				@include flexOrder(1);
 			}
 
@@ -160,7 +162,7 @@
 					// bottom: 0;
 					// margin-top: 95px;
 					margin-top: 55px;
-					width: 77.14%;
+					// width: 77.14%;
 				}
 			}
 		}
@@ -396,7 +398,7 @@
 		margin-bottom: 55px;
 
 		@include desktop {
-			margin-bottom: 120px;
+			margin-bottom: 130px;
 		}
 
 		.section-name{
@@ -445,10 +447,6 @@
 			img{
 				position: relative;
 				width: 100%;
-
-				@include desktop {
-					width: 82.19%;
-				}
 			}
 
 			._caption{
@@ -474,8 +472,12 @@
 		margin-bottom: 45px;
 
 		@include desktop {
-			// margin-bottom: 220px;
-			margin-bottom: 147px;
+			margin-bottom: 85px;
+		}
+
+		.intro{
+			@include desktop {
+			}
 		}
 
 		.photo{
@@ -484,7 +486,22 @@
 
 			@include desktop {
 				display: inline-block;
-				margin-top: -65px;
+				margin-top: 0;
+				height: 0;
+
+				.desktop-mask{
+					position: absolute;
+					bottom: 0;
+					width: 80%;
+					padding-bottom: 133%;
+					overflow-x: hidden;
+
+					.inner{
+						position: absolute;
+						bottom: 0;
+						width: 125%;
+					}
+				}
 			}
 
 			img{
@@ -492,7 +509,10 @@
 				width: 100%;
 
 				@include desktop {
-					width: 82.19%;
+					vertical-align: top;
+					// width: 80%;
+					position: absolute;
+					bottom: 0;
 				}
 			}
 
@@ -522,7 +542,8 @@
 			padding-top: 42px;
 
 			@include desktop {
-				padding-top: 80px;
+				padding-top: 0;
+				margin-top: 102px;
 			}
 
 			h4{
@@ -534,7 +555,7 @@
 
 				@include desktop {
 					// font-size: 3em;
-					font-size: 40px;
+					font-size: 35px;
 					line-height: .85em;
 				}
 
@@ -543,7 +564,21 @@
 				}
 
 				&.right{
+					position: relative;
 					text-align: right;
+
+					&:after{
+						content: '.';
+						position: absolute;
+						bottom: 0;
+						right: -6px;
+						font-family: 'Saol';
+						// font-size: 40px;
+
+						@include desktop {
+							right: -8px;
+						}
+					}
 				}
 
 				&:not(:first-child){
@@ -574,7 +609,7 @@
 				background-color: $black-gray;
 
 				@include desktop {
-					top: -17px;
+					top: -12px;
 					width: 60px;
 					margin-right: 20px;
 				}
@@ -590,7 +625,7 @@
 
 				@include desktop {
 					// font-size: 2.5em;
-					font-size: 40px;
+					font-size: 35px;
 				}
 			}
 		}
@@ -610,7 +645,7 @@
 			margin-bottom: 20px;
 
 			@include desktop {
-				margin-bottom: 70px;
+				margin-bottom: 28px;
 			}
 		}
 	}
