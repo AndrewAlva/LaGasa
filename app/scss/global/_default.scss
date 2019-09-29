@@ -72,7 +72,15 @@ canvas{
 	padding-bottom: 50px;
 
 	&.has-menu{
-		padding-right: 140px;
+		padding-right: 100px;
+
+		@include bigdesktop {
+			padding-right: 120px;
+		}
+
+		@media (min-width: 1441px) {
+			padding-right: 140px;
+		}
 
 		@include fulldesktop {
 			padding-right: 0;
@@ -104,16 +112,21 @@ canvas{
 
 		@include desktop {
 			// right: 4%;
+			right: 7.3%;
 			top: 50px;
 		}
 
 		// @media (min-width: 1441px){
 		@include bigdesktop {
-			top: 78px;
+			top: 46px;
 		}
 
 		@media (min-width: 1700px){
 			right: 0;
+		}
+
+		@include fulldesktop {
+			top: 57px;
 		}
 	}
 }

@@ -13,12 +13,22 @@
 
 		@include desktop {
 			// padding-top: 75px;
-			padding-top: 220px;
+			padding-top: 140px;
+			padding-left: 7.3%;
+			padding-right: 7.3%;
+		}
+
+		@include bigdesktop {
+			padding-top: 160px;
 		}
 
 		@media (min-width: 1700px) {
 			padding-left: 0;
 			padding-right: 0;
+		}
+
+		@include fulldesktop {
+			padding-top: 200px;
 		}
 
 		.project-cover {
@@ -67,7 +77,11 @@
 		margin-bottom: 68px;
 
 		@include desktop {
-			margin-bottom: 180px;
+			margin-bottom: 115px;
+		}
+
+		@include fulldesktop {
+			margin-bottom: 165px;
 		}
 
 		// Rearrange for filters functionality
@@ -91,6 +105,7 @@
 					&.gtg{
 						margin-top: 12%;
 						margin-left: 0;
+						margin-bottom: 60px;
 					}
 
 					&.mg{
@@ -108,6 +123,10 @@
 			.grid-title{
 				@include desktop {
 					width: 100%;
+				}
+
+				@include bigdesktop {
+					padding-top: 20px;
 				}
 			}
 		}
@@ -147,10 +166,16 @@
 
 				.grid-title{
 					width: 100%;
-					margin-top: -11.4%;
-					margin-bottom: 8%;
+					margin-top: -18.4%;
+					margin-bottom: 10%;
 				}
+			}
 
+			@media (min-width: 1441px) {
+				.grid-title{
+					margin-top: -16.4%;
+					margin-bottom: 4%;
+				}
 			}
 		}
 
@@ -164,9 +189,18 @@
 
 		@include desktop {
 			position: relative;
-			padding-top: 20px;
-			padding-bottom: 125px;
+			padding-top: 40px;
+			padding-bottom: 31px;
 			@include translate(0, -105px);
+		}
+
+		@media (min-width: 1441px){
+			padding-top: 20px;
+			padding-bottom: 51px;
+		}
+
+		@media (min-width: 1700px){
+			padding-bottom: 93px;
 		}
 
 		h1{
@@ -183,7 +217,12 @@
 			}
 
 			@include bigdesktop {
-				font-size: 7em;
+				// font-size: 7em;
+				font-size: 120px;
+			}
+
+			@media (min-width: 1441px) {
+				font-size: 140px;
 			}
 
 			&.written{
@@ -210,7 +249,16 @@
 
 			@include desktop {
 				margin-left: 25px;
-				font-size: 1em;
+				// font-size: 1em;
+				font-size: 16px;
+			}
+
+			@include bigdesktop {
+				font-size: 20px;
+			}
+
+			@media (min-width: 1441px) {
+				font-size: 24px;
 			}
 		}
 	}

@@ -14,8 +14,16 @@
 
 	@include desktop {
 		// border-left: 1px solid rgba(0, 0, 0, .1);
-		width: 140px;
+		width: 100px;
 		height: 100%;
+	}
+
+	@include bigdesktop {
+		width: 120px;
+	}
+
+	@media (min-width: 1441px) {
+		width: 140px;
 	}
 
 	a {
@@ -76,17 +84,33 @@
 			padding: 0;
 			top: 60px;
 			left: 0;
-			height: 140px;
+			height: 100px;
 			@include translate-rotate(0, -100%, 90deg);
 			@include transform-origin(bottom, left);
+		}
 
-			a {
-				height: 100%;
-				line-height: 140px;
-			}
+		@include bigdesktop {
+			height: 120px;
+		}
+
+		@media (min-width: 1441px) {
+			height: 140px;
 		}
 
 		a {
+			@include desktop {
+				height: 100%;
+				line-height: 100px;
+			}
+
+			@include bigdesktop {
+				line-height: 120px;
+			}
+
+			@media (min-width: 1441px) {
+				line-height: 140px;
+			}
+
 			h1 {
 				// font-size: 1.125em;
 				font-size: 26px;
@@ -172,10 +196,18 @@
 			top: auto;
 			bottom: 30px;
 			left: auto;
-			height: 140px;
+			height: 100px;
 			max-width: unset;
 			width: auto;
 			padding: 0;
+		}
+
+		@include bigdesktop {
+			height: 120px;
+		}
+
+		@media (min-width: 1441px) {
+			height: 140px;
 		}
 
 		li {
@@ -215,13 +247,13 @@
 			a {
 				@include desktop {
 					height: 100%;
-					line-height: 144px;
+					line-height: 104px;
 					padding: 0 15px;
 
 					&:after {
 						content: '';
 						position: absolute;
-						bottom: 45px;
+						bottom: 27px;
 						left: 18px;
 						width: 5px;
 						height: 5px;
@@ -231,7 +263,22 @@
 						opacity: 0;
 						@include translate(0, -10px);
 					}
+				}
 
+				@include bigdesktop {
+					line-height: 124px;
+
+					&:after {
+						bottom: 37px;
+					}
+				}
+				
+				@media (min-width: 1441px) {
+					line-height: 144px;
+
+					&:after {
+						bottom: 47px;
+					}
 				}
 
 				&:hover, &.active {
@@ -354,9 +401,17 @@
 
 	@include desktop {
 		transform: translate(100%, 0%);
-		width: calc(100% - 140px);
+		width: calc(100% - 100px);
 		transition-duration: 600ms;
 		transition-timing-function: cubic-bezier(.33,0,.55,1);
+	}
+
+	@include bigdesktop {
+		width: calc(100% - 120px);
+	}
+
+	@media (min-width: 1441px) {
+		width: calc(100% - 140px);
 	}
 
 	@media (min-width:1700px) {

@@ -51,8 +51,15 @@
 	height: 100%;
 
 	@include desktop {
-		padding-right: 140px;
+		padding-right: 100px;
+	}
 
+	@include bigdesktop {
+		padding-right: 120px;
+	}
+
+	@media (min-width: 1441px) {
+		padding-right: 140px;
 	}
 
 	@include fulldesktop {
@@ -72,7 +79,8 @@
 			// max-width: 1100px;
 			max-width: 1400px;
 			padding-left: 7.3%;
-			padding-right: 3.3%;
+			// padding-right: 3.3%;
+			padding-right: 7.3%;
 		}
 
 		@media (min-width: 1700px){

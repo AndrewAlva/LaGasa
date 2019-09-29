@@ -15,25 +15,27 @@
 	@include transitions-ease(.7s);
 
 	@include desktop {
-		right: 140px;
+		right: 100px;
 		padding-top: 50px;
 		padding-bottom: 30px;
-		padding-right: 140px;
-		margin-bottom: 120px;
+		padding-right: 100px;
+		// margin-bottom: 120px;
 	}
 
 	@include bigdesktop {
-		padding-top: 78px;
+		padding-top: 45px;
+		padding-right: 120px;
 	}
 
-	@media (min-width: 1700px){
-		
+	@media (min-width: 1441px){
+		padding-right: 140px;
 	}
 
 	@include fulldesktop {
 		right: 0;
 		padding-left: 0;
 		padding-right: 0;
+		padding-top: 57px;
 	}
 
 	&#proj-filters .content-grid{

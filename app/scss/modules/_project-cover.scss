@@ -8,8 +8,14 @@
 	color: $black-gray;
 
 	@include desktop {
-		font-size: 1.2em;
+		// font-size: 22px;
 	}
+	
+	@media (min-width: 1441px) {
+		// font-size: 1.2em;
+		font-size: 24px;
+	}
+
 	&.align-top{
 		vertical-align: top;
 	}
@@ -20,6 +26,10 @@
 
 		&--half{
 			@include translate(0, 32%);
+
+			@include fulldesktop {
+				@include translate(0,34.5%);
+			}
 		}
 
 		&--threequarters{
@@ -29,11 +39,16 @@
 
 	&.pushdown{
 		&--sm{
-			margin-bottom: 120px;
+			// margin-bottom: 120px;
+			margin-bottom: 45px;
 		}
 
 		&--md{
 			margin-bottom: 185px;
+		}
+
+		&--gtg{
+			margin-bottom: 120px;
 		}
 	}
 
