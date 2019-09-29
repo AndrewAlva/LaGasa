@@ -173,7 +173,7 @@
 
 			@include desktop {
 				top: auto;
-				bottom: 8px;
+				bottom: 4px;
 				right: 0;
 			}
 
@@ -197,6 +197,11 @@
 			cursor: pointer;
 			@include transitions-ease(.4s);
 
+			@media (min-width: 768px) {
+				width: 90px;
+				height: 90px;
+			}
+
 			a{
 				position: absolute;
 				margin: auto;
@@ -205,6 +210,10 @@
 				height: 2em;
 				text-decoration: none;
 				color: inherit;
+
+				@media (min-width: 768px) {
+					height: 1.8em;
+				}
 
 				span{
 					pointer-events: none;
