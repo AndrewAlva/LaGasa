@@ -115,6 +115,21 @@ window.onload = function() {
         })
     }
 
+    // inview animation for scaleY, translate and opacity
+    var inviewObjects = document.getElementsByClassName('iv-stretch');
+    for (var i = 0; i < inviewObjects.length; i++) {
+        var inview = InView(inviewObjects[i], function(isInView, data) {
+            // if (isInView) {}
+            if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
+                // console.log("hidden");
+                this.el.classList.remove('iv-active');
+            } else {
+                // console.log("show")
+                this.el.classList.add('iv-active');
+            }
+        })
+    }
+
 
     App.preloader = new ProjectPreloader();
     if (window.location.search.indexOf("project") > 0) {

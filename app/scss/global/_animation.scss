@@ -1,18 +1,68 @@
 // @include animation(fade-up, .8s);
 @keyframes fade-up {
-	0%   { transform: translate(0, 40px); opacity: 0; }
+	0%   { 
+		// transform: translate(0, 40px);
+		@include translate(0, 40px);
+		opacity: 0; 
+	}
+
 	32%  { opacity: 0; }
-	100% { transform: translate(0, 0); opacity: 1; }
+
+	100% { 
+		// transform: translate(0, 0);
+		@include translate(0,0);
+		opacity: 1;
+	}
 }
+
+@keyframes stretch {
+	0%   {
+		transform: scaleY(1.2) translateY(5rem);
+		opacity: 0;
+		transition: opacity .4s, transform 0s .4s;
+	}
+
+	100% {
+		transform: scaleY(1) translateY(0);
+		opacity: 1;
+	}
+}
+
 
 .iv-up{
 	@include translate(0,40px);
 	opacity: 0;
+
+	-webkit-animation-duration: .8s;
+	animation-duration: .8s;
+	-webkit-animation-timing-function: cubic-bezier(.25,.46,.45,.94);
+	animation-timing-function: cubic-bezier(.25,.46,.45,.94);
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	&.iv-active{
+		-webkit-animation-name: fade-up;
+		animation-name: fade-up;
+		opacity: 1;
+	}
 }
 
-.iv-active{
-	@include adasokol-ease;
-	// background-color: green;
-	@include translate(0,0);
-	opacity: 1;
+
+.iv-stretch{
+	@include transform-origin(top, center);
+	opacity: 0;
+
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-timing-function: cubic-bezier(.23,1,.32,1);
+	animation-timing-function: cubic-bezier(.23,1,.32,1);
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	&.iv-active{
+		-webkit-animation-name: stretch;
+		animation-name: stretch;
+		opacity: 1;
+	}
 }
+
