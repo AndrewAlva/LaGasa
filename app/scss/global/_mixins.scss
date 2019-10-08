@@ -45,6 +45,9 @@ $full-desktop-width: 1750px;
 @mixin transitions-ease($timing){
 	        transition: all $timing cubic-bezier(.3,0,.2,1);
 }
+@mixin adasokol-ease($timing: .8s){
+	        transition: all $timing cubic-bezier(.25,.46,.45,.94);
+}
 @mixin trans-delayed($timing, $delay){
 	        transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
 }
@@ -137,6 +140,13 @@ $full-desktop-width: 1750px;
 
 @mixin unselectable{
 	user-select: none;
+}
+
+@mixin animation($name, $duration){
+	-webkit-animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
+	-moz-animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
+	-o-animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
+	animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
 }
 
 

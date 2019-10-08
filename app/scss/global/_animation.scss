@@ -1,0 +1,18 @@
+// @include animation(fade-up, .8s);
+@keyframes fade-up {
+	0%   { transform: translate(0, 40px); opacity: 0; }
+	32%  { opacity: 0; }
+	100% { transform: translate(0, 0); opacity: 1; }
+}
+
+.iv-up{
+	@include translate(0,40px);
+	opacity: 0;
+}
+
+.iv-active{
+	@include adasokol-ease;
+	// background-color: green;
+	@include translate(0,0);
+	opacity: 1;
+}

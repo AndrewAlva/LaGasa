@@ -56,13 +56,14 @@ var App = {
         App.addEvents();
     },
     addEvents: function() {
-        inView('.inview')
-            .on('enter', function(el) {
-                el.classList.add('in-view');
-            })
-            .on('exit', function(el) {
-                el.classList.remove('in-view');
-            });
+        // inView('.inview')
+        //     .on('enter', function(el) {
+        //         el.classList.add('in-view');
+        //     })
+        //     .on('exit', function(el) {
+        //         el.classList.remove('in-view');
+        //     });
+
         var elements = document.getElementsByClassName("change-page");
         for (var i = 0; i < elements.length; i++) {
             var el = elements[i];
@@ -97,6 +98,24 @@ window.onload = function() {
     // después de terminar de cargar todas las imágenes
     // var scroll = new Scroll();
     // RAF.add(scroll);
+
+
+    // inview animation for translate and opacity
+    var inviewObjects = document.getElementsByClassName('iv-up');
+    for (var i = 0; i < inviewObjects.length; i++) {
+        var inview = InView(inviewObjects[i], function(isInView, data) {
+            // if (isInView) {}
+            if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
+                // console.log("hidden");
+                this.el.classList.remove('iv-active');
+            } else {
+                // console.log("show")
+                this.el.classList.add('iv-active');
+            }
+        })
+    }
+
+
     App.preloader = new ProjectPreloader();
     if (window.location.search.indexOf("project") > 0) {
         App.preloader.init();
