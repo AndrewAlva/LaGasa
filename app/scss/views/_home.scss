@@ -84,6 +84,15 @@
 			margin-bottom: 165px;
 		}
 
+		// Rearrange for parallax alignment
+
+		.mg{
+			@include desktop {
+				// margin-top: 10vw;
+				margin-bottom: 5vw;
+			}
+		}
+
 		// Rearrange for filters functionality
 		&.books-only{
 			@include flexIt;
@@ -192,6 +201,7 @@
 			padding-top: 40px;
 			padding-bottom: 31px;
 			@include translate(0, -105px);
+			top: 4vw;
 		}
 
 		@media (min-width: 1441px){

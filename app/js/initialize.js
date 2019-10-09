@@ -103,8 +103,8 @@ window.onload = function() {
     // parallax
     // DEBE ejecutarse aquí:
     // después de terminar de cargar todas las imágenes
-    // var parallax = new Parallax();
-    // RAF.add(parallax);
+    var parallax = new Parallax();
+    RAF.add(parallax);
 
 
     // inview animation for translate and opacity
