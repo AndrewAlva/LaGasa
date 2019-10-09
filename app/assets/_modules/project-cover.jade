@@ -1,8 +1,9 @@
-mixin project-cover(size_position, img, title, client, link, extra_classes)
+mixin project-cover(size_position, img, title, client, link, extra_classes, parallaxIntensity)
 	.project-cover(class="#{size_position} #{extra_classes}")
-		a(href="#{link}" title="#{title}").change-page.inview
+		a(href="#{link}" title="#{title}" parallax-intensity="#{parallaxIntensity}").change-page.parallax
 			figure.photo-wrap
-				img(src="#{img}", alt="#{title}")
+				.iv-stretch
+					img(src="#{img}", alt="#{title}")
 
 			.title 
 				span.mask-container

@@ -100,6 +100,13 @@ window.onload = function() {
     // RAF.add(scroll);
 
 
+    // parallax
+    // DEBE ejecutarse aquí:
+    // después de terminar de cargar todas las imágenes
+    // var parallax = new Parallax();
+    // RAF.add(parallax);
+
+
     // inview animation for translate and opacity
     var inviewObjects = document.getElementsByClassName('iv-up');
     for (var i = 0; i < inviewObjects.length; i++) {

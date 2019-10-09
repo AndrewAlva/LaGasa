@@ -66,3 +66,12 @@
 	}
 }
 
+
+.scrollTransform *{
+	// @include transitions-ease(1s);
+}
+
+.parallax{
+	// Coordinated with instant js position shift
+	// transition: all 0.8s ease-out;
+}
