@@ -6,6 +6,7 @@ var Filters = {
     projects: document.getElementById('filtered-projects'),
     preloader: document.getElementById('proj-preloader'),
     enabled: true,
+    brandingProjects: document.getElementsByClassName("project-cover branding"),
 
     scrollPos: 0,
 
@@ -94,6 +95,11 @@ var Filters = {
 
                     var _filterName = this.getAttribute("projects-filter");
                     _this.updateActiveFilter(this);
+
+                    // Show branding projects to prevent inview bugs
+                    for (var i = 0; i < _this.brandingProjects.length; i++) {
+                        _this.brandingProjects[i].firstElementChild.firstElementChild.firstElementChild.classList.add('iv-active');
+                    }
 
                     setTimeout(function(){
                         _this.setFilter(_filterName);

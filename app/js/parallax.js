@@ -10,7 +10,7 @@ var Parallax = function(){
 			this.floatingObjs.push(_floating);
 		}
 
-		console.log(this.floatingObjs)
+		// console.log(this.floatingObjs)
 	}
 	this.render = function(){
 		if (window.innerWidth >= 992) {

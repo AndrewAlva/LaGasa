@@ -1,3 +1,16 @@
+// If users have never visited the site and are first getting to the home ('/' || '/index.html')
+// if( (window.location.href.indexOf('index.html') > 0 || window.location.href.indexOf('foreword.html') > 0 || window.location.pathname == '/') && localStorage.getItem("LaGasaVisited") == undefined) {
+
+// If users have never visited the website, redirect them to 'foreword'.
+if(localStorage.getItem("LaGasaVisited") == undefined) {
+    localStorage.setItem("LaGasaVisited", true);
+    window.location = window.location.origin + "/foreword.html";
+}
+
+
+
+
+
 // Trigger functions when the initial HTML document
 // has been completely loaded and parsed,
 // without waiting for stylesheets, images, and
@@ -21,9 +34,9 @@ var App = {
             RAF.add(mb_ImgShifter);
         }
 
-        // Custom Cursor for intro.html and "close" projects
+        // Custom Cursor for foreword.html and "close" projects
         if (window.innerWidth >= 992) {
-            if(window.location.href.indexOf('intro.html') > 0) {
+            if(window.location.href.indexOf('foreword.html') > 0) {
                 var cursor = new Cursor();
                 RAF.add(cursor);
 
