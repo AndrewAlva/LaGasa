@@ -5,7 +5,8 @@ mixin case_title(title)
 
 mixin case_cover(halfsrc, alt)
 	figure._cover.scrollTransform
-		img(src="img/proj/#{halfsrc}", alt="#{alt}")
+		.iv-stretch
+			img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
 
@@ -36,7 +37,8 @@ mixin case_description(description, bookURL, cta='Book details')
 
 mixin case_detailview(halfsrc, alt, position)
 	figure.full-image.scrollTransform(class="#{position}")
-		img(src="img/proj/#{halfsrc}", alt="#{alt}")
+		.iv-stretch
+			img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
 mixin case_credits(...args)
@@ -77,29 +79,29 @@ mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args
 	#case-info-wrap
 		.width-restriction
 			.details
-				.spec
+				.spec.js-cascade
 					.label Role
 					h4.role #{role}
 
-				.spec
+				.spec.js-cascade
 					.label Client
 					a(href="#{clientURL}" target="_blank").p-link-invert
 						h4.client #{client}
 
-				.spec.spec--date
+				.spec.spec--date.js-cascade
 					.date #{date}
 
-				a(href="#{bookURL}" target="_blank")._cta
+				a(href="#{bookURL}" target="_blank")._cta.js-cascade
 					|Book details
 					span.link-arrow.white.small
 
-			p.description #{description}
+			p.description.js-cascade #{description}
 
 			.credits-container
-				h4.subtitle Credits
+				h4.subtitle.js-cascade Credits
 				ul.people-list
 					each arg in args
-						li
+						li.js-cascade
 							.role #{arg.role}
 							a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
 
@@ -114,23 +116,23 @@ mixin case_moreinfo_branding(role, client, clientURL, date, description, project
 	#case-info-wrap
 		.width-restriction
 			.details
-				.spec
+				.spec.js-cascade
 					.label Role
 					h4.role #{role}
 
-				.spec
+				.spec.js-cascade
 					.label Client
 					a(href="#{clientURL}" target="_blank").p-link-invert
 						h4.client #{client}
 
-				.spec.spec--date
+				.spec.spec--date.js-cascade
 					.date #{date}
 
-				a(href="#{projectURL}" target="_blank")._cta
+				a(href="#{projectURL}" target="_blank")._cta.js-cascade
 					|Visit the site
 					span.link-arrow.white.small
 
-			p.description #{description}
+			p.description.js-cascade #{description}
 
 
 

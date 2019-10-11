@@ -2,10 +2,15 @@ var Info = {
 	isActive: false,
 	trigger: document.getElementById('case-info-trigger'),
 	wrap: document.getElementById('case-info-wrap'),
+	animatables: document.getElementsByClassName('js-cascade'),
 
 	init: function(){
 		if (this.trigger) {
 			this.triggerListener();
+		}
+
+		if(this.animatables){
+			this.enableAnimation();
 		}
 	},
 
@@ -42,5 +47,12 @@ var Info = {
 		this.trigger.addEventListener('click', function(){
 			_self.toggleActive();
 		})
+	},
+
+	enableAnimation: function(){
+		for (var i = 0; i < this.animatables.length; i++) {
+			var _classString = "js-cascade-" + i;
+			this.animatables[i].classList.add(_classString);
+		}
 	}
 }

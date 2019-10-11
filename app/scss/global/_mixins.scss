@@ -63,6 +63,13 @@ $full-desktop-width: 1750px;
 	        transition: $target $timing cubic-bezier(.3,0,.2,1);
 }
 
+@mixin trans-delay($timing){
+	-webkit-transition-delay: $timing;
+	-moz-transition-delay: $timing;
+	-o-transition-delay: $timing;
+	transition-delay: $timing;
+}
+
 @mixin transform-origin($X, $Y){
 	transform-origin: $X $Y;
 }
