@@ -27,6 +27,10 @@
 		@include bigdesktop {
 			// padding-top: 310px;
 		}
+
+		@include fulldesktop {
+			padding-top: 300px;
+		}
 	}
 
 	.page-name.back{
@@ -92,8 +96,13 @@
 				padding: 0;
 			}
 
+			@include bigdesktop {
+				font-size: 4.6875vw;
+			}
+
 			@include fulldesktop {
-				font-size: 80px;
+				// font-size: 80px;
+				margin-bottom: 100px;
 			}
 
 			span{display: inline-block;}
@@ -109,6 +118,10 @@
 			@include desktop {
 				// margin-bottom: 120px;
 				margin-bottom: 80px;
+			}
+
+			@include fulldesktop {
+				margin-bottom: 115px;
 			}
 
 			img {
@@ -132,6 +145,10 @@
 				@include flexIt;
 
 				margin-bottom: 80px;
+			}
+
+			@include fulldesktop {
+				margin-bottom: 165px;
 			}
 
 			.details, .intro {
@@ -161,6 +178,10 @@
 					@include desktop {
 						font-size: 16px;
 					}
+
+					@include fulldesktop {
+						font-size: 18px;
+					}
 				}
 
 				a {
@@ -181,6 +202,10 @@
 					@include desktop {
 						font-size: 18px;
 					}
+
+					@include fulldesktop {
+						font-size: 20px;
+					}
 				}
 
 				._cta {
@@ -195,6 +220,10 @@
 
 					@include desktop {
 						font-size: 16px;
+					}
+
+					@include fulldesktop {
+						font-size: 18px;
 					}
 
 					.link-arrow {
@@ -224,6 +253,10 @@
 			@include bigdesktop {
 				margin-bottom: 120px;
 				// padding: 0;
+			}
+
+			@include fulldesktop {
+				margin-bottom: 200px;
 			}
 
 			.subtitle {
@@ -453,6 +486,14 @@
 				margin-bottom: 160px;
 			}
 
+			@include bigdesktop {
+				margin-bottom: 280px;
+			}
+
+			@include fulldesktop {
+				margin-bottom: 396px;
+			}
+
 			.full-image {
 				position: relative;
 				width: 100%;
@@ -465,6 +506,9 @@
 					}
 					@include bigdesktop {
 						margin-bottom: 120px;
+					}
+					@include fulldesktop {
+						margin-bottom: 180px;
 					}
 
 				}
@@ -495,6 +539,11 @@
 					margin-left: 58.33%;
 				}
 
+				@include fulldesktop{
+					margin-top: 136px;
+					margin-bottom: 132px;
+				}
+
 				.subtitle {
 					margin-bottom: 35px;
 
@@ -507,6 +556,10 @@
 						// margin-bottom: 75px;
 						margin-bottom: 30px;
 					}
+
+					@include fulldesktop {
+						font-size: 18px;
+					}
 				}
 
 				.people-list {
@@ -516,6 +569,10 @@
 
 					@include desktop {
 						font-size: 16px;
+					}
+
+					@include fulldesktop {
+						font-size: 18px;
 					}
 
 					li:not(:last-child) {
@@ -571,6 +628,11 @@
 				font-size: 16px;
 			}
 
+			@include fulldesktop {
+				font-size: 18px;
+				margin-bottom: 42px;
+			}
+
 		}
 
 		.title {
@@ -599,8 +661,12 @@
 				font-size: 60px;
 			}
 
+			@include bigdesktop {
+				font-size: 4.6875vw;
+			}
+
 			@include fulldesktop {
-				font-size: 80px;
+				// font-size: 80px;
 			}
 
 			a {
