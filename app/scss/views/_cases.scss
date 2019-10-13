@@ -734,7 +734,8 @@
 			// top: 90px;
 		font-family: 'Saol-L', serif;
 		line-height: 1em;
-		font-size: 1.375em;
+		// font-size: 1.375em;
+		font-size: 35px;
 		font-weight: 100;
 		padding: 15px;
 
@@ -745,11 +746,16 @@
 
 		@include desktop {
 			bottom: 42px;
-			font-size: 4em;
+			// font-size: 4em;
+			font-size: 60px;
 			font-weight: 100;
 			line-height: 1em;
 			// margin-bottom: 110px;
 			padding: 0;
+		}
+
+		@include bigdesktop {
+			font-size: 4.6875vw;
 		}
 
 		span {
