@@ -25,7 +25,7 @@
 		}
 
 		@include bigdesktop {
-			padding-top: 310px;
+			// padding-top: 310px;
 		}
 	}
 
@@ -35,6 +35,10 @@
 		}
 
 		@include desktop {
+			right: 7.3%;
+		}
+
+		@include bigdesktop {
 			display: none;
 		}
 
@@ -79,11 +83,17 @@
 			}
 
 			@include desktop {
-				font-size: 4em;
+				// font-size: 4em;
+				font-size: 60px;
 				font-weight: 100;
 				line-height: 1em;
-				margin-bottom: 110px;
+				// margin-bottom: 110px;
+				margin-bottom: 60px;
 				padding: 0;
+			}
+
+			@include fulldesktop {
+				font-size: 80px;
 			}
 
 			span{display: inline-block;}
@@ -97,7 +107,8 @@
 			overflow: hidden;
 
 			@include desktop {
-				margin-bottom: 120px;
+				// margin-bottom: 120px;
+				margin-bottom: 80px;
 			}
 
 			img {
@@ -119,6 +130,8 @@
 
 			@include desktop {
 				@include flexIt;
+
+				margin-bottom: 80px;
 			}
 
 			.details, .intro {
@@ -144,6 +157,10 @@
 					font-size: .9em;
 					font-weight: 100;
 					white-space: normal;
+
+					@include desktop {
+						font-size: 16px;
+					}
 				}
 
 				a {
@@ -160,6 +177,10 @@
 					line-height: 1.35em;
 					// margin-bottom: 80px;
 					margin-bottom: 40px;
+
+					@include desktop {
+						font-size: 18px;
+					}
 				}
 
 				._cta {
@@ -171,6 +192,10 @@
 					color: inherit;
 					text-decoration: none;
 					@include transitions-ease(.4s);
+
+					@include desktop {
+						font-size: 16px;
+					}
 
 					.link-arrow {
 						margin-left: 15px;
@@ -197,7 +222,7 @@
 			}
 
 			@include bigdesktop {
-				margin-bottom: 200px;
+				margin-bottom: 120px;
 				// padding: 0;
 			}
 
@@ -424,7 +449,8 @@
 			margin-bottom: 137px;
 
 			@include desktop {
-				margin-bottom: 420px;
+				// margin-bottom: 420px;
+				margin-bottom: 160px;
 			}
 
 			.full-image {
@@ -438,7 +464,7 @@
 						margin-bottom: 80px;
 					}
 					@include bigdesktop {
-						margin-bottom: 180px;
+						margin-bottom: 120px;
 					}
 
 				}
@@ -463,8 +489,8 @@
 				}
 
 				@include bigdesktop {
-					margin-top: 135px;
-					margin-bottom: 130px;
+					// margin-top: 135px;
+					// margin-bottom: 130px;
 					width: 41.66%;
 					margin-left: 58.33%;
 				}
@@ -473,11 +499,13 @@
 					margin-bottom: 35px;
 
 					@include desktop {
-						font-size: 0.9em;
+						// font-size: 0.9em;
+						font-size: 16px;
 					}
 
 					@include bigdesktop {
-						margin-bottom: 75px;
+						// margin-bottom: 75px;
+						margin-bottom: 30px;
 					}
 				}
 
@@ -485,6 +513,10 @@
 					font-family: 'Founders-L', sans-serif;
 					font-size: 0.9em;
 					font-weight: 100;
+
+					@include desktop {
+						font-size: 16px;
+					}
 
 					li:not(:last-child) {
 						margin-bottom: 10px;
@@ -510,8 +542,8 @@
 			}
 
 		}
-
 	}
+	
 
 	.next-project {
 		position: relative;
@@ -533,8 +565,10 @@
 
 			@include desktop {
 				padding: 0;
-				margin-bottom: 38px;
-				font-size: .9em;
+				// margin-bottom: 38px;
+				margin-bottom: 18px;
+				// font-size: .9em;
+				font-size: 16px;
 			}
 
 		}
@@ -561,7 +595,12 @@
 				// margin-bottom: 0;
 				width: 83.33%;
 				padding: 0;
-				font-size: 4em;
+				// font-size: 4em;
+				font-size: 60px;
+			}
+
+			@include fulldesktop {
+				font-size: 80px;
 			}
 
 			a {

@@ -35,7 +35,8 @@ var App = {
         }
 
         // Custom Cursor for foreword.html and "close" projects
-        if (window.innerWidth >= 992) {
+        // if (window.innerWidth >= 992) { // commented to keep going but need a better solution to catch if user is using tablet or small laptop (touch screen devices)
+        if (window.innerWidth >= 1200) {
             if(window.location.href.indexOf('foreword.html') > 0) {
                 var cursor = new Cursor();
                 RAF.add(cursor);
