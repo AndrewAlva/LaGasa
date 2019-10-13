@@ -46,16 +46,23 @@
 	}
 
 	&.small{
-		width: 6px;
-		height: 6px;
+		// width: 6px;
+		// height: 6px;
+
+		width: 8px;
+		height: 8px;
 
 		&:before{
-			width: 6px;
-			height: 6px;
+			// width: 6px;
+			// height: 6px;
+
+			width: 8px;
+			height: 8px;
 		}
 
 		&:after{
-			height: 7px;
+			// height: 7px;
+			height: 9px;
 		}
 	}
 
