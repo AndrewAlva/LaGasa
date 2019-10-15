@@ -13,25 +13,31 @@ mixin case_cover(halfsrc, alt)
 mixin case_info(role, client, clientURL, date)
 	.details.col-4.offset-1
 		.spec
-			.label Role
-			h2.role #{role}
+			.label 
+				.iv-up Role
+			h2.role 
+				.iv-up #{role}
 
 		.spec
-			.label Client
+			.label 
+				.iv-up Client
 			a(href="#{clientURL}" target="_blank").p-link-invert
-				h3.client #{client}
+				h3.client 
+					.iv-up #{client}
 
 		.spec
-			h4.date #{date}
+			h4.date 
+				.iv-up #{date}
 
 mixin case_description(description, bookURL, cta='Book details')
 		.intro.col-6
-			p #{description}
+			p.iv-up #{description}
 
-			a(href="#{bookURL}" target="_blank")._cta
-				//- |Get the book
-				|#{cta}
-				span.link-arrow.black
+			.iv-up
+				a(href="#{bookURL}" target="_blank")._cta
+					//- |Get the book
+					|#{cta}
+					span.link-arrow.black
 
 
 
@@ -43,10 +49,10 @@ mixin case_detailview(halfsrc, alt, position)
 
 mixin case_credits(...args)
 	.credits-container
-		h5.subtitle Credits
+		h5.subtitle.iv-up Credits
 		ul.people-list
 			each arg in args
-				li
+				li.iv-up
 					span.role #{arg.role}
 					a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
 
@@ -54,11 +60,11 @@ mixin case_credits(...args)
 
 mixin case_nextproject(title, url)
 	footer.next-project
-		h5.subtitle Next Project
-		h2.title
+		h5.subtitle.iv-up Next Project
+		h2.title.iv-up
 			a(href="#{url}?project=true" title="#{title}" data-text="#{title}").change-page #{title}
 
-		.back-top 
+		.back-top.iv-up
 			a(href="#" onclick="toTop()") Back to top
 
 
