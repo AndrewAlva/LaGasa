@@ -66,6 +66,10 @@ var ProjectPreloader = function() {
         target.innerHTML = string;
     }
 
+    this.insertNewString = function (string, target) {
+        target.innerHTML = string;
+    }
+
     this.applyTransform = function(target) {
         var titlesDistance = this.nextY - this.currentY;
         // this.nextTitle.style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
@@ -87,12 +91,12 @@ var ProjectPreloader = function() {
 
             for (var i = 0; i < target.children.length; i++) {
                 target.children[i].classList.add("transition");
-                target.children[i].style = "transform: translate3d(0px, -" + titlesDistance + "px, 0px);";
+                target.children[i].style = "transform: translate3d(0, -" + titlesDistance + "px, 0);";
 
                 if (i == target.children.length - 1) {
                     setTimeout(function() {
                         _self.hide();
-                    }, 1000 + (i * _self.charsDelay))
+                    }, 1200 + (i * _self.charsDelay))
                 }
             }
         }, 500);
@@ -114,8 +118,14 @@ var ProjectPreloader = function() {
     this.show = function(text, callback) {
         // Setea el nuevo texto para la siguiente pantalla
         this.currentChars = [];
-        this.splitString(text, this.currentChars);
-        this.createSpans(this.nextTitle, this.currentChars);
+
+        // Insert spans per character in the preloader when clicking next project
+        // this.splitString(text, this.currentChars);
+        // this.createSpans(this.nextTitle, this.currentChars);
+
+        // Insert the next project title directly, without splitting into spans
+        this.insertNewString(text, this.nextTitle);
+
         window["nextTitle"].classList.remove("hide"); //Hace visible el texto una vez seteado los span
         new TWEEN.Tween(_self).to({
             alpha: 1
