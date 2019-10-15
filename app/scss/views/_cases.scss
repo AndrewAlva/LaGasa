@@ -839,6 +839,7 @@
 				}
 				&.lil-L{
 					margin-left: 0.8px;
+					@include desktop {margin-left: 0.03em;}
 				}
 
 				// TRB
@@ -847,6 +848,7 @@
 				}
 				&.trb-B{
 					margin-left: 0.6px;
+					@include desktop {margin-left: 0.015em;}
 				}
 				&.trb-k{
 					margin-right: -0.5px;
@@ -855,13 +857,20 @@
 				// Walk in Faith
 				&.wif-a1{
 					margin-left: -1.7px;
+					@include desktop {margin-left: -0.05em;}
 				}
 				&.wif-i1{
 					margin-left: 0.6px;
+					@include desktop {margin-left: 0.025em;}
 				}
 				&.wif-F{
 					margin-left: 0.6px;
 					margin-right: -1px;
+
+					@include desktop {
+						margin-left: 0.025em;
+						margin-right: -0.035em;
+					}
 				}
 
 				// TBH
@@ -872,6 +881,7 @@
 				// One Days Tale
 				&.odt-D{
 					margin-left: 0.025em;
+					@include desktop {margin-right: 0.015em;}
 				}
 				&.odt-s{
 					margin-left: -0.015em;
@@ -895,6 +905,8 @@
 				&.gtg-G2{
 					margin-left: 0.015em;
 					margin-right: 0.01em;
+
+					@include desktop {margin-left: 0.028em;}
 				}
 
 				// Mean Girls
@@ -914,8 +926,13 @@
 				}
 
 				// Farrah Sit
+				&.fs-F{
+					@include desktop {margin-right: -0.02em;}
+				}
 				&.fs-S{
 					margin-left: 0.01em;
+
+					@include desktop {margin-left: 0.025em;}
 				}
 
 				// Movetes
