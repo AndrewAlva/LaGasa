@@ -883,6 +883,11 @@
 					margin-left: 0.025em;
 					@include desktop {margin-right: 0.015em;}
 				}
+				&.odt-symbol{
+					@include bigdesktop {
+						margin-left: 0.025em;
+					}
+				}
 				&.odt-s{
 					margin-left: -0.015em;
 				}
@@ -920,6 +925,7 @@
 				}
 				&.ohm-R{
 					margin-left: 0.01em;
+					@include bigdesktop {margin-left: 0.02em;}
 				}
 				&.ohm-v{
 					margin-left: -0.01em;
@@ -939,6 +945,11 @@
 				&.m-v{
 					margin-left: -0.01em;
 					margin-right: -0.01em;
+				}
+
+				// Speech Tank
+				&.st-a{
+					@include bigdesktop {margin-left: -0.025em;}
 				}
 
 			
