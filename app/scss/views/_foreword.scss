@@ -35,6 +35,7 @@
 		}
 
 		&.left{
+			z-index: 1;
 			width: 100%;
 			@include mobile {
 				@include flexOrder(2);
