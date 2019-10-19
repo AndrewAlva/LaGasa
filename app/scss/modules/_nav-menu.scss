@@ -478,7 +478,7 @@
 
 	.folio-pages{
 		position: absolute;
-		top: 82px;
+		top: 62px;
 		left: 16.66%;
 
 		@include desktop {
@@ -489,8 +489,9 @@
 			position: relative;
 			display: block;
 			width: 50%;
-			padding: 15px 0 14px;
-			font-size: 1.5em;
+			padding: 13px 0;
+			// font-size: 1.5em;
+			font-size: 30px;
 			transform: translateY(60px);
 			opacity: 0;
 			transition: all 100ms linear;
@@ -532,7 +533,7 @@
 			width: 100%;
 			margin: auto;
 			left: 0; right: 0;
-			bottom: 0;
+			bottom: -23px;
 
 			@include desktop {
 				left: 0;
@@ -551,7 +552,8 @@
 
 		&.right {
 			right: 0;
-			width: 50%;
+			// width: 50%;
+			width: 41.66%;
 			max-width: 585px;
 			@include flexIt;
 			@include flex-spacebetween;
@@ -579,7 +581,7 @@
 		display: inline-block;
 		float: right;
 		// @include translate(0, -20vh);
-		@include translate(0, -118px);
+		@include translate(0, -113px);
 
 		@include desktop {
 			transform: none;
