@@ -4,11 +4,15 @@
 	font-family: 'Founders-L', sans-serif;
 	font-weight: 100;
 	// font-size: 0.75em;
-	font-size: 20px;
+	font-size: 22px;
 	color: $black-gray;
 
 	@include desktop {
 		// font-size: 22px;
+	}
+
+	@include bigdesktop {
+		font-size: 24px;
 	}
 	
 	@media (min-width: 1441px) {
@@ -151,6 +155,10 @@
 		}
 	}
 
+	.title, .client{
+		pointer-events: none;
+	}
+
 
 	.title{
 		// margin-bottom: 5px;
@@ -158,8 +166,12 @@
 		@include transitions-ease(.5s);
 	}
 
-	.title, .client{
-		pointer-events: none;
+	.client{
+		font-size: 14px;
+
+		@include bigdesktop {
+			font-size: 16px;
+		}
 	}
 	
 }
