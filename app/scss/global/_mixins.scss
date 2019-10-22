@@ -43,10 +43,16 @@ $full-desktop-width: 1750px;
 }
 
 @mixin transitions-ease($timing){
-	        transition: all $timing cubic-bezier(.3,0,.2,1);
+	-webkit-transition: all $timing cubic-bezier(.3,0,.2,1);
+	-o-transition: all $timing cubic-bezier(.3,0,.2,1);
+	-moz-transition: all $timing cubic-bezier(.3,0,.2,1);
+	transition: all $timing cubic-bezier(.3,0,.2,1);
 }
 @mixin trans-delayed($timing, $delay){
-	        transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
+	-webkit-transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
+	-o-transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
+	-moz-transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
+	transition: all $timing cubic-bezier(.3,0,.2,1) $delay;
 }
 @mixin trans-delayed-transform($timing, $delay){
 	-webkit-transition: -webkit-transform $timing cubic-bezier(.3,0,.2,1) $delay;

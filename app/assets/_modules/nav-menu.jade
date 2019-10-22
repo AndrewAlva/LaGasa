@@ -39,7 +39,8 @@ mixin nav-menu(section)
 	section#menu-window
 		.inner-wrapper
 			.responsive-container#menu-container
-				h6.page-name.top Menu
+				h6.page-name.top.mask-container.mask-menu
+					span Menu
 
 				.inner-wrapper
 					ul.folio-pages
@@ -53,13 +54,13 @@ mixin nav-menu(section)
 							a(href="contact.html" title="Contact Page").change-page Contact
 
 					.menu-col.left
-						address.address.mask-container.mask-menu
-							span
-								|67 West Street, 601
-								br
-								|Brooklyn, NY 11222
-								br
-								|United States
+						address.address
+							.mask-container.mask-menu
+								span 67 West Street, 601
+							.mask-container.mask-menu
+								span Brooklyn, NY 11222
+							.mask-container.mask-menu
+								span United States
 
 						+socialmedia-list(" ")
 
