@@ -144,6 +144,7 @@
 				position: absolute;
 				// bottom: 15px;
 				font-family: 'Founders-L';
+				font-style: normal;
 				// font-size: .75em;
 				font-size: 18px;
 				line-height: 1.5em;
@@ -153,6 +154,10 @@
 					bottom: -8px;
 					font-size: .9em;
 					line-height: 1.2em;
+				}
+
+				div{
+					display: block;
 				}
 			}
 		}

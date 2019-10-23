@@ -107,6 +107,9 @@ document.addEventListener('DOMContentLoaded', App.init);
 
 // Trigger functions after page is completely loaded
 window.onload = function() {
+    // Cascade animation trigger
+    Cascading.init();
+
     // scroll
     // DEBE ejecutarse aquí:
     // después de terminar de cargar todas las imágenes

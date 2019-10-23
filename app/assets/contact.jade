@@ -30,51 +30,64 @@ block content
 
 		.inner-wrapper
 			.responsive-container
-				h6.page-name.top Contact
+				h6.page-name.top
+					.cascade-mask
+						span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Contact
 
 				.inner-wrapper
-					.img-wrapper
+					.img-wrapper.mbrt-cascade.firstload(data-cascade="stretch-up" data-cascade-delay="7" data-cascade-delay-mobile="10")
 
 					.content-wrapper
 						.contact-info
 							ul(class="socialmedia-list on-white")
 								li
-									a(href="https://www.linkedin.com/in/lagasa/" target="_blank" title="Suze Linkedin").mask-container
+									a(href="https://www.linkedin.com/in/lagasa/" target="_blank" title="Suze Linkedin").cascade-mask
 										span.icon
-										span.label.up-in Linkedin
+										span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="7") Linkedin
 								li
-									a(href="https://www.instagram.com/lagasa/" target="_blank" title="Suze Instagram").mask-container
+									a(href="https://www.instagram.com/lagasa/" target="_blank" title="Suze Instagram").cascade-mask
 										span.icon
-										span.label.up-in Instagram
+										span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="4" data-cascade-delay-mobile="8") Instagram
 								li
-									a(href="https://www.behance.net/lagasa" target="_blank" title="Suze Behance").mask-container
+									a(href="https://www.behance.net/lagasa" target="_blank" title="Suze Behance").cascade-mask
 										span.icon
-										span.label.up-in Behance
+										span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="5" data-cascade-delay-mobile="9") Behance
 
-							p.address
-								|67 West Street, 601
-								br
-								|Brooklyn, NY 11222
-								br
-								|United States
+							address.address
+								.cascade-mask
+									span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="7") 67 West Street, 601
+								.cascade-mask
+									span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="4" data-cascade-delay-mobile="8") Brooklyn, NY 11222
+								.cascade-mask
+									span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="5" data-cascade-delay-mobile="9") United States
 
 						.postcard
 							.salute-container
 								h1.salute
-									|Say 
-									span.cursive Hi!
+									.cascade-mask.padded-r
+										span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
+											|Say 
+											span.cursive Hi!
 								
 								.intro-wrap
 									//- .line-box
 										.line
 
-									h2.copy-box 
-										span.cursive I’d like to 
-										|hear from you.
+									h2.copy-box
+										.cascade-mask
+											span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="2" data-cascade-delay-mobile="2")
+												span.cursive I’d like to 
+												|hear from you.
 
 							form(action="#").form-container
-								+regular-input('name-input', 'text', 'Your name')
-								+regular-input('email-input', 'email', 'Your email')
-								+regular-textarea('message-textarea', 'Starting a new project, looking for a quote, or just saying hi?')
+								.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="3")
+									+regular-input('name-input', 'text', 'Your name')
+								.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="4" data-cascade-delay-mobile="4")
+									+regular-input('email-input', 'email', 'Your email')
+								.mbrt-cascade.firstload(data-cascade="slide-up" data-cascade-delay="5" data-cascade-delay-mobile="5")
+									+regular-textarea('message-textarea', 'Starting a new project, looking for a quote, or just saying hi?')
 
-								button(type="submit").sz-submit-btn Send
+								.mbrt-cascade.firstload(data-cascade="slide-up" data-cascade-delay="6" data-cascade-delay-mobile="6")
+									button(type="submit").sz-submit-btn Send
+
+

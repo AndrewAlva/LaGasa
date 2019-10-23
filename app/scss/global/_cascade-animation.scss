@@ -1,0 +1,163 @@
+/* mbrt. Cascade Styling */
+
+/////// Mixins para detectar mobile y desktop
+	$mobile-max-width: 991px;
+	$desktop-min-width: 992px;
+
+	@mixin mobile {
+	  @media (max-width: #{$mobile-max-width}) {
+		 @content;
+	  }
+	}
+
+	@mixin desktop {
+	  @media (min-width: #{$desktop-min-width}) {
+		 @content;
+	  }
+	}
+
+
+/////// Variables
+	$easeOutQuint: cubic-bezier(0.23, 1, 0.32, 1);
+	$suzeEase: cubic-bezier(.3,0,.2,1);
+	$cascade_trans_duration: 1000ms;
+	$cascade_interval: 100ms;
+	$preloader_trans_duration: 500ms;
+
+
+/////// Animaciones hechas con CSS @keyframes
+	@keyframes cascade-up {
+		0%		{
+			transform: translate3d(0, 112%, 0);
+			opacity: 0;
+		}
+		
+		100%	{
+			transform: translate3d(0,0,0);
+			opacity: 1;
+		}
+	}
+	@keyframes slide-up {
+		0%		{
+			transform: translate3d(0, 40px, 0);
+			opacity: 0;
+		}
+		
+		100%	{
+			transform: translate3d(0,0,0);
+			opacity: 1;
+		}
+	}
+	@keyframes stretch-up {
+		0%   {
+			transform: scaleY(1.2) translate3d(0, 40px, 0);
+			opacity: 0;
+		}
+
+		100% {
+			transform: scaleY(1) translate3d(0,0,0);
+			opacity: 1;
+		}
+	}
+
+
+/////// Estilos
+
+// Configuración general
+.cascade-mask {
+	position: relative;
+	vertical-align: top;
+	overflow: hidden;
+
+	&.padded-r {
+		padding-right: 15px;
+		right: -15px;
+		// padding-bottom: 15px;
+		@include content-box;
+	}
+}
+
+[data-cascade]{
+	display: block;
+	animation-duration: $cascade_trans_duration;
+	animation-timing-function: $suzeEase;
+	animation-fill-mode: both;
+}
+
+
+[data-cascade="fade-up"]{opacity: 0;}
+[data-cascade="fade-up"].animate{
+	opacity: 1;
+	@include ani-name(cascade-up);
+}
+[data-cascade="slide-up"]{opacity: 0;}
+[data-cascade="slide-up"].animate{
+	opacity: 1;
+	@include ani-name(slide-up);
+}
+[data-cascade="stretch-up"]{opacity: 0;}
+[data-cascade="stretch-up"].animate{
+	@include transform-origin(top, left);
+	opacity: 1;
+	@include ani-name(stretch-up);
+}
+
+
+
+@include mobile {
+	[data-cascade-delay-mobile="0"]{animation-delay: $cascade_interval * 0;}
+	[data-cascade-delay-mobile="1"]{animation-delay: $cascade_interval * 1;}
+	[data-cascade-delay-mobile="2"]{animation-delay: $cascade_interval * 2;}
+	[data-cascade-delay-mobile="3"]{animation-delay: $cascade_interval * 3;}
+	[data-cascade-delay-mobile="4"]{animation-delay: $cascade_interval * 4;}
+	[data-cascade-delay-mobile="5"]{animation-delay: $cascade_interval * 5;}
+	[data-cascade-delay-mobile="6"]{animation-delay: $cascade_interval * 6;}
+	[data-cascade-delay-mobile="7"]{animation-delay: $cascade_interval * 7;}
+	[data-cascade-delay-mobile="8"]{animation-delay: $cascade_interval * 8;}
+	[data-cascade-delay-mobile="9"]{animation-delay: $cascade_interval * 9;}
+	[data-cascade-delay-mobile="10"]{animation-delay: $cascade_interval * 10;}
+	[data-cascade-delay-mobile="11"]{animation-delay: $cascade_interval * 11;}
+	
+	.firstload[data-cascade-delay-mobile="0"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
+	.firstload[data-cascade-delay-mobile="1"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
+	.firstload[data-cascade-delay-mobile="2"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
+	.firstload[data-cascade-delay-mobile="3"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
+	.firstload[data-cascade-delay-mobile="4"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
+	.firstload[data-cascade-delay-mobile="5"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
+	.firstload[data-cascade-delay-mobile="6"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
+	.firstload[data-cascade-delay-mobile="7"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
+	.firstload[data-cascade-delay-mobile="8"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
+	.firstload[data-cascade-delay-mobile="9"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
+	.firstload[data-cascade-delay-mobile="10"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
+	.firstload[data-cascade-delay-mobile="11"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+}
+
+
+@include desktop {
+	[data-cascade-delay="0"]{animation-delay: $cascade_interval * 0;}
+	[data-cascade-delay="1"]{animation-delay: $cascade_interval * 1;}
+	[data-cascade-delay="2"]{animation-delay: $cascade_interval * 2;}
+	[data-cascade-delay="3"]{animation-delay: $cascade_interval * 3;}
+	[data-cascade-delay="4"]{animation-delay: $cascade_interval * 4;}
+	[data-cascade-delay="5"]{animation-delay: $cascade_interval * 5;}
+	[data-cascade-delay="6"]{animation-delay: $cascade_interval * 6;}
+	[data-cascade-delay="7"]{animation-delay: $cascade_interval * 7;}
+	[data-cascade-delay="8"]{animation-delay: $cascade_interval * 8;}
+	[data-cascade-delay="9"]{animation-delay: $cascade_interval * 9;}
+	[data-cascade-delay="10"]{animation-delay: $cascade_interval * 10;}
+	[data-cascade-delay="11"]{animation-delay: $cascade_interval * 11;}
+	
+	.firstload[data-cascade-delay="0"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
+	.firstload[data-cascade-delay="1"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
+	.firstload[data-cascade-delay="2"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
+	.firstload[data-cascade-delay="3"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
+	.firstload[data-cascade-delay="4"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
+	.firstload[data-cascade-delay="5"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
+	.firstload[data-cascade-delay="6"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
+	.firstload[data-cascade-delay="7"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
+	.firstload[data-cascade-delay="8"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
+	.firstload[data-cascade-delay="9"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
+	.firstload[data-cascade-delay="10"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
+	.firstload[data-cascade-delay="11"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+}
+

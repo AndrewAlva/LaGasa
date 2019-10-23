@@ -85,6 +85,10 @@ $full-desktop-width: 1750px;
 }
 
 @mixin transform-origin($X, $Y){
+	-webkit-transform-origin: $X $Y;
+	-moz-transform-origin: $X $Y;
+	-ms-transform-origin: $X $Y;
+	-o-transform-origin: $X $Y;
 	transform-origin: $X $Y;
 }
 
@@ -165,6 +169,13 @@ $full-desktop-width: 1750px;
 	-moz-animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
 	-o-animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
 	animation: $name $duration cubic-bezier(.3,0,.2,1) forwards;
+}
+
+@mixin ani-name($name){
+	-webkit-animation-name: $name;
+	-moz-animation-name: $name;
+	-o-animation-name: $name;
+	animation-name: $name;
 }
 
 
