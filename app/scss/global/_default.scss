@@ -17,7 +17,8 @@ html{
 body{
 	font-size: 16px;
 	color: $black-gray;
-	background-color: #202020;
+	// background-color: #202020;
+	background-color: #fff;
 
 	@media (min-width: 768px) {
 		font-size: 20px;

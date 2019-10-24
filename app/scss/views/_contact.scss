@@ -211,6 +211,10 @@
 					@include fulldesktop {
 						// font-size: 120px;
 					}
+
+					.cascade-mask.padded-r{
+						right: -15px;
+					}
 				}
 
 				.cursive{

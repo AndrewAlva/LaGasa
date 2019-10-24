@@ -6,8 +6,8 @@ mixin filter(link, filter, name, quantity, active="")
 header#proj-filters.filters-wrap
 	.content-grid
 		#filters-trigger.descriptor
-			span.mask-container
-				span.up-in Filter by.
+			.cascade-mask
+				span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="1")  Filter by.
 
 		nav.categories
 			+filter("#", "all", "All", 12, "active")

@@ -98,7 +98,11 @@ var Filters = {
 
                     // Show branding projects to prevent inview bugs
                     for (var i = 0; i < _this.brandingProjects.length; i++) {
-                        _this.brandingProjects[i].firstElementChild.firstElementChild.firstElementChild.classList.add('iv-active');
+                        var _cascadeEls = _this.brandingProjects[i].getElementsByClassName('mbrt-cascade');
+
+                        for (var j = 0; j < _cascadeEls.length; j++) {
+                            _cascadeEls[j].classList.add('animate');
+                        }
                     }
 
                     setTimeout(function(){

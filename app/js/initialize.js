@@ -127,9 +127,9 @@ window.onload = function() {
 
 
     // inview animation for translate and opacity
-    var inviewObjects = document.getElementsByClassName('iv-up');
-    for (var i = 0; i < inviewObjects.length; i++) {
-        var inview = InView(inviewObjects[i], function(isInView, data) {
+    var inviewObjectsIvUp = document.getElementsByClassName('iv-up');
+    for (var i = 0; i < inviewObjectsIvUp.length; i++) {
+        var inview = InView(inviewObjectsIvUp[i], function(isInView, data) {
             // if (isInView) {}
             if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
                 // console.log("hidden");
@@ -142,9 +142,9 @@ window.onload = function() {
     }
 
     // inview animation for scaleY, translate and opacity
-    var inviewObjects = document.getElementsByClassName('iv-stretch');
-    for (var i = 0; i < inviewObjects.length; i++) {
-        var inview = InView(inviewObjects[i], function(isInView, data) {
+    var inviewObjectsIvStretch = document.getElementsByClassName('iv-stretch');
+    for (var i = 0; i < inviewObjectsIvStretch.length; i++) {
+        var inview = InView(inviewObjectsIvStretch[i], function(isInView, data) {
             // if (isInView) {}
             if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
                 // console.log("hidden");
@@ -152,6 +152,21 @@ window.onload = function() {
             } else {
                 // console.log("show")
                 this.el.classList.add('iv-active');
+            }
+        })
+    }
+
+    // General inview animation, linked with "Cascading" system
+    var inviewObjects = document.getElementsByClassName('mbrt-cascade');
+    for (var i = 0; i < inviewObjects.length; i++) {
+        var inview = InView(inviewObjects[i], function(isInView, data) {
+            // if (isInView) {}
+            if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
+                // console.log("hidden");
+                this.el.classList.remove('animate');
+            } else {
+                // console.log("show")
+                this.el.classList.add('animate');
             }
         })
     }

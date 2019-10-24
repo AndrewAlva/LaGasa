@@ -71,7 +71,6 @@
 
 	&.padded-r {
 		padding-right: 15px;
-		right: -15px;
 		// padding-bottom: 15px;
 		@include content-box;
 	}
@@ -118,18 +117,42 @@
 	[data-cascade-delay-mobile="10"]{animation-delay: $cascade_interval * 10;}
 	[data-cascade-delay-mobile="11"]{animation-delay: $cascade_interval * 11;}
 	
-	.firstload[data-cascade-delay-mobile="0"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
-	.firstload[data-cascade-delay-mobile="1"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
-	.firstload[data-cascade-delay-mobile="2"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
-	.firstload[data-cascade-delay-mobile="3"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
-	.firstload[data-cascade-delay-mobile="4"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
-	.firstload[data-cascade-delay-mobile="5"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
-	.firstload[data-cascade-delay-mobile="6"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
-	.firstload[data-cascade-delay-mobile="7"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
-	.firstload[data-cascade-delay-mobile="8"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
-	.firstload[data-cascade-delay-mobile="9"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
-	.firstload[data-cascade-delay-mobile="10"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
-	.firstload[data-cascade-delay-mobile="11"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+	[data-cascade-delay-mobile="0"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
+	}
+	[data-cascade-delay-mobile="1"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
+	}
+	[data-cascade-delay-mobile="2"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
+	}
+	[data-cascade-delay-mobile="3"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
+	}
+	[data-cascade-delay-mobile="4"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
+	}
+	[data-cascade-delay-mobile="5"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
+	}
+	[data-cascade-delay-mobile="6"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
+	}
+	[data-cascade-delay-mobile="7"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
+	}
+	[data-cascade-delay-mobile="8"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
+	}
+	[data-cascade-delay-mobile="9"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
+	}
+	[data-cascade-delay-mobile="10"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
+	}
+	[data-cascade-delay-mobile="11"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+	}
 }
 
 
@@ -147,17 +170,41 @@
 	[data-cascade-delay="10"]{animation-delay: $cascade_interval * 10;}
 	[data-cascade-delay="11"]{animation-delay: $cascade_interval * 11;}
 	
-	.firstload[data-cascade-delay="0"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
-	.firstload[data-cascade-delay="1"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
-	.firstload[data-cascade-delay="2"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
-	.firstload[data-cascade-delay="3"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
-	.firstload[data-cascade-delay="4"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
-	.firstload[data-cascade-delay="5"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
-	.firstload[data-cascade-delay="6"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
-	.firstload[data-cascade-delay="7"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
-	.firstload[data-cascade-delay="8"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
-	.firstload[data-cascade-delay="9"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
-	.firstload[data-cascade-delay="10"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
-	.firstload[data-cascade-delay="11"]{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+	[data-cascade-delay="0"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
+	}
+	[data-cascade-delay="1"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 1);}
+	}
+	[data-cascade-delay="2"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 2);}
+	}
+	[data-cascade-delay="3"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 3);}
+	}
+	[data-cascade-delay="4"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 4);}
+	}
+	[data-cascade-delay="5"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 5);}
+	}
+	[data-cascade-delay="6"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 6);}
+	}
+	[data-cascade-delay="7"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 7);}
+	}
+	[data-cascade-delay="8"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 8);}
+	}
+	[data-cascade-delay="9"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 9);}
+	}
+	[data-cascade-delay="10"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 10);}
+	}
+	[data-cascade-delay="11"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+	}
 }
 

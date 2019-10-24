@@ -1,13 +1,13 @@
-mixin project-cover(size_position, img, title, client, link, extra_classes, parallaxIntensity)
+mixin project-cover(size_position, img, title, client, link, extra_classes, parallaxIntensity, dataCascade = {imgDelay: 0, titleDelay: 0, clientDelay: 2, imgDelayMob: 0, titleDelayMob: 0, clientDelayMob: 2, imgFirstLoad: '', titleFirstLoad: '', clientFirstLoad: ''})
 	.project-cover(class="#{size_position} #{extra_classes}")
 		a(href="#{link}" title="#{title}" parallax-intensity="#{parallaxIntensity}").change-page.parallax
 			figure.photo-wrap
-				.iv-stretch
+				.mbrt-cascade(class="#{dataCascade.imgFirstLoad}" data-cascade="stretch-up" data-cascade-delay="#{dataCascade.imgDelay}" data-cascade-delay-mobile="#{dataCascade.imgDelayMob}")
 					img(src="#{img}", alt="#{title}")
 
 			.title 
-				span.mask-container
-					span.up-in #{title}
+				.cascade-mask
+					span.mbrt-cascade(class="#{dataCascade.titleFirstLoad}" data-cascade="fade-up" data-cascade-delay="#{dataCascade.titleDelay}" data-cascade-delay-mobile="#{dataCascade.titleDelayMob}") #{title}
 			.client 
-				span.mask-container
-					span.up-in for #{client}
+				.cascade-mask
+					span.mbrt-cascade(class="#{dataCascade.clientFirstLoad}" data-cascade="fade-up" data-cascade-delay="#{dataCascade.clientDelay}" data-cascade-delay-mobile="#{dataCascade.clientDelayMob}") for #{client}

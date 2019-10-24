@@ -54,11 +54,16 @@
 			font-size: .9em;
 			margin-right: 60px;
 		}
+
+		.cascade-mask{
+			display: inline-block;
+		}
 	}
 
 	.categories{
 		position: relative;
 		display: inline-block;
+		vertical-align: top;
 	}
 
 	.filter{
