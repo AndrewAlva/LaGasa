@@ -4,10 +4,10 @@
 	$name = $_POST['name-input'];
 	$email = $_POST['email-input'];
 	$message = $_POST['message-textarea'];
-	$formcontent="Hey Suze, this is a new email written by a user through lagasa.com official site; this is what they say:\n\nHi, my name is $name, here's my email address: $email\nI have a message for you, $message";
+	$formcontent="Hey Suze, this is a new email written by a user through your official website lagasa.com; here is what they say:\n\nName: $name \nEmail address: $email\nMessage: $message";
 	$mailheader = "From: $email \r\n";
 	
-	if($subject == false || $name == false || $city == false || $email == false || $message == false){
+	if($subject == false || $name == false || $email == false || $message == false){
 		$mail_sent = false;
 		
 		?>
