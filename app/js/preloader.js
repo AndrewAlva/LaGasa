@@ -10,7 +10,7 @@ var Preloader = {
     },
     hide: function() {
         if (window["case-preloader"]) window["case-preloader"].style = "display: none";
-        toTop(300);
+        // toTop(300);
         new TWEEN.Tween(Preloader).to({
             alpha: 0
         }, 600).onUpdate(function() {
@@ -20,7 +20,7 @@ var Preloader = {
         }).start();
     },
     show: function(callback) {
-        toTop(600);
+        // toTop(600);
         // Preloader.el.style = "display: none; opacity: 0;";
         new TWEEN.Tween(Preloader).to({
             alpha: 1

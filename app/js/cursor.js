@@ -199,6 +199,17 @@ var Cursor = function(args) {
             })
         }
 
+        document.getElementById('case-info-trigger').addEventListener("mouseenter", function(){
+            _self.mouseDown = true;
+            _self.minRadius = 15;
+        });
+        document.getElementById('case-info-trigger').addEventListener("mouseleave", function(){
+            _self.mouseDown = false;
+            debounce(function(){
+                _self.minRadius = 35;
+            },200)
+        });
+
         setTimeout(function() {
             _self.activeFont();
         }, 500);
