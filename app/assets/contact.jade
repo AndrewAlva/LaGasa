@@ -79,7 +79,7 @@ block content
 												span.cursive I’d like to 
 												|hear from you.
 
-							form(action="#").form-container
+							form#contact-form.form-container(name="contact-form" action="mail.php" method="POST" enctype="multipart/form-data")
 								.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="3")
 									+regular-input('name-input', 'text', 'Your name')
 								.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="4" data-cascade-delay-mobile="4")
