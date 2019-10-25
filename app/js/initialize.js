@@ -20,6 +20,15 @@ var App = {
     preloader: null,
     init: function() {
         deviceDetector.init();
+        
+        // Cascade animation trigger
+        if (window.location.href.indexOf("foreword") > 0) {
+            Cascading.init(false);
+        } else {
+            Cascading.init(true);
+        }
+
+
         RAF.init();
         Contact();
         Bio();
@@ -38,35 +47,35 @@ var App = {
         // Custom Cursor for foreword.html and "close" projects
         // if (window.innerWidth >= 992) { // commented to keep going but need a better solution to catch if user is using tablet or small laptop (touch screen devices)
         // if (window.innerWidth >= 1200) {
-        // if (deviceDetector.device == "desktop") {
-        //     if(window.location.href.indexOf('foreword.html') > 0) {
-        //         var cursor = new Cursor();
-        //         RAF.add(cursor);
+        if (deviceDetector.device == "desktop") {
+            if(window.location.href.indexOf('foreword.html') > 0) {
+                var cursor = new Cursor();
+                RAF.add(cursor);
 
-        //     } else if (window.location.href.indexOf('index.html') < 0 && window.location.href.indexOf('bio.html') < 0 && window.location.href.indexOf('contact.html') < 0 && window.location.pathname != "/" && document.getElementsByClassName('case-wrap')[0] != undefined){
-        //         var _grid = document.getElementsByClassName('content-grid')[0];
-        //         var _gridData = _grid.getBoundingClientRect();
-        //         var _cursorX = _gridData.left + _gridData.width - parseFloat(window.getComputedStyle(_grid, null).getPropertyValue('padding-right'));
-        //         var _cursorRadius = 50;
-        //         _cursorX -= _cursorRadius;
+            } else if (window.location.href.indexOf('index.html') < 0 && window.location.href.indexOf('bio.html') < 0 && window.location.href.indexOf('contact.html') < 0 && window.location.pathname != "/" && document.getElementsByClassName('case-wrap')[0] != undefined){
+                var _grid = document.getElementsByClassName('content-grid')[0];
+                var _gridData = _grid.getBoundingClientRect();
+                var _cursorX = _gridData.left + _gridData.width - parseFloat(window.getComputedStyle(_grid, null).getPropertyValue('padding-right'));
+                var _cursorRadius = 50;
+                _cursorX -= _cursorRadius;
 
-        //         var _caseWrap = document.getElementsByClassName('case-wrap')[0];
-        //         var _caseWrapData = _caseWrap.getBoundingClientRect();
-        //         var _cursorY = _caseWrapData.y;
+                var _caseWrap = document.getElementsByClassName('case-wrap')[0];
+                var _caseWrapData = _caseWrap.getBoundingClientRect();
+                var _cursorY = _caseWrapData.y;
 
-        //         var cursor = new Cursor({
-        //             string: "CLOSE",
-        //             fontFamily: "Saol",
-        //             fontSize: 18,
-        //             mouse_y: _cursorY + 18,
-        //             mouse_x: _cursorX,
-        //             maxRadius: _cursorRadius,
-        //             links: (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a')
-        //         });
+                var cursor = new Cursor({
+                    string: "CLOSE",
+                    fontFamily: "Saol",
+                    fontSize: 18,
+                    mouse_y: _cursorY + 18,
+                    mouse_x: _cursorX,
+                    maxRadius: _cursorRadius,
+                    links: (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a')
+                });
 
-        //         RAF.add(cursor);
-        //     }
-        // }
+                RAF.add(cursor);
+            }
+        }
 
         Info.init();
         App.addEvents();
@@ -109,9 +118,6 @@ document.addEventListener('DOMContentLoaded', App.init);
 
 // Trigger functions after page is completely loaded
 window.onload = function() {
-    // Cascade animation trigger
-    Cascading.init();
-
     // scroll
     // DEBE ejecutarse aquí:
     // después de terminar de cargar todas las imágenes

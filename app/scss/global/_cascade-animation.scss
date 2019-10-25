@@ -332,6 +332,27 @@
 	[data-aladdin-delay-mobile="23"]{
 		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 23);}
 	}
+	[data-aladdin-delay-mobile="24"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 24);}
+	}
+	[data-aladdin-delay-mobile="25"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 25);}
+	}
+	[data-aladdin-delay-mobile="26"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 26);}
+	}
+	[data-aladdin-delay-mobile="27"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 27);}
+	}
+	[data-aladdin-delay-mobile="28"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 28);}
+	}
+	[data-aladdin-delay-mobile="29"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 29);}
+	}
+	[data-aladdin-delay-mobile="30"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 30);}
+	}
 }
 
 
@@ -531,6 +552,27 @@
 	}
 	[data-aladdin-delay="23"]{
 		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 23);}
+	}
+	[data-aladdin-delay="24"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 24);}
+	}
+	[data-aladdin-delay="25"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 25);}
+	}
+	[data-aladdin-delay="26"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 26);}
+	}
+	[data-aladdin-delay="27"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 27);}
+	}
+	[data-aladdin-delay="28"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 28);}
+	}
+	[data-aladdin-delay="29"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 29);}
+	}
+	[data-aladdin-delay="30"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 30);}
 	}
 }
 

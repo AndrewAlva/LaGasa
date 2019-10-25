@@ -79,12 +79,7 @@
 			font-size: 28px;
 			line-height: 1em;
 			font-weight: lighter;
-			margin-bottom: 20px;
-
-			.cursive{
-				display: block;
-				font-family: 'Saol-It';
-			}
+			margin-bottom: 16px;
 
 			@include desktop {
 				font-size: 2em;
@@ -98,6 +93,24 @@
 				font-size: 3em;
 				margin-top: 6px;
 				margin-bottom: 0;
+			}
+
+			.cursive{
+				display: block;
+				font-family: 'Saol-It';
+
+				.cascade-mask{
+					padding-right: 4px;
+					padding-bottom: 4px;
+
+					@include desktop {
+						right: -4px;
+					}
+				}
+			}
+
+			[data-cascade]{
+				display: inline-block;
 			}
 		}
 
@@ -183,6 +196,17 @@
 			}
 		}
 	}
+
+	.virtual-title-space{
+		width: .2em;
+	}
+
+	[data-cascade="aladdin"]:not(.virtual-title-space){
+		padding-left: 3px;
+		padding-right: 2px;
+		margin-left: -3px;
+		margin-right: -2px;
+	}
 }
 
 
@@ -219,7 +243,7 @@
 					padding: 30px 0;
 				}
 
-				span{
+				.cascade-mask, span{
 					pointer-events: none;
 				}
 			}
