@@ -1056,7 +1056,7 @@
 	text-transform: uppercase;
 	color: #fff;
 	// @include transitions-ease(1s);
-	transition: bottom 1s cubic-bezier(.3,0,.2,1), z-index 0s cubic-bezier(.3,0,.2,1) 1s;
+	transition: bottom 1s cubic-bezier(.3,0,.2,1), z-index 0s cubic-bezier(.3,0,.2,1) 1.5s;
 
 	@include desktop {
 		display: none;
