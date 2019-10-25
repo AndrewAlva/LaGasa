@@ -96,6 +96,12 @@ $full-desktop-width: 1750px;
 	transform: translate($Xmove, $Ymove);
 }
 
+@mixin translate3d($Xmove, $Ymove, $Zmove){
+	-webkit-transform: translate3d($Xmove, $Ymove, $Zmove);
+	-moz-transform: translate3d($Xmove, $Ymove, $Zmove);
+	transform: translate3d($Xmove, $Ymove, $Zmove);
+}
+
 @mixin rotate($degs){
 	transform: rotate($degs);
 }

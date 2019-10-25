@@ -12,12 +12,12 @@
 	}
 
 	@include bigdesktop {
-		font-size: 24px;
+		font-size: 30px;
 	}
 	
 	@media (min-width: 1441px) {
 		// font-size: 1.2em;
-		font-size: 24px;
+		// font-size: 24px;
 	}
 
 	// &:first-child{z-index: 100;}
@@ -164,13 +164,17 @@
 		// margin-bottom: 5px;
 		@include transform-origin(bottom, left);
 		@include transitions-ease(.5s);
+
+		[data-cascade]{
+			display: inline-block;
+		}
 	}
 
 	.client{
 		font-size: 14px;
 
 		@include bigdesktop {
-			font-size: 16px;
+			font-size: 18px;
 		}
 	}
 	

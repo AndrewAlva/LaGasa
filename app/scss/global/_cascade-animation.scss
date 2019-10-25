@@ -22,39 +22,46 @@
 	$suzeEase: cubic-bezier(.3,0,.2,1);
 	$cascade_trans_duration: 1000ms;
 	$cascade_interval: 100ms;
+	$aladdin_interval: 20ms;
 	$preloader_trans_duration: 500ms;
+	$cascade_firstload_mobile: 1000ms;
+	$cascade_firstload_desktop: 700ms;
 
 
 /////// Animaciones hechas con CSS @keyframes
 	@keyframes cascade-up {
 		0%		{
-			transform: translate3d(0, 112%, 0);
+			@include translate3d(0, 112%, 0);
 			opacity: 0;
 		}
 		
 		100%	{
-			transform: translate3d(0,0,0);
+			@include translate3d(0,0,0);
 			opacity: 1;
 		}
 	}
 	@keyframes slide-up {
 		0%		{
-			transform: translate3d(0, 40px, 0);
+			@include translate3d(0, 40px, 0);
 			opacity: 0;
 		}
 		
 		100%	{
-			transform: translate3d(0,0,0);
+			@include translate3d(0,0,0);
 			opacity: 1;
 		}
 	}
 	@keyframes stretch-up {
 		0%   {
+			-webkit-transform: scaleY(1.2) translate3d(0, 40px, 0);
+			-moz-transform: scaleY(1.2) translate3d(0, 40px, 0);
 			transform: scaleY(1.2) translate3d(0, 40px, 0);
 			opacity: 0;
 		}
 
 		100% {
+			-webkit-transform: scaleY(1) translate3d(0,0,0);
+			-moz-transform: scaleY(1) translate3d(0,0,0);
 			transform: scaleY(1) translate3d(0,0,0);
 			opacity: 1;
 		}
@@ -101,6 +108,15 @@
 	@include ani-name(stretch-up);
 }
 
+[data-cascade="aladdin"]{
+	animation-duration: 600ms;
+	opacity: 0;
+}
+[data-cascade="aladdin"].animate{
+	opacity: 1;
+	@include ani-name(slide-up);
+}
+
 
 
 @include mobile {
@@ -116,6 +132,18 @@
 	[data-cascade-delay-mobile="9"]{animation-delay: $cascade_interval * 9;}
 	[data-cascade-delay-mobile="10"]{animation-delay: $cascade_interval * 10;}
 	[data-cascade-delay-mobile="11"]{animation-delay: $cascade_interval * 11;}
+	[data-cascade-delay-mobile="12"]{animation-delay: $cascade_interval * 12;}
+	[data-cascade-delay-mobile="13"]{animation-delay: $cascade_interval * 13;}
+	[data-cascade-delay-mobile="14"]{animation-delay: $cascade_interval * 14;}
+	[data-cascade-delay-mobile="15"]{animation-delay: $cascade_interval * 15;}
+	[data-cascade-delay-mobile="16"]{animation-delay: $cascade_interval * 16;}
+	[data-cascade-delay-mobile="17"]{animation-delay: $cascade_interval * 17;}
+	[data-cascade-delay-mobile="18"]{animation-delay: $cascade_interval * 18;}
+	[data-cascade-delay-mobile="19"]{animation-delay: $cascade_interval * 19;}
+	[data-cascade-delay-mobile="20"]{animation-delay: $cascade_interval * 20;}
+	[data-cascade-delay-mobile="21"]{animation-delay: $cascade_interval * 21;}
+	[data-cascade-delay-mobile="22"]{animation-delay: $cascade_interval * 22;}
+	[data-cascade-delay-mobile="23"]{animation-delay: $cascade_interval * 23;}
 	
 	[data-cascade-delay-mobile="0"]{
 		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
@@ -153,6 +181,141 @@
 	[data-cascade-delay-mobile="11"]{
 		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
 	}
+	[data-cascade-delay-mobile="12"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 12);}
+	}
+	[data-cascade-delay-mobile="13"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 13);}
+	}
+	[data-cascade-delay-mobile="14"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 14);}
+	}
+	[data-cascade-delay-mobile="15"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 15);}
+	}
+	[data-cascade-delay-mobile="16"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 16);}
+	}
+	[data-cascade-delay-mobile="17"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 17);}
+	}
+	[data-cascade-delay-mobile="18"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 18);}
+	}
+	[data-cascade-delay-mobile="19"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 19);}
+	}
+	[data-cascade-delay-mobile="20"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 20);}
+	}
+	[data-cascade-delay-mobile="21"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 21);}
+	}
+	[data-cascade-delay-mobile="22"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 22);}
+	}
+	[data-cascade-delay-mobile="23"]{
+		&.firstload-mobile, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 23);}
+	}
+
+
+	[data-aladdin-delay-mobile="0"]{animation-delay: $aladdin_interval * 0;}
+	[data-aladdin-delay-mobile="1"]{animation-delay: $aladdin_interval * 1;}
+	[data-aladdin-delay-mobile="2"]{animation-delay: $aladdin_interval * 2;}
+	[data-aladdin-delay-mobile="3"]{animation-delay: $aladdin_interval * 3;}
+	[data-aladdin-delay-mobile="4"]{animation-delay: $aladdin_interval * 4;}
+	[data-aladdin-delay-mobile="5"]{animation-delay: $aladdin_interval * 5;}
+	[data-aladdin-delay-mobile="6"]{animation-delay: $aladdin_interval * 6;}
+	[data-aladdin-delay-mobile="7"]{animation-delay: $aladdin_interval * 7;}
+	[data-aladdin-delay-mobile="8"]{animation-delay: $aladdin_interval * 8;}
+	[data-aladdin-delay-mobile="9"]{animation-delay: $aladdin_interval * 9;}
+	[data-aladdin-delay-mobile="10"]{animation-delay: $aladdin_interval * 10;}
+	[data-aladdin-delay-mobile="11"]{animation-delay: $aladdin_interval * 11;}
+	[data-aladdin-delay-mobile="12"]{animation-delay: $aladdin_interval * 12;}
+	[data-aladdin-delay-mobile="13"]{animation-delay: $aladdin_interval * 13;}
+	[data-aladdin-delay-mobile="14"]{animation-delay: $aladdin_interval * 14;}
+	[data-aladdin-delay-mobile="15"]{animation-delay: $aladdin_interval * 15;}
+	[data-aladdin-delay-mobile="16"]{animation-delay: $aladdin_interval * 16;}
+	[data-aladdin-delay-mobile="17"]{animation-delay: $aladdin_interval * 17;}
+	[data-aladdin-delay-mobile="18"]{animation-delay: $aladdin_interval * 18;}
+	[data-aladdin-delay-mobile="19"]{animation-delay: $aladdin_interval * 19;}
+	[data-aladdin-delay-mobile="20"]{animation-delay: $aladdin_interval * 20;}
+	[data-aladdin-delay-mobile="21"]{animation-delay: $aladdin_interval * 21;}
+	[data-aladdin-delay-mobile="22"]{animation-delay: $aladdin_interval * 22;}
+	[data-aladdin-delay-mobile="23"]{animation-delay: $aladdin_interval * 23;}
+	
+	[data-aladdin-delay-mobile="0"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 0);}
+	}
+	[data-aladdin-delay-mobile="1"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 1);}
+	}
+	[data-aladdin-delay-mobile="2"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 2);}
+	}
+	[data-aladdin-delay-mobile="3"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 3);}
+	}
+	[data-aladdin-delay-mobile="4"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 4);}
+	}
+	[data-aladdin-delay-mobile="5"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 5);}
+	}
+	[data-aladdin-delay-mobile="6"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 6);}
+	}
+	[data-aladdin-delay-mobile="7"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 7);}
+	}
+	[data-aladdin-delay-mobile="8"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 8);}
+	}
+	[data-aladdin-delay-mobile="9"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 9);}
+	}
+	[data-aladdin-delay-mobile="10"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 10);}
+	}
+	[data-aladdin-delay-mobile="11"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 11);}
+	}
+	[data-aladdin-delay-mobile="12"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 12);}
+	}
+	[data-aladdin-delay-mobile="13"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 13);}
+	}
+	[data-aladdin-delay-mobile="14"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 14);}
+	}
+	[data-aladdin-delay-mobile="15"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 15);}
+	}
+	[data-aladdin-delay-mobile="16"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 16);}
+	}
+	[data-aladdin-delay-mobile="17"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 17);}
+	}
+	[data-aladdin-delay-mobile="18"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 18);}
+	}
+	[data-aladdin-delay-mobile="19"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 19);}
+	}
+	[data-aladdin-delay-mobile="20"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 20);}
+	}
+	[data-aladdin-delay-mobile="21"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 21);}
+	}
+	[data-aladdin-delay-mobile="22"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 22);}
+	}
+	[data-aladdin-delay-mobile="23"]{
+		&.firstload-mobile, &.firstload{animation-delay: $cascade_firstload_mobile + ($aladdin_interval * 23);}
+	}
 }
 
 
@@ -169,6 +332,18 @@
 	[data-cascade-delay="9"]{animation-delay: $cascade_interval * 9;}
 	[data-cascade-delay="10"]{animation-delay: $cascade_interval * 10;}
 	[data-cascade-delay="11"]{animation-delay: $cascade_interval * 11;}
+	[data-cascade-delay="12"]{animation-delay: $cascade_interval * 12;}
+	[data-cascade-delay="13"]{animation-delay: $cascade_interval * 13;}
+	[data-cascade-delay="14"]{animation-delay: $cascade_interval * 14;}
+	[data-cascade-delay="15"]{animation-delay: $cascade_interval * 15;}
+	[data-cascade-delay="16"]{animation-delay: $cascade_interval * 16;}
+	[data-cascade-delay="17"]{animation-delay: $cascade_interval * 17;}
+	[data-cascade-delay="18"]{animation-delay: $cascade_interval * 18;}
+	[data-cascade-delay="19"]{animation-delay: $cascade_interval * 19;}
+	[data-cascade-delay="20"]{animation-delay: $cascade_interval * 20;}
+	[data-cascade-delay="21"]{animation-delay: $cascade_interval * 21;}
+	[data-cascade-delay="22"]{animation-delay: $cascade_interval * 22;}
+	[data-cascade-delay="23"]{animation-delay: $cascade_interval * 23;}
 	
 	[data-cascade-delay="0"]{
 		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 0);}
@@ -205,6 +380,141 @@
 	}
 	[data-cascade-delay="11"]{
 		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 11);}
+	}
+	[data-cascade-delay="12"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 12);}
+	}
+	[data-cascade-delay="13"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 13);}
+	}
+	[data-cascade-delay="14"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 14);}
+	}
+	[data-cascade-delay="15"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 15);}
+	}
+	[data-cascade-delay="16"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 16);}
+	}
+	[data-cascade-delay="17"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 17);}
+	}
+	[data-cascade-delay="18"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 18);}
+	}
+	[data-cascade-delay="19"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 19);}
+	}
+	[data-cascade-delay="20"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 20);}
+	}
+	[data-cascade-delay="21"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 21);}
+	}
+	[data-cascade-delay="22"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 22);}
+	}
+	[data-cascade-delay="23"]{
+		&.firstload-desk, &.firstload{animation-delay: $preloader_trans_duration + ($cascade_interval * 23);}
+	}
+
+
+	[data-aladdin-delay="0"]{animation-delay: $aladdin_interval * 0;}
+	[data-aladdin-delay="1"]{animation-delay: $aladdin_interval * 1;}
+	[data-aladdin-delay="2"]{animation-delay: $aladdin_interval * 2;}
+	[data-aladdin-delay="3"]{animation-delay: $aladdin_interval * 3;}
+	[data-aladdin-delay="4"]{animation-delay: $aladdin_interval * 4;}
+	[data-aladdin-delay="5"]{animation-delay: $aladdin_interval * 5;}
+	[data-aladdin-delay="6"]{animation-delay: $aladdin_interval * 6;}
+	[data-aladdin-delay="7"]{animation-delay: $aladdin_interval * 7;}
+	[data-aladdin-delay="8"]{animation-delay: $aladdin_interval * 8;}
+	[data-aladdin-delay="9"]{animation-delay: $aladdin_interval * 9;}
+	[data-aladdin-delay="10"]{animation-delay: $aladdin_interval * 10;}
+	[data-aladdin-delay="11"]{animation-delay: $aladdin_interval * 11;}
+	[data-aladdin-delay="12"]{animation-delay: $aladdin_interval * 12;}
+	[data-aladdin-delay="13"]{animation-delay: $aladdin_interval * 13;}
+	[data-aladdin-delay="14"]{animation-delay: $aladdin_interval * 14;}
+	[data-aladdin-delay="15"]{animation-delay: $aladdin_interval * 15;}
+	[data-aladdin-delay="16"]{animation-delay: $aladdin_interval * 16;}
+	[data-aladdin-delay="17"]{animation-delay: $aladdin_interval * 17;}
+	[data-aladdin-delay="18"]{animation-delay: $aladdin_interval * 18;}
+	[data-aladdin-delay="19"]{animation-delay: $aladdin_interval * 19;}
+	[data-aladdin-delay="20"]{animation-delay: $aladdin_interval * 20;}
+	[data-aladdin-delay="21"]{animation-delay: $aladdin_interval * 21;}
+	[data-aladdin-delay="22"]{animation-delay: $aladdin_interval * 22;}
+	[data-aladdin-delay="23"]{animation-delay: $aladdin_interval * 23;}
+	
+	[data-aladdin-delay="0"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 0);}
+	}
+	[data-aladdin-delay="1"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 1);}
+	}
+	[data-aladdin-delay="2"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 2);}
+	}
+	[data-aladdin-delay="3"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 3);}
+	}
+	[data-aladdin-delay="4"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 4);}
+	}
+	[data-aladdin-delay="5"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 5);}
+	}
+	[data-aladdin-delay="6"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 6);}
+	}
+	[data-aladdin-delay="7"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 7);}
+	}
+	[data-aladdin-delay="8"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 8);}
+	}
+	[data-aladdin-delay="9"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 9);}
+	}
+	[data-aladdin-delay="10"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 10);}
+	}
+	[data-aladdin-delay="11"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 11);}
+	}
+	[data-aladdin-delay="12"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 12);}
+	}
+	[data-aladdin-delay="13"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 13);}
+	}
+	[data-aladdin-delay="14"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 14);}
+	}
+	[data-aladdin-delay="15"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 15);}
+	}
+	[data-aladdin-delay="16"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 16);}
+	}
+	[data-aladdin-delay="17"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 17);}
+	}
+	[data-aladdin-delay="18"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 18);}
+	}
+	[data-aladdin-delay="19"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 19);}
+	}
+	[data-aladdin-delay="20"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 20);}
+	}
+	[data-aladdin-delay="21"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 21);}
+	}
+	[data-aladdin-delay="22"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 22);}
+	}
+	[data-aladdin-delay="23"]{
+		&.firstload-desk, &.firstload{animation-delay: $cascade_firstload_desktop + ($aladdin_interval * 23);}
 	}
 }
 
