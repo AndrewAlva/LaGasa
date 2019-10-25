@@ -14,7 +14,9 @@ block content
 			.content-grid
 				//- .test
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Live in Light")
@@ -28,7 +30,7 @@ block content
 						+case_description("For small (5”X7”) devotional book I worked with Myriam Van Neste to develop a system of abstract and subtly feminine forms on the cover and interior. The goal was to speak to teen girls without being overly cute, juvenile and relying on traditional religious tropes. ", "https://www.amazon.com/Live-Light-5-Minute-Devotions-Girls/dp/1641523379/")
 
 					._project-details
-						+case_detailview("lil/LIL03.jpg", "Live in Light book details", "middle")
+						+case_detailview("lil/LIL03.jpg", "Live in Light book details", "middle", "firstload-mobile")
 						+case_detailview("lil/LIL04.jpg", "Live in Light book details", "middle")
 						+case_detailview("lil/LIL05.jpg", "Live in Light book details", "")
 						

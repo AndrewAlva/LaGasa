@@ -13,7 +13,9 @@ block content
 		.inner-wrapper
 			.content-grid
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("O Homem Razoável")
@@ -28,7 +30,7 @@ block content
 
 
 					._project-details
-						+case_detailview("ohr/OHR02.jpg", "O Homem Razoável book details", "middle")
+						+case_detailview("ohr/OHR02.jpg", "O Homem Razoável book details", "middle", "firstload-mobile")
 						+case_detailview("ohr/OHR03.jpg", "O Homem Razoável book details", "middle")
 						+case_detailview("ohr/OHR04.jpg", "O Homem Razoável book details", "middle")
 						+case_detailview("ohr/OHR05.jpg", "O Homem Razoável book details", "")

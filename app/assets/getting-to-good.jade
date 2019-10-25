@@ -13,7 +13,9 @@ block content
 		.inner-wrapper
 			.content-grid
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Getting to Good")
@@ -28,7 +30,7 @@ block content
 
 
 					._project-details
-						+case_detailview("gtg/GTG02.jpg", "Getting to Good book details", "middle")
+						+case_detailview("gtg/GTG02.jpg", "Getting to Good book details", "middle", "firstload-mobile")
 
 						+case_detailview("gtg/GTG03.jpg", "Getting to Good book details", "middle")
 						+case_detailview("gtg/GTG04.jpg", "Getting to Good book details", "middle")

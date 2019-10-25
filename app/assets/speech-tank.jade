@@ -13,7 +13,9 @@ block content
 		.inner-wrapper
 			.content-grid
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Speech Tank")
@@ -27,10 +29,12 @@ block content
 						+case_description("Speech Tank is an energetic and clever company assisting people with speech writing for weddings and other celebratory occasions. Their logo needed to communicate the unique nature of their business and their positive and jubilant spirit.", "http://speechtank.com/", "Visit the site")
 
 					._inspiration
-						h5.subtitle.col-10.ofmet-1.iv-up Logo Sketches
+						h5.subtitle.col-10.ofmet-1.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Logo Sketches
+
 						.images-container.col-12
 							.single-img
-								+case_detailview("st/ST02.jpg", "Speech Tank book details", "middle")
+								+case_detailview("st/ST02.jpg", "Speech Tank book details", "middle", "firstload-mobile")
 
 					._project-details
 						+case_detailview("st/ST03.jpg", "Speech Tank book details", "middle")

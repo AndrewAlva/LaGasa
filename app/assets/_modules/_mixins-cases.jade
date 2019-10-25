@@ -5,7 +5,7 @@ mixin case_title(title)
 
 mixin case_cover(halfsrc, alt)
 	figure._cover.scrollTransform
-		.iv-stretch
+		.mbrt-cascade.firstload(data-cascade="stretch-up" data-cascade-delay="0" data-cascade-delay-mobile="0")
 			img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
@@ -14,26 +14,26 @@ mixin case_info(role, client, clientURL, date)
 	.details.col-4.offset-1
 		.spec
 			.label 
-				.iv-up Role
+				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Role
 			h2.role 
-				.iv-up #{role}
+				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="1" data-cascade-delay-mobile="1") #{role}
 
 		.spec
 			.label 
-				.iv-up Client
+				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="2" data-cascade-delay-mobile="2") Client
 			a(href="#{clientURL}" target="_blank").p-link-invert
 				h3.client 
-					.iv-up #{client}
+					.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="3" data-cascade-delay-mobile="3") #{client}
 
 		.spec
 			h4.date 
-				.iv-up #{date}
+				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="4" data-cascade-delay-mobile="4") #{date}
 
 mixin case_description(description, bookURL, cta='Book details')
 		.intro.col-6
-			p.iv-up #{description}
+			p.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="0" data-cascade-delay-mobile="0") #{description}
 
-			.iv-up
+			.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="4" data-cascade-delay-mobile="4")
 				a(href="#{bookURL}" target="_blank")._cta
 					//- |Get the book
 					|#{cta}
@@ -41,18 +41,19 @@ mixin case_description(description, bookURL, cta='Book details')
 
 
 
-mixin case_detailview(halfsrc, alt, position)
+mixin case_detailview(halfsrc, alt, position, firstload)
 	figure.full-image.scrollTransform(class="#{position}")
-		.iv-stretch
+		.mbrt-cascade(class="#{firstload}" data-cascade="stretch-up" data-cascade-delay="0" data-cascade-delay-mobile="0")
 			img(src="img/proj/#{halfsrc}", alt="#{alt}")
 
 
 mixin case_credits(...args)
 	.credits-container
-		h5.subtitle.iv-up Credits
+		h5.subtitle.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Credits
 		ul.people-list
-			each arg in args
-				li.iv-up
+			each arg, index in args
+				- var fixedIndex = (index + 1)
+				li.mbrt-cascade(data-cascade="slide-up" data-cascade-delay=fixedIndex data-cascade-delay-mobile=fixedIndex)
 					span.role #{arg.role}
 					a(href="#{arg.url}" target="_blank").who.p-link-invert #{arg.name}
 
@@ -60,11 +61,11 @@ mixin case_credits(...args)
 
 mixin case_nextproject(title, url)
 	footer.next-project
-		h5.subtitle.iv-up Next Project
-		h2.title.iv-up
+		h5.subtitle.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Next Project
+		h2.title.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
 			a(href="#{url}?project=true" title="#{title}" data-text="#{title}").change-page #{title}
 
-		.back-top.iv-up
+		.back-top.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
 			a(href="#" onclick="toTop()") Back to top
 
 

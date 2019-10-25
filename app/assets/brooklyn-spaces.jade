@@ -31,7 +31,9 @@ block content
 			.content-grid
 				//- include _modules/filters.jade
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Brooklyn Spaces")
@@ -47,40 +49,41 @@ block content
 
 					._inspiration
 						.bks.images-container.col-mob-6.col-12
-							h5.subtitle.col-6.offset-mob-0.offset-1.iv-up Inspiration
+							h5.subtitle.col-6.offset-mob-0.offset-1.cascade-mask
+								span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Inspiration
 
 							.single-img.insp1.col-mob-10.col-4.p-a-b.mb-15-mob
-								.iv-stretch
+								.mbrt-cascade.firstload-mobile(data-cascade="stretch-up" data-cascade-delay="2" data-cascade-delay-mobile="1")
 									img(src="img/proj/bks/02_insp_1.jpg", alt="")
 
 							.single-img.col-mob-10.offset-mob-0.col-5.offset-1
-								.iv-stretch
+								.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="1" data-cascade-delay-mobile="0")
 									img(src="img/proj/bks/02_insp_2.jpg", alt="")
 
 
 						.bks.images-container.col-mob-6.offset-mob-0.col-3.offset-1
 							.single-img.mb-80
-								.iv-stretch
+								.mbrt-cascade.firstload-mobile(data-cascade="stretch-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
 									img(src="img/proj/bks/02_insp_4.jpg", alt="")
 
 							.single-img.mb-15-mob
-								.iv-stretch
+								.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="1" data-cascade-delay-mobile="0")
 									img(src="img/proj/bks/02_insp_5.jpg", alt="")
 
 
 						.bks.images-container.col-mob-12.offset-mob-0.col-6.offset-1
 							.single-img.mb-80.col-10
-								.iv-stretch
+								.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="2" data-cascade-delay-mobile="0")
 									img(src="img/proj/bks/02_insp_3.jpg", alt="")
 
 
 							.col-12
 								.single-img.fortyfour-4
-									.iv-stretch
+									.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="1" data-cascade-delay-mobile="0")
 										img(src="img/proj/bks/02_insp_6.jpg", alt="")
 
 								.single-img.p-r-0.fortyseven
-									.iv-stretch
+									.mbrt-cascade(data-cascade="stretch-up" data-cascade-delay="2" data-cascade-delay-mobile="1")
 										img(src="img/proj/bks/02_insp_7.jpg", alt="")
 
 

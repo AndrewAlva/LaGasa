@@ -14,7 +14,9 @@ block content
 			.content-grid
 				//- include _modules/filters.jade
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Walk in Faith")
@@ -31,7 +33,7 @@ block content
 
 
 					._project-details
-						+case_detailview("wif/WIF03.jpg", "Walk in Faith book details", "middle")
+						+case_detailview("wif/WIF03.jpg", "Walk in Faith book details", "middle", "firstload-mobile")
 
 						+case_detailview("wif/WIF04.jpg", "Walk in Faith book details", "middle")
 						+case_detailview("wif/WIF05.jpg", "Walk in Faith book details", "")

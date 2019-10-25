@@ -13,7 +13,9 @@ block content
 		.inner-wrapper
 			.content-grid
 				h6.page-name.top.back.change-page
-					a(href="index.html" title="Return to projects") Back
+					a(href="index.html" title="Return to projects")
+						.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Back
 
 				.case-wrap
 					+case_title("Farrah Sit")
@@ -27,10 +29,12 @@ block content
 						+case_description("Farrah Sit is an independent designer who creates sculptural lighting, furniture, and home objects. My hope was to create a logo reflective of her attention to detail and refined sensibility. There’s a delicate grace in all her inventive and structural designs.")
 
 					._inspiration
-						h5.subtitle.col-10.offset-mob-0.offset-1.iv-up Inspiration / Font Selection
+						h5.subtitle.col-10.offset-mob-0.offset-1.cascade-mask
+							span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Inspiration / Font Selection
+							
 						.images-container.col-12
 							figure.single-img
-								+case_detailview("fs/FS02.jpg", "Farrah Sit book details", "middle")
+								+case_detailview("fs/FS02.jpg", "Farrah Sit book details", "middle", "firstload-mobile")
 
 					._project-details
 						+case_detailview("fs/FS03.jpg", "Farrah Sit book details", "middle")
