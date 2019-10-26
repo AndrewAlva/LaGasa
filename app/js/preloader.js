@@ -146,3 +146,13 @@ var ProjectPreloader = function() {
         this.applyTransform(this.nextTitle);
     }
 }
+
+
+function getY( el ) {
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _y += el.offsetTop - el.scrollTop;
+        el = el.offsetParent;
+    }
+    return _y;
+}

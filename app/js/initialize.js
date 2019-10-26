@@ -45,8 +45,6 @@ var App = {
         }
 
         // Custom Cursor for foreword.html and "close" projects
-        // if (window.innerWidth >= 992) { // commented to keep going but need a better solution to catch if user is using tablet or small laptop (touch screen devices)
-        // if (window.innerWidth >= 1200) {
         if (deviceDetector.device == "desktop") {
             if(window.location.href.indexOf('foreword.html') > 0) {
                 var cursor = new Cursor();
@@ -81,14 +79,6 @@ var App = {
         App.addEvents();
     },
     addEvents: function() {
-        // inView('.inview')
-        //     .on('enter', function(el) {
-        //         el.classList.add('in-view');
-        //     })
-        //     .on('exit', function(el) {
-        //         el.classList.remove('in-view');
-        //     });
-
         var elements = document.getElementsByClassName("change-page");
         for (var i = 0; i < elements.length; i++) {
             var el = elements[i];
@@ -98,6 +88,7 @@ var App = {
     changePage: function(e) {
         e.preventDefault();
         var href = e.target.getAttribute("href");
+
         // Si es proyecto abre el otro  preloader
         if (href.indexOf("?project") > 0) {
             App.preloader.show(e.target.getAttribute("data-text"), function() {
@@ -118,60 +109,19 @@ document.addEventListener('DOMContentLoaded', App.init);
 
 // Trigger functions after page is completely loaded
 window.onload = function() {
-    // scroll
-    // DEBE ejecutarse aquí:
-    // después de terminar de cargar todas las imágenes
-    // var scroll = new Scroll();
-    // RAF.add(scroll);
-
 
     // parallax
-    // DEBE ejecutarse aquí:
-    // después de terminar de cargar todas las imágenes
+    // DEBE ejecutarse aquí: después de terminar de cargar todas las imágenes
     var parallax = new Parallax();
     RAF.add(parallax);
-
-
-    // inview animation for translate and opacity
-    var inviewObjectsIvUp = document.getElementsByClassName('iv-up');
-    for (var i = 0; i < inviewObjectsIvUp.length; i++) {
-        var inview = InView(inviewObjectsIvUp[i], function(isInView, data) {
-            // if (isInView) {}
-            if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
-                // console.log("hidden");
-                this.el.classList.remove('iv-active');
-            } else {
-                // console.log("show")
-                this.el.classList.add('iv-active');
-            }
-        })
-    }
-
-    // inview animation for scaleY, translate and opacity
-    var inviewObjectsIvStretch = document.getElementsByClassName('iv-stretch');
-    for (var i = 0; i < inviewObjectsIvStretch.length; i++) {
-        var inview = InView(inviewObjectsIvStretch[i], function(isInView, data) {
-            // if (isInView) {}
-            if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
-                // console.log("hidden");
-                this.el.classList.remove('iv-active');
-            } else {
-                // console.log("show")
-                this.el.classList.add('iv-active');
-            }
-        })
-    }
 
     // General inview animation, linked with "Cascading" system
     var inviewObjects = document.getElementsByClassName('mbrt-cascade');
     for (var i = 0; i < inviewObjects.length; i++) {
         var inview = InView(inviewObjects[i], function(isInView, data) {
-            // if (isInView) {}
             if ((this.el.getBoundingClientRect().top - window.innerHeight) > 0) {
-                // console.log("hidden");
                 this.el.classList.remove('animate');
             } else {
-                // console.log("show")
                 this.el.classList.add('animate');
             }
         })
