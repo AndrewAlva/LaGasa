@@ -213,7 +213,7 @@ canvas{
 		}
 
 		.link{
-			opacity: .5;
+			opacity: .6;
 			@include transitions-ease(.3s);
 		}
 
@@ -227,7 +227,7 @@ canvas{
 
 			.link{
 				// opacity: 0.1;
-				opacity: .3;
+				opacity: .2;
 			}
 		}
 	}

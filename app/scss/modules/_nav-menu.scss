@@ -149,6 +149,7 @@
 			width: 1px;
 			height: 100%;
 			background-color: $black-gray;
+			transition: background-color .4s $easeOutQuart .8s, transform .4s $easeOutQuart .8s, left .4s $easeOutQuart .8s, right .4s $easeOutQuart .8s;
 		}
 
 		&:before {
@@ -349,6 +350,7 @@
 		.toggle-wrap {
 			&:before, &:after {
 				background-color: #fff;
+				transition: background-color .4s $easeOutCubic, transform .6s $easeOutCubic .1s, left .6s $easeOutCubic .1s, right .6s $easeOutCubic .1s;
 			}
 
 			&:before {
