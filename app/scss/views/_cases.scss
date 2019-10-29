@@ -232,8 +232,9 @@
 			margin-bottom: 40px;
 			padding: 0 15px;
 
-			@include desktop{
+			@include desktop {
 				padding: 0;
+				margin-bottom: 80px;
 			}
 
 			@include bigdesktop {
@@ -259,6 +260,12 @@
 
 			.images-container {
 				vertical-align: top;
+
+				&.space-below{
+					margin-bottom: 32px;
+					@include desktop {margin-bottom: 80px;}
+					@include fulldesktop {margin-bottom: 140px;}
+				}
 
 				.single-img {
 					position: relative;
@@ -587,7 +594,6 @@
 				}
 
 			}
-
 		}
 	}
 	
@@ -1043,7 +1049,8 @@
 	left: calc(100% - 54px - 15px);
 	width: 54px;
 	height: 54px;
-	padding-top: 4px;
+	// padding-top: 4px;
+	padding: 19px 0 18px;
 	border-radius: 50%;
 	background-color: $black-gray;
 	overflow: hidden;
@@ -1052,7 +1059,7 @@
 	// font-size: 0.875em;
 	font-size: 16px;
 	text-align: center;
-	line-height: 50px;
+	// line-height: 50px;
 	text-transform: uppercase;
 	color: #fff;
 	// @include transitions-ease(1s);
@@ -1060,17 +1067,6 @@
 
 	@include desktop {
 		display: none;
-	}
-
-	.active-bg{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: #fff;
-		@include translate(0, 100%);
-		@include transitions-ease(.4s);
 	}
 
 	&:before, &:after{
@@ -1092,6 +1088,27 @@
 	}
 	&:after{
 		@include rotate(-45deg);
+	}
+
+	.cascade-mask{
+		width: 100%;
+		height: 100%;
+
+		.mbrt-cascade{
+			height: 100%;
+			line-height: 1.3em;
+		}
+	}
+
+	.active-bg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		@include translate(0, 100%);
+		@include transitions-ease(.4s);
 	}
 
 	&.opened{

@@ -55,6 +55,21 @@
 		.italic{
 			font-style: italic;
 		}
+
+		.p-link-invert{
+			@include mobile {
+				&:after{
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: 2px;
+					left: 0;
+					width: 100%;
+					height: 1px;
+					background-color: $black-gray;
+				}
+			}
+		}
 	}
 
 	.page-title{
@@ -488,7 +503,7 @@
 			}
 
 			._caption{
-				margin-top: 3px;
+				margin-top: 18px;
 				font-family: 'Founders-L', sans-serif;
 				// font-size: .7em;
 				font-size: 14px;

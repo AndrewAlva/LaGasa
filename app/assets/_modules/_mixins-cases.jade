@@ -78,8 +78,8 @@ mixin case_preloader(title)
 
 mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args)
 	#case-info-trigger
-		span.mask-container
-			span.up-in.label Info
+		.cascade-mask
+			.mbrt-cascade.firstload-mobile.label(data-cascade="fade-up" data-cascade-delay-mobile="2") Info
 
 		.active-bg
 
@@ -115,8 +115,8 @@ mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args
 
 mixin case_moreinfo_branding(role, client, clientURL, date, description, projectURL)
 	#case-info-trigger
-		span.mask-container
-			span.up-in Info
+		.cascade-mask
+			.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay-mobile="2") Info
 
 		.active-bg
 
