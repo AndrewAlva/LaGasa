@@ -704,13 +704,9 @@
 			a{
 				text-decoration: none;
 				color: inherit;
+				display: block;
 
 				*{pointer-events: none;}
-
-				h6{
-					font-size: 1em;
-					font-weight: 100;
-				}
 			}
 		}
 	}
@@ -1162,6 +1158,7 @@
 	a{
 		color:inherit;
 		text-decoration: none;
+		display: inline-block;
 	}
 
 	.details{
