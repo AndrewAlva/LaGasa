@@ -99,10 +99,6 @@ canvas{
 	font-size: 16px;
 	font-weight: 100;
 
-	@include desktop {
-		font-size: .8em;
-	}
-
 	&.top{
 		position: absolute;
 		// top: 15px;

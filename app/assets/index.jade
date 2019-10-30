@@ -11,9 +11,9 @@ block content
 			#proj-preloader
 
 			.content-grid
-				h6.page-name.top
+				.page-name.top
 					.cascade-mask
-						span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Work
+						h6.page-name.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Work
 
 				include _modules/filters.jade
 				#filtered-projects.projects-wrapper
@@ -22,15 +22,16 @@ block content
 					+project-cover("col-5 offset-1", "img/covers/02_trb.jpg", "The Rooftop Beekeper", "Chronicle Books", "trb.html", "down--half align-top book", 0.5, {imgDelay: 3, titleDelay: 0, clientDelay: 2, imgDelayMob: 0, titleDelayMob: 0, clientDelayMob: 2, imgFirstLoad: 'firstload-desk', titleFirstLoad: '', clientFirstLoad: ''})
 
 					.grid-title.order-3
-						h1.written 
-							.cascade-mask.padded-r
-								span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="2") Selected
-						h1.typed 
+						.cascade-mask.padded-r
+							h1.written.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="2") Selected
+
+						.sub-wrap
 							.cascade-mask
-								span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="3") Work
-						span.year-range 
+								h1.typed.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="3") Work
+
+						.sub-wrap.period-wrap
 							.cascade-mask
-								span.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="5") (15 - 19)
+								h2.year-range.mbrt-cascade.firstload-mobile(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="5") (15 - 19)
 					
 					+project-cover("col-8", "img/covers/03_wif.jpg", "Walk in Faith", "Callisto Media", "walk-in-faith.html", "pushdown--sm book", -0.2)
 

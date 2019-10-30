@@ -6,7 +6,8 @@ mixin project-cover(size_position, img, title, client, link, extra_classes, para
 					img(src="#{img}", alt="#{title}")
 
 			.title 
-				.cascade-mask.cascade-aladdin #{title}
+				h3.cascade-mask.cascade-aladdin #{title}
+
 			.client 
 				.cascade-mask
-					span.mbrt-cascade(class="#{dataCascade.clientFirstLoad}" data-cascade="fade-up" data-cascade-delay="#{dataCascade.clientDelay}" data-cascade-delay-mobile="#{dataCascade.clientDelayMob}") for #{client}
+					p.mbrt-cascade(class="#{dataCascade.clientFirstLoad}" data-cascade="fade-up" data-cascade-delay="#{dataCascade.clientDelay}" data-cascade-delay-mobile="#{dataCascade.clientDelayMob}") for #{client}

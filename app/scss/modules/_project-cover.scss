@@ -165,6 +165,11 @@
 		@include transform-origin(bottom, left);
 		@include transitions-ease(.5s);
 
+		h3{
+			font-weight: 100;
+			font-size: 1em;
+		}
+
 		[data-cascade]{
 			display: inline-block;
 		}

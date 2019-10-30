@@ -245,10 +245,17 @@
 			}
 		}
 
-		.year-range{
-			opacity: .6;
+		.sub-wrap{
 			position: relative;
 			display: inline-block;
+		}
+
+		.period-wrap{
+			opacity: .6;
+		}
+
+		.year-range{
+			position: relative;
 			margin-left: 4px;
 			// font-size: .625em;
 			font-size: 14px;
