@@ -42,7 +42,7 @@ var Floater = function(el){
 	// this.maxDist = 300; // pixels
 	this.maxDist = 10; // vw
 	this.cof = 0.1;
-	this.intensity = this.el.getAttribute("parallax-intensity") || 1;
+	this.intensity = this.el.getAttribute("data-parallax-intensity") || 1;
 
 	
 	this.displacing = function(){

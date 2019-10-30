@@ -15,19 +15,19 @@ mixin case_info(role, client, clientURL, date)
 		.spec
 			.label 
 				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Role
-			h2.role 
-				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="1" data-cascade-delay-mobile="1") #{role}
+			.role
+				h2.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="1" data-cascade-delay-mobile="1") #{role}
 
 		.spec
 			.label 
 				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="2" data-cascade-delay-mobile="2") Client
 			a(href="#{clientURL}" target="_blank").p-link-invert
-				h3.client 
-					.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="3" data-cascade-delay-mobile="3") #{client}
+				.client 
+					h3.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="3" data-cascade-delay-mobile="3") #{client}
 
 		.spec
-			h4.date 
-				.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="4" data-cascade-delay-mobile="4") #{date}
+			.date 
+				h4.mbrt-cascade(data-cascade="slide-up" data-cascade-delay="4" data-cascade-delay-mobile="4") #{date}
 
 mixin case_description(description, bookURL, cta='Book details')
 		.intro.col-6

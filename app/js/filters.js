@@ -93,7 +93,7 @@ var Filters = {
                     _this.fadeOutCovers();
                     _this.enabled = false;
 
-                    var _filterName = this.getAttribute("projects-filter");
+                    var _filterName = this.getAttribute("data-projects-filter");
                     _this.updateActiveFilter(this);
 
                     // Show branding projects to prevent inview bugs
