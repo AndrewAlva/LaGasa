@@ -98,7 +98,11 @@
 		}
 
 		a {
+			font-size: 26px;
+			font-weight: 100;
+
 			@include desktop {
+				font-size: 2em;
 				height: 100%;
 				line-height: 100px;
 			}
@@ -109,15 +113,6 @@
 
 			@media (min-width: 1441px) {
 				line-height: 140px;
-			}
-
-			h1 {
-				// font-size: 1.125em;
-				font-size: 26px;
-				font-weight: 100;
-				@include desktop {
-					font-size: 2em;
-				}
 			}
 		}
 	}
