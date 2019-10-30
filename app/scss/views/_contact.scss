@@ -190,6 +190,10 @@
 					padding-top: 10px;
 				}
 
+				.cascade-mask.padded-r{
+					right: -15px;
+				}
+
 				.salute{
 					font-weight: 100;
 					// font-size: 1.875em;
@@ -210,10 +214,6 @@
 
 					@include fulldesktop {
 						// font-size: 120px;
-					}
-
-					.cascade-mask.padded-r{
-						right: -15px;
 					}
 				}
 

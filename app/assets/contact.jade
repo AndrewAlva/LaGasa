@@ -30,9 +30,9 @@ block content
 
 		.inner-wrapper
 			.responsive-container
-				h6.page-name.top
+				.page-name.top
 					.cascade-mask
-						span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Contact
+						h6.page-name.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="0" data-cascade-delay-mobile="0") Contact
 
 				.inner-wrapper
 					.img-wrapper.mbrt-cascade.firstload(data-cascade="stretch-up" data-cascade-delay="7" data-cascade-delay-mobile="10")
@@ -63,21 +63,19 @@ block content
 
 						.postcard
 							.salute-container
-								h1.salute
-									.cascade-mask.padded-r
-										span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
-											|Say 
-											span.cursive Hi!
+								.cascade-mask.padded-r
+									h1.salute.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="1" data-cascade-delay-mobile="1")
+										|Say 
+										span.cursive Hi!
 								
 								.intro-wrap
 									//- .line-box
 										.line
 
-									h2.copy-box
-										.cascade-mask
-											span.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="2" data-cascade-delay-mobile="2")
-												span.cursive I’d like to 
-												|hear from you.
+									.cascade-mask
+										h2.copy-box.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="2" data-cascade-delay-mobile="2")
+											span.cursive I’d like to 
+											|hear from you.
 
 							form#contact-form.form-container(name="contact-form" action="mail.php" method="POST" enctype="multipart/form-data")
 								.mbrt-cascade.firstload(data-cascade="fade-up" data-cascade-delay="3" data-cascade-delay-mobile="3")
