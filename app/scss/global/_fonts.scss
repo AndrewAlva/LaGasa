@@ -1,7 +1,9 @@
 @font-face {
 	font-family: 'Saol-L';
-	font-display: swap;
-	src:url('../fonts/SaolDisplay-Light.woff2') format('woff2'),
+	font-display: auto;
+	src:url('../fonts/SaolDisplay-Light.eot');
+	src:url('../fonts/SaolDisplay-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SaolDisplay-Light.woff2') format('woff2'),
 		url('../fonts/SaolDisplay-Light.woff') format('woff'),
 		url('../fonts/SaolDisplay-Light.ttf') format('truetype');
 }
@@ -10,7 +12,9 @@
 @font-face {
 	font-family: 'Saol';
 	font-display: swap;
-	src:url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
+	src:url('../fonts/SaolDisplay-Regular.eot');
+	src:url('../fonts/SaolDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
 		url('../fonts/SaolDisplay-Regular.woff') format('woff'),
 		url('../fonts/SaolDisplay-Regular.ttf') format('truetype');
 }
@@ -19,7 +23,9 @@
 @font-face {
 	font-family: 'Saol-It';
 	font-display: swap;
-	src:url('../fonts/SaolDisplay-RegularItalic.woff2') format('woff2'),
+	src:url('../fonts/SaolDisplay-RegularItalic.eot');
+	src:url('../fonts/SaolDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SaolDisplay-RegularItalic.woff2') format('woff2'),
 		url('../fonts/SaolDisplay-RegularItalic.woff') format('woff'),
 		url('../fonts/SaolDisplay-RegularItalic.ttf') format('truetype');
 }
@@ -28,7 +34,9 @@
 @font-face {
 	font-family: 'Saol-L-It';
 	font-display: swap;
-	src:url('../fonts/SaolDisplay-LightItalic.woff2') format('woff2'),
+	src:url('../fonts/SaolDisplay-LightItalic.eot');
+	src:url('../fonts/SaolDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SaolDisplay-LightItalic.woff2') format('woff2'),
 		url('../fonts/SaolDisplay-LightItalic.woff') format('woff'),
 		url('../fonts/SaolDisplay-LightItalic.ttf') format('truetype');
 }
@@ -37,7 +45,9 @@
 @font-face {
 	font-family: 'Founders-L';
 	font-display: swap;
-	src:url('../fonts/Founders-Grotesk-Light.woff2') format('woff2'),
+	src:url('../fonts/Founders-Grotesk-Light.eot');
+	src:url('../fonts/Founders-Grotesk-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Founders-Grotesk-Light.woff2') format('woff2'),
 		url('../fonts/Founders-Grotesk-Light.woff') format('woff'),
 		url('../fonts/Founders-Grotesk-Light.otf') format('opentype');
 }
