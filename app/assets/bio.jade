@@ -1,6 +1,7 @@
 extends templates/layout.jade
 
 include _modules/socialmedia-list.jade
+include _modules/svg/arrow.jade
 
 block title
 	title Bio – Suze LaGasa | Art Director & Graphic Designer
@@ -89,47 +90,47 @@ block content
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="0")
 								a(href="https://www.amazon.com/dp/1452107947/" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p The Dust Bowl: An Illustrated History
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="1")
 								a(href="https://www.amazon.com/dp/0811864022/" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p X: The Erotic Treasury
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="2")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Bitten: Dark Erotic Stories
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="3")
 								a(href="https://www.chroniclebooks.com/titles/a-shade-of-red.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p A Shade of Red: One Lipstick & One Hundred Women
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="4")
 								a(href="https://www.chroniclebooks.com/titles/get-high-now.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Get High Now
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="5")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p A Girl Named Misty
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="6")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p A Girl Named Hillary
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="7")
 								a(href="https://www.amazon.com/dp/1641523514" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p The Outdoor Toddler Activity Book
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="8")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Rainy Day Toddler Activity Book
 
 						a(href="#")#toggle-extra-projects.expand-projects 
@@ -152,50 +153,47 @@ block content
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="0")
 								a(href="https://www.chroniclebooks.com/titles/haikubes.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Haikubes
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="1")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Bike Snob Abroad
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="2")
 								a(href="https://www.chroniclebooks.com/titles/rude-hand-gestures-of-the-world.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Rude Hand Gestures
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="3")
 								a(href="https://www.chroniclebooks.com/titles/forever-paris.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Forever Paris: 25 Walks in the Foosteps of Chanel, Hemingway, Picasso & more
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="4")
 								a(href="https://www.chroniclebooks.com/titles/boo.html" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Boo: The Life of the World’s Cutest Dog
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="5")
 								a(href="https://www.amazon.com/dp/1641525770/ref=cm_sw_r_tw_dp_U_x_tc5ADbW2KA00E" target="_blank")
-									span.link-arrow.black
-									//- h5.bio-p A Girl Named Helen
+									+arrow-link
 									h5.bio-p The Depression Workbook for Teens
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="6")
 								a(href="https://www.amazon.com/dp/1641524014/ref=cm_sw_r_tw_dp_U_x_ki5ADbK7PSQ2N" target="_blank")
-									span.link-arrow.black
-									//- h5.bio-p A Girl Named Rosa
+									+arrow-link
 									h5.bio-p Conquer Anxiety Workbook for Teens
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="7")
 								a(href="#amazon" target="_blank")
-									span.link-arrow.black
-									//- h5.bio-p American Girl of the Year Luciana (box set)
+									+arrow-link
 									h5.bio-p Inspiration for Christian Teen Girls
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="8")
 								a(href="https://www.amazon.com/dp/1641529776" target="_blank")
-									span.link-arrow.black
+									+arrow-link
 									h5.bio-p Grateful Together
 
 				

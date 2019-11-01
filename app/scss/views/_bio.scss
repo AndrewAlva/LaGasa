@@ -309,9 +309,10 @@
 					}
 				}
 
-				span{
+				.arrow-link{
 					position: absolute;
-					top: 16px;
+					top: 17px;
+					width: 10px;
 					// background-color: $black-gray;
 
 					@include desktop {
