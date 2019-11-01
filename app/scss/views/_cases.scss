@@ -212,8 +212,14 @@
 						font-size: 18px;
 					}
 
-					.link-arrow {
+					.arrow-link {
+						position: relative;
+						top: 1px;
 						margin-left: 15px;
+
+						@include bigdesktop {
+							width: 10px;
+						}
 					}
 
 					&:hover {
@@ -1197,7 +1203,7 @@
 		font-size: 14px;
 		opacity: .3;
 	}
-	.link-arrow{
+	.arrow-link{
 		margin-left: 12px;
 	}
 

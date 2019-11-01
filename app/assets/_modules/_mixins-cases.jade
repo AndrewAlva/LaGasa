@@ -37,7 +37,7 @@ mixin case_description(description, bookURL, cta='Book details')
 				a(href="#{bookURL}" target="_blank")._cta
 					//- |Get the book
 					|#{cta}
-					span.link-arrow.black
+					+arrow-link('8px')
 
 
 
@@ -100,7 +100,7 @@ mixin case_moreinfo(role, client, clientURL, date, description, bookURL, ...args
 
 				a(href="#{bookURL}" target="_blank")._cta.js-cascade
 					|Book details
-					span.link-arrow.white.small
+					+arrow-link('8px', '#fff')
 
 			p.description.js-cascade #{description}
 
@@ -137,7 +137,7 @@ mixin case_moreinfo_branding(role, client, clientURL, date, description, project
 
 				a(href="#{projectURL}" target="_blank")._cta.js-cascade
 					|Visit the site
-					span.link-arrow.white.small
+					+arrow-link('8px', '#fff')
 
 			p.description.js-cascade #{description}
 
