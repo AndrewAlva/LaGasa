@@ -1,14 +1,16 @@
+include svg/arrow.jade
+
 mixin socialmedia-list(bgClass)
 	ul(class="socialmedia-list #{bgClass}")
 		li
 			a(href="https://www.linkedin.com/in/lagasa/" target="_blank" title="Suze Linkedin").mask-container.mask-menu
-				span.icon
+				+arrow-link('10px', '#fff')
 				span.label Linkedin
 		li
 			a(href="https://www.instagram.com/lagasa/" target="_blank" title="Suze Instagram").mask-container.mask-menu
-				span.icon
+				+arrow-link('10px', '#fff')
 				span.label Instagram
 		li
 			a(href="https://www.behance.net/lagasa" target="_blank" title="Suze Behance").mask-container.mask-menu
-				span.icon
+				+arrow-link('10px', '#fff')
 				span.label Behance

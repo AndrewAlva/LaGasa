@@ -14,13 +14,13 @@
 		position: relative;
 		margin-bottom: 8px;
 
-		.icon{
+		.arrow-link{
 			position: absolute;
 			margin: auto;
 			top: 2px;
 			left: 0;
-			width: 8px;
-			height: 8px;
+			width: 9px;
+			height: 9px;
 			opacity: 0;
 			@include translate(0, 5px);
 			@include transitions-ease(.3s);
@@ -72,7 +72,7 @@
 		}
 
 		&:hover, &:focus{
-			.icon{
+			.arrow-link{
 				opacity: 1;
 				@include translate(0, 0);
 			}

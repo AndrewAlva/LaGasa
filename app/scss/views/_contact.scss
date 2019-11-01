@@ -133,6 +133,8 @@
 			.socialmedia-list{
 				@include mobile {
 					margin: 0 0 0 auto;
+
+					.arrow-link{display: none;}
 				}
 
 				li:not(:last-child) {

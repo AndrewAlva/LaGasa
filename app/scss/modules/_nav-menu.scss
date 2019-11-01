@@ -591,7 +591,10 @@
 			li {
 				margin-bottom: 20px;
 			}
+		}
 
+		@include mobile {
+			.arrow-link{display: none;}
 		}
 
 	}
