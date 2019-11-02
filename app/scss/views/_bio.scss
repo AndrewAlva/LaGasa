@@ -312,10 +312,11 @@
 				.arrow-link{
 					position: absolute;
 					top: 17px;
-					width: 10px;
+					width: 8px;
 					// background-color: $black-gray;
 
 					@include desktop {
+						width: 10px;
 						top: 30px;
 						left: 6px;
 						margin-left: 6px;

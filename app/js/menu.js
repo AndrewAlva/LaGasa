@@ -34,7 +34,7 @@ var Menu = {
         }
         var els = document.getElementsByClassName("section-link");
         for (var i = 0, l = els.length; i < l; ++i) {
-            Menu.setActive(els[i], i * 80 + 1100);
+            Menu.setActive(els[i], i * 80 + 800);
         }
         return true;
     },

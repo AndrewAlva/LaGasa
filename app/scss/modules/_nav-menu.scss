@@ -493,11 +493,11 @@
 			font-size: 30px;
 			transform: translateY(60px);
 			opacity: 0;
-			transition: all 100ms linear;
+			transition: all 200ms linear;
 
 			&.active {
 				pointer-events: auto;
-				transition: all 600ms cubic-bezier(0.33, 0, 0.140, 1.000);
+				transition: all 900ms cubic-bezier(0.33, 0, 0.140, 1.000);
 				opacity: 1;
 				transform: translateY(0px);
 			}
