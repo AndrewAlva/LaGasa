@@ -345,8 +345,7 @@
 				
 				h5{
 					padding-left: 17px;
-					// padding-right: 35%;
-					padding-right: 29%;
+					padding-right: 16%;
 
 					@include desktop {
 						padding-left: 36px;
@@ -440,7 +439,7 @@
 				bottom: -11px;
 
 				& + .hidden-projects-mob{
-					max-height: 385px;
+					max-height: 460px;
 					margin-bottom: 20px;
 				}
 
