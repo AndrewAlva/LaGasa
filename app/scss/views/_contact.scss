@@ -205,6 +205,7 @@
 
 					@include desktop {
 						padding-right: 8px;
+						margin-right: -6px;
 						margin-bottom: 0;
 						// font-size: 2.875em;
 					}
@@ -212,6 +213,7 @@
 					@include bigdesktop {
 						font-size: 6.25vw;
 						// font-size: 100px;
+						margin-right: 0;
 					}
 
 					@include fulldesktop {
@@ -221,6 +223,13 @@
 
 				.cursive{
 					font-family: 'Saol-L-It';
+					padding-right: 5px;
+					position: relative;
+					// margin-right: -5px;
+
+					@include desktop {
+						padding-right: 0;
+					}
 				}
 
 				.intro-wrap{

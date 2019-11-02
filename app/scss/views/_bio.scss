@@ -242,6 +242,25 @@
 				&.cursive{
 					font-family: 'Saol-L-It', serif;
 					// font-style: italic;
+					padding-right: 5px;
+					position: relative;
+					margin-right: -5px;
+
+					@include desktop {
+						padding-right: 0;
+						margin-right: 0;
+					}
+
+					[data-cascade]{
+						padding-right: 5px;
+						position: relative;
+						margin-right: -5px;
+
+						@include desktop {
+							padding-right: 0;
+							margin-right: 0;
+						}
+					}
 				}
 
 				&:not(:last-child){
@@ -699,10 +718,15 @@
 				font-family: 'Saol-It', serif;
 				// font-style: italic;
 				font-weight: 100;
+				padding-right: 5px;
+				position: relative;
+				margin-right: -5px;
 
 				@include desktop {
 					// font-size: 2.5em;
 					font-size: 35px;
+					padding-right: 0;
+					margin-right: 0;
 				}
 
 				@media (min-width: 1700px) {
