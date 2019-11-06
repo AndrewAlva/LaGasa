@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	
+	Mandelbrot & Juan Fuentes
+    Zero Morales -- Interactive Designer -- @zero_mbrt
+    Juan Fuentes -- Front End Developer -- @juanfuent.es
+    Andrew Alvarado -- Front End Developer -- @andrew__alva
+
+
+# THANKS
+
+    Suzanne LaGasa, Art Director, Graphic Designer & great friend of Mandelbrot team; thank you for your support and patience.
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
+    npm, Brunch, Inview.js

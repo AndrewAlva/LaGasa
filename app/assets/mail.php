@@ -1,5 +1,5 @@
-<?php 
-	$recipient = "andrew@mandelbrot.mx";
+<?php
+	$recipient = "suzanne@lagasa.com, andrew@mandelbrot.mx";
 	$subject = "LaGasa.com | New message";
 	$name = $_POST['name-input'];
 	$email = $_POST['email-input'];

@@ -1,9 +1,15 @@
+window.onpageshow = function (event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+};
+
 // If users have never visited the site and are first getting to the home ('/' || '/index.html')
 // if( (window.location.href.indexOf('index.html') > 0 || window.location.href.indexOf('foreword.html') > 0 || window.location.pathname == '/') && localStorage.getItem("LaGasaVisited") == undefined) {
 
 // If users have never visited the website, redirect them to 'foreword'.
-if(localStorage.getItem("LaGasaVisited") == undefined) {
-    localStorage.setItem("LaGasaVisited", true);
+if(localStorage.getItem("LaGasaVisited10") == undefined) {
+    localStorage.setItem("LaGasaVisited10", true);
     window.location = window.location.origin + "/foreword.html";
 }
 
