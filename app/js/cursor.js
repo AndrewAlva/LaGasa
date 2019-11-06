@@ -20,6 +20,9 @@ var Cursor = function(args) {
     this.minRadius = 35;
     this.maxDiameter = 0;
 
+    this.senseArea = args.senseArea || false;
+    this.senseLimit = args.senseLimit || 0;
+
     this.width = 1;
     this.color = "#e5e5e5";
     // this.color = "#1a1a1a";
@@ -90,9 +93,11 @@ var Cursor = function(args) {
         } else {
             this.radius += (this.maxRadius - this.radius) * this.cof;
         }
+
         if (this.radius < this.minRadius) {
             this.radius = this.minRadius
         }
+
         if (this.radius > this.maxRadius) {
             this.radius = this.maxRadius
         }
@@ -176,12 +181,16 @@ var Cursor = function(args) {
         });
 
         window.addEventListener("mousedown", function() {
-            _self.coa = _self.coa * -1;
-            _self.mouseDown = true;
+            if (mouse.x < (MaxWidth - _self.senseLimit)) {
+                _self.coa = _self.coa * -1;
+                _self.mouseDown = true;
+            }
         });
         window.addEventListener("mouseup", function() {
-            _self.coa = _self.coa * -1;
-            _self.mouseDown = false;
+            if (mouse.x < (MaxWidth - _self.senseLimit)) {
+                _self.coa = _self.coa * -1;
+                _self.mouseDown = false;
+            }
         });
 
         for (var i = 0; i < this.links.length; i++) {
@@ -231,6 +240,22 @@ var Cursor = function(args) {
     this.onResize = function() {
         canvas.width = MaxWidth;
         canvas.height = MaxHeight;
+        if (_self.senseArea) {
+            if (MaxWidth >= 1441) {
+                _self.senseLimit = 140;
+
+            } else if (MaxWidth >= 1200){
+                _self.senseLimit = 120;
+
+            } else if (MaxWidth >= 992){
+                _self.senseLimit = 100;
+
+            } else {
+                _self.senseLimit = 20;
+
+            }
+        }
+        console.log(_self.senseLimit)
     }
     this.init();
     return this;

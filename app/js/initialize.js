@@ -67,6 +67,17 @@ var App = {
                 var _caseWrapData = _caseWrap.getBoundingClientRect();
                 var _cursorY = _caseWrapData.y;
 
+                var _senseLimit;
+                if (window.innerWidth >= 1441) {
+                    _senseLimit = 140;
+                } else if (window.innerWidth >= 1200){
+                    _senseLimit = 120;
+                } else if (window.innerWidth >= 992){
+                    _senseLimit = 100;
+                } else {
+                    _senseLimit = 20;
+                }
+
                 var cursor = new Cursor({
                     string: "CLOSE",
                     fontFamily: "Saol",
@@ -74,7 +85,9 @@ var App = {
                     mouse_y: _cursorY + 18,
                     mouse_x: _cursorX,
                     maxRadius: _cursorRadius,
-                    links: (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a')
+                    links: (document.getElementsByClassName('cases-page')[0]).getElementsByTagName('a'),
+                    senseArea: true,
+                    senseLimit: _senseLimit
                 });
 
                 RAF.add(cursor);

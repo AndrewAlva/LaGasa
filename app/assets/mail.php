@@ -14,7 +14,7 @@
 
 		<script type="text/javascript">
 			alert("We can't send the message with blank fields, please fill the fields required.");
-			window.location = '/';
+			window.location.reload();
 		</script>
 
 		<?php
@@ -23,7 +23,7 @@
 		if ($mail_sent == true){ ?>
 			<script language="javascript" type="text/javascript">
 				alert('Great! Your message was sent successfully.');
-				window.location = '/';
+				window.location = './';
 			</script>
 
 		<?php 
@@ -32,7 +32,7 @@
 
 			<script type="text/javascript">
 				alert('There was an error and the message could not be sent, try again and if the error persists, try to reach us on our social media channels.');
-				window.location = '/';
+				window.location = './';
 			</script>
 		
 		<?php 
