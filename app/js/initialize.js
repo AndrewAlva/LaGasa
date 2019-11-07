@@ -8,8 +8,8 @@ window.onpageshow = function (event) {
 // if( (window.location.href.indexOf('index.html') > 0 || window.location.href.indexOf('foreword.html') > 0 || window.location.pathname == '/') && localStorage.getItem("LaGasaVisited") == undefined) {
 
 // If users have never visited the website, redirect them to 'foreword'.
-if(localStorage.getItem("LaGasaVisited10") == undefined) {
-    localStorage.setItem("LaGasaVisited10", true);
+if(localStorage.getItem("LaGasaLaunch") == undefined) {
+    localStorage.setItem("LaGasaLaunch", true);
     window.location = window.location.origin + "/foreword.html";
 }
 
