@@ -504,11 +504,7 @@
         <image:geo_location>New York, United States of America</image:geo_location>
         <image:caption>Preview of design made for "Grateful Together: A gratitude journal for kids and their parents" book</image:caption>
       </image:image>
-
     <!-- END: OTHER PROJECTS -->
-
-
-
 
 
     <!-- MENU THUMBNAILS -->
@@ -614,12 +610,266 @@
   <url>
     <loc>http://lagasa.com/live-in-light.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL01.jpg</image:loc>
+      <image:title>"Live in Light" book cover</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Live in Light" book designed by Suze LaGasa</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL02.jpg</image:loc>
+      <image:title>"Live in Light" book cover explorations</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Cover concepts from different art direction for "Live in Light"</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL03.jpg</image:loc>
+      <image:title>"Live in Light" book design front and back</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Live in Light" book design by Suze LaGasa</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL04.jpg</image:loc>
+      <image:title>"Live in Light" interior pages</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Editorial design of interior pages in "Live in Light" book</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL05.jpg</image:loc>
+      <image:title>More "Live in Light" interior pages</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Editorial design of interior pages in "Live in Light" book</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://lagasa.com/img/proj/lil/LIL06.jpg</image:loc>
+      <image:title>"Live in Light" decorative illustrations</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Illustrations and patterns designed for "Live in Light" book</image:caption>
+    </image:image>
+
+
+    <!-- MENU THUMBNAILS -->
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:title>"Live in Light" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Live in Light" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "The Rooftop Beekeeper" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:title>"Walk In Faith" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Walk In Faith" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "TBH: 51 True Story Collabs" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:title>"One Day's Tale" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "One Day's Tale" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Brooklyn Spaces" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:title>"Getting To Good" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Getting To Good" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:title>"Mean Girls" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Mean Girls" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:title>"O Homem Razoável" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "O Homem Razoável" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:title>"Farrah Sit" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Farrah Sit" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:title>"Movetes" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Movetes" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:title>"Speech Tank" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Speech Tank" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+    <!-- END: MENU THUMBNAILS -->
   </url>
 
 
   <url>
     <loc>http://lagasa.com/trb.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
+
+
+    <image:image>
+      <image:loc>http://lagasa.com/</image:loc>
+      <image:title>_TITLE_</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>_CAPTION_</image:caption>
+    </image:image>
+    
+    <!-- MENU THUMBNAILS -->
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:title>"Live in Light" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Live in Light" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "The Rooftop Beekeeper" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:title>"Walk In Faith" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Walk In Faith" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "TBH: 51 True Story Collabs" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:title>"One Day's Tale" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "One Day's Tale" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Brooklyn Spaces" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:title>"Getting To Good" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Getting To Good" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:title>"Mean Girls" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Mean Girls" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:title>"O Homem Razoável" book cover thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "O Homem Razoável" book cover, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:title>"Farrah Sit" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Farrah Sit" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:title>"Movetes" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Movetes" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+
+      <image:image>
+        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:title>"Speech Tank" branding thumbnail</image:title>
+        <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+        <image:geo_location>New York, United States of America</image:geo_location>
+        <image:caption>Thumbnail of "Speech Tank" brand identity, designed by Suze LaGasa</image:caption>
+      </image:image>
+    <!-- END: MENU THUMBNAILS -->
   </url>
 
 
