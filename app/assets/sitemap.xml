@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+
   <url>
-    <loc>http://lagasa.com/</loc>
+    <loc>https://www.lagasa.com/</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
     
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -14,7 +15,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -22,7 +23,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -30,7 +31,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -38,7 +39,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -46,7 +47,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -54,7 +55,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -62,7 +63,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -70,7 +71,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -78,7 +79,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -86,7 +87,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -94,7 +95,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -104,7 +105,7 @@
     
     <!-- INDEX PROJECTS COVER -->
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/01_lil.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/01_lil.jpg</image:loc>
         <image:title>"Live in Light" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -112,7 +113,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/02_trb.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/02_trb.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -120,7 +121,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/03_wif.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/03_wif.jpg</image:loc>
         <image:title>"Walk In Faith" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -128,7 +129,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/04_tbh.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/04_tbh.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -136,7 +137,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/05_odt.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/05_odt.jpg</image:loc>
         <image:title>"One Day's Tale" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -144,7 +145,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/06_bs.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/06_bs.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -152,7 +153,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/07_gtg.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/07_gtg.jpg</image:loc>
         <image:title>"Getting To Good" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -160,7 +161,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/08_mg.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/08_mg.jpg</image:loc>
         <image:title>"Mean Girls" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -168,7 +169,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/09_hr.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/09_hr.jpg</image:loc>
         <image:title>"O Homem Razoável" book design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -176,7 +177,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/10_fs.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/10_fs.jpg</image:loc>
         <image:title>"Farrah Sit" branding design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -184,7 +185,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/11_mny.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/11_mny.jpg</image:loc>
         <image:title>"Movetes" branding design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -192,38 +193,28 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/covers/12_st.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/covers/12_st.jpg</image:loc>
         <image:title>"Speech Tank" branding design</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
         <image:caption>Preview of "Speech Tank" brand identity, designed by Suze LaGasa</image:caption>
       </image:image>
     <!-- END: INDEX PROJECTS COVER -->
-
-
-    <image:image>
-      <image:loc>http://lagasa.com/</image:loc>
-      <image:title>_TITLE_</image:title>
-      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
-      <image:geo_location>New York, United States of America</image:geo_location>
-      <image:caption>_CAPTION_</image:caption>
-    </image:image>
-
   </url>
 
 
   <url>
-    <loc>http://lagasa.com/foreword.html</loc>
+    <loc>https://www.lagasa.com/foreword.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
   </url>
 
 
   <url>
-    <loc>http://lagasa.com/contact.html</loc>
+    <loc>https://www.lagasa.com/contact.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/contact_desaturated.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/contact_desaturated.jpg</image:loc>
       <image:title>Say Hi! I'd like to hear from you.</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -232,7 +223,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -240,7 +231,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -248,7 +239,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -256,7 +247,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -264,7 +255,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -272,7 +263,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -280,7 +271,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -288,7 +279,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -296,7 +287,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -304,7 +295,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -312,7 +303,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -320,7 +311,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -331,11 +322,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/bio.html</loc>
+    <loc>https://www.lagasa.com/bio.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/suze_lagasa.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/suze_lagasa.jpg</image:loc>
       <image:title>Suze LaGasa portrait</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -343,7 +334,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/suzanne_pintinho.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/suzanne_pintinho.jpg</image:loc>
       <image:title>7 years old Suze</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>Brasilia, Brazil</image:geo_location>
@@ -351,7 +342,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/afterword_2_opt.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/afterword_2_opt.jpg</image:loc>
       <image:title>Suze's morning routine</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -360,7 +351,7 @@
 
     <!-- OTHER PROJECTS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B1.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B1.jpg</image:loc>
         <image:title>"The Dust Bowl" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -368,7 +359,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B2.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B2.jpg</image:loc>
         <image:title>"X: The Erotic Treasury" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -376,7 +367,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B3.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B3.jpg</image:loc>
         <image:title>"Bitten: Dark Erotic Stories" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -384,7 +375,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B4.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B4.jpg</image:loc>
         <image:title>"A Shade of Red" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -392,7 +383,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B5.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B5.jpg</image:loc>
         <image:title>"Get High Now" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -400,7 +391,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B6.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B6.jpg</image:loc>
         <image:title>"A Girl Named Misty" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -408,7 +399,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B7.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B7.jpg</image:loc>
         <image:title>"A Girl Named Hillary" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -416,7 +407,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B8.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B8.jpg</image:loc>
         <image:title>"The Outdoor Toddler Activity" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -424,7 +415,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B9.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B9.jpg</image:loc>
         <image:title>"The Rainy Day Toddler Activity" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -434,7 +425,7 @@
 
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B10.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B10.jpg</image:loc>
         <image:title>"Haikubes" game</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -442,7 +433,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B11.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B11.jpg</image:loc>
         <image:title>"Bike Snob Abroad" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -450,7 +441,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B12.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B12.jpg</image:loc>
         <image:title>"Rude Hand Gestures" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -458,7 +449,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B13.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B13.jpg</image:loc>
         <image:title>"Forever Paris" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -466,7 +457,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B14.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B14.jpg</image:loc>
         <image:title>"Boo: The Life of the World's Cutest Dog" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -474,7 +465,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B15_2.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B15_2.jpg</image:loc>
         <image:title>"The Depression Workbook for Teens" cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -482,7 +473,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B16_2.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B16_2.jpg</image:loc>
         <image:title>"Conquer Anxiety Workbook for Teens" cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -490,7 +481,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B17_2.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B17_2.jpg</image:loc>
         <image:title>"Inspiration for Christian Teen Girls" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -498,7 +489,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/other_projects/B18.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/other_projects/B18.jpg</image:loc>
         <image:title>"Grateful Together: A gratitude journal for kids and their parents" book cover</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -509,7 +500,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -517,7 +508,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -525,7 +516,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -533,7 +524,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -541,7 +532,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -549,7 +540,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -557,7 +548,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -565,7 +556,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -573,7 +564,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -581,7 +572,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -589,7 +580,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -597,7 +588,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -608,11 +599,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/live-in-light.html</loc>
+    <loc>https://www.lagasa.com/live-in-light.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL01.jpg</image:loc>
       <image:title>"Live in Light" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -620,7 +611,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL02.jpg</image:loc>
       <image:title>"Live in Light" book cover explorations</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -628,7 +619,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL03.jpg</image:loc>
       <image:title>"Live in Light" book design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -636,7 +627,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL04.jpg</image:loc>
       <image:title>"Live in Light" interior pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -644,7 +635,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL05.jpg</image:loc>
       <image:title>More "Live in Light" interior pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -652,7 +643,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/lil/LIL06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/lil/LIL06.jpg</image:loc>
       <image:title>"Live in Light" decorative illustrations</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -662,7 +653,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -670,7 +661,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -678,7 +669,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -686,7 +677,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -694,7 +685,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -702,7 +693,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -710,7 +701,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -718,7 +709,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -726,7 +717,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -734,7 +725,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -742,7 +733,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -750,7 +741,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -761,12 +752,12 @@
 
 
   <url>
-    <loc>http://lagasa.com/trb.html</loc>
+    <loc>https://www.lagasa.com/trb.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB01.jpg</image:loc>
       <image:title>"The Rooftop Beekeeper" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -774,7 +765,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_1.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_1.jpg</image:loc>
       <image:title>Illustrations for "The Rooftop Beekeeper" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -782,7 +773,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_2.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_2.jpg</image:loc>
       <image:title>Rabbit illustration for "The Rooftop Beekeeper" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -790,7 +781,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_3.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_3.jpg</image:loc>
       <image:title>Cover of "The Adventure of Huckleberry Finn" book</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -798,7 +789,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_4.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_4.jpg</image:loc>
       <image:title>Color palette inspiration for "The Rooftop Beekeeper" book</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -806,7 +797,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_5.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_5.jpg</image:loc>
       <image:title>Landscape and movement inspiration for "The Rooftop Beekeeper" book</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -814,7 +805,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/02_insp_6.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/02_insp_6.jpg</image:loc>
       <image:title>Illustrated plants with shades style for "The Rooftop Beekeeper" book</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -822,7 +813,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB02.jpg</image:loc>
       <image:title>Design explorations for book cover of "The Rooftop Beekeeper"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -830,7 +821,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB03.jpg</image:loc>
       <image:title>"The Rooftop Beekeeper" book design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -838,7 +829,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB04.jpg</image:loc>
       <image:title>"The Rooftop Beekeeper" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -846,7 +837,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB05.jpg</image:loc>
       <image:title>"The Rooftop Beekeeper" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -854,7 +845,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/01_trb/TRB06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/01_trb/TRB06.jpg</image:loc>
       <image:title>"The Rooftop Beekeeper" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -863,7 +854,7 @@
     
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -871,7 +862,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -879,7 +870,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -887,7 +878,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -895,7 +886,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -903,7 +894,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -911,7 +902,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -919,7 +910,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -927,7 +918,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -935,7 +926,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -943,7 +934,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -951,7 +942,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -962,12 +953,12 @@
 
 
   <url>
-    <loc>http://lagasa.com/walk-in-faith.html</loc>
+    <loc>https://www.lagasa.com/walk-in-faith.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF01.jpg</image:loc>
       <image:title>"Walk in Faith" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -975,7 +966,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF02.jpg</image:loc>
       <image:title>Design explorations for book cover of "Walk in Faith"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -983,7 +974,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF03.jpg</image:loc>
       <image:title>Design explorations for book cover of "Walk in Faith"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -991,7 +982,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF04.jpg</image:loc>
       <image:title>"Walk in Faith" book design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -999,7 +990,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF05.jpg</image:loc>
       <image:title>"Walk in Faith" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1007,7 +998,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/wif/WIF06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/wif/WIF06.jpg</image:loc>
       <image:title>"Walk in Faith" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1016,7 +1007,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1024,7 +1015,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1032,7 +1023,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1040,7 +1031,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1048,7 +1039,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1056,7 +1047,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1064,7 +1055,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1072,7 +1063,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1080,7 +1071,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1088,7 +1079,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1096,7 +1087,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1104,7 +1095,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1115,11 +1106,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/tbh.html</loc>
+    <loc>https://www.lagasa.com/tbh.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH01.jpg</image:loc>
       <image:title>"TBH 51 True Story Collabs" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1127,7 +1118,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_1.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_1.jpg</image:loc>
       <image:title>Photography concept for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1135,7 +1126,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_2.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_2.jpg</image:loc>
       <image:title>Lettering exploration for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1143,7 +1134,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_3.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_3.jpg</image:loc>
       <image:title>Photography concept for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1151,7 +1142,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_4.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_4.jpg</image:loc>
       <image:title>Photography concept for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1159,7 +1150,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_5.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_5.jpg</image:loc>
       <image:title>Photography concept for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1167,7 +1158,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/02_insp_6.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/02_insp_6.jpg</image:loc>
       <image:title>Inspiration for "TBH 51 True Story Collabs" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1175,7 +1166,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH02.jpg</image:loc>
       <image:title>Design explorations and inspiration for book cover of "TBH 51 True Story Collabs"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1183,7 +1174,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH03.jpg</image:loc>
       <image:title>"TBH 51 True Story Collabs" book design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1191,7 +1182,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH04.jpg</image:loc>
       <image:title>"TBH 51 True Story Collabs" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1199,7 +1190,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH05.jpg</image:loc>
       <image:title>"TBH 51 True Story Collabs" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1207,7 +1198,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/tbh/TBH06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/tbh/TBH06.jpg</image:loc>
       <image:title>"TBH 51 True Story Collabs" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1216,7 +1207,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1224,7 +1215,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1232,7 +1223,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1240,7 +1231,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1248,7 +1239,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1256,7 +1247,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1264,7 +1255,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1272,7 +1263,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1280,7 +1271,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1288,7 +1279,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1296,7 +1287,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1304,7 +1295,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1315,11 +1306,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/one-days-tale.html</loc>
+    <loc>https://www.lagasa.com/one-days-tale.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/ODT01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/ODT01.jpg</image:loc>
       <image:title>"One Day's Tale" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1328,7 +1319,7 @@
 
     <!-- inspiration -->
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_1.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_1.jpg</image:loc>
       <image:title>Inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1336,7 +1327,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_2.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_2.jpg</image:loc>
       <image:title>Book cover inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1344,7 +1335,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_3.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_3.jpg</image:loc>
       <image:title>Book cover inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1352,7 +1343,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_4.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_4.jpg</image:loc>
       <image:title>Book cover inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1360,7 +1351,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_5.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_5.jpg</image:loc>
       <image:title>Inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1368,7 +1359,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_6.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_6.jpg</image:loc>
       <image:title>Inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1376,7 +1367,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/02_insp_7.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/02_insp_7.jpg</image:loc>
       <image:title>Inspiration for "One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1385,7 +1376,7 @@
     <!-- inspiration -->
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/ODT02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/ODT02.jpg</image:loc>
       <image:title>Design explorations for book cover of "One Day's Tale"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1393,7 +1384,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/ODT03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/ODT03.jpg</image:loc>
       <image:title>Design explorations for book cover of "One Day's Tale"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1401,7 +1392,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/ODT04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/ODT04.jpg</image:loc>
       <image:title>Design explorations for book back and spine of "One Day's Tale"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1409,7 +1400,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/odt/ODT05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/odt/ODT05.jpg</image:loc>
       <image:title>"One Day's Tale" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1418,7 +1409,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1426,7 +1417,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1434,7 +1425,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1442,7 +1433,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1450,7 +1441,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1458,7 +1449,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1466,7 +1457,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1474,7 +1465,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1482,7 +1473,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1490,7 +1481,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1498,7 +1489,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1506,7 +1497,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1517,11 +1508,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/brooklyn-spaces.html</loc>
+    <loc>https://www.lagasa.com/brooklyn-spaces.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/BKS01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/BKS01.jpg</image:loc>
       <image:title>"Brooklyn Spaces" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1530,7 +1521,7 @@
 
     <!-- inspiration -->
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_1.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_1.jpg</image:loc>
       <image:title>Inspiration for "Brooklyn Spaces" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1538,7 +1529,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_2.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_2.jpg</image:loc>
       <image:title>Street bold signage inspiration for "Brooklyn Spaces" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1546,7 +1537,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_3.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_3.jpg</image:loc>
       <image:title>Street lettering inspiration for "Brooklyn Spaces" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1554,7 +1545,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_4.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_4.jpg</image:loc>
       <image:title>Street bold signage inspiration for "Brooklyn Spaces" book design</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1562,7 +1553,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_5.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_5.jpg</image:loc>
       <image:title>Brooklyn modern design inspiration</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1570,7 +1561,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_6.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_6.jpg</image:loc>
       <image:title>Brooklyn parking lots</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1578,7 +1569,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/02_insp_7.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/02_insp_7.jpg</image:loc>
       <image:title>Inspiration from Brooklyn public spaces</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1587,7 +1578,7 @@
     <!-- inspiration -->
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/BKS02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/BKS02.jpg</image:loc>
       <image:title>Design explorations for book cover of "Brooklyn Spaces"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1595,7 +1586,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/BKS03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/BKS03.jpg</image:loc>
       <image:title>"Brooklyn Spaces" book cover design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1603,7 +1594,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/BKS04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/BKS04.jpg</image:loc>
       <image:title>"Brooklyn Spaces" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1611,7 +1602,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/bks/BKS05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/bks/BKS05.jpg</image:loc>
       <image:title>"Brooklyn Spaces" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1620,7 +1611,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1628,7 +1619,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1636,7 +1627,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1644,7 +1635,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1652,7 +1643,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1660,7 +1651,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1668,7 +1659,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1676,7 +1667,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1684,7 +1675,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1692,7 +1683,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1700,7 +1691,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1708,7 +1699,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1719,11 +1710,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/getting-to-good.html</loc>
+    <loc>https://www.lagasa.com/getting-to-good.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG01.jpg</image:loc>
       <image:title>"Getting to Good" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1731,7 +1722,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG02.jpg</image:loc>
       <image:title>Design explorations for book cover of "Getting to Good"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1739,7 +1730,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG03.jpg</image:loc>
       <image:title>"Getting to Good" book cover design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1747,7 +1738,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG04.jpg</image:loc>
       <image:title>"Getting to Good" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1755,7 +1746,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG05.jpg</image:loc>
       <image:title>"Getting to Good" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1763,7 +1754,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG06.jpg</image:loc>
       <image:title>"Getting to Good" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1771,7 +1762,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG07.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG07.jpg</image:loc>
       <image:title>"Getting to Good" book inner pages</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1779,7 +1770,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/gtg/GTG08.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/gtg/GTG08.jpg</image:loc>
       <image:title>"Getting to Good" illustration by Kath Nash</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1788,7 +1779,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1796,7 +1787,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1804,7 +1795,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1812,7 +1803,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1820,7 +1811,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1828,7 +1819,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1836,7 +1827,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1844,7 +1835,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1852,7 +1843,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1860,7 +1851,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1868,7 +1859,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1876,7 +1867,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1887,11 +1878,11 @@
 
 
   <url>
-    <loc>http://lagasa.com/mean-girls.html</loc>
+    <loc>https://www.lagasa.com/mean-girls.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/mg/MG01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/mg/MG01.jpg</image:loc>
       <image:title>"Mean Girls" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1899,7 +1890,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/mg/MG02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/mg/MG02.jpg</image:loc>
       <image:title>Design explorations for book cover of "Mean Girls"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1907,7 +1898,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/mg/MG03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/mg/MG03.jpg</image:loc>
       <image:title>Design explorations for book cover of "Mean Girls"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1915,7 +1906,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/mg/MG04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/mg/MG04.jpg</image:loc>
       <image:title>"Mean Girls" book cover design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -1924,7 +1915,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1932,7 +1923,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1940,7 +1931,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1948,7 +1939,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1956,7 +1947,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1964,7 +1955,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1972,7 +1963,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1980,7 +1971,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1988,7 +1979,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -1996,7 +1987,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2004,7 +1995,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2012,7 +2003,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2023,12 +2014,12 @@
 
 
   <url>
-    <loc>http://lagasa.com/o-homem-razoavel.html</loc>
+    <loc>https://www.lagasa.com/o-homem-razoavel.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
 
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR01.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR01.jpg</image:loc>
       <image:title>"O Homem Razoável" book cover</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2036,7 +2027,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR02.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR02.jpg</image:loc>
       <image:title>Design explorations for book cover of "O Homem Razoável"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2044,7 +2035,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR03.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR03.jpg</image:loc>
       <image:title>Design explorations for book cover of "O Homem Razoável"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2052,7 +2043,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR04.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR04.jpg</image:loc>
       <image:title>Design explorations for book cover of "O Homem Razoável"</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2060,7 +2051,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR05.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR05.jpg</image:loc>
       <image:title>"O Homem Razoável" book cover design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2068,7 +2059,7 @@
     </image:image>
 
     <image:image>
-      <image:loc>http://lagasa.com/img/proj/ohr/OHR06.jpg</image:loc>
+      <image:loc>https://www.lagasa.com/img/proj/ohr/OHR06.jpg</image:loc>
       <image:title>"El Hombre Razonable" book cover design front and back</image:title>
       <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
       <image:geo_location>New York, United States of America</image:geo_location>
@@ -2077,7 +2068,7 @@
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2085,7 +2076,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2093,7 +2084,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2101,7 +2092,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2109,7 +2100,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2117,7 +2108,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2125,7 +2116,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2133,7 +2124,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2141,7 +2132,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2149,7 +2140,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2157,7 +2148,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2165,7 +2156,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2176,12 +2167,60 @@
 
 
   <url>
-    <loc>http://lagasa.com/farrah-sit.html</loc>
+    <loc>https://www.lagasa.com/farrah-sit.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS01.jpg</image:loc>
+      <image:title>"Farrah Sit" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Farrah Sit" logotype and isotype, designed by Suze LaGasa</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS02.jpg</image:loc>
+      <image:title>Inspiration from for "Farrah Sit" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Typography inspiration from other brands logos and symbols to design "Farrah Sit" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS03.jpg</image:loc>
+      <image:title>Typography exploration for "Farrah Sit" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Testing several font families to design "Farrah Sit" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS04.jpg</image:loc>
+      <image:title>Visual language for "Farrah Sit" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Examples of photography style for "Farrah Sit" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS05.jpg</image:loc>
+      <image:title>"Farrah Sit" Instagram account</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Farrah Sit" brand identity in use at Instragram</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/fs/FS06.jpg</image:loc>
+      <image:title>"Farrah Sit" brand identity on product</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Farrah Sit" brand identity, designed by Suze LaGasa</image:caption>
+    </image:image>
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2189,7 +2228,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2197,7 +2236,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2205,7 +2244,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2213,7 +2252,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2221,7 +2260,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2229,7 +2268,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2237,7 +2276,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2245,7 +2284,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2253,7 +2292,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2261,7 +2300,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2269,7 +2308,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2280,12 +2319,44 @@
 
 
   <url>
-    <loc>http://lagasa.com/movetes.html</loc>
+    <loc>https://www.lagasa.com/movetes.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/m/M01.jpg</image:loc>
+      <image:title>"Movetes" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Logo for "Movetes" brand identity, designed by Suze LaGasa</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/m/M02.jpg</image:loc>
+      <image:title>Logo explorations for "Movetes" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Several sketches to design a logo and isotype for "Movetes" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/m/M03.jpg</image:loc>
+      <image:title>"Movetes" website</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Movetes" brand identity in use at website header nav</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/m/M04.jpg</image:loc>
+      <image:title>"Movetes" brand identity applications</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Movetes" brand identity dark/light applications, designed by Suze LaGasa</image:caption>
+    </image:image>
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2293,7 +2364,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2301,7 +2372,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2309,7 +2380,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2317,7 +2388,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2325,7 +2396,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2333,7 +2404,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2341,7 +2412,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2349,7 +2420,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2357,7 +2428,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2365,7 +2436,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2373,7 +2444,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2384,12 +2455,60 @@
 
 
   <url>
-    <loc>http://lagasa.com/speech-tank.html</loc>
+    <loc>https://www.lagasa.com/speech-tank.html</loc>
     <lastmod>2019-11-07T07:41:44+00:00</lastmod>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST01.jpg</image:loc>
+      <image:title>"Speech Tank" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Speech Tank" brand identity, designed by Suze LaGasa</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST02.jpg</image:loc>
+      <image:title>Logo and isotype explorations for "Speech Tank" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Several sketches to design a logo and isotype for "Speech Tank" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST03.jpg</image:loc>
+      <image:title>Logo explorations for "Speech Tank" brand identity</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>Logo sketches for "Speech Tank" brand identity</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST04.jpg</image:loc>
+      <image:title>"Speech Tank" Twitter account</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Speech Tank" brand identity in use at Twitter</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST05.jpg</image:loc>
+      <image:title>"Speech Tank" website</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Speech Tank" brand identity in use at website header nav</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.lagasa.com/img/proj/st/ST06.jpg</image:loc>
+      <image:title>"Speech Tank" brand identity applications</image:title>
+      <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
+      <image:geo_location>New York, United States of America</image:geo_location>
+      <image:caption>"Speech Tank" brand identity, designed by Suze LaGasa</image:caption>
+    </image:image>
 
     <!-- MENU THUMBNAILS -->
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/01_LIL.jpg</image:loc>
         <image:title>"Live in Light" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2397,7 +2516,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/02_TRB.jpg</image:loc>
         <image:title>"The Rooftop Beekeeper" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2405,7 +2524,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/03_WIF.jpg</image:loc>
         <image:title>"Walk In Faith" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2413,7 +2532,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/04_TBH.jpg</image:loc>
         <image:title>"TBH: 51 True Story Collabs" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2421,7 +2540,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/05_ODT.jpg</image:loc>
         <image:title>"One Day's Tale" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2429,7 +2548,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/06_BS.jpg</image:loc>
         <image:title>"Brooklyn Spaces" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2437,7 +2556,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/07_GTG.jpg</image:loc>
         <image:title>"Getting To Good" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2445,7 +2564,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/08_MG.jpg</image:loc>
         <image:title>"Mean Girls" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2453,7 +2572,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/09_HR.jpg</image:loc>
         <image:title>"O Homem Razoável" book cover thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2461,7 +2580,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/10_FS.jpg</image:loc>
         <image:title>"Farrah Sit" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2469,7 +2588,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/11_MNY.jpg</image:loc>
         <image:title>"Movetes" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
@@ -2477,7 +2596,7 @@
       </image:image>
 
       <image:image>
-        <image:loc>http://lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
+        <image:loc>https://www.lagasa.com/img/project_thumbnails/12_ST.jpg</image:loc>
         <image:title>"Speech Tank" branding thumbnail</image:title>
         <image:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</image:license>
         <image:geo_location>New York, United States of America</image:geo_location>
