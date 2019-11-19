@@ -1,6 +1,9 @@
 extends templates/layout.jade
 include _modules/project-cover.jade
 
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, selected work, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, live in light, rooftop beekeeper, the rooftop beekeeper, walk in faith, tbh, one day's tale, brooklyn spaces, getting to good, mean girls, o homem razoável, o homem razoavel, farrah sit, movetes, speech tank, brand, branding, brand identity, brand designer, New York, Brooklyn, NYC, callisto media, chronicle books, scholastic, scholastic inc, austin lamp, austin lamp press, monacelli press, the monacelli press, monacelli, create space, polansky, keller, maureen carruthers, carruthers")
+
 block content
 	include _modules/nav-menu.jade
 	+nav-menu("work")
@@ -51,7 +54,7 @@ block content
 
 					+project-cover("col-5", "img/covers/11_st.jpg", "Speech Tank", "Founders M. Polansky & C. Keller", "speech-tank.html", "up--sixteenth align-top smaller-col branding order-3", 1)
 
-					+project-cover("col-6 offset-1", "img/covers/12_mny.jpg", "Movetes", "Founder Maureen Caruthers", "movetes.html", "pushup--third align-top branding order-2", 1)
+					+project-cover("col-6 offset-1", "img/covers/12_mny.jpg", "Movetes", "Founder Maureen Carruthers", "movetes.html", "pushup--third align-top branding order-2", 1)
 
 
 

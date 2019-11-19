@@ -5,7 +5,18 @@ include _modules/_mixins-inputs.jade
 include _modules/svg/arrow.jade
 
 block title
-	title Say hi! | Suzanne LaGasa
+	title Say hi! – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="Say hi! I'd like to hear from you. Searching for a kinder, gentler, more beautiful world. Contributing to that vision through book design, creative collaborations, a love of color, and the many enchanting possibilities of storytelling.")
+
+block og_meta
+	meta(property="og:title" 		content="Suzanne LaGasa — Contact | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="Say hi! I'd like to hear from you. Searching for a kinder, gentler, more beautiful world. Contributing to that vision through book design, creative collaborations, a love of color, and the many enchanting possibilities of storytelling.")
+	meta(property="og:url" 			content="https://lagasa.com/contact.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, contact, mail, email, social, social media, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, brand, branding, brand identity, brand designer, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

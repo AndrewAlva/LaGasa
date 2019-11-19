@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title One Day's Tale | Suzanne LaGasa
+	title One Day's Tale – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="This powerful novel about a harrowing ordeal that an 18th Century British woman endures while traveling to America with her husband and children needed a striking cover with a contemporary perspective. I chose to focus on the beauty and mystery of a protagonist undergoing a massive transformation during a sea voyage. The scene and clothing give the novel context, while the colors and typography are meant to give the book a modern sensibility. The cover illustration is mixed media (paint over collage).")
+
+block og_meta
+	meta(property="og:title" 		content="One Day's Tale — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="This powerful novel about a harrowing ordeal that an 18th Century British woman endures while traveling to America with her husband and children needed a striking cover with a contemporary perspective. I chose to focus on the beauty and mystery of a protagonist undergoing a massive transformation during a sea voyage. The scene and clothing give the novel context, while the colors and typography are meant to give the book a modern sensibility. The cover illustration is mixed media (paint over collage).")
+	meta(property="og:url" 			content="https://www.lagasa.com/one-days-tale.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, one day's tale, one days tale, one day tale, novel, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, austin lamp press, austin lamp, austin press, austin, lois barliant, lois, barliant, mixed media, paint over collage, paint, collage, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

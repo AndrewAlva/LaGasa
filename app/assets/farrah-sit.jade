@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title Farrah Sit | Suzanne LaGasa
+	title Farrah Sit – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="Farrah Sit is an independent designer who creates sculptural lighting, furniture, and home objects. My hope was to create a logo reflective of her attention to detail and refined sensibility. There’s a delicate grace in all her inventive and structural designs.")
+
+block og_meta
+	meta(property="og:title" 		content="Farrah Sit — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="Farrah Sit is an independent designer who creates sculptural lighting, furniture, and home objects. My hope was to create a logo reflective of her attention to detail and refined sensibility. There’s a delicate grace in all her inventive and structural designs.")
+	meta(property="og:url" 			content="https://www.lagasa.com/farrah-sit.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, farrah sit, farrah, sit, founder, brand, branding, brand identity, brand designer, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, lighting, furniture, structural, home objects, home, objects, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

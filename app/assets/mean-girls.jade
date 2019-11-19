@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title Mean Girls | Suzanne LaGasa
+	title Mean Girls – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="This type-driven cover needed a strong nod to the original film, but also a distinctive approach to indicate that it’s a new release -the first novelization of the 2004 film written by Tina Fey and Rosalind Wiseman. I choose to play with the logotype of the movie, but using color as the driving factor. The characters are silhouetted to position them at an iconic level.")
+
+block og_meta
+	meta(property="og:title" 		content="Mean Girls — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="This type-driven cover needed a strong nod to the original film, but also a distinctive approach to indicate that it’s a new release -the first novelization of the 2004 film written by Tina Fey and Rosalind Wiseman. I choose to play with the logotype of the movie, but using color as the driving factor. The characters are silhouetted to position them at an iconic level.")
+	meta(property="og:url" 			content="https://www.lagasa.com/mean-girls.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, mean girls, mean, novel, screenplay, girls, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, scholastic, scholastic inc, micol ostow, micol, ostow, tina fey, tina, fey, rosalind wiseman, rosalind, wiseman, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

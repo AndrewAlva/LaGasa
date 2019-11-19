@@ -3,7 +3,19 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title The Rooftop Beekeper | Suzanne LaGasa
+	title The Rooftop Beekeeper – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="This urban beekeeping book needed to be both a practical how to guide and an attractive, gifteable object. The photography is interwoven with beautiful ilustrations by Japanese ilustrator, Masako Kubo. I used a hand drawn serif display font warmth, paired with sans serif body font for practically. It’s also soft cover book, but with flaps.")
+
+block og_meta
+	meta(property="og:title" 		content="The Rooftop Beekeeper — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="This urban beekeeping book needed to be both a practical how to guide and an attractive, gifteable object. The photography is interwoven with beautiful ilustrations by Japanese ilustrator, Masako Kubo. I used a hand drawn serif display font warmth, paired with sans serif body font for practically. It’s also soft cover book, but with flaps.")
+	meta(property="og:url" 			content="https://www.lagasa.com/trb.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, rooftop beekeeper, the rooftop beekeeper, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, chronicle, chronicle books, megan paska, megan, paska, masako kubo, masako, kubo, alex brown, alex, brown, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
+
 
 block content
 	include _modules/nav-menu.jade
@@ -36,7 +48,7 @@ block content
 
 				.case-wrap
 					+case_title("Rooftop Beekeeper")
-					+case_cover("01_trb/TRB01.jpg", "Rooftop Beekeper cover")
+					+case_cover("01_trb/TRB01.jpg", "Rooftop Beekeeper cover")
 
 
 					._info
@@ -79,11 +91,11 @@ block content
 
 
 					._project-details
-						+case_detailview("01_trb/TRB02.jpg", "The Rooftop Beekeper book details", "middle")
+						+case_detailview("01_trb/TRB02.jpg", "The Rooftop Beekeeper book details", "middle")
 
-						+case_detailview("01_trb/TRB03.jpg", "The Rooftop Beekeper book details", "middle")
-						+case_detailview("01_trb/TRB04.jpg", "The Rooftop Beekeper book details", "middle")
-						+case_detailview("01_trb/TRB05.jpg", "The Rooftop Beekeper book details", "")
+						+case_detailview("01_trb/TRB03.jpg", "The Rooftop Beekeeper book details", "middle")
+						+case_detailview("01_trb/TRB04.jpg", "The Rooftop Beekeeper book details", "middle")
+						+case_detailview("01_trb/TRB05.jpg", "The Rooftop Beekeeper book details", "")
 
 						+case_credits(
 							{role: 'Author', url: 'https://megpaska.com/', name: 'Megan Paska'},
@@ -92,7 +104,7 @@ block content
 						)
 									
 
-						+case_detailview("01_trb/TRB06.jpg", "The Rooftop Beekeper book details", "")
+						+case_detailview("01_trb/TRB06.jpg", "The Rooftop Beekeeper book details", "")
 
 					+case_moreinfo(
 						"Designer & Art Director",

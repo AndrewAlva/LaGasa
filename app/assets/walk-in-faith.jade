@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title Walk in Faith | Suzanne LaGasa
+	title Walk in Faith – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="The design of Walk in Faith was inspired by sneaker fashion and trends in sports culture and advertising. It’s a graphic mix of bold typography and abstract patterns. The result is a vibrant and energetic cover embracing the complexity of religious philosophy without resorting to religious or teenage cliches.")
+
+block og_meta
+	meta(property="og:title" 		content="Walk in Faith — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="The design of Walk in Faith was inspired by sneaker fashion and trends in sports culture and advertising. It’s a graphic mix of bold typography and abstract patterns. The result is a vibrant and energetic cover embracing the complexity of religious philosophy without resorting to religious or teenage cliches.")
+	meta(property="og:url" 			content="https://www.lagasa.com/walk-in-faith.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, walk in faith, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, callisto media, callisto, media, sneaker fashion, sneaker, andy dooley, andy, dooley, andrzej wieteszka, andrzej, wieteszka, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

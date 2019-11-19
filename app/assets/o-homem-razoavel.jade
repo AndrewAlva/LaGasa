@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title O Homem Razoável | Suzanne LaGasa
+	title O Homem Razoável – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="For this collection of philosophical essays and cultural criticism, I explored various illustrations approaches with an editorial and psychological bent, to evoke the sense of intellectual curiosity. O Homem Razoável, takes it’s title from the legal term: a reasonable person / man a hypothetical person of legal fiction created by the courts. Therefore an universal, hypothetical “everyday” man is this the primary visual metaphor.")
+
+block og_meta
+	meta(property="og:title" 		content="O Homem Razoável — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="For this collection of philosophical essays and cultural criticism, I explored various illustrations approaches with an editorial and psychological bent, to evoke the sense of intellectual curiosity. O Homem Razoável, takes it’s title from the legal term: a reasonable person / man a hypothetical person of legal fiction created by the courts. Therefore an universal, hypothetical “everyday” man is this the primary visual metaphor.")
+	meta(property="og:url" 			content="https://www.lagasa.com/o-homem-razoavel.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, o homem razoável, o homem razoavel, ohomem razoavel, homem razoavel, o homem, philosophical, essays, cultural, criticism, illustrations, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, createspace, create space, create, space, joaquina pires-o’brien, joaquina, pires-o’brien, pires o brien, pires obrien, pireso brien, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

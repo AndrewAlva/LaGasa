@@ -6,6 +6,18 @@ include _modules/svg/arrow.jade
 block title
 	title Bio – Suzanne LaGasa | Art Director & Graphic Designer
 
+block description
+	meta(name='description', content="Suzanne is a Brooklyn-based designer interested in the ways graphic design can provide clarity, spark curiosity and generate wonder. She’s passionate about color, photography, illustration and language. She’s committed to the practice of structuring stories and even the most basic information in a thoughtful aesthetic, with an eye for beauty.")
+
+block og_meta
+	meta(property="og:title" 		content="Suzanne LaGasa — Bio | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="Suzanne is a Brooklyn-based designer interested in the ways graphic design can provide clarity, spark curiosity and generate wonder. She’s passionate about color, photography, illustration and language. She’s committed to the practice of structuring stories and even the most basic information in a thoughtful aesthetic, with an eye for beauty.")
+	meta(property="og:url" 			content="https://lagasa.com/bio.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, bio, biography, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, brand, branding, brand identity, brand designer, dust bowl, the dust bowl, x the erotic treasury, the erotic treasury, erotic treasury, a shade of red, shade of red, one lipstick & one hundred women, get high now, a girl named, a girl named misty, a girl named hillary, outdoor toddler, the outdoor toddler, the outdoor toddler activity book, rainy day toddler, rainy day toddler activity book, the rainy day toddler activity book, haikubes, game, bike snob, bike snob abroad, rude hand gestures, forever paris, 25 walks in the footsteps of chanel, boo, world cutest dog, depression workbook, depression workbook for teens, the depression workbook for teens, conquer anxiety, conquer anxiety workbook, conquer anxiety workbook for teens, the conquer anxiety workbook for teens, inspiration for teens, inspiration for christian teens, inspiration for christian teen girls, grateful together, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
+
+
 block content
 	include _modules/nav-menu.jade
 	+nav-menu("bio")
@@ -169,7 +181,7 @@ block content
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="3")
 								a(href="https://www.chroniclebooks.com/titles/forever-paris.html" target="_blank")
 									+arrow-link
-									h5.bio-p Forever Paris: 25 Walks in the Foosteps of Chanel, Hemingway, Picasso & more
+									h5.bio-p Forever Paris: 25 Walks in the Footsteps of Chanel, Hemingway, Picasso & more
 
 							li.title.proj-row.mbrt-cascade(data-cascade="slide-up-long" data-cascade-delay="0" data-cascade-delay-mobile="0" data-id="4")
 								a(href="https://www.chroniclebooks.com/titles/boo.html" target="_blank")

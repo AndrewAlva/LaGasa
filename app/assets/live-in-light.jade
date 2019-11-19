@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title Live in Light | Suzanne LaGasa
+	title Live in Light – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="For small (5”X7”) devotional book I worked with Myriam Van Neste to develop a system of abstract and subtly feminine forms on the cover and interior. The goal was to speak to teen girls without being overly cute, juvenile and relying on traditional religious tropes.")
+
+block og_meta
+	meta(property="og:title" 		content="Live in Light — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="For small (5”X7”) devotional book I worked with Myriam Van Neste to develop a system of abstract and subtly feminine forms on the cover and interior. The goal was to speak to teen girls without being overly cute, juvenile and relying on traditional religious tropes.")
+	meta(property="og:url" 			content="https://www.lagasa.com/live-in-light.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, live in light, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, callisto, callisto media, melanie m redd, melanie redd, melanie, redd, myriam van neste, myriamvanneste, myriam van, myriam neste, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade
@@ -26,7 +37,7 @@ block content
 						+case_info("Designer & Art Director", "Callisto Media", "https://www.callistomedia.com/", "April 2019")
 						
 
-						+case_description("For small (5”X7”) devotional book I worked with Myriam Van Neste to develop a system of abstract and subtly feminine forms on the cover and interior. The goal was to speak to teen girls without being overly cute, juvenile and relying on traditional religious tropes. ", "https://www.amazon.com/Live-Light-5-Minute-Devotions-Girls/dp/1641523379/")
+						+case_description("For small (5”X7”) devotional book I worked with Myriam Van Neste to develop a system of abstract and subtly feminine forms on the cover and interior. The goal was to speak to teen girls without being overly cute, juvenile and relying on traditional religious tropes.", "https://www.amazon.com/Live-Light-5-Minute-Devotions-Girls/dp/1641523379/")
 
 					._project-details
 						+case_detailview("lil/LIL03.jpg", "Live in Light book details", "middle", "firstload-mobile")

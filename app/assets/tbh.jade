@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title TBH | Suzanne LaGasa
+	title TBH – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="This book is a collaboration by teen-centric, YouTube personalities, galvanized by Hunter March. They write about various teenage experiences in order to help other teens “figure it out.” I wanted to create a youthful and energetic design, so I commissioned Annica Lydenberg to hand-letter the contributors names on the cover. For the interior, I utilized a hand-lettering style for essay titles and I painted over personal photos submitted by the writers to create a warm and playful aesthetic. Hand-drawn elements are paired with large, bold, sans-serif type on the captions for a vigorous appearance, keeping the overall design from looking childish.")
+
+block og_meta
+	meta(property="og:title" 		content="TBH — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="This book is a collaboration by teen-centric, YouTube personalities, galvanized by Hunter March. They write about various teenage experiences in order to help other teens “figure it out.” I wanted to create a youthful and energetic design, so I commissioned Annica Lydenberg to hand-letter the contributors names on the cover. For the interior, I utilized a hand-lettering style for essay titles and I painted over personal photos submitted by the writers to create a warm and playful aesthetic. Hand-drawn elements are paired with large, bold, sans-serif type on the captions for a vigorous appearance, keeping the overall design from looking childish.")
+	meta(property="og:url" 			content="https://www.lagasa.com/tbh.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, tbh, 51 true story collabs, true story collabs, 51 collabs, 51, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, scholastic, scholastic inc, hunter march, hunter, march, jen siska, jen, siska, annica lydenberg, annica, lydenberg, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade

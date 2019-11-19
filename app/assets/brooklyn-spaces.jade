@@ -3,7 +3,18 @@ extends templates/layout.jade
 include _modules/_mixins-cases.jade
 
 block title
-	title Brooklyn Spaces | Suzanne LaGasa
+	title Brooklyn Spaces – Suzanne LaGasa | Art Director & Graphic Designer
+
+block description
+	meta(name='description', content="As a guidebook for alternative and counter-culture creative spaces in Brooklyn, I took inspiration from industrial hand-lettering found on old warehouses. I set the many photographs in organic, loose compositions to convey the unstructured, free-wheeling nature of so many of the venues.")
+
+block og_meta
+	meta(property="og:title" 		content="Brooklyn Spaces — designed by Suzanne LaGasa | Art Director & Graphic Designer")
+	meta(property="og:description" 	content="As a guidebook for alternative and counter-culture creative spaces in Brooklyn, I took inspiration from industrial hand-lettering found on old warehouses. I set the many photographs in organic, loose compositions to convey the unstructured, free-wheeling nature of so many of the venues.")
+	meta(property="og:url" 			content="https://www.lagasa.com/brooklyn-spaces.html")
+
+block keywords
+	meta(name='keywords', content="Suzanne LaGasa, Suzanne, LaGasa, Suze, Suze LaGasa, portfolio, webfolio, official, website, official website, lagasa.com, work, brooklyn spaces, brooklyn, spaces, design, designer, graphic design, art director, art direction, art, director, direction, book, books, book design, book designer, the monacelli press, monacelli press, monacelli, press, photographs, photography, oriana leckert, oriana, leckert, walter wlodarczyk, walter, wlodarczyk, michael blase, michael, blase, kit crenshaw, kit, crenshaw, alix piorun, alix, piorun, fiction, non-fiction, non fiction, nonfiction, children, childrens, publishing, cover, covers, book cover, book covers, book cover design, creative collaborations, storytelling")
 
 block content
 	include _modules/nav-menu.jade
